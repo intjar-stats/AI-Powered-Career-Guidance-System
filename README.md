@@ -1,31 +1,86 @@
 # AI-Powered Career Guidance System
 
-## Project Overview
-This project aims to build an AI-powered personalized career guidance system using Machine Learning, Generative AI, and Streamlit.
+## 🎯 Project Overview
+An AI-powered personalized career guidance system that recommends suitable careers based on student profile, skills, interests and academic background.
 
-The system will:
-- Recommend Top-3 suitable careers
-- Identify skill gaps
-- Generate personalized learning roadmaps
-- Provide AI-based career guidance
+The system provides:
+- 🎓 Top-3 Career Recommendations
+- 📉 Skill Gap Analysis
+- 🛣 Personalized Learning Roadmaps
+- 🤖 AI-based Career Guidance
+- 📊 Interactive Dashboard
 
-## Team Members
+---
 
-| Member | Role |
-|--------|------|
+## 🏗 System Architecture
+
+Student Profile
+↓
+ML Recommendation Engine
+↓
+Top-3 Career Recommendations
+↓
+Skill Gap Analysis
+↓
+Learning Roadmap Generation
+↓
+Generative AI Guidance
+↓
+Streamlit Dashboard
+
+---
+
+## 📂 Repository Structure
+
+AI-Powered-Career-Guidance-System/
+├── data/
+├── docs/
+├── frontend/
+├── models/
+├── notebooks/
+├── src/
+└── tests/
+
+---
+
+## 🛠 Technology Stack
+
+| Component | Technology |
+|-----------|-----------|
+| Programming | Python |
+| Machine Learning | Scikit-learn, XGBoost |
+| Frontend | Streamlit |
+| Generative AI | Gemini/OpenAI API |
+| Version Control | GitHub |
+| Deployment | Streamlit Cloud |
+
+---
+
+## 👥 Team Members
+
+| Member | Responsibility |
+|--------|---------------|
 | Bhupathi Likhitha | Project Lead & ML Recommendation Engine |
-| Sama Jyotika | Research & Literature Review |
+| Sama Jyotika | Literature Review |
 | Aman Sawan | Dataset & Career Mapping |
-| Uppala Lahari | Data Preprocessing & Features |
+| Uppala Lahari | Data Preprocessing |
 | Amit Mondal | Generative AI Integration |
 | Rithik Gupta | Career Guidance & Roadmap |
-| Md Izhar Alam | Frontend & Dashboard |
 | Md Intjar | Testing, Deployment & Documentation |
 
-## Technology Stack
-- Python
-- Scikit-learn
-- XGBoost
-- Streamlit
-- Gemini/OpenAI API
-- GitHub
+---
+
+## 📈 Current Status
+
+- [x] Literature Review
+- [x] Dataset Collection
+- [ ] Data Preprocessing
+- [ ] Model Training
+- [ ] GenAI Integration
+- [ ] Streamlit Dashboard
+- [ ] Testing & Deployment
+
+---
+
+## 📜 License
+MIT License
