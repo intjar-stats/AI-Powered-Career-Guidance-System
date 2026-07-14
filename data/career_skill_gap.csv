@@ -1,0 +1,1001 @@
+Student_ID,Full_Name,Target_Career,Career_Goal,Current_Skills,Required_Skills,Gap_Percentage,Recommended_Level,Estimated_Hours,Recommended_Courses
+S0001,Tanya Sharma,Software Engineer,Backend Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0002,Ananya Verma,Frontend Developer,Full Stack Developer,"SQL, DSA","DSA, Python, SQL",28.6,2,63,Python Programming Fundamentals
+S0003,Naveen Singh,Security Engineer,Security Engineer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",75.8,4,238,"Data Structures & Algorithms Masterclass, SQL for Data Analysis, Statistics for Data Science, Deep Learning with TensorFlow"
+S0004,Karan Rao,DevOps Engineer,DevOps Engineer,"Python, SQL","Python, DSA, SQL, Statistics",79.2,3,254,"Python Programming Fundamentals, Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0005,Aman Choudhary,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",37.5,5,88,"Python Programming Fundamentals, Data Structures & Algorithms Masterclass"
+S0006,Neha Chawla,Data Analyst,Data Analyst,"Python, SQL, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",26.7,4,58,SQL for Data Analysis
+S0007,Trisha Tiwari,AI Researcher,Machine Learning Engineer,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0008,Harsh Menon,Cloud Engineer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics, Machine Learning",29.5,2,65,"Statistics for Data Science, Machine Learning Specialization"
+S0009,Rohan Singh,Backend Developer,Cloud Engineer,"Python, SQL, DSA, Statistics","SQL, DSA, Python, Statistics",58.3,4,161,"SQL for Data Analysis, Python Programming Fundamentals"
+S0010,Sahil Nair,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",31.8,4,72,"Python Programming Fundamentals, Deep Learning with TensorFlow"
+S0011,Swati Nair,Machine Learning Engineer,Data Scientist,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",48.0,5,123,"Machine Learning Specialization, Deep Learning with TensorFlow, SQL for Data Analysis"
+S0012,Shreya Rao,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",16.0,4,33,Data Structures & Algorithms Masterclass
+S0013,Isha Yadav,Software Engineer,Security Engineer,"Python, DSA","DSA, Python, SQL, Statistics",35.7,3,83,"SQL for Data Analysis, Statistics for Data Science"
+S0014,Saurabh Agarwal,Cloud Engineer,Full Stack Developer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics, Machine Learning",11.5,1,24,Machine Learning Specialization
+S0015,Varun Gupta,Data Analyst,Data Analyst,"Python, SQL, Machine Learning, Statistics","SQL, Statistics, Python, Machine Learning, DSA",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0016,Radhika Bhatt,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",13.9,2,29,Statistics for Data Science
+S0017,Vidya Bansal,Data Analyst,Business Intelligence Analyst,"SQL, Machine Learning, Statistics","SQL, Statistics, Python, Machine Learning, DSA",60.0,4,168,"Statistics for Data Science, Python Programming Fundamentals, Data Structures & Algorithms Masterclass"
+S0018,Nisha Menon,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",18.2,4,38,SQL for Data Analysis
+S0019,Riya Chatterjee,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0020,Vihaan Desai,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",32.0,4,72,"Deep Learning with TensorFlow, Data Structures & Algorithms Masterclass"
+S0021,Raghav Nair,Cloud Engineer,Cloud Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics, Machine Learning",18.0,2,37,Statistics for Data Science
+S0022,Siddharth Reddy,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",32.0,4,72,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0023,Raghav Rao,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",20.0,5,42,Python Programming Fundamentals
+S0024,Vivek Kapoor,Machine Learning Engineer,Machine Learning Engineer,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",12.0,3,25,SQL for Data Analysis
+S0025,Neha Chawla,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",20.8,5,44,Machine Learning Specialization
+S0026,Naveen Saxena,Cybersecurity Analyst,Full Stack Developer,"SQL, Statistics","DSA, Statistics, Python, SQL, Machine Learning",56.4,3,154,"Data Structures & Algorithms Masterclass, Python Programming Fundamentals, Machine Learning Specialization"
+S0027,Tanya Verma,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",16.0,4,33,Deep Learning with TensorFlow
+S0028,Pallavi Iyer,Software Engineer,Software Engineer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0029,Manya Bose,Cybersecurity Analyst,Cloud Engineer,"Python, DSA, Statistics","DSA, Statistics, Python, SQL, Machine Learning",30.9,2,69,"SQL for Data Analysis, Machine Learning Specialization"
+S0030,Siddharth Nair,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0031,Rahul Agarwal,Security Engineer,Security Engineer,DSA,"DSA, Python, SQL, Statistics, TensorFlow",69.4,4,208,"Data Structures & Algorithms Masterclass, Python Programming Fundamentals, Deep Learning with TensorFlow"
+S0032,Harsh Saxena,Cybersecurity Analyst,Cybersecurity Analyst,"Python, DSA, Statistics","DSA, Statistics, Python, SQL, Machine Learning",30.9,2,69,"SQL for Data Analysis, Machine Learning Specialization"
+S0033,Karan Sinha,Cloud Engineer,Cloud Engineer,"Python, DSA, Statistics","DSA, Python, SQL, Statistics, Machine Learning",32.8,3,75,"SQL for Data Analysis, Machine Learning Specialization"
+S0034,Gaurav Singh,Cybersecurity Analyst,Cybersecurity Analyst,"DSA, Statistics","DSA, Statistics, Python, SQL, Machine Learning",41.8,2,102,"Python Programming Fundamentals, SQL for Data Analysis"
+S0035,Kavya Singh,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",16.0,4,33,Deep Learning with TensorFlow
+S0036,Vikram Bhatt,Software Engineer,Software Engineer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0037,Ira Verma,Data Analyst,Data Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",13.3,2,28,Machine Learning Specialization
+S0038,Diya Mishra,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",36.4,4,85,Statistics for Data Science
+S0039,Radhika Bose,Backend Developer,Backend Developer,"Python, SQL, Machine Learning, DSA","SQL, DSA, Python, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0040,Vivek Verma,Security Engineer,Cloud Engineer,"Python, DSA, Statistics","DSA, Python, SQL, Statistics, TensorFlow",45.2,4,113,"Data Structures & Algorithms Masterclass, Deep Learning with TensorFlow"
+S0041,Nikhil Kulkarni,Software Engineer,Security Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",28.6,4,63,Python Programming Fundamentals
+S0042,Nisha Bhatt,Security Engineer,Security Engineer,"Python, DSA, Statistics","DSA, Python, SQL, Statistics, TensorFlow",51.6,4,136,"Data Structures & Algorithms Masterclass, SQL for Data Analysis"
+S0043,Pranav Khanna,DevOps Engineer,Software Engineer,"Python, DSA","Python, DSA, SQL, Statistics",35.4,3,82,Python Programming Fundamentals
+S0044,Naveen Menon,Data Analyst,Data Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",40.0,4,96,"Statistics for Data Science, Data Structures & Algorithms Masterclass"
+S0045,Lavanya Kulkarni,Frontend Developer,Frontend Developer,SQL,"DSA, Python, SQL",71.4,3,217,"Data Structures & Algorithms Masterclass, Python Programming Fundamentals"
+S0046,Siddharth Bose,Software Engineer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",28.6,4,63,Python Programming Fundamentals
+S0047,Pranav Mehta,DevOps Engineer,DevOps Engineer,"Python, DSA","Python, DSA, SQL, Statistics",72.9,3,224,"Python Programming Fundamentals, SQL for Data Analysis, Statistics for Data Science"
+S0048,Gaurav Saxena,Full Stack Developer,Full Stack Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0049,Saurabh Bhatt,Full Stack Developer,Full Stack Developer,"SQL, DSA","DSA, Python, SQL, Statistics",73.2,4,225,"Data Structures & Algorithms Masterclass, Python Programming Fundamentals, Statistics for Data Science"
+S0050,Simran Iyer,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",59.1,5,165,"Statistics for Data Science, Python Programming Fundamentals, Machine Learning Specialization"
+S0051,Ira Sharma,DevOps Engineer,Frontend Developer,Python,"Python, DSA, SQL, Statistics",62.5,3,178,"Python Programming Fundamentals, Data Structures & Algorithms Masterclass"
+S0052,Sahil Bansal,DevOps Engineer,DevOps Engineer,"Python, DSA","Python, DSA, SQL, Statistics",0.0,3,5,No major gap - Advanced/Portfolio-building courses recommended
+S0053,Simran Sinha,Security Engineer,Security Engineer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",25.8,2,56,"SQL for Data Analysis, Deep Learning with TensorFlow"
+S0054,Isha Chatterjee,DevOps Engineer,DevOps Engineer,"Python, DSA","Python, DSA, SQL, Statistics",52.1,3,138,"Python Programming Fundamentals, Statistics for Data Science"
+S0055,Sahil Choudhary,Software Engineer,Security Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",42.9,4,106,"Python Programming Fundamentals, Statistics for Data Science"
+S0056,Pranav Bose,Full Stack Developer,Full Stack Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",46.4,4,117,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0057,Lavanya Sharma,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",41.7,5,102,"Machine Learning Specialization, Deep Learning with TensorFlow"
+S0058,Ritika Bhatt,Backend Developer,Cloud Engineer,"Python, SQL, DSA, Statistics","SQL, DSA, Python, Statistics",30.6,4,68,SQL for Data Analysis
+S0059,Sanjay Rao,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0060,Ananya Kulkarni,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",63.6,5,183,"SQL for Data Analysis, Python Programming Fundamentals"
+S0061,Sanjay Patel,Software Engineer,Backend Developer,"Python, SQL, TensorFlow, DSA","DSA, Python, SQL, Statistics",28.6,4,63,Python Programming Fundamentals
+S0062,Neha Joshi,Cloud Engineer,Full Stack Developer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics, Machine Learning",0.0,3,5,No major gap - Advanced/Portfolio-building courses recommended
+S0063,Kunal Nair,DevOps Engineer,Cybersecurity Analyst,"Python, SQL","Python, DSA, SQL, Statistics",27.1,3,59,Data Structures & Algorithms Masterclass
+S0064,Tanvi Gupta,Frontend Developer,Cloud Engineer,"SQL, DSA","DSA, Python, SQL",0.0,3,5,No major gap - Advanced/Portfolio-building courses recommended
+S0065,Aman Tiwari,Software Engineer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",28.6,4,63,Python Programming Fundamentals
+S0066,Priya Saxena,DevOps Engineer,Frontend Developer,Python,"Python, DSA, SQL, Statistics",79.2,3,254,"Python Programming Fundamentals, Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0067,Ritika Reddy,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0068,Mohit Saxena,Software Engineer,Software Engineer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics",35.7,5,83,Data Structures & Algorithms Masterclass
+S0069,Isha Iyer,Software Engineer,Software Engineer,"Python, DSA","DSA, Python, SQL, Statistics",21.4,3,45,SQL for Data Analysis
+S0070,Arjun Patel,Frontend Developer,Frontend Developer,No skills above proficiency level 3,"DSA, Python, SQL",100.0,3,365,"Data Structures & Algorithms Masterclass, Python Programming Fundamentals, SQL for Data Analysis"
+S0071,Rohan Mehta,Cybersecurity Analyst,Full Stack Developer,"Python, DSA, Statistics","DSA, Statistics, Python, SQL, Machine Learning",20.0,2,42,SQL for Data Analysis
+S0072,Manish Kapoor,AI Researcher,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0073,Rahul Chatterjee,Software Engineer,Software Engineer,"Python, DSA, Statistics","DSA, Python, SQL, Statistics",21.4,3,45,SQL for Data Analysis
+S0074,Pooja Mehta,DevOps Engineer,Cloud Engineer,"Python, SQL","Python, DSA, SQL, Statistics",79.2,3,254,"Python Programming Fundamentals, Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0075,Varun Tiwari,DevOps Engineer,DevOps Engineer,Python,"Python, DSA, SQL, Statistics",43.8,3,109,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0076,Ishaan Sharma,Cloud Engineer,DevOps Engineer,"Python, DSA, Statistics","DSA, Python, SQL, Statistics, Machine Learning",21.3,3,45,SQL for Data Analysis
+S0077,Manish Iyer,DevOps Engineer,Cybersecurity Analyst,Python,"Python, DSA, SQL, Statistics",83.3,3,274,"Python Programming Fundamentals, Data Structures & Algorithms Masterclass, SQL for Data Analysis"
+S0078,Karan Kapoor,Full Stack Developer,Cybersecurity Analyst,"SQL, DSA","DSA, Python, SQL, Statistics",41.1,3,100,"Python Programming Fundamentals, Statistics for Data Science"
+S0079,Tanvi Bose,Backend Developer,Backend Developer,"Python, SQL, DSA, Statistics","SQL, DSA, Python, Statistics",58.3,4,161,"SQL for Data Analysis, Data Structures & Algorithms Masterclass"
+S0080,Arjun Iyer,AI Researcher,AI Researcher,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0081,Yash Kapoor,Full Stack Developer,Backend Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",46.4,4,117,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0082,Divya Desai,Cloud Engineer,Cloud Engineer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics, Machine Learning",0.0,3,5,No major gap - Advanced/Portfolio-building courses recommended
+S0083,Priya Iyer,DevOps Engineer,DevOps Engineer,Python,"Python, DSA, SQL, Statistics",27.1,3,59,Data Structures & Algorithms Masterclass
+S0084,Nisha Agarwal,Machine Learning Engineer,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",20.0,5,42,Python Programming Fundamentals
+S0085,Siddharth Kapoor,Cloud Engineer,Full Stack Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics, Machine Learning",29.5,2,65,"Statistics for Data Science, Machine Learning Specialization"
+S0086,Anjali Gupta,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",13.9,2,29,Statistics for Data Science
+S0087,Sanjay Bose,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, DSA, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",13.6,3,28,Deep Learning with TensorFlow
+S0088,Priya Bansal,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",40.9,4,99,"Python Programming Fundamentals, Deep Learning with TensorFlow, Data Structures & Algorithms Masterclass"
+S0089,Simran Bansal,Cloud Engineer,DevOps Engineer,"Python, DSA, Statistics","DSA, Python, SQL, Statistics, Machine Learning",32.8,3,75,"SQL for Data Analysis, Machine Learning Specialization"
+S0090,Aditya Bansal,Security Engineer,Security Engineer,"Python, DSA, Statistics","DSA, Python, SQL, Statistics, TensorFlow",45.2,4,113,"Data Structures & Algorithms Masterclass, Deep Learning with TensorFlow"
+S0091,Aarav Bansal,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",40.0,5,96,"Python Programming Fundamentals, Machine Learning Specialization"
+S0092,Trisha Pillai,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",27.3,4,60,"Python Programming Fundamentals, Data Structures & Algorithms Masterclass"
+S0093,Aditya Bansal,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",18.2,4,38,Python Programming Fundamentals
+S0094,Tarun Saxena,Cloud Engineer,DevOps Engineer,"Python, SQL, Statistics","DSA, Python, SQL, Statistics, Machine Learning",24.6,3,53,Data Structures & Algorithms Masterclass
+S0095,Nisha Chatterjee,Data Analyst,Data Analyst,"Python, SQL, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",26.7,4,58,SQL for Data Analysis
+S0096,Lavanya Kapoor,Software Engineer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0097,Anjali Nair,Data Analyst,Data Analyst,"Python, SQL, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0098,Akash Menon,Business Intelligence Analyst,Business Intelligence Analyst,"Python, SQL, Statistics","SQL, Statistics, Python",36.4,4,85,Statistics for Data Science
+S0099,Manish Tiwari,Cybersecurity Analyst,DevOps Engineer,Statistics,"DSA, Statistics, Python, SQL, Machine Learning",76.4,3,240,"Data Structures & Algorithms Masterclass, Python Programming Fundamentals, SQL for Data Analysis, Machine Learning Specialization"
+S0100,Pallavi Verma,Security Engineer,Security Engineer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",50.0,4,130,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0101,Kavya Chatterjee,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0102,Pranav Agarwal,Cloud Engineer,Software Engineer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics, Machine Learning",11.5,1,24,Machine Learning Specialization
+S0103,Aditya Malhotra,Full Stack Developer,Security Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",14.3,2,30,Statistics for Data Science
+S0104,Nisha Kulkarni,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0105,Vivek Rao,Cloud Engineer,Cybersecurity Analyst,"Python, DSA, Statistics","DSA, Python, SQL, Statistics, Machine Learning",32.8,3,75,"SQL for Data Analysis, Machine Learning Specialization"
+S0106,Siddharth Bhatt,Full Stack Developer,Cybersecurity Analyst,"SQL, DSA","DSA, Python, SQL, Statistics",26.8,3,58,Python Programming Fundamentals
+S0107,Pallavi Kapoor,Security Engineer,Software Engineer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",24.2,2,52,"Statistics for Data Science, Deep Learning with TensorFlow"
+S0108,Diya Bhatt,Software Engineer,Security Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",14.3,2,30,Statistics for Data Science
+S0109,Trisha Iyer,Data Analyst,Data Analyst,"Python, SQL, Machine Learning, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0110,Rahul Menon,Software Engineer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",14.3,2,30,Statistics for Data Science
+S0111,Aditya Iyer,Software Engineer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0112,Radhika Iyer,Full Stack Developer,Full Stack Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",46.4,4,117,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0113,Vikram Desai,Data Analyst,Cloud Engineer,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",13.3,2,28,Machine Learning Specialization
+S0114,Bhavna Desai,Software Engineer,Backend Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0115,Karan Pillai,Full Stack Developer,Frontend Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",46.4,4,117,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0116,Raghav Mishra,Cybersecurity Analyst,Cybersecurity Analyst,DSA,"DSA, Statistics, Python, SQL, Machine Learning",76.4,3,240,"Statistics for Data Science, Python Programming Fundamentals, SQL for Data Analysis, Machine Learning Specialization"
+S0117,Nikhil Joshi,Frontend Developer,Frontend Developer,"SQL, DSA","DSA, Python, SQL",28.6,2,63,Python Programming Fundamentals
+S0118,Nikhil Singh,Software Engineer,Software Engineer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0119,Naveen Nair,Backend Developer,Cloud Engineer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",58.3,4,161,"SQL for Data Analysis, Data Structures & Algorithms Masterclass"
+S0120,Naveen Nair,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",63.6,5,183,"SQL for Data Analysis, Python Programming Fundamentals"
+S0121,Aarav Chawla,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",20.8,5,44,Deep Learning with TensorFlow
+S0122,Riya Agarwal,Backend Developer,Backend Developer,"Python, SQL, DSA, Statistics","SQL, DSA, Python, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0123,Lavanya Menon,DevOps Engineer,DevOps Engineer,"Python, DSA","Python, DSA, SQL, Statistics",35.4,3,82,Python Programming Fundamentals
+S0124,Akash Menon,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",13.9,2,29,Statistics for Data Science
+S0125,Tarun Khanna,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",32.0,4,72,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0126,Nisha Yadav,Backend Developer,Cloud Engineer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",58.3,4,161,"SQL for Data Analysis, Python Programming Fundamentals"
+S0127,Karan Mishra,Full Stack Developer,Backend Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0128,Rohan Iyer,Data Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",73.3,4,226,"SQL for Data Analysis, Python Programming Fundamentals, Machine Learning Specialization, Data Structures & Algorithms Masterclass"
+S0129,Meera Bose,Backend Developer,Software Engineer,"Python, SQL, DSA, Statistics","SQL, DSA, Python, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0130,Sahil Pillai,Software Engineer,Security Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",42.9,4,106,"Python Programming Fundamentals, Statistics for Data Science"
+S0131,Bhavna Yadav,Security Engineer,Security Engineer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",30.6,2,68,"SQL for Data Analysis, Statistics for Data Science"
+S0132,Rahul Gupta,Software Engineer,Backend Developer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0133,Aarav Desai,Data Analyst,Data Analyst,"Python, SQL, TensorFlow, Statistics","SQL, Statistics, Python, Machine Learning, DSA",53.3,4,142,"SQL for Data Analysis, Machine Learning Specialization, Data Structures & Algorithms Masterclass"
+S0134,Pallavi Malhotra,Security Engineer,Cybersecurity Analyst,"Python, DSA, Statistics","DSA, Python, SQL, Statistics, TensorFlow",45.2,4,113,"Data Structures & Algorithms Masterclass, Deep Learning with TensorFlow"
+S0135,Kunal Bose,Backend Developer,Backend Developer,"Python, SQL, DSA, Statistics","SQL, DSA, Python, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0136,Anjali Malhotra,Software Engineer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",28.6,4,63,Python Programming Fundamentals
+S0137,Diya Yadav,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",13.6,3,28,Deep Learning with TensorFlow
+S0138,Siddharth Bhatt,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",58.3,5,161,"Machine Learning Specialization, Statistics for Data Science, Data Structures & Algorithms Masterclass"
+S0139,Ritika Malhotra,Cybersecurity Analyst,Security Engineer,"SQL, DSA, Statistics","DSA, Statistics, Python, SQL, Machine Learning",32.7,2,74,"Python Programming Fundamentals, Machine Learning Specialization"
+S0140,Akash Khanna,Backend Developer,Cloud Engineer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",30.6,4,68,SQL for Data Analysis
+S0141,Raghav Choudhary,Full Stack Developer,Full Stack Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",14.3,2,30,Statistics for Data Science
+S0142,Meera Joshi,Cloud Engineer,Cloud Engineer,"SQL, TensorFlow","DSA, Python, SQL, Statistics, Machine Learning",67.2,3,198,"Data Structures & Algorithms Masterclass, Python Programming Fundamentals, Statistics for Data Science"
+S0143,Saurabh Nair,Security Engineer,Frontend Developer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",75.8,4,238,"Data Structures & Algorithms Masterclass, SQL for Data Analysis, Statistics for Data Science, Deep Learning with TensorFlow"
+S0144,Divya Sinha,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0145,Isha Saxena,DevOps Engineer,DevOps Engineer,"Python, DSA","Python, DSA, SQL, Statistics",16.7,2,35,Statistics for Data Science
+S0146,Vivek Chawla,Machine Learning Engineer,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",48.0,5,123,"Python Programming Fundamentals, Deep Learning with TensorFlow, SQL for Data Analysis"
+S0147,Ishaan Saxena,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",16.7,4,35,Data Structures & Algorithms Masterclass
+S0148,Swati Iyer,Cloud Engineer,DevOps Engineer,"Python, SQL, Machine Learning, DSA","DSA, Python, SQL, Statistics, Machine Learning",18.0,2,37,Statistics for Data Science
+S0149,Yash Menon,Frontend Developer,Full Stack Developer,"SQL, Machine Learning, DSA","DSA, Python, SQL",28.6,2,63,Python Programming Fundamentals
+S0150,Tanvi Rao,Data Analyst,Data Analyst,"SQL, Machine Learning, Statistics","SQL, Statistics, Python, Machine Learning, DSA",20.0,3,42,Python Programming Fundamentals
+S0151,Kritika Choudhary,Data Analyst,Business Intelligence Analyst,"SQL, Machine Learning, Statistics","SQL, Statistics, Python, Machine Learning, DSA",33.3,3,76,"Python Programming Fundamentals, Data Structures & Algorithms Masterclass"
+S0152,Tanya Bhatt,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",16.0,4,33,Statistics for Data Science
+S0153,Sanjay Mehta,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",36.4,4,85,Statistics for Data Science
+S0154,Aman Bansal,Machine Learning Engineer,Software Engineer,"Python, SQL, Machine Learning, DSA","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",52.0,5,137,"Machine Learning Specialization, Deep Learning with TensorFlow, Statistics for Data Science"
+S0155,Abhinav Bhatt,DevOps Engineer,Cloud Engineer,"Python, DSA","Python, DSA, SQL, Statistics",52.1,3,138,"Python Programming Fundamentals, Statistics for Data Science"
+S0156,Tanvi Khanna,Cybersecurity Analyst,DevOps Engineer,"Python, Statistics","DSA, Statistics, Python, SQL, Machine Learning",54.5,3,147,"Data Structures & Algorithms Masterclass, SQL for Data Analysis, Machine Learning Specialization"
+S0157,Saurabh Choudhary,DevOps Engineer,Cloud Engineer,"Python, SQL","Python, DSA, SQL, Statistics",27.1,3,59,Data Structures & Algorithms Masterclass
+S0158,Vivek Pillai,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",13.9,2,29,Statistics for Data Science
+S0159,Tarun Sinha,Data Analyst,Data Analyst,"SQL, Machine Learning, Statistics","SQL, Statistics, Python, Machine Learning, DSA",20.0,3,42,Python Programming Fundamentals
+S0160,Manish Kapoor,Data Analyst,Data Analyst,"Python, SQL, Machine Learning, Statistics","SQL, Statistics, Python, Machine Learning, DSA",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0161,Priya Nair,DevOps Engineer,DevOps Engineer,"Python, DSA","Python, DSA, SQL, Statistics",20.8,2,44,SQL for Data Analysis
+S0162,Aman Mehta,Software Engineer,Cloud Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",35.7,5,83,Data Structures & Algorithms Masterclass
+S0163,Sahil Verma,Data Analyst,Full Stack Developer,"Python, SQL, Machine Learning, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",26.7,4,58,Statistics for Data Science
+S0164,Tarun Desai,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",27.3,4,60,"SQL for Data Analysis, Data Structures & Algorithms Masterclass"
+S0165,Manya Gupta,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",52.0,5,137,"Machine Learning Specialization, Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0166,Vihaan Pillai,Software Engineer,Backend Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0167,Vidya Mishra,Data Scientist,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",40.9,5,99,"Statistics for Data Science, Python Programming Fundamentals"
+S0168,Kunal Tiwari,DevOps Engineer,DevOps Engineer,"Python, DSA","Python, DSA, SQL, Statistics",16.7,2,35,Statistics for Data Science
+S0169,Priya Sinha,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",16.0,4,33,Statistics for Data Science
+S0170,Saurabh Chawla,Security Engineer,Security Engineer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",59.7,4,167,"Data Structures & Algorithms Masterclass, Statistics for Data Science, Deep Learning with TensorFlow"
+S0171,Sanjay Rao,Software Engineer,Security Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",14.3,2,30,Statistics for Data Science
+S0172,Dev Bose,Data Analyst,Backend Developer,"Python, SQL, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",26.7,4,58,Statistics for Data Science
+S0173,Abhinav Khanna,Cybersecurity Analyst,Data Analyst,"SQL, Statistics","DSA, Statistics, Python, SQL, Machine Learning",45.5,3,114,"Data Structures & Algorithms Masterclass, Python Programming Fundamentals"
+S0174,Isha Bose,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",36.4,4,85,"Python Programming Fundamentals, SQL for Data Analysis"
+S0175,Lavanya Nair,DevOps Engineer,Full Stack Developer,"Python, DSA","Python, DSA, SQL, Statistics",35.4,3,82,Python Programming Fundamentals
+S0176,Simran Kulkarni,Data Scientist,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",36.4,4,85,"SQL for Data Analysis, Machine Learning Specialization"
+S0177,Aarav Reddy,Security Engineer,Security Engineer,"Python, DSA, Statistics","DSA, Python, SQL, Statistics, TensorFlow",25.8,2,56,"SQL for Data Analysis, Deep Learning with TensorFlow"
+S0178,Yash Khanna,Backend Developer,Backend Developer,"Python, SQL, TensorFlow, DSA","SQL, DSA, Python, Statistics",27.8,4,61,Python Programming Fundamentals
+S0179,Manya Saxena,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",20.0,5,42,Python Programming Fundamentals
+S0180,Sakshi Tiwari,Machine Learning Engineer,Machine Learning Engineer,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",28.0,4,61,"Deep Learning with TensorFlow, SQL for Data Analysis"
+S0181,Radhika Kapoor,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0182,Abhinav Rao,Backend Developer,Software Engineer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0183,Simran Chatterjee,Data Analyst,Business Intelligence Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",13.3,2,28,Data Structures & Algorithms Masterclass
+S0184,Diya Agarwal,Frontend Developer,Frontend Developer,DSA,"DSA, Python, SQL",28.6,2,63,SQL for Data Analysis
+S0185,Sneha Chawla,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0186,Ishaan Gupta,Full Stack Developer,Full Stack Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",46.4,4,117,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0187,Aarav Chawla,Machine Learning Engineer,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",40.0,5,96,"Python Programming Fundamentals, Machine Learning Specialization"
+S0188,Tanvi Bansal,DevOps Engineer,Full Stack Developer,"Python, DSA","Python, DSA, SQL, Statistics",52.1,3,138,"Python Programming Fundamentals, Statistics for Data Science"
+S0189,Simran Gupta,Security Engineer,Security Engineer,"SQL, DSA","DSA, Python, SQL, Statistics, TensorFlow",33.9,3,78,"Python Programming Fundamentals, Deep Learning with TensorFlow"
+S0190,Shreya Joshi,Software Engineer,DevOps Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",35.7,5,83,Data Structures & Algorithms Masterclass
+S0191,Yash Verma,Data Analyst,Business Intelligence Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",13.3,2,28,Data Structures & Algorithms Masterclass
+S0192,Kunal Gupta,Software Engineer,Backend Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0193,Vihaan Joshi,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, DSA, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",50.0,4,130,"Python Programming Fundamentals, SQL for Data Analysis, Deep Learning with TensorFlow"
+S0194,Raghav Singh,Cybersecurity Analyst,Software Engineer,"Python, DSA, Statistics","DSA, Statistics, Python, SQL, Machine Learning",30.9,2,69,"SQL for Data Analysis, Machine Learning Specialization"
+S0195,Akash Agarwal,Software Engineer,Backend Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0196,Vidya Joshi,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",16.0,4,33,Deep Learning with TensorFlow
+S0197,Anjali Saxena,Cybersecurity Analyst,Data Analyst,"Python, Statistics","DSA, Statistics, Python, SQL, Machine Learning",54.5,3,147,"Data Structures & Algorithms Masterclass, SQL for Data Analysis, Machine Learning Specialization"
+S0198,Raghav Khanna,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0199,Vikram Sharma,Frontend Developer,Frontend Developer,DSA,"DSA, Python, SQL",0.0,3,5,No major gap - Advanced/Portfolio-building courses recommended
+S0200,Vidya Saxena,DevOps Engineer,DevOps Engineer,Python,"Python, DSA, SQL, Statistics",27.1,3,59,Data Structures & Algorithms Masterclass
+S0201,Sahil Kulkarni,Data Analyst,Data Analyst,"Python, SQL, TensorFlow, Statistics","SQL, Statistics, Python, Machine Learning, DSA",13.3,2,28,Data Structures & Algorithms Masterclass
+S0202,Dev Yadav,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0203,Swati Pillai,Data Analyst,Data Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0204,Neha Mehta,Data Analyst,Data Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",26.7,4,58,Statistics for Data Science
+S0205,Mohit Bansal,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",81.8,5,267,"Statistics for Data Science, Python Programming Fundamentals, SQL for Data Analysis, Deep Learning with TensorFlow, Data Structures & Algorithms Masterclass"
+S0206,Bhavna Rao,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",52.0,5,137,"Machine Learning Specialization, Deep Learning with TensorFlow, Statistics for Data Science"
+S0207,Nikhil Pillai,Cloud Engineer,Cybersecurity Analyst,"Python, SQL, TensorFlow, DSA","DSA, Python, SQL, Statistics, Machine Learning",29.5,2,65,"Statistics for Data Science, Machine Learning Specialization"
+S0208,Gaurav Kulkarni,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0209,Aditya Yadav,Software Engineer,Software Engineer,"Python, DSA","DSA, Python, SQL, Statistics",21.4,3,45,SQL for Data Analysis
+S0210,Tanvi Patel,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",58.3,5,161,"Python Programming Fundamentals, Machine Learning Specialization, Data Structures & Algorithms Masterclass"
+S0211,Ritika Gupta,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",45.5,4,114,"Python Programming Fundamentals, Machine Learning Specialization, Data Structures & Algorithms Masterclass"
+S0212,Tanvi Sharma,Security Engineer,Full Stack Developer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",35.5,4,82,Data Structures & Algorithms Masterclass
+S0213,Isha Chatterjee,DevOps Engineer,DevOps Engineer,"Python, DSA","Python, DSA, SQL, Statistics",0.0,3,5,No major gap - Advanced/Portfolio-building courses recommended
+S0214,Naveen Patel,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",40.9,5,99,"Statistics for Data Science, Python Programming Fundamentals"
+S0215,Aditi Agarwal,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",16.7,4,35,Data Structures & Algorithms Masterclass
+S0216,Akash Kapoor,Data Analyst,Data Analyst,"Python, SQL, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0217,Manish Gupta,Data Analyst,Cybersecurity Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",40.0,4,96,"SQL for Data Analysis, Machine Learning Specialization"
+S0218,Sahil Kapoor,Software Engineer,Software Engineer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics",28.6,4,63,Python Programming Fundamentals
+S0219,Manya Saxena,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",30.6,4,68,SQL for Data Analysis
+S0220,Karan Malhotra,Machine Learning Engineer,Machine Learning Engineer,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",64.0,5,185,"Machine Learning Specialization, Deep Learning with TensorFlow, Data Structures & Algorithms Masterclass, SQL for Data Analysis"
+S0221,Sneha Pillai,AI Researcher,Machine Learning Engineer,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",41.7,5,102,"Python Programming Fundamentals, Deep Learning with TensorFlow"
+S0222,Radhika Kulkarni,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",37.5,5,88,"Python Programming Fundamentals, Data Structures & Algorithms Masterclass"
+S0223,Abhinav Joshi,DevOps Engineer,DevOps Engineer,"Python, DSA","Python, DSA, SQL, Statistics",52.1,3,138,"Python Programming Fundamentals, Statistics for Data Science"
+S0224,Kritika Yadav,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",9.1,2,20,Data Structures & Algorithms Masterclass
+S0225,Siddharth Kulkarni,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",9.1,2,20,Data Structures & Algorithms Masterclass
+S0226,Sahil Mishra,AI Researcher,Machine Learning Engineer,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",20.8,5,44,Statistics for Data Science
+S0227,Aditya Joshi,Full Stack Developer,Full Stack Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0228,Ira Sinha,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",37.5,5,88,"Statistics for Data Science, Data Structures & Algorithms Masterclass"
+S0229,Manish Verma,Cloud Engineer,Cloud Engineer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics, Machine Learning",11.5,1,24,Machine Learning Specialization
+S0230,Divya Mishra,AI Researcher,Machine Learning Engineer,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",41.7,5,102,"Python Programming Fundamentals, Statistics for Data Science"
+S0231,Yash Bose,Cybersecurity Analyst,Frontend Developer,"SQL, DSA","DSA, Statistics, Python, SQL, Machine Learning",56.4,3,154,"Statistics for Data Science, Python Programming Fundamentals, Machine Learning Specialization"
+S0232,Harsh Joshi,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",40.9,5,99,"Statistics for Data Science, Python Programming Fundamentals"
+S0233,Neha Pillai,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",20.8,5,44,Statistics for Data Science
+S0234,Shreya Nair,DevOps Engineer,DevOps Engineer,"Python, SQL, DSA","Python, DSA, SQL, Statistics",16.7,2,35,Statistics for Data Science
+S0235,Siddharth Rao,Cybersecurity Analyst,Cloud Engineer,"DSA, Statistics","DSA, Statistics, Python, SQL, Machine Learning",52.7,2,140,"Python Programming Fundamentals, SQL for Data Analysis, Machine Learning Specialization"
+S0236,Mohit Chawla,Backend Developer,DevOps Engineer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",58.3,4,161,"SQL for Data Analysis, Data Structures & Algorithms Masterclass"
+S0237,Pallavi Tiwari,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0238,Tarun Joshi,Data Analyst,Data Analyst,"SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",20.0,3,42,Python Programming Fundamentals
+S0239,Sahil Chawla,Cybersecurity Analyst,Cybersecurity Analyst,Statistics,"DSA, Statistics, Python, SQL, Machine Learning",76.4,3,240,"Data Structures & Algorithms Masterclass, Python Programming Fundamentals, SQL for Data Analysis, Machine Learning Specialization"
+S0240,Sahil Patel,Frontend Developer,Frontend Developer,DSA,"DSA, Python, SQL",28.6,2,63,Python Programming Fundamentals
+S0241,Tanya Desai,DevOps Engineer,DevOps Engineer,"Python, DSA","Python, DSA, SQL, Statistics",0.0,3,5,No major gap - Advanced/Portfolio-building courses recommended
+S0242,Varun Sinha,Backend Developer,Software Engineer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",13.9,2,29,Statistics for Data Science
+S0243,Aman Nair,Cloud Engineer,Cloud Engineer,"Python, Machine Learning, DSA","DSA, Python, SQL, Statistics, Machine Learning",39.3,3,94,"SQL for Data Analysis, Statistics for Data Science"
+S0244,Trisha Kulkarni,Machine Learning Engineer,Machine Learning Engineer,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",44.0,4,109,"Deep Learning with TensorFlow, Statistics for Data Science, SQL for Data Analysis"
+S0245,Varun Singh,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0246,Tarun Reddy,Backend Developer,Backend Developer,"Python, SQL, DSA, Statistics","SQL, DSA, Python, Statistics",27.8,4,61,Data Structures & Algorithms Masterclass
+S0247,Akash Rao,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",32.0,4,72,"Deep Learning with TensorFlow, Statistics for Data Science"
+S0248,Vidya Desai,Cloud Engineer,DevOps Engineer,"Python, SQL, Machine Learning, DSA, Statistics","DSA, Python, SQL, Statistics, Machine Learning",0.0,3,5,No major gap - Advanced/Portfolio-building courses recommended
+S0249,Pranav Chawla,Machine Learning Engineer,AI Researcher,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0250,Rohan Menon,Cloud Engineer,Full Stack Developer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics, Machine Learning",11.5,1,24,Machine Learning Specialization
+S0251,Abhinav Bhatt,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",36.4,4,85,"Python Programming Fundamentals, Machine Learning Specialization"
+S0252,Aditi Bansal,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",41.7,5,102,"Deep Learning with TensorFlow, Statistics for Data Science"
+S0253,Aman Kapoor,DevOps Engineer,DevOps Engineer,Python,"Python, DSA, SQL, Statistics",62.5,3,178,"Python Programming Fundamentals, Data Structures & Algorithms Masterclass"
+S0254,Varun Joshi,Software Engineer,Security Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",35.7,5,83,Data Structures & Algorithms Masterclass
+S0255,Aditya Singh,Data Analyst,Data Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",26.7,4,58,SQL for Data Analysis
+S0256,Meera Chatterjee,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0257,Vikram Iyer,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",18.2,4,38,Python Programming Fundamentals
+S0258,Ira Mishra,Frontend Developer,Frontend Developer,DSA,"DSA, Python, SQL",57.1,2,157,"Python Programming Fundamentals, SQL for Data Analysis"
+S0259,Aditya Pillai,Cloud Engineer,Data Analyst,"Python, SQL, TensorFlow","DSA, Python, SQL, Statistics, Machine Learning",42.6,3,105,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0260,Raghav Kapoor,Security Engineer,DevOps Engineer,DSA,"DSA, Python, SQL, Statistics, TensorFlow",48.4,3,124,"Python Programming Fundamentals, Statistics for Data Science, Deep Learning with TensorFlow"
+S0261,Bhavna Patel,Frontend Developer,Frontend Developer,DSA,"DSA, Python, SQL",57.1,2,157,"Python Programming Fundamentals, SQL for Data Analysis"
+S0262,Pooja Tiwari,DevOps Engineer,DevOps Engineer,"Python, DSA","Python, DSA, SQL, Statistics",35.4,3,82,Python Programming Fundamentals
+S0263,Neha Saxena,Software Engineer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0264,Ananya Bansal,Software Engineer,Software Engineer,"Python, DSA","DSA, Python, SQL, Statistics",35.7,3,83,"SQL for Data Analysis, Statistics for Data Science"
+S0265,Aditya Pillai,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",9.1,2,20,Data Structures & Algorithms Masterclass
+S0266,Divya Pillai,Data Analyst,Data Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",26.7,4,58,Statistics for Data Science
+S0267,Nisha Saxena,Full Stack Developer,Full Stack Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0268,Manya Desai,Backend Developer,Backend Developer,"Python, SQL, DSA, Statistics","SQL, DSA, Python, Statistics",30.6,4,68,SQL for Data Analysis
+S0269,Akash Rao,Full Stack Developer,DevOps Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",46.4,4,117,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0270,Mohit Bose,Frontend Developer,Frontend Developer,DSA,"DSA, Python, SQL",28.6,2,63,SQL for Data Analysis
+S0271,Karan Pillai,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",41.7,4,102,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0272,Harsh Patel,Machine Learning Engineer,Machine Learning Engineer,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",32.0,5,72,"Machine Learning Specialization, SQL for Data Analysis"
+S0273,Radhika Kapoor,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",18.2,4,38,Machine Learning Specialization
+S0274,Manish Bose,Software Engineer,Backend Developer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0275,Akash Mehta,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",18.2,4,38,SQL for Data Analysis
+S0276,Akash Chawla,Software Engineer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0277,Yash Kapoor,Data Scientist,Data Scientist,"Python, SQL, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",36.4,4,85,"SQL for Data Analysis, Machine Learning Specialization"
+S0278,Harsh Pillai,Data Analyst,Business Intelligence Analyst,"SQL, Machine Learning, Statistics","SQL, Statistics, Python, Machine Learning, DSA",60.0,4,168,"Statistics for Data Science, Python Programming Fundamentals, Data Structures & Algorithms Masterclass"
+S0279,Dev Chatterjee,Cybersecurity Analyst,Frontend Developer,No skills above proficiency level 3,"DSA, Statistics, Python, SQL, Machine Learning",100.0,3,365,"Data Structures & Algorithms Masterclass, Statistics for Data Science, Python Programming Fundamentals, SQL for Data Analysis, Machine Learning Specialization"
+S0280,Pranav Pillai,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",13.9,2,29,Statistics for Data Science
+S0281,Sahil Singh,DevOps Engineer,DevOps Engineer,"Python, DSA","Python, DSA, SQL, Statistics",56.3,3,154,"Python Programming Fundamentals, SQL for Data Analysis"
+S0282,Aman Bansal,Backend Developer,Backend Developer,"Python, SQL, DSA, Statistics","SQL, DSA, Python, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0283,Vidya Desai,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",27.8,4,61,Data Structures & Algorithms Masterclass
+S0284,Pooja Kapoor,Software Engineer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0285,Pooja Bhatt,DevOps Engineer,Security Engineer,"Python, DSA","Python, DSA, SQL, Statistics",37.5,2,88,"SQL for Data Analysis, Statistics for Data Science"
+S0286,Tanvi Choudhary,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",20.8,5,44,Deep Learning with TensorFlow
+S0287,Kritika Chawla,Data Analyst,Data Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",26.7,4,58,Statistics for Data Science
+S0288,Harsh Malhotra,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0289,Meera Sinha,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",72.0,5,220,"Python Programming Fundamentals, Machine Learning Specialization, Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0290,Lavanya Joshi,DevOps Engineer,Cloud Engineer,Python,"Python, DSA, SQL, Statistics",62.5,3,178,"Python Programming Fundamentals, Data Structures & Algorithms Masterclass"
+S0291,Aditya Malhotra,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",79.2,5,254,"Python Programming Fundamentals, Deep Learning with TensorFlow, Statistics for Data Science, Data Structures & Algorithms Masterclass"
+S0292,Vivek Menon,Data Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",20.0,3,42,Python Programming Fundamentals
+S0293,Rahul Joshi,Cybersecurity Analyst,Cloud Engineer,DSA,"DSA, Statistics, Python, SQL, Machine Learning",65.5,3,191,"Statistics for Data Science, Python Programming Fundamentals, SQL for Data Analysis"
+S0294,Abhinav Iyer,Software Engineer,Software Engineer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics",28.6,4,63,Python Programming Fundamentals
+S0295,Sanjay Tiwari,Cloud Engineer,Cloud Engineer,"Python, SQL","DSA, Python, SQL, Statistics, Machine Learning",54.1,3,145,"Data Structures & Algorithms Masterclass, Statistics for Data Science, Machine Learning Specialization"
+S0296,Gaurav Joshi,Full Stack Developer,Full Stack Developer,"SQL, DSA","DSA, Python, SQL, Statistics",41.1,3,100,"Python Programming Fundamentals, Statistics for Data Science"
+S0297,Simran Gupta,DevOps Engineer,Cloud Engineer,"Python, DSA, Statistics","Python, DSA, SQL, Statistics",0.0,3,5,No major gap - Advanced/Portfolio-building courses recommended
+S0298,Aditya Reddy,Data Analyst,Data Analyst,"Python, SQL, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",26.7,4,58,SQL for Data Analysis
+S0299,Rohan Desai,Machine Learning Engineer,AI Researcher,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",40.0,5,96,"Python Programming Fundamentals, Machine Learning Specialization"
+S0300,Ira Kulkarni,Data Analyst,Cloud Engineer,"SQL, Machine Learning, Statistics","SQL, Statistics, Python, Machine Learning, DSA",73.3,4,226,"SQL for Data Analysis, Statistics for Data Science, Python Programming Fundamentals"
+S0301,Neha Saxena,Software Engineer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",14.3,2,30,Statistics for Data Science
+S0302,Aditi Menon,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",20.0,5,42,Machine Learning Specialization
+S0303,Sneha Yadav,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",50.0,5,130,"Statistics for Data Science, Python Programming Fundamentals, Data Structures & Algorithms Masterclass"
+S0304,Abhinav Desai,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",56.0,5,152,"Python Programming Fundamentals, Machine Learning Specialization, Statistics for Data Science"
+S0305,Tarun Iyer,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",56.0,5,152,"Python Programming Fundamentals, Machine Learning Specialization, Deep Learning with TensorFlow"
+S0306,Tanvi Iyer,AI Researcher,AI Researcher,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0307,Dev Khanna,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",63.6,5,183,"SQL for Data Analysis, Python Programming Fundamentals"
+S0308,Swati Agarwal,Frontend Developer,Cybersecurity Analyst,TensorFlow,"DSA, Python, SQL",42.9,3,106,Data Structures & Algorithms Masterclass
+S0309,Vidya Reddy,Backend Developer,Full Stack Developer,"Python, SQL, DSA, Statistics","SQL, DSA, Python, Statistics",27.8,4,61,Python Programming Fundamentals
+S0310,Simran Pillai,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",81.8,5,267,"SQL for Data Analysis, Statistics for Data Science"
+S0311,Tanya Kulkarni,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",20.8,5,44,Python Programming Fundamentals
+S0312,Arjun Nair,Full Stack Developer,Full Stack Developer,"Python, SQL, TensorFlow, DSA","DSA, Python, SQL, Statistics",46.4,4,117,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0313,Sanjay Mishra,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",18.2,2,38,Python Programming Fundamentals
+S0314,Vihaan Agarwal,Security Engineer,Security Engineer,"Python, DSA, Statistics","DSA, Python, SQL, Statistics, TensorFlow",16.1,2,33,SQL for Data Analysis
+S0315,Yash Mehta,Software Engineer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",35.7,5,83,Data Structures & Algorithms Masterclass
+S0316,Varun Sinha,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0317,Ira Tiwari,Frontend Developer,Cybersecurity Analyst,DSA,"DSA, Python, SQL",28.6,2,63,SQL for Data Analysis
+S0318,Sahil Agarwal,DevOps Engineer,Frontend Developer,"Python, DSA","Python, DSA, SQL, Statistics",35.4,3,82,Python Programming Fundamentals
+S0319,Vikram Sinha,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",13.9,2,29,Statistics for Data Science
+S0320,Vihaan Malhotra,Data Analyst,Data Analyst,"Python, SQL, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",40.0,4,96,"SQL for Data Analysis, Machine Learning Specialization"
+S0321,Sahil Singh,Backend Developer,Software Engineer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",72.2,4,221,"SQL for Data Analysis, Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0322,Pranav Patel,Software Engineer,Backend Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",28.6,4,63,Python Programming Fundamentals
+S0323,Yash Kulkarni,Data Analyst,Business Intelligence Analyst,"SQL, Machine Learning, Statistics","SQL, Statistics, Python, Machine Learning, DSA",20.0,3,42,Python Programming Fundamentals
+S0324,Vikram Kapoor,Cybersecurity Analyst,DevOps Engineer,No skills above proficiency level 3,"DSA, Statistics, Python, SQL, Machine Learning",100.0,3,365,"Data Structures & Algorithms Masterclass, Statistics for Data Science, Python Programming Fundamentals, SQL for Data Analysis, Machine Learning Specialization"
+S0325,Neha Bansal,Security Engineer,Cloud Engineer,"Python, DSA, Statistics","DSA, Python, SQL, Statistics, TensorFlow",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0326,Manish Bhatt,Software Engineer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0327,Nikhil Iyer,Data Analyst,Data Analyst,"SQL, Machine Learning, Statistics","SQL, Statistics, Python, Machine Learning, DSA",73.3,4,226,"SQL for Data Analysis, Statistics for Data Science, Python Programming Fundamentals"
+S0328,Ishaan Menon,Data Scientist,Business Intelligence Analyst,"Python, SQL, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",36.4,4,85,"Python Programming Fundamentals, Machine Learning Specialization"
+S0329,Arjun Menon,Backend Developer,Software Engineer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",13.9,2,29,Statistics for Data Science
+S0330,Kunal Bansal,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",13.6,3,28,Deep Learning with TensorFlow
+S0331,Nisha Saxena,Frontend Developer,Frontend Developer,SQL,"DSA, Python, SQL",42.9,3,106,Data Structures & Algorithms Masterclass
+S0332,Arjun Singh,Cybersecurity Analyst,DevOps Engineer,No skills above proficiency level 3,"DSA, Statistics, Python, SQL, Machine Learning",100.0,3,365,"Data Structures & Algorithms Masterclass, Statistics for Data Science, Python Programming Fundamentals, SQL for Data Analysis, Machine Learning Specialization"
+S0333,Ishaan Yadav,Cybersecurity Analyst,Cloud Engineer,"Python, SQL","DSA, Statistics, Python, SQL, Machine Learning",47.3,3,120,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0334,Divya Kapoor,Software Engineer,Security Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",28.6,4,63,Python Programming Fundamentals
+S0335,Aarav Malhotra,Full Stack Developer,DevOps Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",14.3,2,30,Statistics for Data Science
+S0336,Kunal Gupta,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",20.8,5,44,Deep Learning with TensorFlow
+S0337,Radhika Mehta,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",16.7,4,35,Data Structures & Algorithms Masterclass
+S0338,Swati Chawla,Frontend Developer,Frontend Developer,No skills above proficiency level 3,"DSA, Python, SQL",42.9,3,106,Data Structures & Algorithms Masterclass
+S0339,Arjun Nair,Security Engineer,Security Engineer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",14.5,2,30,Statistics for Data Science
+S0340,Radhika Khanna,Cloud Engineer,Cybersecurity Analyst,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics, Machine Learning",11.5,1,24,Machine Learning Specialization
+S0341,Aarav Mishra,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",41.7,5,102,"Python Programming Fundamentals, Statistics for Data Science"
+S0342,Trisha Reddy,Data Analyst,Data Analyst,"SQL, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",20.0,3,42,Python Programming Fundamentals
+S0343,Kritika Kulkarni,Software Engineer,Cloud Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",35.7,5,83,Data Structures & Algorithms Masterclass
+S0344,Ananya Mishra,Data Analyst,Business Intelligence Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",40.0,4,96,"Statistics for Data Science, Machine Learning Specialization"
+S0345,Karan Rao,Data Analyst,Business Intelligence Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",53.3,4,142,"Statistics for Data Science, Machine Learning Specialization, Data Structures & Algorithms Masterclass"
+S0346,Rahul Patel,Frontend Developer,Frontend Developer,DSA,"DSA, Python, SQL",0.0,3,5,No major gap - Advanced/Portfolio-building courses recommended
+S0347,Aditi Iyer,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",9.1,2,20,Data Structures & Algorithms Masterclass
+S0348,Sanjay Reddy,Cloud Engineer,Cybersecurity Analyst,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics, Machine Learning",11.5,1,24,Machine Learning Specialization
+S0349,Manish Verma,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",18.2,4,38,Python Programming Fundamentals
+S0350,Nikhil Sharma,Full Stack Developer,Security Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0351,Sneha Singh,Cybersecurity Analyst,Data Analyst,"SQL, Statistics","DSA, Statistics, Python, SQL, Machine Learning",45.5,3,114,"Data Structures & Algorithms Masterclass, Python Programming Fundamentals"
+S0352,Sahil Singh,Security Engineer,Frontend Developer,"Machine Learning, DSA","DSA, Python, SQL, Statistics, TensorFlow",85.5,4,286,"Data Structures & Algorithms Masterclass, Python Programming Fundamentals, SQL for Data Analysis, Deep Learning with TensorFlow"
+S0353,Vidya Bose,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",52.0,5,137,"Python Programming Fundamentals, Deep Learning with TensorFlow, Statistics for Data Science"
+S0354,Divya Pillai,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",16.7,4,35,Data Structures & Algorithms Masterclass
+S0355,Akash Yadav,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",18.2,2,38,Python Programming Fundamentals
+S0356,Harsh Bhatt,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",30.6,4,68,SQL for Data Analysis
+S0357,Isha Chawla,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0358,Ishaan Nair,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",58.3,4,161,"SQL for Data Analysis, Python Programming Fundamentals"
+S0359,Shreya Singh,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0360,Sakshi Kulkarni,AI Researcher,AI Researcher,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",20.8,5,44,Machine Learning Specialization
+S0361,Yash Saxena,Cybersecurity Analyst,Cloud Engineer,"SQL, DSA, Statistics","DSA, Statistics, Python, SQL, Machine Learning",32.7,2,74,"Python Programming Fundamentals, Machine Learning Specialization"
+S0362,Isha Patel,Software Engineer,Cloud Engineer,"Python, SQL, TensorFlow, DSA","DSA, Python, SQL, Statistics",35.7,5,83,Data Structures & Algorithms Masterclass
+S0363,Swati Yadav,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",36.4,4,85,"Python Programming Fundamentals, SQL for Data Analysis"
+S0364,Tarun Chawla,Cloud Engineer,Cloud Engineer,"Python, DSA, Statistics","DSA, Python, SQL, Statistics, Machine Learning",32.8,3,75,"SQL for Data Analysis, Machine Learning Specialization"
+S0365,Vikram Menon,Data Analyst,Cloud Engineer,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",53.3,4,142,"Statistics for Data Science, Machine Learning Specialization, Data Structures & Algorithms Masterclass"
+S0366,Akash Khanna,Software Engineer,Backend Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",42.9,4,106,"Python Programming Fundamentals, Statistics for Data Science"
+S0367,Vihaan Rao,Cloud Engineer,Cloud Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics, Machine Learning",18.0,2,37,Statistics for Data Science
+S0368,Tarun Bose,Security Engineer,Full Stack Developer,DSA,"DSA, Python, SQL, Statistics, TensorFlow",59.7,4,167,"Data Structures & Algorithms Masterclass, Python Programming Fundamentals"
+S0369,Naveen Khanna,DevOps Engineer,DevOps Engineer,"Python, TensorFlow","Python, DSA, SQL, Statistics",79.2,3,254,"Python Programming Fundamentals, Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0370,Yash Chatterjee,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",41.7,4,102,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0371,Pallavi Khanna,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",36.0,5,84,"Machine Learning Specialization, Statistics for Data Science"
+S0372,Rahul Singh,Machine Learning Engineer,AI Researcher,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0373,Radhika Saxena,Machine Learning Engineer,AI Researcher,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",20.0,5,42,Python Programming Fundamentals
+S0374,Manish Bose,Software Engineer,Software Engineer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics",35.7,5,83,Data Structures & Algorithms Masterclass
+S0375,Radhika Desai,Cybersecurity Analyst,Cybersecurity Analyst,"DSA, Statistics","DSA, Statistics, Python, SQL, Machine Learning",52.7,2,140,"Python Programming Fundamentals, SQL for Data Analysis, Machine Learning Specialization"
+S0376,Aditya Pillai,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",16.0,4,33,Statistics for Data Science
+S0377,Sahil Joshi,Software Engineer,Software Engineer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics",35.7,5,83,Data Structures & Algorithms Masterclass
+S0378,Harsh Chawla,Cybersecurity Analyst,Cloud Engineer,"Python, DSA, Statistics","DSA, Statistics, Python, SQL, Machine Learning",30.9,2,69,"SQL for Data Analysis, Machine Learning Specialization"
+S0379,Vihaan Bose,DevOps Engineer,DevOps Engineer,"Python, DSA","Python, DSA, SQL, Statistics",35.4,3,82,Python Programming Fundamentals
+S0380,Abhinav Chawla,Business Intelligence Analyst,Business Intelligence Analyst,"Python, SQL, Statistics","SQL, Statistics, Python",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0381,Saurabh Mehta,Backend Developer,Backend Developer,"Python, SQL, DSA, Statistics","SQL, DSA, Python, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0382,Harsh Bose,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",37.5,5,88,"Python Programming Fundamentals, Data Structures & Algorithms Masterclass"
+S0383,Bhavna Yadav,Data Analyst,Data Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0384,Manish Reddy,Security Engineer,Security Engineer,"Python, DSA, Statistics","DSA, Python, SQL, Statistics, TensorFlow",9.7,1,21,Deep Learning with TensorFlow
+S0385,Aditya Kulkarni,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",63.6,5,183,"Statistics for Data Science, SQL for Data Analysis, Deep Learning with TensorFlow, Data Structures & Algorithms Masterclass"
+S0386,Ishaan Sharma,Cybersecurity Analyst,Cybersecurity Analyst,"DSA, Statistics","DSA, Statistics, Python, SQL, Machine Learning",52.7,2,140,"Python Programming Fundamentals, SQL for Data Analysis, Machine Learning Specialization"
+S0387,Priya Khanna,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",18.2,4,38,Machine Learning Specialization
+S0388,Varun Reddy,Frontend Developer,Frontend Developer,"Machine Learning, DSA","DSA, Python, SQL",0.0,3,5,No major gap - Advanced/Portfolio-building courses recommended
+S0389,Swati Kulkarni,Full Stack Developer,Frontend Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",46.4,4,117,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0390,Tanvi Reddy,Data Analyst,Cloud Engineer,"Python, SQL, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",26.7,4,58,SQL for Data Analysis
+S0391,Yash Bose,Cybersecurity Analyst,DevOps Engineer,"Python, Statistics","DSA, Statistics, Python, SQL, Machine Learning",54.5,3,147,"Data Structures & Algorithms Masterclass, SQL for Data Analysis, Machine Learning Specialization"
+S0392,Riya Menon,Cloud Engineer,Backend Developer,"Python, SQL","DSA, Python, SQL, Statistics, Machine Learning",54.1,3,145,"Data Structures & Algorithms Masterclass, Statistics for Data Science, Machine Learning Specialization"
+S0393,Neha Desai,Data Analyst,Business Intelligence Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",13.3,2,28,Machine Learning Specialization
+S0394,Sanjay Kulkarni,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",52.0,5,137,"Machine Learning Specialization, Deep Learning with TensorFlow, Statistics for Data Science"
+S0395,Meera Patel,Data Analyst,Data Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",13.3,2,28,Data Structures & Algorithms Masterclass
+S0396,Rahul Chatterjee,Data Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",33.3,3,76,"Python Programming Fundamentals, Machine Learning Specialization"
+S0397,Raghav Tiwari,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",20.0,5,42,Machine Learning Specialization
+S0398,Manish Khanna,Backend Developer,DevOps Engineer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",58.3,4,161,"SQL for Data Analysis, Data Structures & Algorithms Masterclass"
+S0399,Rahul Iyer,Security Engineer,Security Engineer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",25.8,2,56,"SQL for Data Analysis, Deep Learning with TensorFlow"
+S0400,Lavanya Kulkarni,Backend Developer,Cloud Engineer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",58.3,4,161,"SQL for Data Analysis, Data Structures & Algorithms Masterclass"
+S0401,Siddharth Kulkarni,Security Engineer,Software Engineer,"Python, Machine Learning, DSA","DSA, Python, SQL, Statistics, TensorFlow",61.3,4,173,"Data Structures & Algorithms Masterclass, SQL for Data Analysis, Deep Learning with TensorFlow"
+S0402,Vivek Pillai,Data Analyst,Data Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0403,Varun Kapoor,DevOps Engineer,DevOps Engineer,"Python, DSA","Python, DSA, SQL, Statistics",20.8,2,44,SQL for Data Analysis
+S0404,Aditi Chatterjee,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",36.4,5,85,"Statistics for Data Science, Deep Learning with TensorFlow"
+S0405,Pallavi Saxena,Security Engineer,DevOps Engineer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",66.1,4,194,"Data Structures & Algorithms Masterclass, SQL for Data Analysis, Statistics for Data Science"
+S0406,Bhavna Joshi,Software Engineer,Software Engineer,"Python, DSA","DSA, Python, SQL, Statistics",21.4,3,45,SQL for Data Analysis
+S0407,Riya Reddy,Frontend Developer,Frontend Developer,No skills above proficiency level 3,"DSA, Python, SQL",42.9,3,106,Data Structures & Algorithms Masterclass
+S0408,Ira Verma,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",22.7,5,48,Statistics for Data Science
+S0409,Vivek Menon,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",30.6,4,68,SQL for Data Analysis
+S0410,Simran Chatterjee,Cloud Engineer,Frontend Developer,"Python, SQL","DSA, Python, SQL, Statistics, Machine Learning",42.6,3,105,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0411,Divya Bhatt,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0412,Dev Kulkarni,Cloud Engineer,Cybersecurity Analyst,"Python, SQL, Machine Learning, DSA","DSA, Python, SQL, Statistics, Machine Learning",18.0,2,37,Statistics for Data Science
+S0413,Yash Patel,Frontend Developer,Frontend Developer,DSA,"DSA, Python, SQL",28.6,2,63,Python Programming Fundamentals
+S0414,Tanya Tiwari,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",40.0,5,96,"Python Programming Fundamentals, Machine Learning Specialization"
+S0415,Aditya Kulkarni,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",20.0,5,42,Python Programming Fundamentals
+S0416,Anjali Bansal,DevOps Engineer,Frontend Developer,"Python, DSA","Python, DSA, SQL, Statistics",72.9,3,224,"Python Programming Fundamentals, SQL for Data Analysis, Statistics for Data Science"
+S0417,Pranav Chawla,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0418,Naveen Yadav,Frontend Developer,Cloud Engineer,DSA,"DSA, Python, SQL",0.0,3,5,No major gap - Advanced/Portfolio-building courses recommended
+S0419,Meera Verma,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",20.0,5,42,Machine Learning Specialization
+S0420,Naveen Saxena,Machine Learning Engineer,Machine Learning Engineer,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",12.0,3,25,SQL for Data Analysis
+S0421,Vihaan Bansal,DevOps Engineer,DevOps Engineer,"Python, SQL","Python, DSA, SQL, Statistics",27.1,3,59,Data Structures & Algorithms Masterclass
+S0422,Tanya Bansal,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0423,Raghav Gupta,Frontend Developer,Security Engineer,DSA,"DSA, Python, SQL",28.6,2,63,Python Programming Fundamentals
+S0424,Abhinav Chatterjee,Machine Learning Engineer,Machine Learning Engineer,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",12.0,3,25,SQL for Data Analysis
+S0425,Tanvi Kulkarni,Frontend Developer,Frontend Developer,DSA,"DSA, Python, SQL",28.6,2,63,SQL for Data Analysis
+S0426,Tarun Gupta,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",31.8,4,72,"SQL for Data Analysis, Deep Learning with TensorFlow"
+S0427,Meera Patel,Machine Learning Engineer,Machine Learning Engineer,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",12.0,3,25,SQL for Data Analysis
+S0428,Vikram Kulkarni,Data Scientist,Data Analyst,"Python, SQL, Machine Learning, DSA, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",50.0,4,130,"SQL for Data Analysis, Machine Learning Specialization, Deep Learning with TensorFlow"
+S0429,Karan Saxena,Data Analyst,Data Analyst,"Python, SQL, Machine Learning, Statistics","SQL, Statistics, Python, Machine Learning, DSA",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0430,Akash Agarwal,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",27.8,4,61,Python Programming Fundamentals
+S0431,Manya Mehta,Backend Developer,Backend Developer,"Python, SQL, DSA, Statistics","SQL, DSA, Python, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0432,Tanya Iyer,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",16.7,4,35,Data Structures & Algorithms Masterclass
+S0433,Sneha Bansal,Cloud Engineer,DevOps Engineer,"Python, Machine Learning, DSA","DSA, Python, SQL, Statistics, Machine Learning",39.3,3,94,"SQL for Data Analysis, Statistics for Data Science"
+S0434,Karan Kulkarni,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",20.8,5,44,Deep Learning with TensorFlow
+S0435,Meera Iyer,Security Engineer,Security Engineer,DSA,"DSA, Python, SQL, Statistics, TensorFlow",59.7,4,167,"Data Structures & Algorithms Masterclass, Python Programming Fundamentals"
+S0436,Siddharth Bhatt,DevOps Engineer,Frontend Developer,"Python, SQL","Python, DSA, SQL, Statistics",79.2,3,254,"Python Programming Fundamentals, Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0437,Aditya Desai,Business Intelligence Analyst,Business Intelligence Analyst,SQL,"SQL, Statistics, Python",36.4,4,85,Statistics for Data Science
+S0438,Ishaan Sharma,Security Engineer,Security Engineer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",9.7,1,21,Deep Learning with TensorFlow
+S0439,Gaurav Bose,Data Analyst,Business Intelligence Analyst,"SQL, TensorFlow, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",33.3,3,76,"Python Programming Fundamentals, Machine Learning Specialization"
+S0440,Siddharth Gupta,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",40.0,5,96,"Python Programming Fundamentals, Machine Learning Specialization"
+S0441,Rahul Iyer,Backend Developer,Backend Developer,"Python, SQL, DSA, Statistics","SQL, DSA, Python, Statistics",58.3,4,161,"SQL for Data Analysis, Data Structures & Algorithms Masterclass"
+S0442,Gaurav Iyer,Software Engineer,Security Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",14.3,2,30,Statistics for Data Science
+S0443,Kavya Bose,Frontend Developer,Frontend Developer,DSA,"DSA, Python, SQL",57.1,2,157,"Python Programming Fundamentals, SQL for Data Analysis"
+S0444,Sanjay Mishra,Backend Developer,DevOps Engineer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",72.2,4,221,"SQL for Data Analysis, Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0445,Bhavna Chawla,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",58.3,5,161,"Machine Learning Specialization, Deep Learning with TensorFlow, Data Structures & Algorithms Masterclass"
+S0446,Ananya Desai,Data Analyst,Cloud Engineer,"Python, SQL, Machine Learning, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",26.7,4,58,Statistics for Data Science
+S0447,Meera Nair,Data Analyst,Business Intelligence Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",13.3,2,28,Machine Learning Specialization
+S0448,Aarav Agarwal,Machine Learning Engineer,Machine Learning Engineer,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",28.0,4,61,"Statistics for Data Science, SQL for Data Analysis"
+S0449,Manya Malhotra,Data Analyst,Data Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",26.7,4,58,Statistics for Data Science
+S0450,Vikram Singh,Data Analyst,Data Analyst,"Python, SQL, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",13.3,2,28,Machine Learning Specialization
+S0451,Kritika Verma,Cloud Engineer,Cybersecurity Analyst,"SQL, DSA, Statistics","DSA, Python, SQL, Statistics, Machine Learning",24.6,3,53,Python Programming Fundamentals
+S0452,Vikram Rao,Cloud Engineer,Cloud Engineer,"Python, SQL, TensorFlow, DSA, Statistics","DSA, Python, SQL, Statistics, Machine Learning",11.5,1,24,Machine Learning Specialization
+S0453,Gaurav Pillai,Business Intelligence Analyst,Business Intelligence Analyst,"Python, SQL, Statistics","SQL, Statistics, Python",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0454,Arjun Gupta,Full Stack Developer,Frontend Developer,"SQL, DSA","DSA, Python, SQL, Statistics",26.8,3,58,Python Programming Fundamentals
+S0455,Manya Pillai,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",18.2,4,38,Python Programming Fundamentals
+S0456,Diya Gupta,DevOps Engineer,Frontend Developer,Python,"Python, DSA, SQL, Statistics",79.2,3,254,"Python Programming Fundamentals, Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0457,Divya Khanna,Backend Developer,Backend Developer,"Python, SQL, TensorFlow, DSA","SQL, DSA, Python, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0458,Neha Gupta,Cloud Engineer,Cybersecurity Analyst,"Python, SQL, Machine Learning","DSA, Python, SQL, Statistics, Machine Learning",42.6,3,105,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0459,Sanjay Kulkarni,Security Engineer,Cloud Engineer,"TensorFlow, DSA","DSA, Python, SQL, Statistics, TensorFlow",59.7,4,167,"Data Structures & Algorithms Masterclass, Python Programming Fundamentals"
+S0460,Vivek Agarwal,Software Engineer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",14.3,2,30,Statistics for Data Science
+S0461,Swati Bansal,Software Engineer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0462,Swati Bose,Cloud Engineer,Cloud Engineer,SQL,"DSA, Python, SQL, Statistics, Machine Learning",67.2,3,198,"Data Structures & Algorithms Masterclass, Python Programming Fundamentals, Statistics for Data Science"
+S0463,Raghav Saxena,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",22.7,5,48,Statistics for Data Science
+S0464,Tanvi Iyer,Software Engineer,Software Engineer,"Python, DSA","DSA, Python, SQL, Statistics",21.4,3,45,SQL for Data Analysis
+S0465,Karan Agarwal,Data Analyst,Data Analyst,"SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",33.3,3,76,"Python Programming Fundamentals, Machine Learning Specialization"
+S0466,Rahul Malhotra,Data Analyst,Data Analyst,"SQL, Machine Learning, Statistics","SQL, Statistics, Python, Machine Learning, DSA",20.0,3,42,Python Programming Fundamentals
+S0467,Nisha Bose,Security Engineer,Full Stack Developer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",45.2,4,113,"Data Structures & Algorithms Masterclass, Deep Learning with TensorFlow"
+S0468,Manish Tiwari,Data Analyst,Business Intelligence Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",13.3,2,28,Data Structures & Algorithms Masterclass
+S0469,Manish Agarwal,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",20.8,5,44,Machine Learning Specialization
+S0470,Diya Bhatt,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",30.6,4,68,SQL for Data Analysis
+S0471,Shreya Mishra,Data Analyst,Business Intelligence Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",40.0,4,96,"Statistics for Data Science, Data Structures & Algorithms Masterclass"
+S0472,Ananya Chatterjee,Cybersecurity Analyst,Cybersecurity Analyst,"SQL, DSA, Statistics","DSA, Statistics, Python, SQL, Machine Learning",32.7,2,74,"Python Programming Fundamentals, Machine Learning Specialization"
+S0473,Priya Kulkarni,Software Engineer,Data Analyst,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics",28.6,4,63,Python Programming Fundamentals
+S0474,Divya Rao,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",44.4,4,111,"SQL for Data Analysis, Statistics for Data Science"
+S0475,Rahul Bhatt,Software Engineer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",14.3,2,30,Statistics for Data Science
+S0476,Rohan Bansal,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",40.9,5,99,"Statistics for Data Science, SQL for Data Analysis"
+S0477,Neha Yadav,Machine Learning Engineer,AI Researcher,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0478,Sahil Saxena,Data Analyst,Data Analyst,"SQL, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",46.7,4,118,"Statistics for Data Science, Python Programming Fundamentals"
+S0479,Manish Iyer,Backend Developer,Cybersecurity Analyst,"Python, SQL, DSA, Statistics","SQL, DSA, Python, Statistics",55.6,4,151,"Data Structures & Algorithms Masterclass, Python Programming Fundamentals"
+S0480,Siddharth Mishra,Security Engineer,Cloud Engineer,DSA,"DSA, Python, SQL, Statistics, TensorFlow",69.4,4,208,"Data Structures & Algorithms Masterclass, Python Programming Fundamentals, Deep Learning with TensorFlow"
+S0481,Aman Mehta,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0482,Pallavi Pillai,Cloud Engineer,Full Stack Developer,"Python, Machine Learning, DSA","DSA, Python, SQL, Statistics, Machine Learning",39.3,3,94,"SQL for Data Analysis, Statistics for Data Science"
+S0483,Kavya Pillai,Cloud Engineer,Cloud Engineer,"Python, DSA, Statistics","DSA, Python, SQL, Statistics, Machine Learning",21.3,3,45,SQL for Data Analysis
+S0484,Kunal Bose,Backend Developer,Full Stack Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",58.3,4,161,"SQL for Data Analysis, Data Structures & Algorithms Masterclass"
+S0485,Aditi Chatterjee,Software Engineer,Software Engineer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics",35.7,5,83,Data Structures & Algorithms Masterclass
+S0486,Sahil Singh,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0487,Meera Joshi,Software Engineer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",14.3,2,30,Statistics for Data Science
+S0488,Neha Saxena,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",45.5,5,114,SQL for Data Analysis
+S0489,Gaurav Nair,DevOps Engineer,DevOps Engineer,"Python, DSA","Python, DSA, SQL, Statistics",52.1,3,138,"Python Programming Fundamentals, Statistics for Data Science"
+S0490,Arjun Tiwari,Full Stack Developer,DevOps Engineer,"SQL, DSA","DSA, Python, SQL, Statistics",41.1,3,100,"Python Programming Fundamentals, Statistics for Data Science"
+S0491,Mohit Bansal,Full Stack Developer,Full Stack Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0492,Meera Choudhary,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0493,Lavanya Nair,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0494,Yash Desai,Data Analyst,Data Analyst,"SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",60.0,4,168,"SQL for Data Analysis, Python Programming Fundamentals, Machine Learning Specialization"
+S0495,Simran Agarwal,Frontend Developer,Cloud Engineer,"SQL, DSA","DSA, Python, SQL",0.0,3,5,No major gap - Advanced/Portfolio-building courses recommended
+S0496,Karan Rao,Software Engineer,Backend Developer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics",35.7,5,83,Data Structures & Algorithms Masterclass
+S0497,Aditya Khanna,Security Engineer,Cloud Engineer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",45.2,4,113,"Data Structures & Algorithms Masterclass, Deep Learning with TensorFlow"
+S0498,Arjun Bhatt,Frontend Developer,DevOps Engineer,DSA,"DSA, Python, SQL",28.6,2,63,SQL for Data Analysis
+S0499,Abhinav Nair,Cybersecurity Analyst,Frontend Developer,"DSA, Statistics","DSA, Statistics, Python, SQL, Machine Learning",41.8,2,102,"Python Programming Fundamentals, SQL for Data Analysis"
+S0500,Varun Desai,DevOps Engineer,DevOps Engineer,Python,"Python, DSA, SQL, Statistics",100.0,3,365,"Python Programming Fundamentals, Data Structures & Algorithms Masterclass, SQL for Data Analysis, Statistics for Data Science"
+S0501,Aarav Sharma,DevOps Engineer,DevOps Engineer,"Python, DSA","Python, DSA, SQL, Statistics",0.0,3,5,No major gap - Advanced/Portfolio-building courses recommended
+S0502,Tanvi Pillai,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",20.8,5,44,Machine Learning Specialization
+S0503,Shreya Bose,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",9.1,2,20,Data Structures & Algorithms Masterclass
+S0504,Vidya Agarwal,Software Engineer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0505,Vivek Mehta,Cloud Engineer,DevOps Engineer,"Python, DSA, Statistics","DSA, Python, SQL, Statistics, Machine Learning",21.3,3,45,SQL for Data Analysis
+S0506,Aditya Sharma,Security Engineer,Security Engineer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",61.3,4,173,"Data Structures & Algorithms Masterclass, SQL for Data Analysis, Deep Learning with TensorFlow"
+S0507,Sneha Kapoor,Cybersecurity Analyst,DevOps Engineer,Statistics,"DSA, Statistics, Python, SQL, Machine Learning",76.4,3,240,"Data Structures & Algorithms Masterclass, Python Programming Fundamentals, SQL for Data Analysis, Machine Learning Specialization"
+S0508,Saurabh Bhatt,Software Engineer,Backend Developer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0509,Bhavna Singh,Frontend Developer,DevOps Engineer,DSA,"DSA, Python, SQL",0.0,3,5,No major gap - Advanced/Portfolio-building courses recommended
+S0510,Nikhil Verma,Cybersecurity Analyst,Cloud Engineer,SQL,"DSA, Statistics, Python, SQL, Machine Learning",80.0,3,258,"Data Structures & Algorithms Masterclass, Statistics for Data Science, Python Programming Fundamentals, Machine Learning Specialization"
+S0511,Kritika Gupta,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0512,Vihaan Sinha,Machine Learning Engineer,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",40.0,5,96,"Python Programming Fundamentals, Machine Learning Specialization"
+S0513,Radhika Rao,DevOps Engineer,DevOps Engineer,"Python, SQL","Python, DSA, SQL, Statistics",79.2,3,254,"Python Programming Fundamentals, Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0514,Kavya Kapoor,Cybersecurity Analyst,Full Stack Developer,"Python, DSA, Statistics","DSA, Statistics, Python, SQL, Machine Learning",20.0,2,42,SQL for Data Analysis
+S0515,Riya Saxena,Frontend Developer,Frontend Developer,DSA,"DSA, Python, SQL",0.0,3,5,No major gap - Advanced/Portfolio-building courses recommended
+S0516,Sakshi Sharma,Frontend Developer,Frontend Developer,"TensorFlow, DSA","DSA, Python, SQL",0.0,3,5,No major gap - Advanced/Portfolio-building courses recommended
+S0517,Kunal Tiwari,Data Analyst,Full Stack Developer,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",26.7,4,58,Statistics for Data Science
+S0518,Kavya Bansal,Cybersecurity Analyst,Cybersecurity Analyst,"DSA, Statistics","DSA, Statistics, Python, SQL, Machine Learning",52.7,2,140,"Python Programming Fundamentals, SQL for Data Analysis, Machine Learning Specialization"
+S0519,Shreya Agarwal,Software Engineer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0520,Bhavna Bansal,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",36.0,5,84,"Python Programming Fundamentals, Deep Learning with TensorFlow"
+S0521,Karan Patel,Full Stack Developer,Cloud Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",46.4,4,117,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0522,Karan Mehta,Full Stack Developer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",14.3,2,30,Statistics for Data Science
+S0523,Abhinav Khanna,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",20.8,5,44,Machine Learning Specialization
+S0524,Gaurav Mishra,Cloud Engineer,Cybersecurity Analyst,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics, Machine Learning",11.5,1,24,Machine Learning Specialization
+S0525,Pooja Iyer,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0526,Nisha Gupta,Security Engineer,Security Engineer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",45.2,4,113,"Data Structures & Algorithms Masterclass, Deep Learning with TensorFlow"
+S0527,Riya Sinha,Backend Developer,Data Analyst,"Python, SQL, DSA, Statistics","SQL, DSA, Python, Statistics",58.3,4,161,"SQL for Data Analysis, Python Programming Fundamentals"
+S0528,Aditi Sinha,Data Analyst,Data Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",13.3,2,28,Data Structures & Algorithms Masterclass
+S0529,Nisha Malhotra,Data Analyst,Data Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0530,Yash Verma,Cloud Engineer,Cloud Engineer,"Python, Machine Learning, DSA","DSA, Python, SQL, Statistics, Machine Learning",39.3,3,94,"SQL for Data Analysis, Statistics for Data Science"
+S0531,Vidya Sharma,AI Researcher,Machine Learning Engineer,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",16.7,4,35,Data Structures & Algorithms Masterclass
+S0532,Vikram Chatterjee,Cybersecurity Analyst,Cybersecurity Analyst,"SQL, DSA, Statistics","DSA, Statistics, Python, SQL, Machine Learning",32.7,2,74,"Python Programming Fundamentals, Machine Learning Specialization"
+S0533,Aditi Mishra,Data Analyst,Full Stack Developer,"Python, SQL, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",13.3,2,28,Machine Learning Specialization
+S0534,Tanya Verma,Data Analyst,Data Scientist,"Python, SQL, Machine Learning, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0535,Karan Chawla,Full Stack Developer,Software Engineer,"Python, SQL, TensorFlow, DSA","DSA, Python, SQL, Statistics",14.3,2,30,Statistics for Data Science
+S0536,Vihaan Agarwal,Machine Learning Engineer,Machine Learning Engineer,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",28.0,4,61,"Deep Learning with TensorFlow, SQL for Data Analysis"
+S0537,Simran Rao,Cybersecurity Analyst,Cloud Engineer,"Python, DSA, Statistics","DSA, Statistics, Python, SQL, Machine Learning",30.9,2,69,"SQL for Data Analysis, Machine Learning Specialization"
+S0538,Rohan Patel,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",9.1,2,20,Data Structures & Algorithms Masterclass
+S0539,Vidya Nair,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, DSA, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",31.8,4,72,"Machine Learning Specialization, Deep Learning with TensorFlow"
+S0540,Saurabh Singh,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",27.8,4,61,Python Programming Fundamentals
+S0541,Vikram Patel,Software Engineer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",42.9,4,106,"Python Programming Fundamentals, Statistics for Data Science"
+S0542,Akash Nair,Full Stack Developer,Backend Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",32.1,4,73,Data Structures & Algorithms Masterclass
+S0543,Sahil Verma,Cybersecurity Analyst,Cybersecurity Analyst,"SQL, DSA, Statistics","DSA, Statistics, Python, SQL, Machine Learning",32.7,2,74,"Python Programming Fundamentals, Machine Learning Specialization"
+S0544,Aarav Pillai,Cloud Engineer,Cloud Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics, Machine Learning",18.0,2,37,Statistics for Data Science
+S0545,Raghav Khanna,DevOps Engineer,Frontend Developer,"Python, DSA","Python, DSA, SQL, Statistics",0.0,3,5,No major gap - Advanced/Portfolio-building courses recommended
+S0546,Vihaan Gupta,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",41.7,5,102,"Python Programming Fundamentals, Deep Learning with TensorFlow"
+S0547,Rahul Kulkarni,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0548,Tarun Rao,Security Engineer,Software Engineer,"SQL, DSA, Statistics","DSA, Python, SQL, Statistics, TensorFlow",33.9,3,78,"Python Programming Fundamentals, Deep Learning with TensorFlow"
+S0549,Varun Chatterjee,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",36.0,5,84,"Python Programming Fundamentals, Deep Learning with TensorFlow"
+S0550,Meera Sharma,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",36.0,5,84,"Python Programming Fundamentals, Data Structures & Algorithms Masterclass"
+S0551,Gaurav Rao,Cybersecurity Analyst,Cloud Engineer,"Python, DSA, Statistics","DSA, Statistics, Python, SQL, Machine Learning",30.9,2,69,"SQL for Data Analysis, Machine Learning Specialization"
+S0552,Tanya Iyer,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",22.7,5,48,Statistics for Data Science
+S0553,Pallavi Menon,Frontend Developer,Full Stack Developer,DSA,"DSA, Python, SQL",28.6,2,63,SQL for Data Analysis
+S0554,Sakshi Choudhary,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",18.2,2,38,Python Programming Fundamentals
+S0555,Varun Bansal,Data Analyst,Business Intelligence Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",13.3,2,28,Machine Learning Specialization
+S0556,Ritika Bose,Data Analyst,Business Intelligence Analyst,"Python, SQL, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0557,Dev Yadav,Cloud Engineer,Cloud Engineer,"Python, Machine Learning, DSA, Statistics","DSA, Python, SQL, Statistics, Machine Learning",21.3,3,45,SQL for Data Analysis
+S0558,Saurabh Tiwari,DevOps Engineer,DevOps Engineer,"Python, DSA","Python, DSA, SQL, Statistics",56.3,3,154,"Python Programming Fundamentals, SQL for Data Analysis"
+S0559,Anjali Pillai,Security Engineer,Cloud Engineer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",59.7,4,167,"Data Structures & Algorithms Masterclass, Statistics for Data Science, Deep Learning with TensorFlow"
+S0560,Vidya Mehta,DevOps Engineer,DevOps Engineer,"Python, DSA","Python, DSA, SQL, Statistics",16.7,2,35,Statistics for Data Science
+S0561,Shreya Bose,Data Analyst,Data Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",13.3,2,28,Data Structures & Algorithms Masterclass
+S0562,Akash Chatterjee,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, DSA, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",36.4,5,85,"Statistics for Data Science, Deep Learning with TensorFlow"
+S0563,Vihaan Desai,Software Engineer,Security Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",14.3,2,30,Statistics for Data Science
+S0564,Sakshi Verma,Backend Developer,Backend Developer,"Python, SQL, Machine Learning, DSA, Statistics","SQL, DSA, Python, Statistics",27.8,4,61,Data Structures & Algorithms Masterclass
+S0565,Gaurav Malhotra,DevOps Engineer,DevOps Engineer,Python,"Python, DSA, SQL, Statistics",100.0,3,365,"Python Programming Fundamentals, Data Structures & Algorithms Masterclass, SQL for Data Analysis, Statistics for Data Science"
+S0566,Isha Iyer,Data Analyst,Backend Developer,"Python, SQL, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",26.7,4,58,Statistics for Data Science
+S0567,Swati Iyer,Software Engineer,Software Engineer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics",35.7,5,83,Data Structures & Algorithms Masterclass
+S0568,Mohit Gupta,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0569,Raghav Choudhary,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",18.2,2,38,Python Programming Fundamentals
+S0570,Vivek Pillai,Cybersecurity Analyst,Cloud Engineer,No skills above proficiency level 3,"DSA, Statistics, Python, SQL, Machine Learning",100.0,3,365,"Data Structures & Algorithms Masterclass, Statistics for Data Science, Python Programming Fundamentals, SQL for Data Analysis, Machine Learning Specialization"
+S0571,Rohan Chatterjee,Frontend Developer,Cybersecurity Analyst,DSA,"DSA, Python, SQL",28.6,2,63,SQL for Data Analysis
+S0572,Vihaan Nair,Cloud Engineer,Cybersecurity Analyst,"Python, DSA","DSA, Python, SQL, Statistics, Machine Learning",39.3,3,94,"SQL for Data Analysis, Statistics for Data Science"
+S0573,Vihaan Iyer,Full Stack Developer,Full Stack Developer,"SQL, DSA","DSA, Python, SQL, Statistics",41.1,3,100,"Python Programming Fundamentals, Statistics for Data Science"
+S0574,Kavya Bansal,Cybersecurity Analyst,Data Analyst,"Python, Statistics","DSA, Statistics, Python, SQL, Machine Learning",43.6,3,108,"Data Structures & Algorithms Masterclass, SQL for Data Analysis"
+S0575,Aman Rao,Security Engineer,DevOps Engineer,"Python, DSA, Statistics","DSA, Python, SQL, Statistics, TensorFlow",45.2,4,113,"Data Structures & Algorithms Masterclass, Deep Learning with TensorFlow"
+S0576,Tarun Bose,Frontend Developer,Frontend Developer,DSA,"DSA, Python, SQL",0.0,3,5,No major gap - Advanced/Portfolio-building courses recommended
+S0577,Tanya Pillai,Software Engineer,Software Engineer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0578,Divya Khanna,Security Engineer,DevOps Engineer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",50.0,4,130,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0579,Ananya Mehta,Software Engineer,Software Engineer,"Python, DSA, Statistics","DSA, Python, SQL, Statistics",21.4,3,45,SQL for Data Analysis
+S0580,Harsh Saxena,Software Engineer,Security Engineer,"Python, DSA, Statistics","DSA, Python, SQL, Statistics",21.4,3,45,SQL for Data Analysis
+S0581,Saurabh Patel,Data Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",20.0,3,42,Python Programming Fundamentals
+S0582,Sanjay Bhatt,Cloud Engineer,DevOps Engineer,"Python, SQL","DSA, Python, SQL, Statistics, Machine Learning",42.6,3,105,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0583,Pranav Bhatt,Cybersecurity Analyst,Frontend Developer,"Machine Learning, DSA","DSA, Statistics, Python, SQL, Machine Learning",65.5,3,191,"Statistics for Data Science, Python Programming Fundamentals, SQL for Data Analysis"
+S0584,Ishaan Mehta,AI Researcher,Machine Learning Engineer,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",41.7,5,102,"Deep Learning with TensorFlow, Statistics for Data Science"
+S0585,Ishaan Gupta,Frontend Developer,Security Engineer,"SQL, TensorFlow, DSA","DSA, Python, SQL",0.0,3,5,No major gap - Advanced/Portfolio-building courses recommended
+S0586,Rohan Bose,Cybersecurity Analyst,Cybersecurity Analyst,No skills above proficiency level 3,"DSA, Statistics, Python, SQL, Machine Learning",100.0,3,365,"Data Structures & Algorithms Masterclass, Statistics for Data Science, Python Programming Fundamentals, SQL for Data Analysis, Machine Learning Specialization"
+S0587,Vihaan Saxena,DevOps Engineer,DevOps Engineer,"Python, DSA","Python, DSA, SQL, Statistics",0.0,3,5,No major gap - Advanced/Portfolio-building courses recommended
+S0588,Lavanya Mishra,Cloud Engineer,Cloud Engineer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics, Machine Learning",0.0,3,5,No major gap - Advanced/Portfolio-building courses recommended
+S0589,Shreya Chatterjee,Full Stack Developer,Full Stack Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",14.3,2,30,Statistics for Data Science
+S0590,Simran Patel,Security Engineer,Security Engineer,DSA,"DSA, Python, SQL, Statistics, TensorFlow",33.9,3,78,"Python Programming Fundamentals, Deep Learning with TensorFlow"
+S0591,Aditi Mehta,Software Engineer,Full Stack Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",35.7,5,83,Data Structures & Algorithms Masterclass
+S0592,Dev Sharma,Machine Learning Engineer,Machine Learning Engineer,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",48.0,5,123,"Python Programming Fundamentals, Deep Learning with TensorFlow, SQL for Data Analysis"
+S0593,Sneha Gupta,Machine Learning Engineer,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",28.0,4,61,"Statistics for Data Science, SQL for Data Analysis"
+S0594,Rohan Verma,Security Engineer,Security Engineer,DSA,"DSA, Python, SQL, Statistics, TensorFlow",33.9,3,78,"Python Programming Fundamentals, Deep Learning with TensorFlow"
+S0595,Yash Joshi,Software Engineer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",14.3,2,30,Statistics for Data Science
+S0596,Diya Malhotra,Security Engineer,Security Engineer,"SQL, DSA","DSA, Python, SQL, Statistics, TensorFlow",33.9,3,78,"Python Programming Fundamentals, Deep Learning with TensorFlow"
+S0597,Aditya Kapoor,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",36.0,5,84,"Machine Learning Specialization, Deep Learning with TensorFlow"
+S0598,Gaurav Chawla,Data Analyst,Data Analyst,"Python, SQL, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",13.3,2,28,Machine Learning Specialization
+S0599,Dev Joshi,Software Engineer,Backend Developer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0600,Simran Bansal,DevOps Engineer,DevOps Engineer,Python,"Python, DSA, SQL, Statistics",62.5,3,178,"Python Programming Fundamentals, Data Structures & Algorithms Masterclass"
+S0601,Ritika Malhotra,Software Engineer,Backend Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",14.3,2,30,Statistics for Data Science
+S0602,Divya Tiwari,Data Analyst,Data Analyst,"Python, SQL, Machine Learning, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0603,Rohan Rao,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0604,Aditya Bhatt,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",36.4,4,85,Statistics for Data Science
+S0605,Akash Malhotra,Cybersecurity Analyst,Cybersecurity Analyst,Statistics,"DSA, Statistics, Python, SQL, Machine Learning",76.4,3,240,"Data Structures & Algorithms Masterclass, Python Programming Fundamentals, SQL for Data Analysis, Machine Learning Specialization"
+S0606,Ritika Menon,Cybersecurity Analyst,Cybersecurity Analyst,"Python, SQL, Statistics","DSA, Statistics, Python, SQL, Machine Learning",34.5,3,79,"Data Structures & Algorithms Masterclass, Machine Learning Specialization"
+S0607,Varun Sinha,AI Researcher,AI Researcher,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0608,Ishaan Tiwari,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",27.3,4,60,"Python Programming Fundamentals, Data Structures & Algorithms Masterclass"
+S0609,Varun Mehta,DevOps Engineer,Full Stack Developer,"Python, DSA","Python, DSA, SQL, Statistics",52.1,3,138,"Python Programming Fundamentals, Statistics for Data Science"
+S0610,Tanya Nair,Backend Developer,Backend Developer,"Python, SQL, DSA, Statistics","SQL, DSA, Python, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0611,Radhika Sinha,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, DSA, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",13.6,3,28,Deep Learning with TensorFlow
+S0612,Pranav Gupta,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",56.0,5,152,"Python Programming Fundamentals, Machine Learning Specialization, Deep Learning with TensorFlow"
+S0613,Ishaan Verma,DevOps Engineer,Frontend Developer,"Python, SQL","Python, DSA, SQL, Statistics",79.2,3,254,"Python Programming Fundamentals, Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0614,Vidya Yadav,Full Stack Developer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",14.3,2,30,Statistics for Data Science
+S0615,Radhika Bansal,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",16.0,4,33,Deep Learning with TensorFlow
+S0616,Ishaan Pillai,Security Engineer,Security Engineer,DSA,"DSA, Python, SQL, Statistics, TensorFlow",24.2,3,52,Python Programming Fundamentals
+S0617,Ishaan Saxena,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, TensorFlow, Statistics","SQL, Statistics, Python",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0618,Ananya Khanna,Security Engineer,Security Engineer,"TensorFlow, DSA","DSA, Python, SQL, Statistics, TensorFlow",75.8,4,238,"Data Structures & Algorithms Masterclass, Python Programming Fundamentals, SQL for Data Analysis"
+S0619,Aarav Singh,Data Analyst,Business Intelligence Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0620,Sahil Tiwari,Cloud Engineer,Full Stack Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics, Machine Learning",29.5,2,65,"Statistics for Data Science, Machine Learning Specialization"
+S0621,Bhavna Nair,Cloud Engineer,DevOps Engineer,"Python, SQL","DSA, Python, SQL, Statistics, Machine Learning",54.1,3,145,"Data Structures & Algorithms Masterclass, Statistics for Data Science, Machine Learning Specialization"
+S0622,Meera Bhatt,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",36.4,4,85,Statistics for Data Science
+S0623,Mohit Yadav,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0624,Akash Saxena,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",20.0,5,42,Python Programming Fundamentals
+S0625,Lavanya Desai,Software Engineer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",14.3,2,30,Statistics for Data Science
+S0626,Vidya Malhotra,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0627,Tarun Reddy,Cybersecurity Analyst,Cybersecurity Analyst,Statistics,"DSA, Statistics, Python, SQL, Machine Learning",76.4,3,240,"Data Structures & Algorithms Masterclass, Python Programming Fundamentals, SQL for Data Analysis, Machine Learning Specialization"
+S0628,Pallavi Verma,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",63.6,5,183,"SQL for Data Analysis, Python Programming Fundamentals"
+S0629,Gaurav Yadav,Cybersecurity Analyst,Cybersecurity Analyst,TensorFlow,"DSA, Statistics, Python, SQL, Machine Learning",89.1,3,304,"Data Structures & Algorithms Masterclass, Statistics for Data Science, Python Programming Fundamentals, SQL for Data Analysis"
+S0630,Isha Menon,Data Analyst,Cybersecurity Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",26.7,4,58,SQL for Data Analysis
+S0631,Shreya Rao,Security Engineer,Security Engineer,"SQL, DSA","DSA, Python, SQL, Statistics, TensorFlow",48.4,3,124,"Python Programming Fundamentals, Statistics for Data Science, Deep Learning with TensorFlow"
+S0632,Pallavi Mehta,Cloud Engineer,Cloud Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics, Machine Learning",29.5,2,65,"Statistics for Data Science, Machine Learning Specialization"
+S0633,Trisha Reddy,Security Engineer,Software Engineer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",24.2,2,52,"Statistics for Data Science, Deep Learning with TensorFlow"
+S0634,Aditya Pillai,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",9.1,2,20,Data Structures & Algorithms Masterclass
+S0635,Sakshi Agarwal,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0636,Vidya Bhatt,Data Analyst,Data Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",26.7,2,58,"Machine Learning Specialization, Data Structures & Algorithms Masterclass"
+S0637,Sneha Desai,Cybersecurity Analyst,Cybersecurity Analyst,"DSA, Statistics","DSA, Statistics, Python, SQL, Machine Learning",52.7,2,140,"Python Programming Fundamentals, SQL for Data Analysis, Machine Learning Specialization"
+S0638,Pooja Kulkarni,Data Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",46.7,4,118,"Statistics for Data Science, Python Programming Fundamentals"
+S0639,Raghav Sharma,Machine Learning Engineer,Machine Learning Engineer,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",64.0,5,185,"Machine Learning Specialization, Deep Learning with TensorFlow, Data Structures & Algorithms Masterclass, SQL for Data Analysis"
+S0640,Priya Sharma,Frontend Developer,Frontend Developer,DSA,"DSA, Python, SQL",0.0,3,5,No major gap - Advanced/Portfolio-building courses recommended
+S0641,Vivek Kulkarni,DevOps Engineer,DevOps Engineer,"Python, Machine Learning","Python, DSA, SQL, Statistics",27.1,3,59,Data Structures & Algorithms Masterclass
+S0642,Trisha Pillai,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0643,Radhika Bhatt,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",13.9,2,29,Statistics for Data Science
+S0644,Pranav Mehta,Backend Developer,Full Stack Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",58.3,4,161,"SQL for Data Analysis, Python Programming Fundamentals"
+S0645,Aman Patel,Data Analyst,Data Analyst,"Python, SQL, TensorFlow, Statistics","SQL, Statistics, Python, Machine Learning, DSA",13.3,2,28,Data Structures & Algorithms Masterclass
+S0646,Sakshi Gupta,Software Engineer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",14.3,2,30,Statistics for Data Science
+S0647,Ira Sharma,DevOps Engineer,Cybersecurity Analyst,"Python, Statistics","Python, DSA, SQL, Statistics",47.9,3,123,"Data Structures & Algorithms Masterclass, SQL for Data Analysis"
+S0648,Naveen Saxena,Data Analyst,Business Intelligence Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",13.3,2,28,Data Structures & Algorithms Masterclass
+S0649,Dev Gupta,Software Engineer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0650,Varun Sharma,Cybersecurity Analyst,Frontend Developer,SQL,"DSA, Statistics, Python, SQL, Machine Learning",69.1,3,207,"Data Structures & Algorithms Masterclass, Statistics for Data Science, Python Programming Fundamentals"
+S0651,Saurabh Chatterjee,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",27.8,4,61,Data Structures & Algorithms Masterclass
+S0652,Siddharth Gupta,Full Stack Developer,Cloud Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",14.3,2,30,Statistics for Data Science
+S0653,Vihaan Mishra,DevOps Engineer,DevOps Engineer,"Python, DSA","Python, DSA, SQL, Statistics",20.8,2,44,SQL for Data Analysis
+S0654,Divya Malhotra,Data Analyst,Data Analyst,"Python, Statistics","SQL, Statistics, Python, Machine Learning, DSA",26.7,4,58,SQL for Data Analysis
+S0655,Raghav Kapoor,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",58.3,4,161,"SQL for Data Analysis, Data Structures & Algorithms Masterclass"
+S0656,Pooja Nair,DevOps Engineer,DevOps Engineer,Python,"Python, DSA, SQL, Statistics",43.8,3,109,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0657,Aditi Mehta,Software Engineer,Security Engineer,"Python, DSA","DSA, Python, SQL, Statistics",21.4,3,45,SQL for Data Analysis
+S0658,Saurabh Gupta,Security Engineer,Full Stack Developer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",40.3,2,97,"SQL for Data Analysis, Statistics for Data Science, Deep Learning with TensorFlow"
+S0659,Neha Chawla,Cloud Engineer,DevOps Engineer,"Python, SQL","DSA, Python, SQL, Statistics, Machine Learning",54.1,3,145,"Data Structures & Algorithms Masterclass, Statistics for Data Science, Machine Learning Specialization"
+S0660,Lavanya Mishra,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",16.7,4,35,Data Structures & Algorithms Masterclass
+S0661,Vihaan Verma,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0662,Rohan Kapoor,Data Analyst,Cloud Engineer,"Python, SQL, Machine Learning, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",26.7,4,58,SQL for Data Analysis
+S0663,Ananya Iyer,DevOps Engineer,DevOps Engineer,"Python, Statistics","Python, DSA, SQL, Statistics",47.9,3,123,"Data Structures & Algorithms Masterclass, SQL for Data Analysis"
+S0664,Sakshi Chawla,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",20.8,5,44,Deep Learning with TensorFlow
+S0665,Swati Patel,Backend Developer,Software Engineer,"Python, SQL, DSA, Statistics","SQL, DSA, Python, Statistics",58.3,4,161,"SQL for Data Analysis, Python Programming Fundamentals"
+S0666,Pallavi Iyer,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",27.8,4,61,Python Programming Fundamentals
+S0667,Dev Chatterjee,Cloud Engineer,Cloud Engineer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics, Machine Learning",0.0,3,5,No major gap - Advanced/Portfolio-building courses recommended
+S0668,Sahil Patel,Full Stack Developer,Cloud Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",46.4,4,117,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0669,Rahul Sinha,Data Analyst,Data Analyst,"Python, SQL, Machine Learning, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0670,Siddharth Bansal,Security Engineer,DevOps Engineer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",75.8,4,238,"Data Structures & Algorithms Masterclass, SQL for Data Analysis, Statistics for Data Science, Deep Learning with TensorFlow"
+S0671,Gaurav Rao,Backend Developer,Backend Developer,"SQL, DSA","SQL, DSA, Python, Statistics",41.7,4,102,"Python Programming Fundamentals, Statistics for Data Science"
+S0672,Kritika Agarwal,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",18.2,2,38,Python Programming Fundamentals
+S0673,Tanvi Sharma,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0674,Aditi Saxena,AI Researcher,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0675,Kavya Choudhary,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",63.6,5,183,"SQL for Data Analysis, Python Programming Fundamentals"
+S0676,Arjun Chatterjee,Security Engineer,Security Engineer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",40.3,2,97,"SQL for Data Analysis, Statistics for Data Science, Deep Learning with TensorFlow"
+S0677,Diya Saxena,Software Engineer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0678,Abhinav Bansal,Cybersecurity Analyst,Frontend Developer,DSA,"DSA, Statistics, Python, SQL, Machine Learning",76.4,3,240,"Statistics for Data Science, Python Programming Fundamentals, SQL for Data Analysis, Machine Learning Specialization"
+S0679,Aarav Menon,Data Analyst,Data Analyst,"Python, SQL, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0680,Anjali Choudhary,Cloud Engineer,DevOps Engineer,"SQL, DSA","DSA, Python, SQL, Statistics, Machine Learning",42.6,3,105,"Python Programming Fundamentals, Statistics for Data Science"
+S0681,Raghav Reddy,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",44.4,4,111,"SQL for Data Analysis, Statistics for Data Science"
+S0682,Sanjay Iyer,Security Engineer,Security Engineer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",59.7,4,167,"Data Structures & Algorithms Masterclass, Statistics for Data Science, Deep Learning with TensorFlow"
+S0683,Swati Iyer,Data Analyst,Data Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",26.7,4,58,Statistics for Data Science
+S0684,Aarav Joshi,Security Engineer,DevOps Engineer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",61.3,4,173,"Data Structures & Algorithms Masterclass, SQL for Data Analysis, Deep Learning with TensorFlow"
+S0685,Radhika Bose,Business Intelligence Analyst,Business Intelligence Analyst,"Python, SQL, Statistics","SQL, Statistics, Python",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0686,Sneha Khanna,Backend Developer,Software Engineer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0687,Rahul Menon,Data Analyst,Business Intelligence Analyst,"Python, SQL, TensorFlow, Statistics","SQL, Statistics, Python, Machine Learning, DSA",53.3,4,142,"SQL for Data Analysis, Machine Learning Specialization, Data Structures & Algorithms Masterclass"
+S0688,Vihaan Pillai,Frontend Developer,DevOps Engineer,No skills above proficiency level 3,"DSA, Python, SQL",42.9,3,106,Data Structures & Algorithms Masterclass
+S0689,Harsh Choudhary,DevOps Engineer,DevOps Engineer,"Python, SQL","Python, DSA, SQL, Statistics",27.1,3,59,Data Structures & Algorithms Masterclass
+S0690,Kunal Singh,Software Engineer,Software Engineer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics",28.6,4,63,Python Programming Fundamentals
+S0691,Sakshi Pillai,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",45.5,5,114,SQL for Data Analysis
+S0692,Aditya Tiwari,Full Stack Developer,Frontend Developer,"SQL, DSA","DSA, Python, SQL, Statistics",73.2,4,225,"Data Structures & Algorithms Masterclass, Python Programming Fundamentals, Statistics for Data Science"
+S0693,Rohan Menon,Software Engineer,Software Engineer,"Python, SQL, TensorFlow, DSA, Statistics","DSA, Python, SQL, Statistics",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0694,Lavanya Bhatt,AI Researcher,AI Researcher,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",20.8,5,44,Machine Learning Specialization
+S0695,Vikram Choudhary,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",63.6,5,183,"SQL for Data Analysis, Python Programming Fundamentals"
+S0696,Pallavi Bansal,DevOps Engineer,Backend Developer,"Python, SQL","Python, DSA, SQL, Statistics",43.8,3,109,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0697,Rohan Menon,Software Engineer,Security Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",28.6,4,63,Python Programming Fundamentals
+S0698,Swati Khanna,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",30.6,4,68,SQL for Data Analysis
+S0699,Diya Choudhary,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",27.8,4,61,Data Structures & Algorithms Masterclass
+S0700,Pooja Verma,Cloud Engineer,Cybersecurity Analyst,"SQL, TensorFlow, DSA","DSA, Python, SQL, Statistics, Machine Learning",42.6,3,105,"Python Programming Fundamentals, Statistics for Data Science"
+S0701,Riya Saxena,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0702,Rahul Mishra,Software Engineer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",42.9,4,106,"Python Programming Fundamentals, Statistics for Data Science"
+S0703,Saurabh Malhotra,Frontend Developer,Frontend Developer,No skills above proficiency level 3,"DSA, Python, SQL",71.4,3,217,"Data Structures & Algorithms Masterclass, Python Programming Fundamentals"
+S0704,Karan Mishra,Cybersecurity Analyst,Data Analyst,"SQL, DSA, Statistics","DSA, Statistics, Python, SQL, Machine Learning",21.8,2,46,Python Programming Fundamentals
+S0705,Kavya Reddy,Data Analyst,Data Analyst,"Python, Statistics","SQL, Statistics, Python, Machine Learning, DSA",26.7,4,58,SQL for Data Analysis
+S0706,Tarun Reddy,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",20.8,5,44,Machine Learning Specialization
+S0707,Dev Chatterjee,Data Analyst,Cloud Engineer,"Python, SQL, Machine Learning, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",26.7,4,58,SQL for Data Analysis
+S0708,Gaurav Iyer,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",36.4,4,85,"Python Programming Fundamentals, SQL for Data Analysis"
+S0709,Siddharth Kulkarni,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",45.5,5,114,SQL for Data Analysis
+S0710,Sanjay Mehta,Backend Developer,Software Engineer,"Python, SQL, TensorFlow, DSA","SQL, DSA, Python, Statistics",72.2,4,221,"SQL for Data Analysis, Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0711,Vidya Singh,DevOps Engineer,DevOps Engineer,Python,"Python, DSA, SQL, Statistics",27.1,3,59,Data Structures & Algorithms Masterclass
+S0712,Isha Agarwal,Full Stack Developer,DevOps Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0713,Vihaan Mishra,Backend Developer,Business Intelligence Analyst,"Python, SQL, DSA, Statistics","SQL, DSA, Python, Statistics",55.6,4,151,"Data Structures & Algorithms Masterclass, Python Programming Fundamentals"
+S0714,Karan Khanna,Cloud Engineer,DevOps Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics, Machine Learning",18.0,2,37,Statistics for Data Science
+S0715,Swati Pillai,Software Engineer,Backend Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0716,Vivek Patel,Security Engineer,Security Engineer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",45.2,4,113,"Data Structures & Algorithms Masterclass, Deep Learning with TensorFlow"
+S0717,Aditya Bose,DevOps Engineer,DevOps Engineer,"Python, DSA","Python, DSA, SQL, Statistics",35.4,3,82,Python Programming Fundamentals
+S0718,Arjun Chawla,Security Engineer,Software Engineer,"Python, DSA, Statistics","DSA, Python, SQL, Statistics, TensorFlow",25.8,2,56,"SQL for Data Analysis, Deep Learning with TensorFlow"
+S0719,Priya Patel,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",20.8,5,44,Python Programming Fundamentals
+S0720,Aditi Desai,Machine Learning Engineer,AI Researcher,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0721,Sneha Malhotra,Data Analyst,Data Analyst,"Python, SQL, Machine Learning, Statistics","SQL, Statistics, Python, Machine Learning, DSA",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0722,Vivek Kulkarni,Machine Learning Engineer,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",28.0,4,61,"Statistics for Data Science, SQL for Data Analysis"
+S0723,Divya Rao,Data Analyst,Data Analyst,"Python, SQL, Machine Learning, Statistics","SQL, Statistics, Python, Machine Learning, DSA",13.3,2,28,Data Structures & Algorithms Masterclass
+S0724,Saurabh Saxena,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",50.0,5,130,"Statistics for Data Science, Machine Learning Specialization, Data Structures & Algorithms Masterclass"
+S0725,Pooja Bansal,Machine Learning Engineer,Data Scientist,"Python, Machine Learning, TensorFlow, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",48.0,5,123,"Machine Learning Specialization, Data Structures & Algorithms Masterclass, SQL for Data Analysis"
+S0726,Riya Malhotra,Data Analyst,Data Analyst,"SQL, Machine Learning, Statistics","SQL, Statistics, Python, Machine Learning, DSA",20.0,3,42,Python Programming Fundamentals
+S0727,Pranav Choudhary,Security Engineer,Software Engineer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",14.5,2,30,Statistics for Data Science
+S0728,Sakshi Desai,Security Engineer,DevOps Engineer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",59.7,4,167,"Data Structures & Algorithms Masterclass, Statistics for Data Science, Deep Learning with TensorFlow"
+S0729,Varun Desai,Data Analyst,Data Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",40.0,4,96,"SQL for Data Analysis, Machine Learning Specialization"
+S0730,Tanvi Yadav,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",20.0,5,42,Machine Learning Specialization
+S0731,Dev Kulkarni,Cybersecurity Analyst,Cybersecurity Analyst,"Python, Statistics","DSA, Statistics, Python, SQL, Machine Learning",43.6,3,108,"Data Structures & Algorithms Masterclass, SQL for Data Analysis"
+S0732,Pranav Bansal,Business Intelligence Analyst,Business Intelligence Analyst,"Python, SQL, Statistics","SQL, Statistics, Python",36.4,4,85,Statistics for Data Science
+S0733,Kritika Gupta,Data Analyst,Data Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",26.7,4,58,SQL for Data Analysis
+S0734,Sneha Chawla,Data Analyst,Business Intelligence Analyst,"Python, SQL, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0735,Ishaan Bhatt,Backend Developer,Backend Developer,"Python, SQL, DSA, Statistics","SQL, DSA, Python, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0736,Raghav Malhotra,Machine Learning Engineer,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",36.0,5,84,"Python Programming Fundamentals, Deep Learning with TensorFlow"
+S0737,Akash Singh,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",58.3,4,161,"SQL for Data Analysis, Python Programming Fundamentals"
+S0738,Kunal Bose,Data Analyst,Data Analyst,"SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",20.0,3,42,Python Programming Fundamentals
+S0739,Radhika Kulkarni,Cloud Engineer,Security Engineer,"Python, DSA","DSA, Python, SQL, Statistics, Machine Learning",39.3,3,94,"SQL for Data Analysis, Statistics for Data Science"
+S0740,Riya Kulkarni,Cybersecurity Analyst,Cybersecurity Analyst,Statistics,"DSA, Statistics, Python, SQL, Machine Learning",76.4,3,240,"Data Structures & Algorithms Masterclass, Python Programming Fundamentals, SQL for Data Analysis, Machine Learning Specialization"
+S0741,Aman Menon,Backend Developer,Software Engineer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0742,Priya Saxena,Data Analyst,Data Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",13.3,2,28,Data Structures & Algorithms Masterclass
+S0743,Trisha Sinha,Backend Developer,Backend Developer,"Python, SQL, DSA, Statistics","SQL, DSA, Python, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0744,Saurabh Sharma,Business Intelligence Analyst,Business Intelligence Analyst,"Python, SQL","SQL, Statistics, Python",36.4,4,85,Statistics for Data Science
+S0745,Karan Iyer,Software Engineer,Software Engineer,"Python, DSA","DSA, Python, SQL, Statistics",71.4,5,217,"Data Structures & Algorithms Masterclass, SQL for Data Analysis, Statistics for Data Science"
+S0746,Raghav Chawla,Data Analyst,Data Analyst,"Python, SQL, Machine Learning, Statistics","SQL, Statistics, Python, Machine Learning, DSA",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0747,Manish Gupta,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",20.8,5,44,Deep Learning with TensorFlow
+S0748,Pooja Chatterjee,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",27.3,4,60,"Machine Learning Specialization, Data Structures & Algorithms Masterclass"
+S0749,Divya Gupta,DevOps Engineer,Cloud Engineer,"Python, DSA, Statistics","Python, DSA, SQL, Statistics",20.8,2,44,SQL for Data Analysis
+S0750,Radhika Bhatt,Software Engineer,Full Stack Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0751,Yash Bhatt,Business Intelligence Analyst,Business Intelligence Analyst,SQL,"SQL, Statistics, Python",36.4,4,85,Statistics for Data Science
+S0752,Mohit Chatterjee,Data Analyst,Backend Developer,"Python, SQL, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0753,Manya Rao,DevOps Engineer,Cybersecurity Analyst,Python,"Python, DSA, SQL, Statistics",47.9,3,123,"Data Structures & Algorithms Masterclass, SQL for Data Analysis"
+S0754,Sahil Menon,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",36.0,5,84,"Python Programming Fundamentals, Deep Learning with TensorFlow"
+S0755,Ira Nair,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",63.6,5,183,"SQL for Data Analysis, Python Programming Fundamentals"
+S0756,Sneha Nair,DevOps Engineer,Cybersecurity Analyst,"Python, SQL","Python, DSA, SQL, Statistics",79.2,3,254,"Python Programming Fundamentals, Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0757,Rahul Bhatt,Cybersecurity Analyst,Cybersecurity Analyst,"Machine Learning, Statistics","DSA, Statistics, Python, SQL, Machine Learning",65.5,3,191,"Data Structures & Algorithms Masterclass, Python Programming Fundamentals, SQL for Data Analysis"
+S0758,Saurabh Pillai,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",20.8,5,44,Python Programming Fundamentals
+S0759,Rahul Pillai,Full Stack Developer,DevOps Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",46.4,4,117,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0760,Vivek Reddy,Cloud Engineer,Cloud Engineer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics, Machine Learning",11.5,1,24,Machine Learning Specialization
+S0761,Isha Bhatt,Cloud Engineer,Software Engineer,"Python, TensorFlow, DSA, Statistics","DSA, Python, SQL, Statistics, Machine Learning",21.3,3,45,SQL for Data Analysis
+S0762,Sahil Iyer,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",16.0,4,33,Statistics for Data Science
+S0763,Ishaan Joshi,AI Researcher,AI Researcher,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0764,Dev Singh,Software Engineer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",28.6,4,63,Python Programming Fundamentals
+S0765,Aditi Choudhary,Backend Developer,Software Engineer,"Python, SQL, DSA, Statistics","SQL, DSA, Python, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0766,Vivek Yadav,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",31.8,4,72,"Machine Learning Specialization, Deep Learning with TensorFlow"
+S0767,Naveen Pillai,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",27.8,4,61,Data Structures & Algorithms Masterclass
+S0768,Manish Sinha,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",27.8,4,61,Data Structures & Algorithms Masterclass
+S0769,Kritika Bose,Cloud Engineer,DevOps Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics, Machine Learning",29.5,2,65,"Statistics for Data Science, Machine Learning Specialization"
+S0770,Kritika Agarwal,Backend Developer,Backend Developer,"Python, SQL, DSA, Statistics","SQL, DSA, Python, Statistics",30.6,4,68,SQL for Data Analysis
+S0771,Ira Kulkarni,Software Engineer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",14.3,2,30,Statistics for Data Science
+S0772,Pranav Agarwal,Machine Learning Engineer,AI Researcher,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",56.0,5,152,"Python Programming Fundamentals, Machine Learning Specialization, Data Structures & Algorithms Masterclass"
+S0773,Akash Kulkarni,Security Engineer,Cybersecurity Analyst,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",45.2,4,113,"Data Structures & Algorithms Masterclass, Deep Learning with TensorFlow"
+S0774,Akash Mishra,Business Intelligence Analyst,Business Intelligence Analyst,"Python, SQL, Statistics","SQL, Statistics, Python",36.4,4,85,Statistics for Data Science
+S0775,Ritika Reddy,Data Analyst,Business Intelligence Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",53.3,4,142,"Statistics for Data Science, Machine Learning Specialization, Data Structures & Algorithms Masterclass"
+S0776,Pallavi Mishra,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",41.7,4,102,"Python Programming Fundamentals, Statistics for Data Science"
+S0777,Nikhil Sharma,Cloud Engineer,Cloud Engineer,"Python, SQL, Machine Learning, DSA","DSA, Python, SQL, Statistics, Machine Learning",18.0,2,37,Statistics for Data Science
+S0778,Vivek Desai,DevOps Engineer,DevOps Engineer,"Python, TensorFlow","Python, DSA, SQL, Statistics",79.2,3,254,"Python Programming Fundamentals, Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0779,Aditya Sinha,Security Engineer,DevOps Engineer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",61.3,4,173,"Data Structures & Algorithms Masterclass, SQL for Data Analysis, Deep Learning with TensorFlow"
+S0780,Shreya Bhatt,Software Engineer,Security Engineer,"Python, DSA","DSA, Python, SQL, Statistics",35.7,3,83,"SQL for Data Analysis, Statistics for Data Science"
+S0781,Nisha Mishra,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",20.0,5,42,Python Programming Fundamentals
+S0782,Anjali Chawla,Security Engineer,Software Engineer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",35.5,4,82,Data Structures & Algorithms Masterclass
+S0783,Ira Bose,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0784,Sahil Chatterjee,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",56.0,5,152,"Python Programming Fundamentals, Machine Learning Specialization, Statistics for Data Science"
+S0785,Yash Sinha,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",18.2,2,38,Python Programming Fundamentals
+S0786,Kavya Nair,AI Researcher,Data Scientist,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",58.3,5,161,"Machine Learning Specialization, Deep Learning with TensorFlow, Data Structures & Algorithms Masterclass"
+S0787,Meera Sharma,Data Analyst,Data Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",26.7,4,58,SQL for Data Analysis
+S0788,Sahil Khanna,Data Analyst,Data Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",40.0,4,96,"Statistics for Data Science, Data Structures & Algorithms Masterclass"
+S0789,Isha Bansal,Software Engineer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0790,Radhika Chatterjee,Backend Developer,Backend Developer,"Python, SQL, DSA, Statistics","SQL, DSA, Python, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0791,Swati Verma,Business Intelligence Analyst,Business Intelligence Analyst,"Python, SQL, Statistics","SQL, Statistics, Python",36.4,4,85,Statistics for Data Science
+S0792,Tanya Pillai,DevOps Engineer,DevOps Engineer,Python,"Python, DSA, SQL, Statistics",83.3,3,274,"Python Programming Fundamentals, Data Structures & Algorithms Masterclass, SQL for Data Analysis"
+S0793,Vidya Yadav,Business Intelligence Analyst,Business Intelligence Analyst,"Python, SQL","SQL, Statistics, Python",36.4,4,85,Statistics for Data Science
+S0794,Sahil Kulkarni,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",18.2,2,38,Python Programming Fundamentals
+S0795,Swati Chawla,Software Engineer,Backend Developer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0796,Manish Patel,Data Analyst,Business Intelligence Analyst,"SQL, Machine Learning, Statistics","SQL, Statistics, Python, Machine Learning, DSA",33.3,3,76,"Python Programming Fundamentals, Data Structures & Algorithms Masterclass"
+S0797,Kritika Verma,Security Engineer,Security Engineer,"SQL, DSA","DSA, Python, SQL, Statistics, TensorFlow",24.2,3,52,Python Programming Fundamentals
+S0798,Tanya Choudhary,DevOps Engineer,DevOps Engineer,"Python, DSA","Python, DSA, SQL, Statistics",20.8,2,44,SQL for Data Analysis
+S0799,Nisha Sinha,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",22.7,5,48,Statistics for Data Science
+S0800,Tanvi Sinha,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",40.0,5,96,"Python Programming Fundamentals, Machine Learning Specialization"
+S0801,Tarun Choudhary,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",20.8,5,44,Statistics for Data Science
+S0802,Yash Yadav,Data Analyst,Data Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0803,Harsh Yadav,Software Engineer,Full Stack Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",28.6,4,63,Python Programming Fundamentals
+S0804,Kritika Sinha,Security Engineer,Security Engineer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",24.2,2,52,"Statistics for Data Science, Deep Learning with TensorFlow"
+S0805,Sakshi Nair,Data Analyst,Data Analyst,"Python, SQL, Machine Learning, Statistics","SQL, Statistics, Python, Machine Learning, DSA",13.3,2,28,Data Structures & Algorithms Masterclass
+S0806,Abhinav Nair,Data Analyst,Business Intelligence Analyst,"SQL, Machine Learning, Statistics","SQL, Statistics, Python, Machine Learning, DSA",60.0,4,168,"Statistics for Data Science, Python Programming Fundamentals, Data Structures & Algorithms Masterclass"
+S0807,Manish Agarwal,DevOps Engineer,Security Engineer,"Python, DSA","Python, DSA, SQL, Statistics",16.7,2,35,Statistics for Data Science
+S0808,Trisha Tiwari,Data Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",20.0,3,42,Python Programming Fundamentals
+S0809,Tarun Tiwari,Cybersecurity Analyst,Frontend Developer,SQL,"DSA, Statistics, Python, SQL, Machine Learning",80.0,3,258,"Data Structures & Algorithms Masterclass, Statistics for Data Science, Python Programming Fundamentals, Machine Learning Specialization"
+S0810,Dev Reddy,Cybersecurity Analyst,Cybersecurity Analyst,SQL,"DSA, Statistics, Python, SQL, Machine Learning",69.1,3,207,"Data Structures & Algorithms Masterclass, Statistics for Data Science, Python Programming Fundamentals"
+S0811,Yash Joshi,Software Engineer,Software Engineer,"Python, DSA","DSA, Python, SQL, Statistics",21.4,3,45,SQL for Data Analysis
+S0812,Kavya Mehta,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0813,Simran Malhotra,AI Researcher,Machine Learning Engineer,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0814,Lavanya Nair,Software Engineer,Software Engineer,"Python, DSA","DSA, Python, SQL, Statistics",21.4,3,45,SQL for Data Analysis
+S0815,Siddharth Verma,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",45.5,5,114,SQL for Data Analysis
+S0816,Kritika Reddy,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",41.7,5,102,"Python Programming Fundamentals, Statistics for Data Science"
+S0817,Karan Sharma,Security Engineer,Security Engineer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",45.2,4,113,"Data Structures & Algorithms Masterclass, Deep Learning with TensorFlow"
+S0818,Dev Bansal,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",20.8,5,44,Deep Learning with TensorFlow
+S0819,Sanjay Agarwal,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",16.0,4,33,Deep Learning with TensorFlow
+S0820,Aditya Iyer,Data Analyst,Data Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",13.3,2,28,Machine Learning Specialization
+S0821,Sanjay Reddy,Backend Developer,Backend Developer,"Python, SQL, DSA, Statistics","SQL, DSA, Python, Statistics",27.8,4,61,Python Programming Fundamentals
+S0822,Tarun Yadav,Cybersecurity Analyst,DevOps Engineer,SQL,"DSA, Statistics, Python, SQL, Machine Learning",69.1,3,207,"Data Structures & Algorithms Masterclass, Statistics for Data Science, Python Programming Fundamentals"
+S0823,Sahil Desai,Software Engineer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",28.6,4,63,Python Programming Fundamentals
+S0824,Akash Bose,Business Intelligence Analyst,Business Intelligence Analyst,SQL,"SQL, Statistics, Python",36.4,4,85,Statistics for Data Science
+S0825,Simran Bansal,Data Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",33.3,3,76,"Python Programming Fundamentals, Machine Learning Specialization"
+S0826,Aman Singh,Machine Learning Engineer,Machine Learning Engineer,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",28.0,4,61,"Deep Learning with TensorFlow, SQL for Data Analysis"
+S0827,Abhinav Rao,Security Engineer,Security Engineer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",40.3,2,97,"SQL for Data Analysis, Statistics for Data Science, Deep Learning with TensorFlow"
+S0828,Kritika Patel,Cybersecurity Analyst,Data Analyst,"SQL, Statistics","DSA, Statistics, Python, SQL, Machine Learning",56.4,3,154,"Data Structures & Algorithms Masterclass, Python Programming Fundamentals, Machine Learning Specialization"
+S0829,Sanjay Khanna,Full Stack Developer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",14.3,2,30,Statistics for Data Science
+S0830,Nisha Bose,Machine Learning Engineer,Machine Learning Engineer,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",32.0,5,72,"Machine Learning Specialization, SQL for Data Analysis"
+S0831,Ananya Bansal,Data Analyst,Data Analyst,"Python, SQL, Machine Learning, Statistics","SQL, Statistics, Python, Machine Learning, DSA",13.3,2,28,Data Structures & Algorithms Masterclass
+S0832,Saurabh Bhatt,Cloud Engineer,Cloud Engineer,"Python, SQL, Machine Learning, DSA, Statistics","DSA, Python, SQL, Statistics, Machine Learning",0.0,3,5,No major gap - Advanced/Portfolio-building courses recommended
+S0833,Trisha Kulkarni,Data Analyst,Cloud Engineer,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",26.7,4,58,SQL for Data Analysis
+S0834,Vikram Pillai,Software Engineer,Cloud Engineer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics",35.7,5,83,Data Structures & Algorithms Masterclass
+S0835,Ishaan Singh,Cloud Engineer,Full Stack Developer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics, Machine Learning",0.0,3,5,No major gap - Advanced/Portfolio-building courses recommended
+S0836,Aditya Malhotra,Cybersecurity Analyst,Cybersecurity Analyst,"DSA, Statistics","DSA, Statistics, Python, SQL, Machine Learning",41.8,2,102,"Python Programming Fundamentals, SQL for Data Analysis"
+S0837,Aarav Kulkarni,Cloud Engineer,DevOps Engineer,"Python, DSA, Statistics","DSA, Python, SQL, Statistics, Machine Learning",32.8,3,75,"SQL for Data Analysis, Machine Learning Specialization"
+S0838,Harsh Bose,DevOps Engineer,Cybersecurity Analyst,"Python, DSA","Python, DSA, SQL, Statistics",20.8,2,44,SQL for Data Analysis
+S0839,Akash Agarwal,Full Stack Developer,Cloud Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",32.1,4,73,Data Structures & Algorithms Masterclass
+S0840,Aarav Patel,Security Engineer,Cloud Engineer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",75.8,4,238,"Data Structures & Algorithms Masterclass, SQL for Data Analysis, Statistics for Data Science, Deep Learning with TensorFlow"
+S0841,Kavya Mehta,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",20.8,5,44,Python Programming Fundamentals
+S0842,Trisha Desai,Backend Developer,Data Analyst,"Python, SQL, DSA, Statistics","SQL, DSA, Python, Statistics",55.6,4,151,"Data Structures & Algorithms Masterclass, Python Programming Fundamentals"
+S0843,Rohan Kapoor,Software Engineer,Full Stack Developer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics",35.7,5,83,Data Structures & Algorithms Masterclass
+S0844,Priya Menon,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0845,Sneha Bose,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",50.0,4,130,"Python Programming Fundamentals, SQL for Data Analysis, Deep Learning with TensorFlow"
+S0846,Naveen Khanna,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, DSA, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",54.5,5,147,"Statistics for Data Science, SQL for Data Analysis, Deep Learning with TensorFlow"
+S0847,Radhika Kulkarni,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",44.4,4,111,"SQL for Data Analysis, Statistics for Data Science"
+S0848,Pooja Bhatt,Data Analyst,Data Analyst,"Python, SQL, Machine Learning, Statistics","SQL, Statistics, Python, Machine Learning, DSA",40.0,4,96,"SQL for Data Analysis, Data Structures & Algorithms Masterclass"
+S0849,Naveen Nair,Cybersecurity Analyst,Cybersecurity Analyst,Statistics,"DSA, Statistics, Python, SQL, Machine Learning",65.5,3,191,"Data Structures & Algorithms Masterclass, Python Programming Fundamentals, SQL for Data Analysis"
+S0850,Vidya Bansal,Data Scientist,AI Researcher,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0851,Aman Agarwal,Software Engineer,Software Engineer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0852,Siddharth Mehta,Data Analyst,Data Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",26.7,2,58,"Machine Learning Specialization, Data Structures & Algorithms Masterclass"
+S0853,Aditi Bose,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",20.8,5,44,Deep Learning with TensorFlow
+S0854,Sahil Mehta,Data Analyst,Data Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0855,Aarav Joshi,Data Analyst,Data Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",26.7,4,58,Statistics for Data Science
+S0856,Nikhil Sharma,Cloud Engineer,Cloud Engineer,"Python, SQL, Statistics","DSA, Python, SQL, Statistics, Machine Learning",36.1,3,84,"Data Structures & Algorithms Masterclass, Machine Learning Specialization"
+S0857,Arjun Sharma,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",30.6,4,68,SQL for Data Analysis
+S0858,Yash Mehta,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, DSA, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",31.8,4,72,"SQL for Data Analysis, Deep Learning with TensorFlow"
+S0859,Riya Iyer,Data Analyst,Data Analyst,"Python, SQL, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0860,Neha Desai,Data Analyst,Data Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",13.3,2,28,Data Structures & Algorithms Masterclass
+S0861,Naveen Desai,Software Engineer,Software Engineer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics",35.7,5,83,Data Structures & Algorithms Masterclass
+S0862,Manya Saxena,Frontend Developer,Frontend Developer,DSA,"DSA, Python, SQL",0.0,3,5,No major gap - Advanced/Portfolio-building courses recommended
+S0863,Sanjay Gupta,DevOps Engineer,DevOps Engineer,"Python, SQL, Statistics","Python, DSA, SQL, Statistics",27.1,3,59,Data Structures & Algorithms Masterclass
+S0864,Divya Saxena,DevOps Engineer,DevOps Engineer,"Python, DSA, Statistics","Python, DSA, SQL, Statistics",20.8,2,44,SQL for Data Analysis
+S0865,Manish Sinha,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",44.4,4,111,"SQL for Data Analysis, Statistics for Data Science"
+S0866,Akash Verma,Data Analyst,Data Analyst,"Python, SQL, Machine Learning, Statistics","SQL, Statistics, Python, Machine Learning, DSA",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0867,Arjun Sharma,Frontend Developer,Frontend Developer,"SQL, DSA","DSA, Python, SQL",0.0,3,5,No major gap - Advanced/Portfolio-building courses recommended
+S0868,Naveen Iyer,Data Analyst,Data Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0869,Rahul Patel,Cloud Engineer,Cloud Engineer,"Python, DSA","DSA, Python, SQL, Statistics, Machine Learning",39.3,3,94,"SQL for Data Analysis, Statistics for Data Science"
+S0870,Sakshi Yadav,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",13.6,3,28,Deep Learning with TensorFlow
+S0871,Kritika Yadav,DevOps Engineer,Cloud Engineer,"Python, DSA","Python, DSA, SQL, Statistics",0.0,3,5,No major gap - Advanced/Portfolio-building courses recommended
+S0872,Aditi Chatterjee,Machine Learning Engineer,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",20.0,5,42,Machine Learning Specialization
+S0873,Vivek Malhotra,Cloud Engineer,Full Stack Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics, Machine Learning",18.0,2,37,Statistics for Data Science
+S0874,Saurabh Kulkarni,Data Analyst,Data Analyst,"Python, SQL, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0875,Aditi Nair,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",22.7,3,48,"Deep Learning with TensorFlow, Data Structures & Algorithms Masterclass"
+S0876,Nikhil Rao,DevOps Engineer,Cybersecurity Analyst,"Python, TensorFlow","Python, DSA, SQL, Statistics",83.3,3,274,"Python Programming Fundamentals, Data Structures & Algorithms Masterclass, SQL for Data Analysis"
+S0877,Dev Tiwari,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",50.0,5,130,"Statistics for Data Science, SQL for Data Analysis, Data Structures & Algorithms Masterclass"
+S0878,Simran Iyer,AI Researcher,Data Scientist,"Python, Machine Learning, TensorFlow, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",58.3,5,161,"Python Programming Fundamentals, Deep Learning with TensorFlow, Data Structures & Algorithms Masterclass"
+S0879,Kunal Bose,Software Engineer,Cloud Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",35.7,5,83,Data Structures & Algorithms Masterclass
+S0880,Yash Malhotra,Cybersecurity Analyst,Cybersecurity Analyst,"Python, DSA, Statistics","DSA, Statistics, Python, SQL, Machine Learning",30.9,2,69,"SQL for Data Analysis, Machine Learning Specialization"
+S0881,Manish Bhatt,Software Engineer,Software Engineer,"Python, SQL, Machine Learning, DSA, Statistics","DSA, Python, SQL, Statistics",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0882,Kritika Choudhary,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0883,Siddharth Menon,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0884,Varun Desai,Full Stack Developer,Cloud Engineer,"SQL, DSA","DSA, Python, SQL, Statistics",58.9,4,164,"Data Structures & Algorithms Masterclass, Python Programming Fundamentals"
+S0885,Vidya Iyer,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0886,Harsh Iyer,Data Analyst,Data Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0887,Rahul Sharma,Cloud Engineer,DevOps Engineer,"Python, DSA, Statistics","DSA, Python, SQL, Statistics, Machine Learning",32.8,3,75,"SQL for Data Analysis, Machine Learning Specialization"
+S0888,Abhinav Kapoor,Software Engineer,Full Stack Developer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics",28.6,4,63,Python Programming Fundamentals
+S0889,Karan Choudhary,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",20.8,5,44,Deep Learning with TensorFlow
+S0890,Abhinav Mehta,Full Stack Developer,Full Stack Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0891,Akash Choudhary,Cybersecurity Analyst,Cloud Engineer,No skills above proficiency level 3,"DSA, Statistics, Python, SQL, Machine Learning",89.1,3,304,"Data Structures & Algorithms Masterclass, Statistics for Data Science, Python Programming Fundamentals, SQL for Data Analysis"
+S0892,Pranav Sharma,Cloud Engineer,Full Stack Developer,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics, Machine Learning",11.5,1,24,Machine Learning Specialization
+S0893,Manya Bhatt,Cloud Engineer,Backend Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics, Machine Learning",29.5,2,65,"Statistics for Data Science, Machine Learning Specialization"
+S0894,Nisha Menon,Data Analyst,Data Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",40.0,4,96,"Statistics for Data Science, Machine Learning Specialization"
+S0895,Shreya Sharma,Cybersecurity Analyst,Cybersecurity Analyst,"Python, Statistics","DSA, Statistics, Python, SQL, Machine Learning",54.5,3,147,"Data Structures & Algorithms Masterclass, SQL for Data Analysis, Machine Learning Specialization"
+S0896,Pranav Mehta,Backend Developer,Full Stack Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",72.2,4,221,"SQL for Data Analysis, Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0897,Dev Reddy,Data Analyst,Data Analyst,"Python, SQL, Machine Learning, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",26.7,4,58,SQL for Data Analysis
+S0898,Gaurav Yadav,Data Analyst,Data Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0899,Raghav Desai,DevOps Engineer,Cloud Engineer,"Python, DSA","Python, DSA, SQL, Statistics",20.8,2,44,SQL for Data Analysis
+S0900,Pranav Mishra,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",100.0,5,365,"SQL for Data Analysis, Statistics for Data Science, Python Programming Fundamentals"
+S0901,Harsh Mehta,Data Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",33.3,3,76,"Python Programming Fundamentals, Data Structures & Algorithms Masterclass"
+S0902,Harsh Bose,Data Analyst,Data Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",26.7,4,58,Statistics for Data Science
+S0903,Neha Kulkarni,Backend Developer,Software Engineer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",27.8,4,61,Data Structures & Algorithms Masterclass
+S0904,Aarav Desai,Cloud Engineer,Cloud Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics, Machine Learning",18.0,2,37,Statistics for Data Science
+S0905,Ishaan Gupta,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",9.1,2,20,Data Structures & Algorithms Masterclass
+S0906,Ritika Kapoor,Software Engineer,DevOps Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",35.7,5,83,Data Structures & Algorithms Masterclass
+S0907,Manish Joshi,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0908,Pranav Rao,Data Analyst,Business Intelligence Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",40.0,4,96,"SQL for Data Analysis, Data Structures & Algorithms Masterclass"
+S0909,Varun Rao,Security Engineer,DevOps Engineer,"Python, DSA, Statistics","DSA, Python, SQL, Statistics, TensorFlow",61.3,4,173,"Data Structures & Algorithms Masterclass, SQL for Data Analysis, Deep Learning with TensorFlow"
+S0910,Tarun Chawla,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",40.9,5,99,"Statistics for Data Science, Python Programming Fundamentals"
+S0911,Rohan Malhotra,Software Engineer,Software Engineer,"Python, DSA, Statistics","DSA, Python, SQL, Statistics",21.4,3,45,SQL for Data Analysis
+S0912,Trisha Yadav,Data Analyst,Data Analyst,"Python, SQL, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",13.3,2,28,Machine Learning Specialization
+S0913,Neha Mishra,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",16.0,4,33,Deep Learning with TensorFlow
+S0914,Akash Khanna,AI Researcher,AI Researcher,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",37.5,5,88,"Python Programming Fundamentals, Data Structures & Algorithms Masterclass"
+S0915,Harsh Iyer,Cloud Engineer,Cloud Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics, Machine Learning",29.5,2,65,"Statistics for Data Science, Machine Learning Specialization"
+S0916,Tarun Choudhary,Cloud Engineer,Cybersecurity Analyst,"Python, SQL, DSA","DSA, Python, SQL, Statistics, Machine Learning",18.0,2,37,Statistics for Data Science
+S0917,Saurabh Malhotra,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",50.0,5,130,"Statistics for Data Science, Machine Learning Specialization, Data Structures & Algorithms Masterclass"
+S0918,Riya Sharma,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",31.8,4,72,"Machine Learning Specialization, Deep Learning with TensorFlow"
+S0919,Anjali Mehta,Full Stack Developer,Cloud Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",14.3,2,30,Statistics for Data Science
+S0920,Isha Mehta,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",45.5,5,114,SQL for Data Analysis
+S0921,Sanjay Iyer,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",30.6,4,68,SQL for Data Analysis
+S0922,Priya Saxena,Security Engineer,Security Engineer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",59.7,4,167,"Data Structures & Algorithms Masterclass, Statistics for Data Science, Deep Learning with TensorFlow"
+S0923,Meera Patel,Full Stack Developer,Full Stack Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",14.3,2,30,Statistics for Data Science
+S0924,Aditi Chawla,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0925,Vivek Reddy,Data Analyst,Data Analyst,"Python, SQL, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0926,Nikhil Kulkarni,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",32.0,4,72,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0927,Kunal Khanna,DevOps Engineer,DevOps Engineer,"Python, DSA","Python, DSA, SQL, Statistics",20.8,2,44,SQL for Data Analysis
+S0928,Sakshi Chawla,Frontend Developer,Frontend Developer,No skills above proficiency level 3,"DSA, Python, SQL",71.4,3,217,"Data Structures & Algorithms Masterclass, SQL for Data Analysis"
+S0929,Lavanya Saxena,Frontend Developer,Frontend Developer,DSA,"DSA, Python, SQL",28.6,2,63,SQL for Data Analysis
+S0930,Kavya Chatterjee,Security Engineer,Cloud Engineer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",50.0,4,130,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0931,Aarav Tiwari,Data Analyst,Cybersecurity Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",40.0,4,96,"SQL for Data Analysis, Machine Learning Specialization"
+S0932,Nisha Menon,Backend Developer,Backend Developer,"Python, SQL, Machine Learning, DSA","SQL, DSA, Python, Statistics",27.8,4,61,Data Structures & Algorithms Masterclass
+S0933,Trisha Rao,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",13.6,3,28,Deep Learning with TensorFlow
+S0934,Isha Kapoor,Backend Developer,Backend Developer,"Python, SQL, Machine Learning, DSA","SQL, DSA, Python, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0935,Lavanya Nair,Software Engineer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0936,Vidya Patel,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",36.0,5,84,"Python Programming Fundamentals, Deep Learning with TensorFlow"
+S0937,Varun Sharma,DevOps Engineer,DevOps Engineer,Python,"Python, DSA, SQL, Statistics",83.3,3,274,"Python Programming Fundamentals, Data Structures & Algorithms Masterclass, SQL for Data Analysis"
+S0938,Vivek Kulkarni,Data Analyst,Data Analyst,"Python, SQL, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0939,Abhinav Chawla,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",9.1,2,20,Data Structures & Algorithms Masterclass
+S0940,Sanjay Saxena,Full Stack Developer,DevOps Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",46.4,4,117,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0941,Bhavna Choudhary,Data Analyst,Data Analyst,"Python, SQL, DSA, Statistics","SQL, Statistics, Python, Machine Learning, DSA",13.3,2,28,Machine Learning Specialization
+S0942,Sneha Rao,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0943,Lavanya Malhotra,Cybersecurity Analyst,Frontend Developer,"DSA, Statistics","DSA, Statistics, Python, SQL, Machine Learning",41.8,2,102,"Python Programming Fundamentals, SQL for Data Analysis"
+S0944,Ira Choudhary,Full Stack Developer,Full Stack Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",46.4,4,117,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0945,Diya Chawla,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",18.2,2,38,Python Programming Fundamentals
+S0946,Swati Reddy,Software Engineer,Full Stack Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",42.9,4,106,"Python Programming Fundamentals, Statistics for Data Science"
+S0947,Kunal Rao,Frontend Developer,Frontend Developer,DSA,"DSA, Python, SQL",28.6,2,63,SQL for Data Analysis
+S0948,Shreya Desai,AI Researcher,AI Researcher,"Python, SQL, Machine Learning, TensorFlow, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",37.5,5,88,"Python Programming Fundamentals, Data Structures & Algorithms Masterclass"
+S0949,Mohit Kulkarni,Software Engineer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",14.3,2,30,Statistics for Data Science
+S0950,Shreya Gupta,Security Engineer,Security Engineer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0951,Vivek Menon,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0952,Ishaan Bhatt,Cloud Engineer,Full Stack Developer,"Python, SQL","DSA, Python, SQL, Statistics, Machine Learning",42.6,3,105,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0953,Naveen Chatterjee,Frontend Developer,Frontend Developer,"SQL, DSA","DSA, Python, SQL",0.0,3,5,No major gap - Advanced/Portfolio-building courses recommended
+S0954,Sneha Verma,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0955,Tarun Verma,Cybersecurity Analyst,DevOps Engineer,"Python, SQL","DSA, Statistics, Python, SQL, Machine Learning",47.3,3,120,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0956,Pooja Agarwal,Full Stack Developer,Cloud Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",14.3,2,30,Statistics for Data Science
+S0957,Diya Mehta,Data Analyst,Business Intelligence Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",53.3,4,142,"SQL for Data Analysis, Machine Learning Specialization, Data Structures & Algorithms Masterclass"
+S0958,Manish Singh,Cloud Engineer,Cybersecurity Analyst,"Python, SQL, Machine Learning, DSA","DSA, Python, SQL, Statistics, Machine Learning",18.0,2,37,Statistics for Data Science
+S0959,Harsh Iyer,DevOps Engineer,Frontend Developer,"Python, DSA","Python, DSA, SQL, Statistics",72.9,3,224,"Python Programming Fundamentals, SQL for Data Analysis, Statistics for Data Science"
+S0960,Bhavna Bose,DevOps Engineer,Cloud Engineer,Python,"Python, DSA, SQL, Statistics",62.5,3,178,"Python Programming Fundamentals, Data Structures & Algorithms Masterclass"
+S0961,Sneha Bose,Cloud Engineer,Cloud Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics, Machine Learning",29.5,2,65,"Statistics for Data Science, Machine Learning Specialization"
+S0962,Manish Reddy,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",58.3,4,161,"SQL for Data Analysis, Python Programming Fundamentals"
+S0963,Anjali Saxena,Data Analyst,Cybersecurity Analyst,"SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",60.0,4,168,"SQL for Data Analysis, Python Programming Fundamentals, Data Structures & Algorithms Masterclass"
+S0964,Manish Yadav,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",45.5,4,114,"Python Programming Fundamentals, SQL for Data Analysis, Data Structures & Algorithms Masterclass"
+S0965,Rahul Nair,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",58.3,5,161,"Python Programming Fundamentals, Machine Learning Specialization, Data Structures & Algorithms Masterclass"
+S0966,Meera Desai,Software Engineer,DevOps Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",50.0,5,130,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0967,Tanvi Agarwal,Cloud Engineer,Backend Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics, Machine Learning",29.5,2,65,"Statistics for Data Science, Machine Learning Specialization"
+S0968,Sneha Desai,Frontend Developer,Frontend Developer,"SQL, DSA","DSA, Python, SQL",28.6,2,63,Python Programming Fundamentals
+S0969,Lavanya Saxena,Data Analyst,Business Intelligence Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",26.7,4,58,Statistics for Data Science
+S0970,Nikhil Khanna,Data Scientist,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0971,Manya Gupta,Full Stack Developer,Frontend Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",46.4,4,117,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0972,Pranav Verma,Data Analyst,Data Analyst,"SQL, Machine Learning, Statistics","SQL, Statistics, Python, Machine Learning, DSA",20.0,3,42,Python Programming Fundamentals
+S0973,Yash Pillai,Machine Learning Engineer,Machine Learning Engineer,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0974,Vihaan Sinha,Machine Learning Engineer,AI Researcher,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",16.0,4,33,Data Structures & Algorithms Masterclass
+S0975,Karan Joshi,Software Engineer,Backend Developer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",14.3,2,30,Statistics for Data Science
+S0976,Aditya Sinha,Security Engineer,Security Engineer,"Python, Machine Learning, DSA","DSA, Python, SQL, Statistics, TensorFlow",9.7,1,21,Deep Learning with TensorFlow
+S0977,Gaurav Bose,Full Stack Developer,DevOps Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",46.4,4,117,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0978,Vivek Sinha,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",18.2,2,38,Python Programming Fundamentals
+S0979,Manya Gupta,DevOps Engineer,DevOps Engineer,"Python, SQL, Machine Learning","Python, DSA, SQL, Statistics",43.8,3,109,"Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0980,Saurabh Yadav,Software Engineer,Software Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics",14.3,2,30,Statistics for Data Science
+S0981,Vikram Nair,Backend Developer,Full Stack Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",30.6,4,68,SQL for Data Analysis
+S0982,Yash Choudhary,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",18.2,2,38,Python Programming Fundamentals
+S0983,Neha Tiwari,Full Stack Developer,Full Stack Developer,"SQL, DSA","DSA, Python, SQL, Statistics",41.1,3,100,"Python Programming Fundamentals, Statistics for Data Science"
+S0984,Ishaan Chawla,Machine Learning Engineer,Data Scientist,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",100.0,5,365,"Python Programming Fundamentals, Machine Learning Specialization, Deep Learning with TensorFlow, Data Structures & Algorithms Masterclass, Statistics for Data Science, SQL for Data Analysis"
+S0985,Ananya Bose,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0986,Kunal Bose,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0987,Aditi Kapoor,Security Engineer,Frontend Developer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",61.3,4,173,"Data Structures & Algorithms Masterclass, SQL for Data Analysis, Deep Learning with TensorFlow"
+S0988,Dev Menon,Data Analyst,Data Analyst,"Python, SQL, Statistics","SQL, Statistics, Python, Machine Learning, DSA",0.0,4,5,No major gap - Advanced/Portfolio-building courses recommended
+S0989,Nisha Kulkarni,Security Engineer,Frontend Developer,"Python, DSA","DSA, Python, SQL, Statistics, TensorFlow",59.7,4,167,"Data Structures & Algorithms Masterclass, Statistics for Data Science, Deep Learning with TensorFlow"
+S0990,Kritika Kapoor,Backend Developer,Backend Developer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",13.9,2,29,Statistics for Data Science
+S0991,Gaurav Menon,DevOps Engineer,Full Stack Developer,"Python, SQL","Python, DSA, SQL, Statistics",79.2,3,254,"Python Programming Fundamentals, Data Structures & Algorithms Masterclass, Statistics for Data Science"
+S0992,Kunal Mishra,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",16.7,4,35,Data Structures & Algorithms Masterclass
+S0993,Lavanya Yadav,Data Scientist,Data Scientist,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Statistics, Python, SQL, Machine Learning, TensorFlow, DSA",0.0,5,5,No major gap - Advanced/Portfolio-building courses recommended
+S0994,Tarun Bose,Business Intelligence Analyst,Business Intelligence Analyst,"SQL, Statistics","SQL, Statistics, Python",18.2,2,38,Python Programming Fundamentals
+S0995,Vihaan Malhotra,Cloud Engineer,DevOps Engineer,"Python, SQL, DSA","DSA, Python, SQL, Statistics, Machine Learning",18.0,2,37,Statistics for Data Science
+S0996,Tarun Yadav,Machine Learning Engineer,AI Researcher,"Python, SQL, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",40.0,5,96,"Python Programming Fundamentals, Machine Learning Specialization"
+S0997,Swati Saxena,Cloud Engineer,Cybersecurity Analyst,"Python, SQL, DSA, Statistics","DSA, Python, SQL, Statistics, Machine Learning",0.0,3,5,No major gap - Advanced/Portfolio-building courses recommended
+S0998,Riya Bansal,AI Researcher,AI Researcher,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, Statistics, DSA",20.8,5,44,Deep Learning with TensorFlow
+S0999,Lavanya Singh,Machine Learning Engineer,Machine Learning Engineer,"Python, Machine Learning, TensorFlow, DSA, Statistics","Python, Machine Learning, TensorFlow, DSA, Statistics, SQL",12.0,3,25,SQL for Data Analysis
+S1000,Aditi Joshi,Backend Developer,Software Engineer,"Python, SQL, DSA","SQL, DSA, Python, Statistics",58.3,4,161,"SQL for Data Analysis, Python Programming Fundamentals"

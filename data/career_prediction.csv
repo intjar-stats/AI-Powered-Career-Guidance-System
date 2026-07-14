@@ -1,0 +1,1001 @@
+Student_ID,Full_Name,Gender,Age,GPA,Degree_Level,Current_Status,Project_Count,Years_of_Experience,Employment_Status,Internship_Count,Python,SQL,Machine_Learning,TensorFlow,DSA,Statistics,Interest,Certification_Count,Preferred_Industry,Career_Goal,Target_Career
+S0001,Tanya Sharma,Female,19,8.2,Bachelor,Student,2,0.0,Intern,1,4,4,1,1,5,2,Web Development,0,Software Development,Backend Developer,Software Engineer
+S0002,Ananya Verma,Female,18,7.8,Diploma,Student,0,0.0,Unemployed,0,1,4,1,1,3,1,Web Development,1,Software Development,Full Stack Developer,Frontend Developer
+S0003,Naveen Singh,Male,27,10.0,Master,Student,6,0.0,Unemployed,0,3,1,1,1,4,1,Cybersecurity,0,Artificial Intelligence,Security Engineer,Security Engineer
+S0004,Karan Rao,Male,22,7.2,Bachelor,Graduate,2,0.0,Full-Time,3,3,3,1,1,1,1,DevOps,6,Cloud Computing,DevOps Engineer,DevOps Engineer
+S0005,Aman Choudhary,Male,22,6.8,Bachelor,Graduate,4,0.0,Full-Time,1,4,2,5,5,3,5,Artificial Intelligence,0,Software Development,AI Researcher,AI Researcher
+S0006,Neha Chawla,Female,24,8.8,Master,Graduate,5,1.0,Intern,2,4,3,2,1,3,4,Data Analytics,1,Artificial Intelligence,Data Analyst,Data Analyst
+S0007,Trisha Tiwari,Female,26,9.1,Master,Student,7,0.0,Unemployed,2,5,2,5,5,5,5,Machine Learning,1,Software Development,Machine Learning Engineer,AI Researcher
+S0008,Harsh Menon,Male,27,7.8,Master,Student,5,0.0,Unemployed,0,4,3,1,1,3,2,Artificial Intelligence,1,Artificial Intelligence,Software Engineer,Cloud Engineer
+S0009,Rohan Singh,Male,25,7.0,Bachelor,Working Professional,8,7.5,Full-Time,2,3,4,2,1,4,3,Cloud Computing,3,Software Development,Cloud Engineer,Backend Developer
+S0010,Sahil Nair,Male,28,7.8,Master,Working Professional,9,8.3,Full-Time,2,3,4,4,2,2,5,Data Science,2,Cloud Computing,Data Scientist,Data Scientist
+S0011,Swati Nair,Female,24,6.8,Bachelor,Student,4,0.0,Unemployed,2,5,2,4,3,4,5,Web Development,0,Artificial Intelligence,Data Scientist,Machine Learning Engineer
+S0012,Shreya Rao,Female,22,8.1,Bachelor,Graduate,3,0.0,Full-Time,1,5,4,5,5,3,5,Artificial Intelligence,2,Software Development,Machine Learning Engineer,Machine Learning Engineer
+S0013,Isha Yadav,Female,22,7.8,Master,Graduate,5,0.0,Unemployed,0,4,2,1,1,5,1,DevOps,3,Information Technology,Security Engineer,Software Engineer
+S0014,Saurabh Agarwal,Male,24,7.0,Bachelor,Student,6,0.0,Unemployed,2,3,3,1,2,4,3,Web Development,0,Cloud Computing,Full Stack Developer,Cloud Engineer
+S0015,Varun Gupta,Male,28,9.0,PhD,Working Professional,10,4.4,Full-Time,1,4,5,3,1,2,4,Data Analytics,0,Cybersecurity,Data Analyst,Data Analyst
+S0016,Radhika Bhatt,Female,19,8.0,Bachelor,Student,4,0.0,Intern,0,5,5,1,2,4,1,Backend Development,1,Information Technology,Backend Developer,Backend Developer
+S0017,Vidya Bansal,Female,25,8.9,Bachelor,Working Professional,5,5.4,Full-Time,2,2,5,3,1,1,3,Business Intelligence,4,Data Science & Analytics,Business Intelligence Analyst,Data Analyst
+S0018,Nisha Menon,Female,25,10.0,Master,Working Professional,10,5.2,Full-Time,0,4,3,5,3,2,5,Data Science,4,Software Development,Data Scientist,Data Scientist
+S0019,Riya Chatterjee,Female,20,7.3,Bachelor,Student,4,0.0,Unemployed,0,5,4,5,5,5,4,Machine Learning,1,Artificial Intelligence,Machine Learning Engineer,Machine Learning Engineer
+S0020,Vihaan Desai,Male,24,8.8,Bachelor,Student,5,0.0,Unemployed,1,5,4,5,3,3,4,Machine Learning,3,Artificial Intelligence,Machine Learning Engineer,Machine Learning Engineer
+S0021,Raghav Nair,Male,29,8.8,Master,Working Professional,9,7.2,Full-Time,2,4,3,2,1,3,2,Cloud Computing,2,Business Intelligence,Cloud Engineer,Cloud Engineer
+S0022,Siddharth Reddy,Male,21,7.3,Bachelor,Graduate,5,1.0,Full-Time,0,5,3,5,4,3,3,Artificial Intelligence,1,Software Development,Machine Learning Engineer,Machine Learning Engineer
+S0023,Raghav Rao,Male,19,7.8,Bachelor,Student,4,0.0,Unemployed,1,4,4,5,4,4,5,Machine Learning,0,Cybersecurity,Machine Learning Engineer,Machine Learning Engineer
+S0024,Vivek Kapoor,Male,28,7.4,Master,Graduate,4,0.0,Unemployed,0,5,2,5,4,4,4,Machine Learning,2,Business Intelligence,Machine Learning Engineer,Machine Learning Engineer
+S0025,Neha Chawla,Female,21,9.9,Bachelor,Graduate,3,0.0,Full-Time,1,5,1,4,5,5,5,Artificial Intelligence,1,Artificial Intelligence,AI Researcher,AI Researcher
+S0026,Naveen Saxena,Male,23,5.8,Bachelor,Graduate,3,1.0,Unemployed,2,2,3,1,2,2,3,Cybersecurity,1,Artificial Intelligence,Full Stack Developer,Cybersecurity Analyst
+S0027,Tanya Verma,Female,22,8.0,Bachelor,Student,7,0.0,Unemployed,0,5,4,5,2,5,4,Machine Learning,2,Artificial Intelligence,Machine Learning Engineer,Machine Learning Engineer
+S0028,Pallavi Iyer,Female,21,7.8,Diploma,Student,4,0.0,Unemployed,0,4,4,1,1,5,3,Software Development,3,Artificial Intelligence,Software Engineer,Software Engineer
+S0029,Manya Bose,Female,22,8.3,Bachelor,Working Professional,6,6.6,Full-Time,3,3,1,1,1,4,4,Cloud Computing,1,Software Development,Cloud Engineer,Cybersecurity Analyst
+S0030,Siddharth Nair,Male,20,7.8,Bachelor,Graduate,4,0.0,Unemployed,2,5,5,1,1,4,2,Software Development,2,Cloud Computing,Backend Developer,Backend Developer
+S0031,Rahul Agarwal,Male,18,9.0,Bachelor,Graduate,1,0.0,Unemployed,2,2,2,2,1,4,2,Business Intelligence,2,Cybersecurity,Security Engineer,Security Engineer
+S0032,Harsh Saxena,Male,28,8.4,Bachelor,Working Professional,3,1.3,Full-Time,0,4,2,1,1,3,4,Cybersecurity,4,Software Development,Cybersecurity Analyst,Cybersecurity Analyst
+S0033,Karan Sinha,Male,24,8.6,Master,Student,5,0.0,Unemployed,0,4,2,1,1,3,3,Cloud Computing,2,Software Development,Cloud Engineer,Cloud Engineer
+S0034,Gaurav Singh,Male,22,9.0,Master,Student,5,0.0,Unemployed,0,2,2,2,1,3,4,Cybersecurity,1,Information Technology,Cybersecurity Analyst,Cybersecurity Analyst
+S0035,Kavya Singh,Female,30,9.4,Master,Working Professional,10,9.1,Full-Time,0,5,3,5,3,5,4,Machine Learning,2,Information Technology,Machine Learning Engineer,Machine Learning Engineer
+S0036,Vikram Bhatt,Male,21,8.1,Bachelor,Student,3,0.0,Unemployed,0,5,3,2,2,5,3,Cybersecurity,1,Data Science & Analytics,Software Engineer,Software Engineer
+S0037,Ira Verma,Female,19,7.7,Bachelor,Working Professional,7,6.6,Full-Time,3,3,4,1,1,2,4,Data Analytics,1,Business Intelligence,Data Analyst,Data Analyst
+S0038,Diya Mishra,Female,28,8.1,Master,Student,4,0.0,Unemployed,2,2,5,1,1,2,3,Business Intelligence,2,Cybersecurity,Business Intelligence Analyst,Business Intelligence Analyst
+S0039,Radhika Bose,Female,25,8.8,Bachelor,Working Professional,7,3.2,Full-Time,0,5,5,3,1,5,2,Cybersecurity,2,Artificial Intelligence,Backend Developer,Backend Developer
+S0040,Vivek Verma,Male,24,8.4,Bachelor,Student,2,0.0,Intern,1,4,2,1,1,4,3,Data Analytics,0,Data Science & Analytics,Cloud Engineer,Security Engineer
+S0041,Nikhil Kulkarni,Male,24,9.2,Bachelor,Graduate,0,0.0,Full-Time,1,3,3,1,1,5,2,Cybersecurity,2,Data Science & Analytics,Security Engineer,Software Engineer
+S0042,Nisha Bhatt,Female,18,6.4,Bachelor,Student,2,0.0,Intern,0,4,1,1,2,4,3,Cybersecurity,0,Artificial Intelligence,Security Engineer,Security Engineer
+S0043,Pranav Khanna,Male,21,7.2,Bachelor,Graduate,2,0.0,Unemployed,0,3,2,1,1,3,2,Software Development,2,Artificial Intelligence,Software Engineer,DevOps Engineer
+S0044,Naveen Menon,Male,24,7.6,Bachelor,Working Professional,8,6.5,Full-Time,2,3,4,2,1,1,3,Data Analytics,2,Cybersecurity,Data Analyst,Data Analyst
+S0045,Lavanya Kulkarni,Female,22,8.6,Bachelor,Graduate,2,0.0,Intern,2,1,4,2,1,2,1,Data Analytics,1,Cybersecurity,Frontend Developer,Frontend Developer
+S0046,Siddharth Bose,Male,28,7.6,Master,Working Professional,5,1.6,Full-Time,2,3,4,2,1,5,2,Software Development,2,Cloud Computing,Software Engineer,Software Engineer
+S0047,Pranav Mehta,Male,29,7.8,Master,Working Professional,6,3.9,Full-Time,1,3,1,2,1,3,1,DevOps,0,Cybersecurity,DevOps Engineer,DevOps Engineer
+S0048,Gaurav Saxena,Male,26,8.1,PhD,Working Professional,7,2.6,Full-Time,0,3,3,1,1,4,2,Cybersecurity,3,Cloud Computing,Full Stack Developer,Full Stack Developer
+S0049,Saurabh Bhatt,Male,19,8.2,Bachelor,Graduate,1,0.0,Unemployed,3,2,5,2,2,3,1,Artificial Intelligence,2,Artificial Intelligence,Full Stack Developer,Full Stack Developer
+S0050,Simran Iyer,Female,23,8.0,Bachelor,Working Professional,4,2.7,Full-Time,1,3,4,3,3,2,4,Data Science,0,Cybersecurity,Data Scientist,Data Scientist
+S0051,Ira Sharma,Female,28,7.6,Master,Student,4,0.0,Unemployed,1,3,2,2,1,2,2,Business Intelligence,2,Business Intelligence,Frontend Developer,DevOps Engineer
+S0052,Sahil Bansal,Male,25,8.4,Master,Student,4,0.0,Unemployed,0,4,2,1,2,3,2,DevOps,0,Software Development,DevOps Engineer,DevOps Engineer
+S0053,Simran Sinha,Female,25,7.4,Bachelor,Working Professional,8,6.6,Full-Time,2,3,1,2,1,5,2,Machine Learning,1,Cybersecurity,Security Engineer,Security Engineer
+S0054,Isha Chatterjee,Female,28,9.3,Master,Working Professional,8,5.3,Full-Time,0,3,2,2,2,3,1,DevOps,2,Software Development,DevOps Engineer,DevOps Engineer
+S0055,Sahil Choudhary,Male,22,8.1,Bachelor,Graduate,1,0.0,Unemployed,2,3,3,1,1,5,1,Cloud Computing,1,Cybersecurity,Security Engineer,Software Engineer
+S0056,Pranav Bose,Male,21,9.2,Bachelor,Graduate,2,0.0,Unemployed,2,3,4,1,1,3,1,Data Science,1,Cybersecurity,Full Stack Developer,Full Stack Developer
+S0057,Lavanya Sharma,Female,28,9.1,Master,Working Professional,11,7.1,Full-Time,1,5,2,4,4,5,5,Artificial Intelligence,0,Data Science & Analytics,AI Researcher,AI Researcher
+S0058,Ritika Bhatt,Female,26,7.9,Bachelor,Working Professional,5,5.1,Full-Time,0,5,4,2,2,4,3,Cloud Computing,2,Cybersecurity,Cloud Engineer,Backend Developer
+S0059,Sanjay Rao,Male,23,6.8,Bachelor,Graduate,2,0.0,Full-Time,3,2,5,1,1,1,5,Business Intelligence,0,Cloud Computing,Business Intelligence Analyst,Business Intelligence Analyst
+S0060,Ananya Kulkarni,Female,22,6.5,Diploma,Working Professional,1,2.9,Full-Time,3,1,4,1,1,2,4,Business Intelligence,0,Information Technology,Business Intelligence Analyst,Business Intelligence Analyst
+S0061,Sanjay Patel,Male,24,8.2,Master,Graduate,4,1.0,Unemployed,1,3,4,2,3,5,2,Backend Development,0,Cybersecurity,Backend Developer,Software Engineer
+S0062,Neha Joshi,Female,18,7.8,Bachelor,Working Professional,4,5.0,Full-Time,0,3,3,2,1,4,4,Cloud Computing,0,Artificial Intelligence,Full Stack Developer,Cloud Engineer
+S0063,Kunal Nair,Male,22,7.5,Bachelor,Working Professional,4,4.4,Full-Time,1,4,3,1,1,2,2,Cybersecurity,2,Business Intelligence,Cybersecurity Analyst,DevOps Engineer
+S0064,Tanvi Gupta,Female,20,8.0,Diploma,Student,1,0.0,Unemployed,1,2,3,1,1,3,1,Data Science,0,Cybersecurity,Cloud Engineer,Frontend Developer
+S0065,Aman Tiwari,Male,23,8.6,Bachelor,Student,2,0.0,Intern,2,3,3,2,1,5,2,Web Development,0,Cloud Computing,Software Engineer,Software Engineer
+S0066,Priya Saxena,Female,23,6.1,Bachelor,Graduate,2,0.0,Unemployed,2,3,2,2,1,2,1,Web Development,2,Data Science & Analytics,Frontend Developer,DevOps Engineer
+S0067,Ritika Reddy,Female,32,7.0,PhD,Working Professional,17,11.4,Full-Time,2,5,4,5,4,5,5,Data Science,1,Artificial Intelligence,Machine Learning Engineer,Machine Learning Engineer
+S0068,Mohit Saxena,Male,21,6.4,Bachelor,Graduate,4,1.0,Full-Time,1,4,3,1,1,4,3,Software Development,1,Data Science & Analytics,Software Engineer,Software Engineer
+S0069,Isha Iyer,Female,28,8.5,Master,Student,2,0.0,Unemployed,1,5,2,1,1,5,2,Software Development,0,Software Development,Software Engineer,Software Engineer
+S0070,Arjun Patel,Male,24,8.3,Bachelor,Graduate,0,0.0,Unemployed,0,1,1,1,1,2,2,Software Development,1,Software Development,Frontend Developer,Frontend Developer
+S0071,Rohan Mehta,Male,21,9.8,Bachelor,Graduate,2,0.0,Intern,3,3,2,2,1,4,4,Web Development,2,Software Development,Full Stack Developer,Cybersecurity Analyst
+S0072,Manish Kapoor,Male,27,8.4,Master,Graduate,8,0.0,Intern,1,5,3,5,5,4,5,Machine Learning,1,Data Science & Analytics,Machine Learning Engineer,AI Researcher
+S0073,Rahul Chatterjee,Male,18,7.0,Bachelor,Student,4,0.0,Intern,2,4,2,1,2,5,3,Data Analytics,3,Information Technology,Software Engineer,Software Engineer
+S0074,Pooja Mehta,Female,27,6.7,Master,Graduate,5,0.0,Full-Time,3,3,3,2,1,2,1,Cloud Computing,6,Data Science & Analytics,Cloud Engineer,DevOps Engineer
+S0075,Varun Tiwari,Male,18,6.4,Bachelor,Student,1,0.0,Unemployed,0,4,2,1,2,2,1,Business Intelligence,2,Software Development,DevOps Engineer,DevOps Engineer
+S0076,Ishaan Sharma,Male,21,8.6,Bachelor,Graduate,2,0.0,Unemployed,2,4,2,2,1,4,3,Artificial Intelligence,4,Data Science & Analytics,DevOps Engineer,Cloud Engineer
+S0077,Manish Iyer,Male,23,6.9,Bachelor,Working Professional,3,1.3,Full-Time,1,3,1,1,1,2,2,Business Intelligence,2,Artificial Intelligence,Cybersecurity Analyst,DevOps Engineer
+S0078,Karan Kapoor,Male,22,8.7,Bachelor,Graduate,2,0.0,Full-Time,3,2,4,1,2,4,1,Data Science,0,Cybersecurity,Cybersecurity Analyst,Full Stack Developer
+S0079,Tanvi Bose,Female,22,7.1,Bachelor,Student,4,0.0,Intern,1,4,4,1,1,3,3,Backend Development,0,Business Intelligence,Backend Developer,Backend Developer
+S0080,Arjun Iyer,Male,19,7.2,Bachelor,Working Professional,7,2.2,Full-Time,1,5,3,5,5,4,5,Artificial Intelligence,2,Cybersecurity,AI Researcher,AI Researcher
+S0081,Yash Kapoor,Male,31,6.5,Master,Working Professional,5,3.0,Full-Time,2,3,4,1,2,3,1,Backend Development,2,Software Development,Backend Developer,Full Stack Developer
+S0082,Divya Desai,Female,21,8.4,Bachelor,Student,4,0.0,Unemployed,0,4,3,2,2,3,3,Cloud Computing,3,Software Development,Cloud Engineer,Cloud Engineer
+S0083,Priya Iyer,Female,22,7.1,Bachelor,Graduate,2,0.0,Unemployed,2,4,2,1,2,2,2,DevOps,2,Software Development,DevOps Engineer,DevOps Engineer
+S0084,Nisha Agarwal,Female,22,8.6,Bachelor,Student,4,0.0,Unemployed,2,3,3,5,4,4,5,Data Science,3,Software Development,Data Scientist,Machine Learning Engineer
+S0085,Siddharth Kapoor,Male,26,8.8,Master,Working Professional,4,1.5,Full-Time,3,3,3,1,2,3,2,Web Development,2,Business Intelligence,Full Stack Developer,Cloud Engineer
+S0086,Anjali Gupta,Female,20,8.1,Bachelor,Graduate,0,0.0,Full-Time,0,4,5,1,1,5,1,Data Science,0,Software Development,Backend Developer,Backend Developer
+S0087,Sanjay Bose,Male,24,8.4,Bachelor,Student,4,0.0,Unemployed,0,5,4,4,2,3,5,Data Science,1,Software Development,Data Scientist,Data Scientist
+S0088,Priya Bansal,Female,20,6.2,Bachelor,Graduate,3,0.0,Unemployed,3,3,5,4,2,1,5,Data Science,2,Business Intelligence,Data Scientist,Data Scientist
+S0089,Simran Bansal,Female,22,8.1,Bachelor,Student,3,0.0,Unemployed,1,4,2,1,1,3,3,DevOps,1,Software Development,DevOps Engineer,Cloud Engineer
+S0090,Aditya Bansal,Male,27,8.6,Master,Graduate,4,1.0,Unemployed,1,3,2,1,1,4,3,Web Development,1,Cloud Computing,Security Engineer,Security Engineer
+S0091,Aarav Bansal,Male,19,7.3,Bachelor,Student,3,0.0,Intern,1,3,4,4,4,4,4,Backend Development,0,Cybersecurity,Machine Learning Engineer,Machine Learning Engineer
+S0092,Trisha Pillai,Female,29,8.2,Master,Working Professional,8,6.4,Full-Time,2,3,4,4,3,1,5,Data Science,0,Business Intelligence,Data Scientist,Data Scientist
+S0093,Aditya Bansal,Male,23,7.6,Bachelor,Working Professional,4,1.5,Full-Time,1,3,5,5,3,2,5,Backend Development,1,Data Science & Analytics,Data Scientist,Data Scientist
+S0094,Tarun Saxena,Male,20,9.5,Bachelor,Student,3,0.0,Intern,2,4,3,2,2,2,3,Software Development,1,Cloud Computing,DevOps Engineer,Cloud Engineer
+S0095,Nisha Chatterjee,Female,22,9.5,Bachelor,Graduate,3,1.0,Intern,0,3,3,2,2,3,5,Data Analytics,1,Business Intelligence,Data Analyst,Data Analyst
+S0096,Lavanya Kapoor,Female,24,7.1,Master,Student,7,0.0,Intern,1,5,3,1,1,5,2,Data Science,0,Cybersecurity,Software Engineer,Software Engineer
+S0097,Anjali Nair,Female,32,7.2,PhD,Student,6,0.0,Intern,1,5,5,2,1,3,5,Data Analytics,1,Business Intelligence,Data Analyst,Data Analyst
+S0098,Akash Menon,Male,17,9.0,High School,Student,0,0.0,Intern,1,3,5,1,1,1,3,Business Intelligence,2,Information Technology,Business Intelligence Analyst,Business Intelligence Analyst
+S0099,Manish Tiwari,Male,24,8.9,Bachelor,Graduate,2,1.0,Full-Time,0,2,2,1,2,2,3,Web Development,0,Software Development,DevOps Engineer,Cybersecurity Analyst
+S0100,Pallavi Verma,Female,19,7.4,Diploma,Working Professional,1,1.6,Full-Time,0,3,2,1,2,4,1,Data Science,2,Information Technology,Security Engineer,Security Engineer
+S0101,Kavya Chatterjee,Female,22,9.1,Master,Student,6,0.0,Unemployed,1,5,2,5,5,4,5,Artificial Intelligence,0,Data Science & Analytics,AI Researcher,AI Researcher
+S0102,Pranav Agarwal,Male,19,7.8,Bachelor,Student,3,0.0,Unemployed,2,3,4,1,1,3,3,Software Development,1,Business Intelligence,Software Engineer,Cloud Engineer
+S0103,Aditya Malhotra,Male,23,9.8,Bachelor,Working Professional,5,1.5,Full-Time,0,3,3,1,2,4,1,Cybersecurity,1,Software Development,Security Engineer,Full Stack Developer
+S0104,Nisha Kulkarni,Female,20,8.6,Bachelor,Graduate,4,0.0,Intern,3,4,4,5,4,2,5,Data Science,3,Software Development,Data Scientist,Data Scientist
+S0105,Vivek Rao,Male,21,6.6,Bachelor,Student,3,0.0,Unemployed,1,4,2,1,1,3,3,Software Development,2,Data Science & Analytics,Cybersecurity Analyst,Cloud Engineer
+S0106,Siddharth Bhatt,Male,22,6.1,Bachelor,Student,2,0.0,Intern,1,2,3,2,1,4,2,Artificial Intelligence,1,Cloud Computing,Cybersecurity Analyst,Full Stack Developer
+S0107,Pallavi Kapoor,Female,27,7.2,Master,Student,3,0.0,Unemployed,0,3,2,2,1,5,1,Cybersecurity,0,Software Development,Software Engineer,Security Engineer
+S0108,Diya Bhatt,Female,23,9.4,Bachelor,Working Professional,3,5.1,Full-Time,1,4,3,1,1,5,1,Cybersecurity,2,Business Intelligence,Security Engineer,Software Engineer
+S0109,Trisha Iyer,Female,22,8.4,Bachelor,Working Professional,6,5.9,Full-Time,3,4,4,3,1,3,4,Cloud Computing,1,Artificial Intelligence,Data Analyst,Data Analyst
+S0110,Rahul Menon,Male,28,9.2,Master,Graduate,5,1.0,Full-Time,1,4,4,1,1,5,1,Cybersecurity,0,Software Development,Software Engineer,Software Engineer
+S0111,Aditya Iyer,Male,28,7.3,Master,Student,5,0.0,Unemployed,1,5,3,1,1,5,2,Web Development,2,Cybersecurity,Software Engineer,Software Engineer
+S0112,Radhika Iyer,Female,22,8.2,Bachelor,Graduate,4,0.0,Intern,2,3,3,1,1,3,1,Web Development,3,Software Development,Full Stack Developer,Full Stack Developer
+S0113,Vikram Desai,Male,21,6.8,Diploma,Student,0,0.0,Unemployed,2,4,4,1,1,2,4,Machine Learning,0,Data Science & Analytics,Cloud Engineer,Data Analyst
+S0114,Bhavna Desai,Female,23,8.4,Bachelor,Working Professional,3,2.1,Full-Time,0,4,4,1,2,5,2,Backend Development,3,Artificial Intelligence,Backend Developer,Software Engineer
+S0115,Karan Pillai,Male,21,6.7,Diploma,Student,2,0.0,Unemployed,0,3,3,2,1,3,1,Web Development,0,Software Development,Frontend Developer,Full Stack Developer
+S0116,Raghav Mishra,Male,23,7.2,Bachelor,Graduate,2,0.0,Full-Time,1,2,2,1,1,3,2,Software Development,3,Cybersecurity,Cybersecurity Analyst,Cybersecurity Analyst
+S0117,Nikhil Joshi,Male,24,6.6,Bachelor,Student,1,0.0,Unemployed,1,1,3,1,1,3,1,Web Development,0,Data Science & Analytics,Frontend Developer,Frontend Developer
+S0118,Nikhil Singh,Male,25,7.8,PhD,Graduate,8,0.0,Intern,1,5,3,1,1,5,3,Software Development,2,Information Technology,Software Engineer,Software Engineer
+S0119,Naveen Nair,Male,24,7.8,Bachelor,Student,2,0.0,Intern,2,4,4,2,1,3,2,Cloud Computing,2,Cloud Computing,Cloud Engineer,Backend Developer
+S0120,Naveen Nair,Male,24,7.2,Master,Student,7,0.0,Intern,0,1,4,1,1,1,4,Business Intelligence,4,Artificial Intelligence,Business Intelligence Analyst,Business Intelligence Analyst
+S0121,Aarav Chawla,Male,24,7.3,Bachelor,Graduate,4,0.0,Intern,2,5,2,5,4,5,5,Artificial Intelligence,0,Artificial Intelligence,AI Researcher,AI Researcher
+S0122,Riya Agarwal,Female,25,7.2,Master,Graduate,6,0.0,Intern,3,5,5,1,1,5,3,Backend Development,0,Cybersecurity,Backend Developer,Backend Developer
+S0123,Lavanya Menon,Female,21,5.2,Bachelor,Graduate,2,0.0,Unemployed,0,3,2,1,1,3,2,DevOps,1,Business Intelligence,DevOps Engineer,DevOps Engineer
+S0124,Akash Menon,Male,20,6.6,Diploma,Student,2,0.0,Unemployed,1,4,5,1,1,4,1,Backend Development,1,Artificial Intelligence,Backend Developer,Backend Developer
+S0125,Tarun Khanna,Male,25,7.2,Bachelor,Working Professional,6,1.4,Full-Time,1,5,3,5,4,3,3,Backend Development,2,Business Intelligence,Machine Learning Engineer,Machine Learning Engineer
+S0126,Nisha Yadav,Female,25,6.9,Master,Student,4,0.0,Unemployed,0,3,4,1,2,4,2,Cloud Computing,1,Cybersecurity,Cloud Engineer,Backend Developer
+S0127,Karan Mishra,Male,23,8.6,Bachelor,Graduate,1,0.0,Unemployed,0,3,3,1,1,4,2,Business Intelligence,2,Software Development,Backend Developer,Full Stack Developer
+S0128,Rohan Iyer,Male,25,6.6,Bachelor,Working Professional,4,2.9,Full-Time,2,2,3,1,1,1,4,Business Intelligence,3,Cloud Computing,Business Intelligence Analyst,Data Analyst
+S0129,Meera Bose,Female,28,6.6,Master,Graduate,7,0.0,Full-Time,2,4,5,1,2,5,3,Software Development,0,Data Science & Analytics,Software Engineer,Backend Developer
+S0130,Sahil Pillai,Male,28,7.0,Master,Graduate,3,0.0,Unemployed,2,3,4,1,1,5,1,Cybersecurity,2,Cloud Computing,Security Engineer,Software Engineer
+S0131,Bhavna Yadav,Female,27,7.3,Bachelor,Working Professional,2,1.2,Full-Time,2,3,1,2,2,5,1,Artificial Intelligence,0,Cloud Computing,Security Engineer,Security Engineer
+S0132,Rahul Gupta,Male,24,9.6,Master,Graduate,6,0.0,Unemployed,2,5,4,1,2,5,3,Business Intelligence,1,Cloud Computing,Backend Developer,Software Engineer
+S0133,Aarav Desai,Male,21,8.0,Diploma,Student,1,0.0,Unemployed,0,3,3,1,3,1,4,Data Analytics,2,Artificial Intelligence,Data Analyst,Data Analyst
+S0134,Pallavi Malhotra,Female,19,7.8,Diploma,Student,2,0.0,Unemployed,2,3,2,1,1,4,3,Software Development,2,Information Technology,Cybersecurity Analyst,Security Engineer
+S0135,Kunal Bose,Male,20,8.1,Bachelor,Graduate,3,0.0,Full-Time,3,4,5,1,1,4,3,Backend Development,3,Data Science & Analytics,Backend Developer,Backend Developer
+S0136,Anjali Malhotra,Female,18,8.3,Bachelor,Graduate,3,0.0,Unemployed,2,3,3,2,1,5,2,Software Development,1,Information Technology,Software Engineer,Software Engineer
+S0137,Diya Yadav,Female,24,9.5,Master,Graduate,5,0.0,Unemployed,1,4,5,4,2,2,5,Data Science,1,Artificial Intelligence,Data Scientist,Data Scientist
+S0138,Siddharth Bhatt,Male,25,7.5,Master,Student,3,0.0,Intern,2,5,1,4,5,3,4,Artificial Intelligence,3,Cybersecurity,AI Researcher,AI Researcher
+S0139,Ritika Malhotra,Female,26,9.4,Bachelor,Working Professional,2,0.5,Full-Time,1,2,3,1,1,4,4,Cybersecurity,0,Information Technology,Security Engineer,Cybersecurity Analyst
+S0140,Akash Khanna,Male,22,9.8,Master,Graduate,7,1.0,Full-Time,1,5,4,2,1,4,2,Cloud Computing,0,Cybersecurity,Cloud Engineer,Backend Developer
+S0141,Raghav Choudhary,Male,24,7.6,Bachelor,Graduate,1,0.0,Unemployed,2,3,4,2,1,4,1,Web Development,1,Information Technology,Full Stack Developer,Full Stack Developer
+S0142,Meera Joshi,Female,29,8.7,Master,Working Professional,9,7.5,Full-Time,3,2,3,2,3,2,2,Cloud Computing,2,Information Technology,Cloud Engineer,Cloud Engineer
+S0143,Saurabh Nair,Male,23,10.0,Master,Student,4,0.0,Intern,0,3,1,1,1,4,1,Web Development,1,Cybersecurity,Frontend Developer,Security Engineer
+S0144,Divya Sinha,Female,22,8.8,Bachelor,Working Professional,6,6.8,Full-Time,0,2,5,2,1,1,4,Business Intelligence,2,Cybersecurity,Business Intelligence Analyst,Business Intelligence Analyst
+S0145,Isha Saxena,Female,22,7.2,Bachelor,Graduate,1,0.0,Unemployed,2,4,2,1,1,3,1,DevOps,2,Information Technology,DevOps Engineer,DevOps Engineer
+S0146,Vivek Chawla,Male,25,8.4,Diploma,Working Professional,4,2.5,Full-Time,2,4,2,5,3,5,5,Machine Learning,0,Business Intelligence,AI Researcher,Machine Learning Engineer
+S0147,Ishaan Saxena,Male,22,8.0,Bachelor,Graduate,3,1.0,Intern,1,5,1,5,5,3,5,Artificial Intelligence,3,Cybersecurity,AI Researcher,AI Researcher
+S0148,Swati Iyer,Female,19,7.0,Bachelor,Student,5,0.0,Intern,2,3,3,3,1,3,2,DevOps,0,Cloud Computing,DevOps Engineer,Cloud Engineer
+S0149,Yash Menon,Male,23,6.7,Bachelor,Graduate,2,0.0,Full-Time,0,1,3,3,2,3,1,Web Development,2,Data Science & Analytics,Full Stack Developer,Frontend Developer
+S0150,Tanvi Rao,Female,23,7.1,Bachelor,Working Professional,2,1.7,Full-Time,1,2,4,3,1,2,4,Data Analytics,2,Information Technology,Data Analyst,Data Analyst
+S0151,Kritika Choudhary,Female,23,8.2,Master,Graduate,6,0.0,Unemployed,3,2,5,4,1,1,4,Data Science,2,Software Development,Business Intelligence Analyst,Data Analyst
+S0152,Tanya Bhatt,Female,28,6.9,PhD,Working Professional,15,9.6,Full-Time,1,5,4,5,5,4,3,Machine Learning,2,Data Science & Analytics,Machine Learning Engineer,Machine Learning Engineer
+S0153,Sanjay Mehta,Male,23,7.9,Master,Graduate,4,0.0,Full-Time,0,2,5,2,1,1,3,Business Intelligence,4,Information Technology,Business Intelligence Analyst,Business Intelligence Analyst
+S0154,Aman Bansal,Male,24,7.2,Master,Working Professional,11,8.9,Full-Time,1,5,4,4,2,5,2,Software Development,0,Artificial Intelligence,Software Engineer,Machine Learning Engineer
+S0155,Abhinav Bhatt,Male,27,8.5,Master,Student,3,0.0,Unemployed,1,3,2,2,2,3,1,Data Science,2,Data Science & Analytics,Cloud Engineer,DevOps Engineer
+S0156,Tanvi Khanna,Female,23,8.8,Master,Graduate,3,0.0,Unemployed,2,3,2,1,1,2,3,DevOps,2,Business Intelligence,DevOps Engineer,Cybersecurity Analyst
+S0157,Saurabh Choudhary,Male,22,7.6,Bachelor,Working Professional,8,7.8,Full-Time,1,4,3,1,2,2,2,Cloud Computing,2,Business Intelligence,Cloud Engineer,DevOps Engineer
+S0158,Vivek Pillai,Male,23,7.9,Bachelor,Student,4,0.0,Intern,0,5,5,1,2,5,1,Backend Development,2,Data Science & Analytics,Backend Developer,Backend Developer
+S0159,Tarun Sinha,Male,18,7.6,Bachelor,Graduate,1,0.0,Full-Time,1,2,4,3,1,2,4,Data Analytics,0,Information Technology,Data Analyst,Data Analyst
+S0160,Manish Kapoor,Male,27,9.1,PhD,Graduate,6,0.0,Unemployed,1,3,4,3,1,2,5,Backend Development,2,Business Intelligence,Data Analyst,Data Analyst
+S0161,Priya Nair,Female,23,8.1,Bachelor,Graduate,1,0.0,Full-Time,0,5,1,1,1,3,2,DevOps,0,Cybersecurity,DevOps Engineer,DevOps Engineer
+S0162,Aman Mehta,Male,26,8.7,Bachelor,Working Professional,7,7.2,Full-Time,0,5,3,2,1,4,2,Data Science,0,Information Technology,Cloud Engineer,Software Engineer
+S0163,Sahil Verma,Male,21,8.0,Bachelor,Working Professional,7,6.7,Full-Time,2,4,4,3,1,3,3,Backend Development,3,Business Intelligence,Full Stack Developer,Data Analyst
+S0164,Tarun Desai,Male,21,9.0,Bachelor,Working Professional,7,5.8,Full-Time,0,5,3,4,3,1,5,Data Science,3,Information Technology,Data Scientist,Data Scientist
+S0165,Manya Gupta,Female,20,7.6,Bachelor,Working Professional,5,3.2,Full-Time,1,5,3,3,4,3,3,Machine Learning,1,Cloud Computing,Machine Learning Engineer,Machine Learning Engineer
+S0166,Vihaan Pillai,Male,20,8.8,Bachelor,Graduate,2,0.0,Unemployed,1,4,3,1,1,5,2,Backend Development,0,Data Science & Analytics,Backend Developer,Software Engineer
+S0167,Vidya Mishra,Female,20,7.8,Bachelor,Student,2,0.0,Unemployed,2,3,5,5,3,3,3,Web Development,3,Artificial Intelligence,Machine Learning Engineer,Data Scientist
+S0168,Kunal Tiwari,Male,18,7.3,Bachelor,Student,0,0.0,Intern,0,4,2,1,1,3,1,DevOps,1,Information Technology,DevOps Engineer,DevOps Engineer
+S0169,Priya Sinha,Female,22,9.3,Bachelor,Graduate,6,1.0,Full-Time,0,5,3,5,4,4,3,Machine Learning,1,Cybersecurity,Machine Learning Engineer,Machine Learning Engineer
+S0170,Saurabh Chawla,Male,17,8.2,High School,Student,0,0.0,Unemployed,1,3,2,2,1,4,1,Data Analytics,1,Cybersecurity,Security Engineer,Security Engineer
+S0171,Sanjay Rao,Male,31,6.8,PhD,Graduate,8,0.0,Full-Time,2,4,3,1,1,5,1,Machine Learning,2,Data Science & Analytics,Security Engineer,Software Engineer
+S0172,Dev Bose,Male,32,9.3,PhD,Student,5,0.0,Unemployed,2,4,4,2,2,3,3,Backend Development,2,Information Technology,Backend Developer,Data Analyst
+S0173,Abhinav Khanna,Male,23,7.5,Bachelor,Working Professional,4,1.6,Full-Time,2,2,3,2,1,2,3,DevOps,0,Information Technology,Data Analyst,Cybersecurity Analyst
+S0174,Isha Bose,Female,18,6.1,Bachelor,Student,3,0.0,Unemployed,1,3,3,5,5,2,5,Data Science,0,Data Science & Analytics,Data Scientist,Data Scientist
+S0175,Lavanya Nair,Female,18,8.3,Bachelor,Graduate,2,0.0,Unemployed,1,3,2,1,1,3,2,Web Development,4,Data Science & Analytics,Full Stack Developer,DevOps Engineer
+S0176,Simran Kulkarni,Female,25,8.1,Master,Graduate,6,0.0,Intern,1,5,3,3,4,3,5,Machine Learning,2,Data Science & Analytics,Machine Learning Engineer,Data Scientist
+S0177,Aarav Reddy,Male,26,7.4,Master,Graduate,3,1.0,Full-Time,0,3,1,1,1,5,3,Backend Development,0,Data Science & Analytics,Security Engineer,Security Engineer
+S0178,Yash Khanna,Male,23,10.0,Master,Graduate,4,0.0,Unemployed,1,3,5,2,3,5,2,Backend Development,0,Cybersecurity,Backend Developer,Backend Developer
+S0179,Manya Saxena,Female,34,10.0,PhD,Graduate,9,0.0,Full-Time,1,4,3,5,4,4,4,Machine Learning,2,Cloud Computing,Machine Learning Engineer,Machine Learning Engineer
+S0180,Sakshi Tiwari,Female,25,8.6,Master,Working Professional,11,5.1,Full-Time,2,5,2,5,3,4,4,Machine Learning,2,Artificial Intelligence,Machine Learning Engineer,Machine Learning Engineer
+S0181,Radhika Kapoor,Female,22,9.0,Bachelor,Graduate,6,0.0,Intern,2,5,3,5,4,4,4,Machine Learning,2,Artificial Intelligence,Machine Learning Engineer,Machine Learning Engineer
+S0182,Abhinav Rao,Male,28,8.1,Master,Working Professional,8,5.3,Full-Time,1,5,5,1,2,5,2,Software Development,2,Information Technology,Software Engineer,Backend Developer
+S0183,Simran Chatterjee,Female,23,9.2,Master,Graduate,6,0.0,Full-Time,1,3,5,2,1,1,5,Business Intelligence,3,Cybersecurity,Business Intelligence Analyst,Data Analyst
+S0184,Diya Agarwal,Female,20,6.9,Bachelor,Student,1,0.0,Intern,0,2,1,1,1,3,1,Cloud Computing,0,Data Science & Analytics,Frontend Developer,Frontend Developer
+S0185,Sneha Chawla,Female,24,9.2,Bachelor,Working Professional,5,5.8,Full-Time,0,2,5,1,1,1,5,Business Intelligence,3,Software Development,Business Intelligence Analyst,Business Intelligence Analyst
+S0186,Ishaan Gupta,Male,23,6.7,Master,Student,4,0.0,Unemployed,1,3,3,1,2,3,1,Software Development,1,Data Science & Analytics,Full Stack Developer,Full Stack Developer
+S0187,Aarav Chawla,Male,23,7.7,Diploma,Working Professional,4,1.6,Full-Time,2,4,4,4,4,4,5,Data Science,1,Cloud Computing,Data Scientist,Machine Learning Engineer
+S0188,Tanvi Bansal,Female,21,7.0,Bachelor,Graduate,3,0.0,Full-Time,2,3,2,1,2,3,1,Web Development,0,Cybersecurity,Full Stack Developer,DevOps Engineer
+S0189,Simran Gupta,Female,19,6.4,Bachelor,Graduate,3,0.0,Intern,2,2,3,1,1,5,2,Data Analytics,1,Business Intelligence,Security Engineer,Security Engineer
+S0190,Shreya Joshi,Female,22,7.7,Bachelor,Graduate,3,0.0,Unemployed,1,5,3,2,2,4,2,DevOps,1,Information Technology,DevOps Engineer,Software Engineer
+S0191,Yash Verma,Male,26,8.9,Master,Working Professional,4,1.0,Full-Time,1,3,5,2,1,1,4,Business Intelligence,1,Business Intelligence,Business Intelligence Analyst,Data Analyst
+S0192,Kunal Gupta,Male,31,8.3,PhD,Graduate,7,0.0,Intern,2,5,4,1,1,5,2,Backend Development,2,Cybersecurity,Backend Developer,Software Engineer
+S0193,Vihaan Joshi,Male,23,7.9,Diploma,Working Professional,6,3.8,Full-Time,1,3,3,5,2,3,5,Machine Learning,1,Information Technology,Data Scientist,Data Scientist
+S0194,Raghav Singh,Male,20,7.8,Bachelor,Graduate,0,0.0,Unemployed,1,3,2,1,1,3,3,Software Development,1,Cloud Computing,Software Engineer,Cybersecurity Analyst
+S0195,Akash Agarwal,Male,28,8.8,Master,Graduate,5,0.0,Unemployed,1,4,4,2,2,5,2,Backend Development,0,Cybersecurity,Backend Developer,Software Engineer
+S0196,Vidya Joshi,Female,25,7.5,Bachelor,Working Professional,4,2.5,Full-Time,0,5,4,5,2,4,5,Machine Learning,2,Information Technology,Machine Learning Engineer,Machine Learning Engineer
+S0197,Anjali Saxena,Female,22,7.9,Bachelor,Student,1,0.0,Intern,1,3,2,1,1,2,3,Business Intelligence,1,Data Science & Analytics,Data Analyst,Cybersecurity Analyst
+S0198,Raghav Khanna,Male,28,7.6,Master,Working Professional,12,9.6,Full-Time,3,5,4,5,4,4,4,Machine Learning,0,Cloud Computing,Machine Learning Engineer,Machine Learning Engineer
+S0199,Vikram Sharma,Male,21,9.0,Bachelor,Student,3,0.0,Unemployed,1,2,2,1,1,4,1,Web Development,0,Information Technology,Frontend Developer,Frontend Developer
+S0200,Vidya Saxena,Female,23,7.5,Bachelor,Student,3,0.0,Unemployed,1,4,2,1,1,2,2,DevOps,0,Artificial Intelligence,DevOps Engineer,DevOps Engineer
+S0201,Sahil Kulkarni,Male,16,9.5,High School,Student,1,0.0,Unemployed,0,3,5,2,3,1,4,Data Analytics,0,Cybersecurity,Data Analyst,Data Analyst
+S0202,Dev Yadav,Male,27,6.8,Master,Working Professional,4,1.0,Full-Time,2,2,5,2,1,1,5,Business Intelligence,0,Cloud Computing,Business Intelligence Analyst,Business Intelligence Analyst
+S0203,Swati Pillai,Female,21,7.9,Bachelor,Student,3,0.0,Intern,0,3,4,2,1,2,5,Data Analytics,0,Cloud Computing,Data Analyst,Data Analyst
+S0204,Neha Mehta,Female,19,9.2,Bachelor,Graduate,4,0.0,Full-Time,0,4,5,2,1,2,3,Cloud Computing,2,Software Development,Data Analyst,Data Analyst
+S0205,Mohit Bansal,Male,26,8.1,Master,Working Professional,3,0.8,Full-Time,1,3,3,4,2,1,4,Backend Development,4,Cloud Computing,Data Scientist,Data Scientist
+S0206,Bhavna Rao,Female,20,7.1,Bachelor,Student,4,0.0,Unemployed,1,5,4,4,3,4,3,Backend Development,0,Data Science & Analytics,Machine Learning Engineer,Machine Learning Engineer
+S0207,Nikhil Pillai,Male,24,7.4,Bachelor,Working Professional,6,7.6,Full-Time,1,3,4,1,3,3,2,Cybersecurity,5,Artificial Intelligence,Cybersecurity Analyst,Cloud Engineer
+S0208,Gaurav Kulkarni,Male,19,6.3,Bachelor,Working Professional,6,4.9,Full-Time,0,4,5,1,1,4,2,Backend Development,2,Cybersecurity,Backend Developer,Backend Developer
+S0209,Aditya Yadav,Male,17,6.6,High School,Student,0,0.0,Unemployed,2,4,2,1,1,5,2,DevOps,0,Cybersecurity,Software Engineer,Software Engineer
+S0210,Tanvi Patel,Female,23,8.4,Bachelor,Student,4,0.0,Unemployed,0,3,1,4,5,3,5,Machine Learning,1,Software Development,AI Researcher,AI Researcher
+S0211,Ritika Gupta,Female,22,9.4,Master,Student,6,0.0,Intern,2,3,4,3,4,1,5,Data Science,2,Business Intelligence,Data Scientist,Data Scientist
+S0212,Tanvi Sharma,Female,20,8.2,Bachelor,Student,1,0.0,Unemployed,2,4,2,2,2,4,2,Web Development,1,Cloud Computing,Full Stack Developer,Security Engineer
+S0213,Isha Chatterjee,Female,20,8.8,Bachelor,Student,1,0.0,Unemployed,1,4,2,1,2,3,2,DevOps,0,Software Development,DevOps Engineer,DevOps Engineer
+S0214,Naveen Patel,Male,25,6.4,Bachelor,Working Professional,8,7.8,Full-Time,2,3,5,5,4,2,3,Business Intelligence,0,Cloud Computing,Data Scientist,Data Scientist
+S0215,Aditi Agarwal,Female,19,8.2,Diploma,Student,5,0.0,Intern,0,5,2,5,5,3,5,DevOps,1,Data Science & Analytics,AI Researcher,AI Researcher
+S0216,Akash Kapoor,Male,24,10.0,Master,Graduate,4,0.0,Unemployed,2,3,4,2,1,3,4,Data Analytics,2,Software Development,Data Analyst,Data Analyst
+S0217,Manish Gupta,Male,30,7.6,Master,Working Professional,6,6.4,Full-Time,1,3,3,1,1,2,4,Backend Development,2,Software Development,Cybersecurity Analyst,Data Analyst
+S0218,Sahil Kapoor,Male,26,8.2,PhD,Graduate,9,1.0,Full-Time,2,3,3,1,2,5,3,Software Development,1,Data Science & Analytics,Software Engineer,Software Engineer
+S0219,Manya Saxena,Female,27,9.8,Master,Student,4,0.0,Intern,0,4,4,1,1,4,2,Backend Development,0,Cloud Computing,Backend Developer,Backend Developer
+S0220,Karan Malhotra,Male,19,9.0,Diploma,Student,1,0.0,Unemployed,1,5,2,4,3,3,4,Machine Learning,0,Cybersecurity,Machine Learning Engineer,Machine Learning Engineer
+S0221,Sneha Pillai,Female,28,9.2,Master,Graduate,8,0.0,Intern,3,4,2,5,4,4,5,Machine Learning,1,Cybersecurity,Machine Learning Engineer,AI Researcher
+S0222,Radhika Kulkarni,Female,21,8.6,Bachelor,Student,4,0.0,Unemployed,1,4,1,5,5,3,5,Artificial Intelligence,2,Software Development,AI Researcher,AI Researcher
+S0223,Abhinav Joshi,Male,18,7.3,Diploma,Student,1,0.0,Intern,1,3,2,1,1,3,1,DevOps,2,Information Technology,DevOps Engineer,DevOps Engineer
+S0224,Kritika Yadav,Female,32,8.7,PhD,Working Professional,10,1.6,Full-Time,2,4,4,5,3,1,5,Data Science,1,Cybersecurity,Data Scientist,Data Scientist
+S0225,Siddharth Kulkarni,Male,27,7.8,Master,Student,5,0.0,Intern,0,4,4,5,3,1,5,Backend Development,2,Artificial Intelligence,Data Scientist,Data Scientist
+S0226,Sahil Mishra,Male,24,8.8,Master,Student,9,0.0,Unemployed,2,5,2,5,5,5,4,Machine Learning,0,Cybersecurity,Machine Learning Engineer,AI Researcher
+S0227,Aditya Joshi,Male,24,8.4,Bachelor,Working Professional,7,4.9,Full-Time,1,3,3,1,1,4,2,Artificial Intelligence,1,Business Intelligence,Full Stack Developer,Full Stack Developer
+S0228,Ira Sinha,Female,16,6.9,High School,Student,2,0.0,Unemployed,0,5,2,5,5,3,4,Artificial Intelligence,2,Cybersecurity,AI Researcher,AI Researcher
+S0229,Manish Verma,Male,19,7.2,Bachelor,Working Professional,7,5.4,Full-Time,0,4,3,1,2,3,3,Business Intelligence,0,Cloud Computing,Cloud Engineer,Cloud Engineer
+S0230,Divya Mishra,Female,26,6.8,Bachelor,Working Professional,7,2.4,Full-Time,1,4,1,5,5,4,4,Cloud Computing,3,Data Science & Analytics,Machine Learning Engineer,AI Researcher
+S0231,Yash Bose,Male,23,8.4,Bachelor,Working Professional,7,7.1,Full-Time,0,2,3,1,1,3,2,Web Development,4,Software Development,Frontend Developer,Cybersecurity Analyst
+S0232,Harsh Joshi,Male,27,8.7,Master,Working Professional,7,2.2,Full-Time,2,3,4,4,4,3,4,Data Science,0,Artificial Intelligence,Data Scientist,Data Scientist
+S0233,Neha Pillai,Female,28,8.0,Master,Graduate,6,0.0,Full-Time,1,5,2,5,5,4,4,Artificial Intelligence,2,Cloud Computing,AI Researcher,AI Researcher
+S0234,Shreya Nair,Female,20,5.6,Bachelor,Student,2,0.0,Unemployed,0,5,3,1,1,3,1,DevOps,2,Business Intelligence,DevOps Engineer,DevOps Engineer
+S0235,Siddharth Rao,Male,24,8.0,Bachelor,Student,2,0.0,Unemployed,0,2,2,1,1,4,3,Software Development,0,Software Development,Cloud Engineer,Cybersecurity Analyst
+S0236,Mohit Chawla,Male,19,5.1,Bachelor,Student,5,0.0,Intern,0,4,4,1,2,3,2,Backend Development,3,Software Development,DevOps Engineer,Backend Developer
+S0237,Pallavi Tiwari,Female,23,9.4,Master,Graduate,5,0.0,Full-Time,1,4,4,4,3,3,5,Data Science,2,Cybersecurity,Data Scientist,Data Scientist
+S0238,Tarun Joshi,Male,22,9.1,Master,Graduate,6,1.0,Full-Time,3,1,4,2,1,2,4,Data Analytics,2,Artificial Intelligence,Data Analyst,Data Analyst
+S0239,Sahil Chawla,Male,24,7.6,Master,Student,5,0.0,Unemployed,0,2,2,1,2,2,4,Software Development,0,Cloud Computing,Cybersecurity Analyst,Cybersecurity Analyst
+S0240,Sahil Patel,Male,21,8.4,Bachelor,Student,3,0.0,Unemployed,1,1,2,2,2,3,2,Web Development,1,Data Science & Analytics,Frontend Developer,Frontend Developer
+S0241,Tanya Desai,Female,23,8.8,Bachelor,Student,3,0.0,Intern,1,5,2,1,1,3,2,Business Intelligence,2,Artificial Intelligence,DevOps Engineer,DevOps Engineer
+S0242,Varun Sinha,Male,32,10.0,PhD,Student,6,0.0,Unemployed,0,5,5,1,1,5,1,Backend Development,0,Business Intelligence,Software Engineer,Backend Developer
+S0243,Aman Nair,Male,23,8.6,Bachelor,Student,4,0.0,Unemployed,1,3,2,3,2,4,2,Cloud Computing,1,Cloud Computing,Cloud Engineer,Cloud Engineer
+S0244,Trisha Kulkarni,Female,23,7.9,Bachelor,Graduate,5,1.0,Unemployed,1,5,2,5,3,5,3,Machine Learning,4,Cloud Computing,Machine Learning Engineer,Machine Learning Engineer
+S0245,Varun Singh,Male,32,9.0,PhD,Student,6,0.0,Intern,0,2,5,1,1,1,4,Web Development,1,Cybersecurity,Business Intelligence Analyst,Business Intelligence Analyst
+S0246,Tarun Reddy,Male,22,8.4,Bachelor,Student,4,0.0,Unemployed,2,4,5,1,1,3,3,Data Analytics,2,Data Science & Analytics,Backend Developer,Backend Developer
+S0247,Akash Rao,Male,21,7.6,Bachelor,Working Professional,6,1.5,Full-Time,0,5,4,5,3,5,3,Web Development,0,Business Intelligence,Machine Learning Engineer,Machine Learning Engineer
+S0248,Vidya Desai,Female,17,8.1,High School,Student,3,0.0,Unemployed,1,4,3,3,2,3,3,DevOps,2,Information Technology,DevOps Engineer,Cloud Engineer
+S0249,Pranav Chawla,Male,22,6.9,Bachelor,Graduate,5,0.0,Full-Time,1,5,3,5,5,4,4,Artificial Intelligence,6,Artificial Intelligence,AI Researcher,Machine Learning Engineer
+S0250,Rohan Menon,Male,26,10.0,Master,Graduate,6,0.0,Unemployed,2,3,4,1,1,3,3,Data Analytics,1,Information Technology,Full Stack Developer,Cloud Engineer
+S0251,Abhinav Bhatt,Male,24,8.6,Master,Student,6,0.0,Unemployed,1,3,5,3,5,2,5,Cloud Computing,0,Cloud Computing,Data Scientist,Data Scientist
+S0252,Aditi Bansal,Female,19,8.3,Bachelor,Working Professional,8,5.7,Full-Time,2,5,1,5,4,4,4,Machine Learning,3,Software Development,AI Researcher,AI Researcher
+S0253,Aman Kapoor,Male,20,6.7,Diploma,Working Professional,3,3.2,Full-Time,2,3,2,2,1,2,2,Web Development,2,Data Science & Analytics,DevOps Engineer,DevOps Engineer
+S0254,Varun Joshi,Male,23,8.5,Master,Graduate,5,1.0,Unemployed,3,4,3,1,1,4,2,Software Development,1,Data Science & Analytics,Security Engineer,Software Engineer
+S0255,Aditya Singh,Male,22,7.1,Bachelor,Working Professional,5,2.1,Full-Time,0,3,3,2,1,2,4,Data Analytics,1,Data Science & Analytics,Data Analyst,Data Analyst
+S0256,Meera Chatterjee,Female,23,7.9,Master,Student,5,0.0,Unemployed,0,4,4,4,4,2,5,Data Science,1,Cybersecurity,Data Scientist,Data Scientist
+S0257,Vikram Iyer,Male,24,7.7,Bachelor,Working Professional,4,2.8,Full-Time,1,3,4,4,3,4,5,Data Science,1,Information Technology,Data Scientist,Data Scientist
+S0258,Ira Mishra,Female,22,7.7,Bachelor,Student,2,0.0,Unemployed,0,1,1,1,1,4,2,Web Development,1,Cybersecurity,Frontend Developer,Frontend Developer
+S0259,Aditya Pillai,Male,23,8.7,Diploma,Working Professional,2,5.0,Full-Time,2,3,3,2,3,2,1,Cybersecurity,3,Cybersecurity,Data Analyst,Cloud Engineer
+S0260,Raghav Kapoor,Male,23,7.2,Bachelor,Working Professional,6,6.2,Full-Time,0,2,2,1,1,5,1,DevOps,2,Information Technology,DevOps Engineer,Security Engineer
+S0261,Bhavna Patel,Female,21,8.0,Bachelor,Graduate,1,0.0,Unemployed,0,1,1,1,1,3,1,Web Development,2,Cloud Computing,Frontend Developer,Frontend Developer
+S0262,Pooja Tiwari,Female,21,9.0,Bachelor,Student,1,0.0,Intern,0,3,2,1,1,3,2,Cybersecurity,0,Software Development,DevOps Engineer,DevOps Engineer
+S0263,Neha Saxena,Female,24,8.1,Bachelor,Graduate,2,1.0,Unemployed,1,4,3,1,2,5,2,Software Development,1,Artificial Intelligence,Software Engineer,Software Engineer
+S0264,Ananya Bansal,Female,27,9.6,PhD,Graduate,4,1.0,Full-Time,0,4,2,1,1,5,1,Backend Development,1,Business Intelligence,Software Engineer,Software Engineer
+S0265,Aditya Pillai,Male,20,5.0,Bachelor,Student,4,0.0,Unemployed,1,4,5,4,3,1,5,Data Science,2,Business Intelligence,Data Scientist,Data Scientist
+S0266,Divya Pillai,Female,27,5.7,Bachelor,Working Professional,8,6.8,Full-Time,0,5,4,2,1,2,3,Machine Learning,0,Information Technology,Data Analyst,Data Analyst
+S0267,Nisha Saxena,Female,18,9.0,Bachelor,Student,4,0.0,Intern,0,3,3,1,1,4,2,Web Development,1,Software Development,Full Stack Developer,Full Stack Developer
+S0268,Manya Desai,Female,24,7.8,Bachelor,Graduate,2,1.0,Unemployed,2,5,4,1,1,4,3,Backend Development,2,Data Science & Analytics,Backend Developer,Backend Developer
+S0269,Akash Rao,Male,31,7.4,Master,Working Professional,6,3.2,Full-Time,3,4,3,2,1,3,1,Business Intelligence,3,Data Science & Analytics,DevOps Engineer,Full Stack Developer
+S0270,Mohit Bose,Male,26,9.4,PhD,Student,5,0.0,Unemployed,0,2,1,1,1,3,1,Data Analytics,1,Cybersecurity,Frontend Developer,Frontend Developer
+S0271,Karan Pillai,Male,23,8.6,Bachelor,Working Professional,4,4.8,Full-Time,3,5,5,2,2,3,1,Backend Development,4,Data Science & Analytics,Backend Developer,Backend Developer
+S0272,Harsh Patel,Male,19,6.7,Diploma,Student,1,0.0,Unemployed,0,5,2,3,4,5,4,Machine Learning,0,Artificial Intelligence,Machine Learning Engineer,Machine Learning Engineer
+S0273,Radhika Kapoor,Female,19,6.4,Bachelor,Student,6,0.0,Unemployed,0,5,4,3,3,3,5,Data Science,3,Cybersecurity,Data Scientist,Data Scientist
+S0274,Manish Bose,Male,16,7.3,High School,Student,2,0.0,Unemployed,0,5,4,1,1,5,3,Backend Development,0,Cloud Computing,Backend Developer,Software Engineer
+S0275,Akash Mehta,Male,24,7.9,Diploma,Working Professional,3,1.0,Full-Time,0,5,3,5,3,2,5,Data Science,0,Cloud Computing,Data Scientist,Data Scientist
+S0276,Akash Chawla,Male,25,7.3,Bachelor,Working Professional,6,2.2,Full-Time,1,5,3,1,2,5,2,Software Development,1,Cloud Computing,Software Engineer,Software Engineer
+S0277,Yash Kapoor,Male,23,6.9,Diploma,Working Professional,3,1.4,Full-Time,0,5,3,2,3,2,5,Data Science,2,Cybersecurity,Data Scientist,Data Scientist
+S0278,Harsh Pillai,Male,23,8.1,Bachelor,Working Professional,3,1.4,Full-Time,3,2,5,3,1,1,3,Business Intelligence,4,Cybersecurity,Business Intelligence Analyst,Data Analyst
+S0279,Dev Chatterjee,Male,21,6.5,Diploma,Working Professional,2,3.3,Full-Time,3,2,2,1,2,1,2,Business Intelligence,2,Artificial Intelligence,Frontend Developer,Cybersecurity Analyst
+S0280,Pranav Pillai,Male,27,7.8,Master,Graduate,5,1.0,Intern,1,4,5,1,1,4,1,Backend Development,0,Cloud Computing,Backend Developer,Backend Developer
+S0281,Sahil Singh,Male,24,6.6,Bachelor,Student,3,0.0,Unemployed,2,3,1,1,2,3,2,DevOps,1,Cloud Computing,DevOps Engineer,DevOps Engineer
+S0282,Aman Bansal,Male,27,9.0,PhD,Working Professional,13,8.3,Full-Time,1,5,5,2,1,4,3,Machine Learning,1,Artificial Intelligence,Backend Developer,Backend Developer
+S0283,Vidya Desai,Female,21,7.6,Bachelor,Student,3,0.0,Unemployed,2,4,5,1,2,3,2,Backend Development,0,Cybersecurity,Backend Developer,Backend Developer
+S0284,Pooja Kapoor,Female,29,8.1,Master,Working Professional,11,7.4,Full-Time,1,5,4,2,1,5,2,Software Development,1,Software Development,Software Engineer,Software Engineer
+S0285,Pooja Bhatt,Female,28,9.9,Master,Working Professional,8,7.0,Full-Time,0,4,1,2,2,3,1,Cybersecurity,0,Cloud Computing,Security Engineer,DevOps Engineer
+S0286,Tanvi Choudhary,Female,23,9.2,Bachelor,Working Professional,8,7.2,Full-Time,0,5,2,5,4,4,5,Business Intelligence,3,Business Intelligence,AI Researcher,AI Researcher
+S0287,Kritika Chawla,Female,19,7.8,Bachelor,Student,4,0.0,Unemployed,0,3,4,2,1,2,3,Data Analytics,2,Business Intelligence,Data Analyst,Data Analyst
+S0288,Harsh Malhotra,Male,21,6.7,Bachelor,Graduate,4,1.0,Unemployed,3,5,5,1,1,4,2,Backend Development,1,Cybersecurity,Backend Developer,Backend Developer
+S0289,Meera Sinha,Female,20,7.6,Bachelor,Graduate,3,0.0,Full-Time,1,4,4,4,4,3,2,Backend Development,2,Software Development,Machine Learning Engineer,Machine Learning Engineer
+S0290,Lavanya Joshi,Female,22,8.8,Diploma,Working Professional,3,3.9,Full-Time,0,3,2,1,1,2,2,Cloud Computing,0,Cybersecurity,Cloud Engineer,DevOps Engineer
+S0291,Aditya Malhotra,Male,24,9.3,Bachelor,Graduate,3,0.0,Full-Time,0,4,1,5,4,3,4,Artificial Intelligence,4,Information Technology,AI Researcher,AI Researcher
+S0292,Vivek Menon,Male,18,8.2,Bachelor,Graduate,4,1.0,Unemployed,1,1,4,2,2,2,4,Business Intelligence,2,Software Development,Business Intelligence Analyst,Data Analyst
+S0293,Rahul Joshi,Male,18,5.7,Diploma,Student,2,0.0,Unemployed,1,2,2,2,1,3,2,Cybersecurity,1,Software Development,Cloud Engineer,Cybersecurity Analyst
+S0294,Abhinav Iyer,Male,21,6.6,Diploma,Student,4,0.0,Unemployed,1,3,3,1,1,5,3,Software Development,2,Artificial Intelligence,Software Engineer,Software Engineer
+S0295,Sanjay Tiwari,Male,27,6.6,Master,Graduate,5,0.0,Intern,2,3,3,1,2,2,2,Cloud Computing,0,Cybersecurity,Cloud Engineer,Cloud Engineer
+S0296,Gaurav Joshi,Male,24,8.0,Bachelor,Graduate,2,0.0,Intern,2,2,3,1,1,4,1,Web Development,0,Artificial Intelligence,Full Stack Developer,Full Stack Developer
+S0297,Simran Gupta,Female,23,6.7,Bachelor,Student,5,0.0,Intern,1,5,2,1,1,3,3,Data Science,1,Cloud Computing,Cloud Engineer,DevOps Engineer
+S0298,Aditya Reddy,Male,30,8.4,Master,Working Professional,7,3.7,Full-Time,3,3,3,2,1,3,5,Data Analytics,5,Cybersecurity,Data Analyst,Data Analyst
+S0299,Rohan Desai,Male,26,8.4,Bachelor,Working Professional,8,5.3,Full-Time,1,4,3,4,4,5,5,Cybersecurity,3,Business Intelligence,AI Researcher,Machine Learning Engineer
+S0300,Ira Kulkarni,Female,26,6.4,Bachelor,Working Professional,1,0.6,Full-Time,1,2,3,4,1,2,3,Cloud Computing,1,Software Development,Cloud Engineer,Data Analyst
+S0301,Neha Saxena,Female,19,7.5,Bachelor,Student,2,0.0,Unemployed,0,4,4,1,2,5,1,Software Development,1,Information Technology,Software Engineer,Software Engineer
+S0302,Aditi Menon,Female,23,6.6,Bachelor,Working Professional,6,1.5,Full-Time,1,5,3,4,5,5,4,Machine Learning,3,Software Development,Machine Learning Engineer,Machine Learning Engineer
+S0303,Sneha Yadav,Female,16,9.6,High School,Student,2,0.0,Unemployed,2,3,4,4,5,1,4,Artificial Intelligence,0,Information Technology,Data Scientist,Data Scientist
+S0304,Abhinav Desai,Male,21,8.0,Bachelor,Graduate,4,1.0,Unemployed,1,4,4,4,5,4,3,Machine Learning,4,Cloud Computing,Machine Learning Engineer,Machine Learning Engineer
+S0305,Tarun Iyer,Male,26,9.6,Master,Student,6,0.0,Unemployed,1,4,4,4,2,5,4,Software Development,2,Software Development,Machine Learning Engineer,Machine Learning Engineer
+S0306,Tanvi Iyer,Female,29,7.3,Master,Working Professional,12,7.7,Full-Time,1,5,3,5,5,4,5,Artificial Intelligence,1,Artificial Intelligence,AI Researcher,AI Researcher
+S0307,Dev Khanna,Male,18,7.6,Diploma,Student,2,0.0,Unemployed,0,1,3,1,1,1,4,Business Intelligence,1,Software Development,Business Intelligence Analyst,Business Intelligence Analyst
+S0308,Swati Agarwal,Female,25,10.0,Master,Working Professional,6,1.1,Full-Time,2,2,2,2,3,2,1,Data Analytics,1,Artificial Intelligence,Cybersecurity Analyst,Frontend Developer
+S0309,Vidya Reddy,Female,28,7.1,Master,Graduate,5,1.0,Unemployed,2,3,5,2,1,5,3,Backend Development,1,Data Science & Analytics,Full Stack Developer,Backend Developer
+S0310,Simran Pillai,Female,21,8.6,Bachelor,Student,2,0.0,Intern,0,2,4,1,1,1,3,Business Intelligence,3,Data Science & Analytics,Business Intelligence Analyst,Business Intelligence Analyst
+S0311,Tanya Kulkarni,Female,18,7.4,Diploma,Student,0,0.0,Intern,1,4,2,5,5,4,5,Artificial Intelligence,2,Artificial Intelligence,AI Researcher,AI Researcher
+S0312,Arjun Nair,Male,26,9.6,Master,Student,4,0.0,Intern,2,3,3,1,3,3,1,Web Development,2,Cybersecurity,Full Stack Developer,Full Stack Developer
+S0313,Sanjay Mishra,Male,22,7.4,Bachelor,Student,4,0.0,Unemployed,0,1,5,1,1,2,4,Machine Learning,3,Software Development,Business Intelligence Analyst,Business Intelligence Analyst
+S0314,Vihaan Agarwal,Male,31,9.3,PhD,Student,7,0.0,Intern,1,3,1,1,2,5,3,Cybersecurity,1,Data Science & Analytics,Security Engineer,Security Engineer
+S0315,Yash Mehta,Male,23,7.2,Bachelor,Graduate,2,0.0,Intern,1,4,3,1,1,4,2,Software Development,2,Cybersecurity,Software Engineer,Software Engineer
+S0316,Varun Sinha,Male,23,8.0,Master,Student,5,0.0,Unemployed,1,4,5,5,3,3,5,Data Science,1,Information Technology,Data Scientist,Data Scientist
+S0317,Ira Tiwari,Female,16,7.0,High School,Student,0,0.0,Intern,0,2,1,1,1,3,2,Data Science,1,Business Intelligence,Cybersecurity Analyst,Frontend Developer
+S0318,Sahil Agarwal,Male,19,6.6,Bachelor,Student,3,0.0,Intern,1,3,2,1,1,3,2,Backend Development,0,Information Technology,Frontend Developer,DevOps Engineer
+S0319,Vikram Sinha,Male,22,6.4,Bachelor,Working Professional,2,1.2,Full-Time,0,4,5,2,1,5,1,Backend Development,2,Cloud Computing,Backend Developer,Backend Developer
+S0320,Vihaan Malhotra,Male,19,7.8,Bachelor,Student,4,0.0,Unemployed,0,3,3,1,1,3,4,Data Analytics,3,Business Intelligence,Data Analyst,Data Analyst
+S0321,Sahil Singh,Male,19,7.6,Diploma,Student,3,0.0,Intern,0,4,4,1,1,3,1,Software Development,0,Information Technology,Software Engineer,Backend Developer
+S0322,Pranav Patel,Male,24,9.1,Bachelor,Graduate,1,0.0,Intern,1,3,3,1,2,5,2,DevOps,2,Data Science & Analytics,Backend Developer,Software Engineer
+S0323,Yash Kulkarni,Male,26,9.4,Master,Working Professional,11,5.9,Full-Time,0,2,5,3,2,2,4,Cloud Computing,0,Business Intelligence,Business Intelligence Analyst,Data Analyst
+S0324,Vikram Kapoor,Male,23,7.2,Bachelor,Student,0,0.0,Unemployed,1,2,1,1,1,2,2,Business Intelligence,0,Information Technology,DevOps Engineer,Cybersecurity Analyst
+S0325,Neha Bansal,Female,19,8.1,Diploma,Student,0,0.0,Unemployed,0,3,2,1,2,5,3,Artificial Intelligence,1,Business Intelligence,Cloud Engineer,Security Engineer
+S0326,Manish Bhatt,Male,23,8.7,Bachelor,Working Professional,5,5.0,Full-Time,2,4,4,1,1,5,2,Software Development,0,Cloud Computing,Software Engineer,Software Engineer
+S0327,Nikhil Iyer,Male,28,7.4,Master,Graduate,5,0.0,Unemployed,1,2,3,4,1,2,3,Data Analytics,1,Information Technology,Data Analyst,Data Analyst
+S0328,Ishaan Menon,Male,24,9.1,Bachelor,Working Professional,8,6.5,Full-Time,3,3,5,2,3,2,5,Artificial Intelligence,3,Cybersecurity,Business Intelligence Analyst,Data Scientist
+S0329,Arjun Menon,Male,19,7.5,Bachelor,Graduate,4,0.0,Intern,1,4,5,1,2,4,1,Software Development,1,Artificial Intelligence,Software Engineer,Backend Developer
+S0330,Kunal Bansal,Male,22,7.5,Diploma,Working Professional,7,4.7,Full-Time,1,4,5,5,2,2,5,Data Science,1,Artificial Intelligence,Data Scientist,Data Scientist
+S0331,Nisha Saxena,Female,28,6.3,Master,Graduate,3,0.0,Intern,1,2,3,2,1,2,1,DevOps,3,Data Science & Analytics,Frontend Developer,Frontend Developer
+S0332,Arjun Singh,Male,16,6.0,High School,Student,0,0.0,Intern,0,2,1,1,1,2,2,Cybersecurity,0,Information Technology,DevOps Engineer,Cybersecurity Analyst
+S0333,Ishaan Yadav,Male,25,8.2,PhD,Student,8,0.0,Unemployed,1,3,3,2,1,1,2,Cloud Computing,0,Data Science & Analytics,Cloud Engineer,Cybersecurity Analyst
+S0334,Divya Kapoor,Female,24,9.2,Master,Graduate,5,0.0,Unemployed,2,3,3,1,2,5,2,Software Development,1,Data Science & Analytics,Security Engineer,Software Engineer
+S0335,Aarav Malhotra,Male,26,9.3,Master,Graduate,5,0.0,Intern,2,4,3,1,1,4,1,Cloud Computing,0,Business Intelligence,DevOps Engineer,Full Stack Developer
+S0336,Kunal Gupta,Male,16,7.7,High School,Student,3,0.0,Unemployed,0,5,2,5,4,5,5,Artificial Intelligence,1,Cloud Computing,AI Researcher,AI Researcher
+S0337,Radhika Mehta,Female,21,8.2,Bachelor,Working Professional,8,5.7,Full-Time,1,5,2,5,5,3,5,Artificial Intelligence,1,Information Technology,AI Researcher,AI Researcher
+S0338,Swati Chawla,Female,24,9.2,Master,Student,1,0.0,Intern,0,2,2,1,1,2,1,Web Development,2,Cybersecurity,Frontend Developer,Frontend Developer
+S0339,Arjun Nair,Male,28,7.1,Master,Graduate,3,1.0,Intern,3,3,2,1,2,5,1,Business Intelligence,1,Software Development,Security Engineer,Security Engineer
+S0340,Radhika Khanna,Female,23,8.2,Bachelor,Working Professional,4,3.6,Full-Time,1,3,3,1,1,3,3,Data Science,1,Data Science & Analytics,Cybersecurity Analyst,Cloud Engineer
+S0341,Aarav Mishra,Male,29,7.9,Master,Working Professional,8,2.6,Full-Time,0,4,2,5,5,4,4,Artificial Intelligence,1,Artificial Intelligence,AI Researcher,AI Researcher
+S0342,Trisha Reddy,Female,23,9.2,Bachelor,Graduate,2,0.0,Unemployed,2,2,4,2,1,3,5,Data Analytics,3,Artificial Intelligence,Data Analyst,Data Analyst
+S0343,Kritika Kulkarni,Female,25,8.0,Master,Graduate,4,0.0,Unemployed,3,4,3,1,1,4,2,Cloud Computing,1,Software Development,Cloud Engineer,Software Engineer
+S0344,Ananya Mishra,Female,18,6.5,High School,Student,0,0.0,Unemployed,0,3,4,1,1,2,3,Business Intelligence,0,Cybersecurity,Business Intelligence Analyst,Data Analyst
+S0345,Karan Rao,Male,28,6.5,Master,Working Professional,5,4.5,Full-Time,1,3,4,1,1,1,3,Business Intelligence,0,Cybersecurity,Business Intelligence Analyst,Data Analyst
+S0346,Rahul Patel,Male,29,8.4,PhD,Student,6,0.0,Unemployed,1,2,2,2,2,3,1,Data Science,0,Artificial Intelligence,Frontend Developer,Frontend Developer
+S0347,Aditi Iyer,Female,21,9.3,Bachelor,Working Professional,5,7.5,Full-Time,3,4,4,4,3,1,5,Data Science,0,Software Development,Data Scientist,Data Scientist
+S0348,Sanjay Reddy,Male,21,6.8,Bachelor,Student,1,0.0,Unemployed,0,3,3,1,2,4,3,Machine Learning,0,Data Science & Analytics,Cybersecurity Analyst,Cloud Engineer
+S0349,Manish Verma,Male,19,6.5,Bachelor,Graduate,3,0.0,Unemployed,0,3,4,4,3,2,5,Data Science,0,Information Technology,Data Scientist,Data Scientist
+S0350,Nikhil Sharma,Male,18,7.7,Bachelor,Graduate,4,1.0,Full-Time,2,3,3,1,1,4,2,Cybersecurity,1,Business Intelligence,Security Engineer,Full Stack Developer
+S0351,Sneha Singh,Female,19,6.5,Bachelor,Graduate,2,0.0,Full-Time,2,2,3,2,2,2,3,Data Analytics,0,Artificial Intelligence,Data Analyst,Cybersecurity Analyst
+S0352,Sahil Singh,Male,23,7.5,Master,Working Professional,8,6.6,Full-Time,1,2,1,3,1,4,2,Web Development,0,Information Technology,Frontend Developer,Security Engineer
+S0353,Vidya Bose,Female,21,9.0,Bachelor,Working Professional,4,0.7,Full-Time,2,4,3,5,3,4,3,Machine Learning,0,Cybersecurity,Machine Learning Engineer,Machine Learning Engineer
+S0354,Divya Pillai,Female,24,7.7,Master,Graduate,8,0.0,Unemployed,3,5,2,5,5,3,5,Artificial Intelligence,3,Cloud Computing,AI Researcher,AI Researcher
+S0355,Akash Yadav,Male,19,6.6,Bachelor,Student,0,0.0,Intern,1,1,5,1,1,2,4,Business Intelligence,0,Information Technology,Business Intelligence Analyst,Business Intelligence Analyst
+S0356,Harsh Bhatt,Male,22,8.0,Bachelor,Working Professional,6,3.7,Full-Time,1,4,4,2,1,4,2,Backend Development,3,Information Technology,Backend Developer,Backend Developer
+S0357,Isha Chawla,Female,24,7.4,Bachelor,Student,5,0.0,Intern,1,5,5,1,2,4,2,Software Development,0,Cloud Computing,Backend Developer,Backend Developer
+S0358,Ishaan Nair,Male,18,9.4,Bachelor,Student,5,0.0,Unemployed,1,3,4,2,1,4,2,Backend Development,0,Business Intelligence,Backend Developer,Backend Developer
+S0359,Shreya Singh,Female,25,8.8,Bachelor,Working Professional,7,4.1,Full-Time,0,5,2,5,5,4,5,Artificial Intelligence,1,Artificial Intelligence,AI Researcher,AI Researcher
+S0360,Sakshi Kulkarni,Female,20,7.5,Bachelor,Graduate,4,0.0,Unemployed,0,5,3,4,5,5,5,DevOps,4,Data Science & Analytics,AI Researcher,AI Researcher
+S0361,Yash Saxena,Male,24,9.0,Bachelor,Graduate,2,0.0,Full-Time,0,2,3,1,1,4,3,Cloud Computing,2,Artificial Intelligence,Cloud Engineer,Cybersecurity Analyst
+S0362,Isha Patel,Female,27,8.8,Master,Working Professional,5,2.2,Full-Time,1,4,3,1,3,4,2,Cloud Computing,0,Cybersecurity,Cloud Engineer,Software Engineer
+S0363,Swati Yadav,Female,26,8.9,Master,Student,6,0.0,Intern,2,3,3,5,3,3,5,Backend Development,0,Data Science & Analytics,Data Scientist,Data Scientist
+S0364,Tarun Chawla,Male,23,10.0,Master,Student,5,0.0,Unemployed,1,4,2,1,2,3,3,Cloud Computing,2,Business Intelligence,Cloud Engineer,Cloud Engineer
+S0365,Vikram Menon,Male,24,9.4,Master,Graduate,4,1.0,Intern,2,4,5,1,1,1,3,Web Development,0,Information Technology,Cloud Engineer,Data Analyst
+S0366,Akash Khanna,Male,22,7.6,Bachelor,Graduate,2,0.0,Unemployed,2,3,3,1,1,5,1,Cybersecurity,1,Software Development,Backend Developer,Software Engineer
+S0367,Vihaan Rao,Male,25,5.7,Bachelor,Working Professional,7,7.4,Full-Time,0,3,4,2,1,3,2,Cloud Computing,1,Software Development,Cloud Engineer,Cloud Engineer
+S0368,Tarun Bose,Male,17,5.0,High School,Student,0,0.0,Intern,0,2,2,1,2,4,2,Web Development,0,Artificial Intelligence,Full Stack Developer,Security Engineer
+S0369,Naveen Khanna,Male,29,8.2,Master,Working Professional,10,8.5,Full-Time,0,3,2,1,3,2,1,Data Science,1,Cybersecurity,DevOps Engineer,DevOps Engineer
+S0370,Yash Chatterjee,Male,29,7.5,Master,Working Professional,6,7.8,Full-Time,3,4,5,2,2,3,1,Backend Development,2,Information Technology,Backend Developer,Backend Developer
+S0371,Pallavi Khanna,Female,21,8.6,Bachelor,Working Professional,7,5.1,Full-Time,1,5,3,4,4,5,3,Backend Development,0,Data Science & Analytics,Machine Learning Engineer,Machine Learning Engineer
+S0372,Rahul Singh,Male,21,7.6,Bachelor,Working Professional,8,5.0,Full-Time,0,5,3,5,4,4,5,Business Intelligence,4,Cloud Computing,AI Researcher,Machine Learning Engineer
+S0373,Radhika Saxena,Female,21,7.4,Bachelor,Working Professional,8,2.0,Full-Time,3,4,3,5,4,4,5,Artificial Intelligence,1,Software Development,AI Researcher,Machine Learning Engineer
+S0374,Manish Bose,Male,22,7.6,Bachelor,Student,1,0.0,Intern,1,4,3,1,2,4,3,Software Development,0,Business Intelligence,Software Engineer,Software Engineer
+S0375,Radhika Desai,Female,24,7.7,Bachelor,Working Professional,6,6.6,Full-Time,2,2,2,1,1,3,3,Cybersecurity,4,Business Intelligence,Cybersecurity Analyst,Cybersecurity Analyst
+S0376,Aditya Pillai,Male,32,8.1,Master,Working Professional,8,3.7,Full-Time,2,5,4,5,4,4,3,Business Intelligence,2,Software Development,Machine Learning Engineer,Machine Learning Engineer
+S0377,Sahil Joshi,Male,25,9.4,Master,Graduate,3,0.0,Unemployed,1,4,3,1,2,4,3,Software Development,2,Data Science & Analytics,Software Engineer,Software Engineer
+S0378,Harsh Chawla,Male,21,7.6,Bachelor,Working Professional,6,4.1,Full-Time,0,3,2,1,1,3,4,Cloud Computing,2,Cloud Computing,Cloud Engineer,Cybersecurity Analyst
+S0379,Vihaan Bose,Male,23,8.0,Master,Student,1,0.0,Intern,1,3,2,1,1,3,2,Data Analytics,3,Cybersecurity,DevOps Engineer,DevOps Engineer
+S0380,Abhinav Chawla,Male,21,7.6,Bachelor,Student,4,0.0,Unemployed,1,3,5,1,1,1,4,Business Intelligence,0,Data Science & Analytics,Business Intelligence Analyst,Business Intelligence Analyst
+S0381,Saurabh Mehta,Male,29,6.0,Master,Working Professional,11,8.8,Full-Time,0,5,5,2,1,4,3,DevOps,1,Business Intelligence,Backend Developer,Backend Developer
+S0382,Harsh Bose,Male,21,7.4,Bachelor,Graduate,5,1.0,Unemployed,2,4,1,5,5,3,5,Machine Learning,2,Artificial Intelligence,AI Researcher,AI Researcher
+S0383,Bhavna Yadav,Female,23,7.6,Bachelor,Student,3,0.0,Unemployed,1,4,4,2,1,2,4,Cloud Computing,1,Artificial Intelligence,Data Analyst,Data Analyst
+S0384,Manish Reddy,Male,19,7.3,Bachelor,Graduate,2,0.0,Full-Time,2,3,2,2,1,5,3,Cybersecurity,2,Data Science & Analytics,Security Engineer,Security Engineer
+S0385,Aditya Kulkarni,Male,20,5.0,Bachelor,Graduate,3,0.0,Unemployed,1,4,3,4,2,1,4,Data Science,0,Information Technology,Data Scientist,Data Scientist
+S0386,Ishaan Sharma,Male,20,8.2,Bachelor,Student,2,0.0,Intern,0,1,2,1,1,3,3,Artificial Intelligence,0,Cybersecurity,Cybersecurity Analyst,Cybersecurity Analyst
+S0387,Priya Khanna,Female,23,7.8,Bachelor,Student,7,0.0,Unemployed,0,4,4,3,4,3,5,Artificial Intelligence,1,Information Technology,Data Scientist,Data Scientist
+S0388,Varun Reddy,Male,20,10.0,Bachelor,Working Professional,2,2.2,Full-Time,1,2,2,3,2,3,1,Web Development,1,Software Development,Frontend Developer,Frontend Developer
+S0389,Swati Kulkarni,Female,24,7.7,Bachelor,Working Professional,6,6.5,Full-Time,1,4,3,1,1,3,1,Data Science,0,Business Intelligence,Frontend Developer,Full Stack Developer
+S0390,Tanvi Reddy,Female,21,7.7,Diploma,Student,3,0.0,Unemployed,0,5,3,2,2,3,4,Cloud Computing,1,Business Intelligence,Cloud Engineer,Data Analyst
+S0391,Yash Bose,Male,22,5.5,Bachelor,Working Professional,6,7.0,Full-Time,0,3,2,1,1,2,3,DevOps,1,Data Science & Analytics,DevOps Engineer,Cybersecurity Analyst
+S0392,Riya Menon,Female,26,6.7,Master,Working Professional,6,3.5,Full-Time,1,3,4,1,1,2,2,Backend Development,1,Business Intelligence,Backend Developer,Cloud Engineer
+S0393,Neha Desai,Female,20,8.5,Bachelor,Graduate,3,1.0,Unemployed,0,3,5,1,2,2,4,Business Intelligence,0,Business Intelligence,Business Intelligence Analyst,Data Analyst
+S0394,Sanjay Kulkarni,Male,18,7.6,Bachelor,Student,3,0.0,Intern,0,5,4,4,3,4,3,Artificial Intelligence,0,Information Technology,Machine Learning Engineer,Machine Learning Engineer
+S0395,Meera Patel,Female,24,9.9,Master,Working Professional,6,2.6,Full-Time,1,3,4,2,1,1,5,Data Analytics,3,Business Intelligence,Data Analyst,Data Analyst
+S0396,Rahul Chatterjee,Male,31,7.8,Master,Working Professional,8,7.2,Full-Time,0,2,4,1,2,2,5,Data Science,1,Software Development,Business Intelligence Analyst,Data Analyst
+S0397,Raghav Tiwari,Male,18,8.4,Diploma,Student,3,0.0,Unemployed,2,5,4,4,5,4,4,Software Development,1,Cybersecurity,Machine Learning Engineer,Machine Learning Engineer
+S0398,Manish Khanna,Male,23,6.2,Master,Working Professional,6,6.0,Full-Time,2,4,4,2,1,3,2,DevOps,1,Cybersecurity,DevOps Engineer,Backend Developer
+S0399,Rahul Iyer,Male,23,5.7,Bachelor,Student,3,0.0,Intern,0,3,1,1,1,5,2,Machine Learning,1,Business Intelligence,Security Engineer,Security Engineer
+S0400,Lavanya Kulkarni,Female,27,8.8,Bachelor,Working Professional,4,4.8,Full-Time,1,4,4,1,1,3,2,Backend Development,1,Cybersecurity,Cloud Engineer,Backend Developer
+S0401,Siddharth Kulkarni,Male,24,8.1,Bachelor,Student,2,0.0,Intern,1,3,1,3,1,4,2,Software Development,1,Information Technology,Software Engineer,Security Engineer
+S0402,Vivek Pillai,Male,18,7.2,Bachelor,Student,3,0.0,Intern,0,3,4,2,2,2,4,Data Analytics,1,Artificial Intelligence,Data Analyst,Data Analyst
+S0403,Varun Kapoor,Male,24,6.4,Bachelor,Graduate,3,0.0,Unemployed,3,4,1,1,2,3,2,DevOps,1,Business Intelligence,DevOps Engineer,DevOps Engineer
+S0404,Aditi Chatterjee,Female,18,7.4,Diploma,Working Professional,0,0.7,Full-Time,1,5,4,5,2,2,4,Data Science,2,Cybersecurity,Data Scientist,Data Scientist
+S0405,Pallavi Saxena,Female,32,8.0,PhD,Working Professional,14,11.7,Full-Time,1,4,1,1,2,4,1,Machine Learning,1,Artificial Intelligence,DevOps Engineer,Security Engineer
+S0406,Bhavna Joshi,Female,21,7.2,Diploma,Student,2,0.0,Unemployed,1,4,2,1,1,5,2,Software Development,1,Cloud Computing,Software Engineer,Software Engineer
+S0407,Riya Reddy,Female,22,7.9,Master,Student,3,0.0,Unemployed,1,2,2,2,2,1,1,Web Development,1,Business Intelligence,Frontend Developer,Frontend Developer
+S0408,Ira Verma,Female,24,7.2,Bachelor,Student,2,0.0,Intern,0,4,5,4,4,2,4,Data Science,1,Information Technology,Data Scientist,Data Scientist
+S0409,Vivek Menon,Male,24,9.0,Bachelor,Graduate,2,0.0,Full-Time,2,5,4,2,1,4,2,Backend Development,3,Business Intelligence,Backend Developer,Backend Developer
+S0410,Simran Chatterjee,Female,22,9.6,Bachelor,Working Professional,6,6.4,Full-Time,2,3,3,2,2,2,1,Artificial Intelligence,0,Cloud Computing,Frontend Developer,Cloud Engineer
+S0411,Divya Bhatt,Female,25,6.6,Bachelor,Working Professional,6,5.8,Full-Time,0,2,5,1,2,1,5,Software Development,0,Artificial Intelligence,Business Intelligence Analyst,Business Intelligence Analyst
+S0412,Dev Kulkarni,Male,22,6.5,Bachelor,Graduate,1,1.0,Unemployed,0,3,3,3,1,3,1,Software Development,2,Software Development,Cybersecurity Analyst,Cloud Engineer
+S0413,Yash Patel,Male,19,8.6,Bachelor,Student,2,0.0,Unemployed,0,1,2,1,2,3,2,Machine Learning,1,Data Science & Analytics,Frontend Developer,Frontend Developer
+S0414,Tanya Tiwari,Female,24,7.6,Master,Working Professional,6,1.4,Full-Time,0,4,3,4,4,4,4,Cloud Computing,0,Cloud Computing,Machine Learning Engineer,Machine Learning Engineer
+S0415,Aditya Kulkarni,Male,30,10.0,PhD,Working Professional,13,6.7,Full-Time,2,4,4,5,5,4,5,Machine Learning,1,Software Development,Machine Learning Engineer,Machine Learning Engineer
+S0416,Anjali Bansal,Female,26,8.8,Bachelor,Working Professional,6,7.8,Full-Time,3,3,1,2,1,3,1,Web Development,2,Software Development,Frontend Developer,DevOps Engineer
+S0417,Pranav Chawla,Male,22,6.4,Master,Working Professional,11,7.7,Full-Time,3,4,5,5,3,2,5,Data Science,2,Artificial Intelligence,Data Scientist,Data Scientist
+S0418,Naveen Yadav,Male,23,9.2,Bachelor,Graduate,2,0.0,Unemployed,0,2,2,2,1,4,1,Artificial Intelligence,0,Software Development,Cloud Engineer,Frontend Developer
+S0419,Meera Verma,Female,26,8.0,Master,Student,6,0.0,Intern,2,5,4,4,5,4,4,Machine Learning,0,Business Intelligence,Machine Learning Engineer,Machine Learning Engineer
+S0420,Naveen Saxena,Male,27,7.8,Master,Graduate,5,0.0,Full-Time,0,5,2,5,4,5,4,Data Science,3,Cybersecurity,Machine Learning Engineer,Machine Learning Engineer
+S0421,Vihaan Bansal,Male,16,8.5,High School,Student,0,0.0,Unemployed,0,4,3,1,1,2,2,DevOps,2,Business Intelligence,DevOps Engineer,DevOps Engineer
+S0422,Tanya Bansal,Female,21,8.2,Bachelor,Working Professional,8,7.1,Full-Time,1,5,5,2,1,4,2,DevOps,1,Artificial Intelligence,Backend Developer,Backend Developer
+S0423,Raghav Gupta,Male,18,7.8,Bachelor,Graduate,5,1.0,Unemployed,0,1,2,2,1,5,1,Cybersecurity,1,Artificial Intelligence,Security Engineer,Frontend Developer
+S0424,Abhinav Chatterjee,Male,23,9.9,Master,Student,6,0.0,Intern,0,5,2,5,4,5,4,Software Development,2,Information Technology,Machine Learning Engineer,Machine Learning Engineer
+S0425,Tanvi Kulkarni,Female,24,8.4,Bachelor,Working Professional,5,5.5,Full-Time,1,2,1,1,1,4,1,Backend Development,3,Business Intelligence,Frontend Developer,Frontend Developer
+S0426,Tarun Gupta,Male,21,9.2,Diploma,Student,3,0.0,Unemployed,1,4,3,4,2,2,5,Data Science,2,Information Technology,Data Scientist,Data Scientist
+S0427,Meera Patel,Female,25,6.7,Bachelor,Working Professional,5,3.3,Full-Time,0,5,2,5,4,5,4,Machine Learning,3,Business Intelligence,Machine Learning Engineer,Machine Learning Engineer
+S0428,Vikram Kulkarni,Male,26,6.5,Bachelor,Working Professional,8,4.9,Full-Time,0,4,3,3,2,3,5,Cloud Computing,1,Information Technology,Data Analyst,Data Scientist
+S0429,Karan Saxena,Male,25,6.6,Bachelor,Working Professional,6,7.9,Full-Time,1,3,5,3,1,2,4,Artificial Intelligence,1,Cloud Computing,Data Analyst,Data Analyst
+S0430,Akash Agarwal,Male,23,6.5,Bachelor,Graduate,4,0.0,Unemployed,0,3,5,1,1,4,2,Backend Development,0,Information Technology,Backend Developer,Backend Developer
+S0431,Manya Mehta,Female,24,6.2,Bachelor,Student,3,0.0,Unemployed,0,5,5,1,1,4,3,Backend Development,3,Artificial Intelligence,Backend Developer,Backend Developer
+S0432,Tanya Iyer,Female,25,7.6,Master,Student,8,0.0,Intern,2,5,2,5,5,3,5,Artificial Intelligence,0,Information Technology,AI Researcher,AI Researcher
+S0433,Sneha Bansal,Female,20,8.5,Bachelor,Student,4,0.0,Unemployed,1,3,1,3,1,3,2,DevOps,2,Software Development,DevOps Engineer,Cloud Engineer
+S0434,Karan Kulkarni,Male,27,6.7,Bachelor,Working Professional,9,7.0,Full-Time,1,5,2,5,4,5,5,Backend Development,3,Business Intelligence,AI Researcher,AI Researcher
+S0435,Meera Iyer,Female,24,8.4,Master,Student,3,0.0,Intern,1,2,2,1,2,4,2,Cybersecurity,0,Cloud Computing,Security Engineer,Security Engineer
+S0436,Siddharth Bhatt,Male,18,6.0,High School,Student,1,0.0,Unemployed,1,3,3,1,2,2,1,Data Science,0,Business Intelligence,Frontend Developer,DevOps Engineer
+S0437,Aditya Desai,Male,25,6.6,Bachelor,Working Professional,6,5.8,Full-Time,2,2,5,1,2,1,2,Artificial Intelligence,2,Cloud Computing,Business Intelligence Analyst,Business Intelligence Analyst
+S0438,Ishaan Sharma,Male,22,9.0,Bachelor,Working Professional,8,6.7,Full-Time,1,3,2,1,1,5,2,Cybersecurity,1,Artificial Intelligence,Security Engineer,Security Engineer
+S0439,Gaurav Bose,Male,20,6.9,Bachelor,Working Professional,3,4.0,Full-Time,1,2,5,1,3,3,4,Business Intelligence,2,Artificial Intelligence,Business Intelligence Analyst,Data Analyst
+S0440,Siddharth Gupta,Male,28,8.0,Master,Student,8,0.0,Intern,1,4,4,4,4,4,4,Machine Learning,1,Cybersecurity,Machine Learning Engineer,Machine Learning Engineer
+S0441,Rahul Iyer,Male,22,7.2,Diploma,Working Professional,4,4.4,Full-Time,1,5,4,2,1,3,3,Business Intelligence,1,Software Development,Backend Developer,Backend Developer
+S0442,Gaurav Iyer,Male,21,8.8,Bachelor,Graduate,3,0.0,Intern,3,4,3,1,2,5,1,Cybersecurity,0,Software Development,Security Engineer,Software Engineer
+S0443,Kavya Bose,Female,16,6.7,High School,Student,0,0.0,Intern,1,1,1,1,2,3,2,Web Development,1,Cybersecurity,Frontend Developer,Frontend Developer
+S0444,Sanjay Mishra,Male,25,7.7,Master,Graduate,4,0.0,Full-Time,1,4,4,1,1,3,1,DevOps,0,Cloud Computing,DevOps Engineer,Backend Developer
+S0445,Bhavna Chawla,Female,21,8.6,Bachelor,Working Professional,3,1.5,Full-Time,2,5,2,4,4,3,5,Web Development,2,Information Technology,AI Researcher,AI Researcher
+S0446,Ananya Desai,Female,29,7.7,Master,Working Professional,8,8.4,Full-Time,1,4,5,3,1,3,3,Cloud Computing,1,Information Technology,Cloud Engineer,Data Analyst
+S0447,Meera Nair,Female,25,8.3,Bachelor,Working Professional,5,2.7,Full-Time,0,3,5,1,2,2,4,Business Intelligence,0,Cybersecurity,Business Intelligence Analyst,Data Analyst
+S0448,Aarav Agarwal,Male,24,8.4,Bachelor,Working Professional,4,2.1,Full-Time,0,5,2,5,4,5,3,Machine Learning,1,Artificial Intelligence,Machine Learning Engineer,Machine Learning Engineer
+S0449,Manya Malhotra,Female,27,7.2,Master,Student,3,0.0,Intern,0,3,5,2,1,2,3,Data Analytics,0,Information Technology,Data Analyst,Data Analyst
+S0450,Vikram Singh,Male,23,8.4,Bachelor,Working Professional,4,1.9,Full-Time,1,4,4,1,1,3,5,Data Analytics,1,Cybersecurity,Data Analyst,Data Analyst
+S0451,Kritika Verma,Female,24,8.8,Bachelor,Working Professional,5,5.3,Full-Time,2,2,4,2,2,4,3,Cybersecurity,1,Cloud Computing,Cybersecurity Analyst,Cloud Engineer
+S0452,Vikram Rao,Male,22,6.4,Bachelor,Student,3,0.0,Unemployed,0,3,3,1,3,4,3,Cloud Computing,0,Cloud Computing,Cloud Engineer,Cloud Engineer
+S0453,Gaurav Pillai,Male,22,7.8,Bachelor,Working Professional,6,7.9,Full-Time,0,3,5,1,2,1,4,Business Intelligence,2,Artificial Intelligence,Business Intelligence Analyst,Business Intelligence Analyst
+S0454,Arjun Gupta,Male,24,8.8,Bachelor,Working Professional,3,2.0,Full-Time,2,2,3,1,1,4,2,Web Development,2,Artificial Intelligence,Frontend Developer,Full Stack Developer
+S0455,Manya Pillai,Female,22,7.4,Bachelor,Student,4,0.0,Unemployed,2,3,5,4,3,3,5,Data Science,0,Information Technology,Data Scientist,Data Scientist
+S0456,Diya Gupta,Female,22,7.4,Bachelor,Student,0,0.0,Unemployed,1,3,2,2,1,2,1,Business Intelligence,1,Data Science & Analytics,Frontend Developer,DevOps Engineer
+S0457,Divya Khanna,Female,25,9.8,Bachelor,Working Professional,4,2.5,Full-Time,0,4,5,1,3,5,2,Backend Development,2,Artificial Intelligence,Backend Developer,Backend Developer
+S0458,Neha Gupta,Female,27,8.1,Master,Working Professional,7,4.9,Full-Time,0,3,3,4,2,2,2,Business Intelligence,1,Cloud Computing,Cybersecurity Analyst,Cloud Engineer
+S0459,Sanjay Kulkarni,Male,26,9.0,Master,Working Professional,8,6.7,Full-Time,2,2,2,2,3,4,2,Cloud Computing,0,Cybersecurity,Cloud Engineer,Security Engineer
+S0460,Vivek Agarwal,Male,26,9.0,Master,Working Professional,10,9.7,Full-Time,1,5,4,1,1,5,1,Software Development,2,Information Technology,Software Engineer,Software Engineer
+S0461,Swati Bansal,Female,25,7.2,Master,Student,6,0.0,Unemployed,1,4,3,2,1,5,2,Software Development,1,Cloud Computing,Software Engineer,Software Engineer
+S0462,Swati Bose,Female,23,7.5,Bachelor,Student,1,0.0,Unemployed,1,2,4,2,2,2,2,Cloud Computing,3,Business Intelligence,Cloud Engineer,Cloud Engineer
+S0463,Raghav Saxena,Male,26,6.2,Master,Working Professional,7,4.7,Full-Time,2,4,5,5,3,2,4,Data Science,2,Artificial Intelligence,Data Scientist,Data Scientist
+S0464,Tanvi Iyer,Female,23,8.7,Bachelor,Working Professional,5,3.5,Full-Time,0,4,2,1,1,5,2,Cloud Computing,1,Information Technology,Software Engineer,Software Engineer
+S0465,Karan Agarwal,Male,23,7.3,Bachelor,Graduate,3,0.0,Intern,0,2,4,1,1,2,4,Data Analytics,3,Cybersecurity,Data Analyst,Data Analyst
+S0466,Rahul Malhotra,Male,25,7.8,Bachelor,Working Professional,4,2.5,Full-Time,0,2,5,4,1,2,4,Data Analytics,3,Cloud Computing,Data Analyst,Data Analyst
+S0467,Nisha Bose,Female,23,6.8,Master,Graduate,3,0.0,Intern,0,4,2,1,1,4,2,DevOps,0,Data Science & Analytics,Full Stack Developer,Security Engineer
+S0468,Manish Tiwari,Male,23,7.5,Master,Working Professional,11,9.4,Full-Time,2,3,5,2,2,1,5,DevOps,1,Business Intelligence,Business Intelligence Analyst,Data Analyst
+S0469,Manish Agarwal,Male,26,7.2,Master,Working Professional,10,6.1,Full-Time,1,5,2,4,5,5,5,Business Intelligence,1,Cybersecurity,AI Researcher,AI Researcher
+S0470,Diya Bhatt,Female,21,6.4,Bachelor,Working Professional,7,7.7,Full-Time,0,4,4,1,2,4,2,Backend Development,0,Data Science & Analytics,Backend Developer,Backend Developer
+S0471,Shreya Mishra,Female,26,8.8,Master,Graduate,4,0.0,Full-Time,3,3,5,2,1,1,3,Software Development,3,Information Technology,Business Intelligence Analyst,Data Analyst
+S0472,Ananya Chatterjee,Female,28,7.0,Bachelor,Working Professional,6,6.4,Full-Time,0,2,3,1,2,3,3,Cybersecurity,3,Artificial Intelligence,Cybersecurity Analyst,Cybersecurity Analyst
+S0473,Priya Kulkarni,Female,19,8.3,Bachelor,Working Professional,7,7.8,Full-Time,0,3,4,2,1,5,4,Backend Development,1,Data Science & Analytics,Data Analyst,Software Engineer
+S0474,Divya Rao,Female,23,7.6,Bachelor,Student,3,0.0,Intern,1,4,4,2,1,4,1,Backend Development,0,Cloud Computing,Backend Developer,Backend Developer
+S0475,Rahul Bhatt,Male,21,8.3,Bachelor,Student,1,0.0,Intern,0,5,4,1,1,5,1,Software Development,3,Information Technology,Software Engineer,Software Engineer
+S0476,Rohan Bansal,Male,18,8.0,Bachelor,Graduate,3,0.0,Full-Time,1,4,3,4,3,2,4,Software Development,3,Data Science & Analytics,Data Scientist,Data Scientist
+S0477,Neha Yadav,Female,27,7.9,Master,Graduate,9,1.0,Full-Time,3,5,3,5,4,5,5,Artificial Intelligence,0,Cybersecurity,AI Researcher,Machine Learning Engineer
+S0478,Sahil Saxena,Male,28,8.4,Master,Student,5,0.0,Unemployed,2,2,5,2,1,3,3,Data Analytics,1,Cloud Computing,Data Analyst,Data Analyst
+S0479,Manish Iyer,Male,22,7.7,Master,Graduate,6,0.0,Intern,1,3,5,1,1,3,3,Data Analytics,2,Artificial Intelligence,Cybersecurity Analyst,Backend Developer
+S0480,Siddharth Mishra,Male,25,8.6,Master,Student,3,0.0,Intern,1,2,2,2,1,4,2,Cloud Computing,2,Software Development,Cloud Engineer,Security Engineer
+S0481,Aman Mehta,Male,21,7.4,Bachelor,Working Professional,6,3.6,Full-Time,2,5,3,5,4,5,4,Backend Development,1,Information Technology,Machine Learning Engineer,Machine Learning Engineer
+S0482,Pallavi Pillai,Female,17,6.7,High School,Student,1,0.0,Unemployed,0,3,2,3,2,3,2,Data Analytics,0,Cybersecurity,Full Stack Developer,Cloud Engineer
+S0483,Kavya Pillai,Female,31,8.1,PhD,Working Professional,6,2.0,Full-Time,1,4,2,2,2,4,3,Cloud Computing,2,Business Intelligence,Cloud Engineer,Cloud Engineer
+S0484,Kunal Bose,Male,26,7.8,Master,Student,6,0.0,Unemployed,1,4,4,1,2,3,2,Web Development,2,Business Intelligence,Full Stack Developer,Backend Developer
+S0485,Aditi Chatterjee,Female,27,7.6,Master,Student,6,0.0,Unemployed,1,5,3,2,1,4,4,Software Development,1,Information Technology,Software Engineer,Software Engineer
+S0486,Sahil Singh,Male,22,8.5,Bachelor,Working Professional,6,6.7,Full-Time,2,2,5,1,1,1,5,Business Intelligence,0,Cybersecurity,Business Intelligence Analyst,Business Intelligence Analyst
+S0487,Meera Joshi,Female,25,8.0,Master,Graduate,4,0.0,Intern,1,5,3,1,1,5,1,Software Development,2,Software Development,Software Engineer,Software Engineer
+S0488,Neha Saxena,Female,19,8.8,Bachelor,Graduate,2,0.0,Full-Time,1,2,4,1,1,1,5,Business Intelligence,2,Cybersecurity,Business Intelligence Analyst,Business Intelligence Analyst
+S0489,Gaurav Nair,Male,28,7.5,Master,Working Professional,4,2.1,Full-Time,0,3,2,2,1,3,1,DevOps,3,Data Science & Analytics,DevOps Engineer,DevOps Engineer
+S0490,Arjun Tiwari,Male,21,7.2,Diploma,Working Professional,4,2.8,Full-Time,1,2,3,1,1,4,1,DevOps,1,Software Development,DevOps Engineer,Full Stack Developer
+S0491,Mohit Bansal,Male,22,6.4,Master,Graduate,4,1.0,Unemployed,3,3,3,1,1,4,2,Web Development,1,Cloud Computing,Full Stack Developer,Full Stack Developer
+S0492,Meera Choudhary,Female,24,8.4,Bachelor,Working Professional,5,3.7,Full-Time,1,5,5,1,1,5,2,Backend Development,4,Cybersecurity,Backend Developer,Backend Developer
+S0493,Lavanya Nair,Female,21,8.4,Bachelor,Graduate,3,1.0,Full-Time,0,4,5,1,2,4,2,Backend Development,2,Information Technology,Backend Developer,Backend Developer
+S0494,Yash Desai,Male,30,9.6,Master,Working Professional,5,2.0,Full-Time,3,2,3,1,1,2,4,Cybersecurity,0,Cybersecurity,Data Analyst,Data Analyst
+S0495,Simran Agarwal,Female,24,8.8,Bachelor,Student,1,0.0,Unemployed,0,2,3,2,1,3,1,Cloud Computing,2,Software Development,Cloud Engineer,Frontend Developer
+S0496,Karan Rao,Male,18,7.7,Diploma,Working Professional,2,2.0,Full-Time,2,4,3,1,2,4,3,Data Science,1,Cloud Computing,Backend Developer,Software Engineer
+S0497,Aditya Khanna,Male,21,8.2,Diploma,Working Professional,1,4.7,Full-Time,0,3,2,1,1,4,2,Cloud Computing,2,Software Development,Cloud Engineer,Security Engineer
+S0498,Arjun Bhatt,Male,17,6.7,High School,Student,0,0.0,Intern,0,2,1,2,1,3,1,DevOps,1,Business Intelligence,DevOps Engineer,Frontend Developer
+S0499,Abhinav Nair,Male,25,7.0,Bachelor,Working Professional,4,1.8,Full-Time,1,1,2,2,2,3,3,Web Development,0,Software Development,Frontend Developer,Cybersecurity Analyst
+S0500,Varun Desai,Male,21,9.4,Bachelor,Graduate,1,0.0,Full-Time,2,3,1,2,1,2,1,DevOps,2,Data Science & Analytics,DevOps Engineer,DevOps Engineer
+S0501,Aarav Sharma,Male,20,8.0,Bachelor,Student,2,0.0,Unemployed,1,4,2,1,1,3,2,Machine Learning,0,Information Technology,DevOps Engineer,DevOps Engineer
+S0502,Tanvi Pillai,Female,17,7.3,High School,Student,3,0.0,Unemployed,0,5,2,3,5,5,5,Artificial Intelligence,2,Cloud Computing,AI Researcher,AI Researcher
+S0503,Shreya Bose,Female,26,7.0,Bachelor,Working Professional,7,6.8,Full-Time,1,4,4,5,4,1,5,Data Science,2,Artificial Intelligence,Data Scientist,Data Scientist
+S0504,Vidya Agarwal,Female,30,8.8,Master,Working Professional,3,0.9,Full-Time,0,5,4,1,1,5,2,Cybersecurity,1,Software Development,Software Engineer,Software Engineer
+S0505,Vivek Mehta,Male,20,6.7,Diploma,Student,0,0.0,Unemployed,0,3,2,2,2,3,3,DevOps,0,Cloud Computing,DevOps Engineer,Cloud Engineer
+S0506,Aditya Sharma,Male,16,8.0,High School,Student,0,0.0,Intern,1,3,1,1,1,4,2,Cybersecurity,0,Data Science & Analytics,Security Engineer,Security Engineer
+S0507,Sneha Kapoor,Female,19,7.8,Bachelor,Graduate,2,0.0,Unemployed,2,2,2,1,2,2,3,DevOps,4,Data Science & Analytics,DevOps Engineer,Cybersecurity Analyst
+S0508,Saurabh Bhatt,Male,28,8.7,PhD,Student,7,0.0,Intern,0,4,3,2,2,5,3,Backend Development,0,Cloud Computing,Backend Developer,Software Engineer
+S0509,Bhavna Singh,Female,18,9.4,Bachelor,Student,2,0.0,Intern,1,2,2,2,1,3,1,Cloud Computing,1,Cybersecurity,DevOps Engineer,Frontend Developer
+S0510,Nikhil Verma,Male,22,7.7,Bachelor,Student,1,0.0,Unemployed,2,2,3,1,1,1,2,Cloud Computing,0,Cybersecurity,Cloud Engineer,Cybersecurity Analyst
+S0511,Kritika Gupta,Female,30,8.3,Master,Working Professional,9,6.9,Full-Time,2,5,5,1,1,4,2,Backend Development,1,Data Science & Analytics,Backend Developer,Backend Developer
+S0512,Vihaan Sinha,Male,22,7.6,Master,Student,7,0.0,Unemployed,1,4,4,3,4,4,4,Data Science,1,Data Science & Analytics,Data Scientist,Machine Learning Engineer
+S0513,Radhika Rao,Female,22,10.0,Bachelor,Student,2,0.0,Intern,0,3,3,2,1,2,1,DevOps,0,Software Development,DevOps Engineer,DevOps Engineer
+S0514,Kavya Kapoor,Female,24,8.9,Bachelor,Working Professional,2,0.8,Full-Time,0,3,2,2,1,3,3,Web Development,2,Information Technology,Full Stack Developer,Cybersecurity Analyst
+S0515,Riya Saxena,Female,20,8.6,Bachelor,Student,0,0.0,Intern,2,2,2,1,2,3,1,Web Development,1,Business Intelligence,Frontend Developer,Frontend Developer
+S0516,Sakshi Sharma,Female,21,7.0,Bachelor,Working Professional,2,2.6,Full-Time,1,2,2,1,3,3,1,Artificial Intelligence,4,Cybersecurity,Frontend Developer,Frontend Developer
+S0517,Kunal Tiwari,Male,22,7.0,Bachelor,Student,3,0.0,Unemployed,2,4,4,2,1,2,3,DevOps,0,Data Science & Analytics,Full Stack Developer,Data Analyst
+S0518,Kavya Bansal,Female,21,8.3,Diploma,Student,0,0.0,Unemployed,1,2,1,1,2,3,4,Cybersecurity,2,Cloud Computing,Cybersecurity Analyst,Cybersecurity Analyst
+S0519,Shreya Agarwal,Female,26,8.1,Master,Student,5,0.0,Intern,0,5,3,1,1,5,2,Software Development,2,Artificial Intelligence,Software Engineer,Software Engineer
+S0520,Bhavna Bansal,Female,26,7.8,Bachelor,Working Professional,6,2.3,Full-Time,1,4,4,5,3,5,5,Machine Learning,2,Artificial Intelligence,Machine Learning Engineer,Machine Learning Engineer
+S0521,Karan Patel,Male,18,8.0,Diploma,Student,1,0.0,Intern,1,3,3,1,1,3,1,Business Intelligence,1,Artificial Intelligence,Cloud Engineer,Full Stack Developer
+S0522,Karan Mehta,Male,18,6.9,High School,Student,0,0.0,Unemployed,0,3,3,2,1,4,1,Software Development,1,Software Development,Software Engineer,Full Stack Developer
+S0523,Abhinav Khanna,Male,21,7.8,Diploma,Student,3,0.0,Intern,2,5,2,4,5,4,5,Backend Development,0,Cybersecurity,AI Researcher,AI Researcher
+S0524,Gaurav Mishra,Male,24,5.7,Bachelor,Graduate,1,0.0,Full-Time,1,3,3,1,1,4,3,Cybersecurity,1,Cloud Computing,Cybersecurity Analyst,Cloud Engineer
+S0525,Pooja Iyer,Female,25,9.6,PhD,Student,9,0.0,Intern,0,5,3,5,4,4,4,Machine Learning,1,Cybersecurity,Machine Learning Engineer,Machine Learning Engineer
+S0526,Nisha Gupta,Female,27,6.6,Master,Graduate,4,0.0,Full-Time,0,3,2,1,1,4,2,Software Development,1,Data Science & Analytics,Security Engineer,Security Engineer
+S0527,Riya Sinha,Female,22,8.8,Bachelor,Student,4,0.0,Unemployed,0,3,4,2,2,4,3,Data Analytics,1,Software Development,Data Analyst,Backend Developer
+S0528,Aditi Sinha,Female,24,7.9,Bachelor,Graduate,1,0.0,Unemployed,2,3,4,2,1,1,4,Web Development,2,Cybersecurity,Data Analyst,Data Analyst
+S0529,Nisha Malhotra,Female,25,6.1,Bachelor,Working Professional,7,7.2,Full-Time,0,3,5,2,1,2,4,Data Analytics,1,Cybersecurity,Data Analyst,Data Analyst
+S0530,Yash Verma,Male,21,7.0,Bachelor,Working Professional,7,7.6,Full-Time,0,5,2,4,1,3,2,Artificial Intelligence,1,Data Science & Analytics,Cloud Engineer,Cloud Engineer
+S0531,Vidya Sharma,Female,30,6.8,Master,Working Professional,12,8.7,Full-Time,3,5,2,5,5,3,5,Machine Learning,2,Cloud Computing,Machine Learning Engineer,AI Researcher
+S0532,Vikram Chatterjee,Male,20,6.0,Bachelor,Graduate,1,0.0,Unemployed,1,2,4,1,1,3,3,Cybersecurity,1,Information Technology,Cybersecurity Analyst,Cybersecurity Analyst
+S0533,Aditi Mishra,Female,25,8.6,Master,Student,5,0.0,Intern,1,4,4,1,1,3,4,Software Development,0,Business Intelligence,Full Stack Developer,Data Analyst
+S0534,Tanya Verma,Female,22,8.6,Master,Graduate,6,0.0,Full-Time,2,5,4,3,1,3,4,Data Analytics,1,Data Science & Analytics,Data Scientist,Data Analyst
+S0535,Karan Chawla,Male,27,8.3,Master,Student,5,0.0,Unemployed,1,4,3,1,3,4,1,Software Development,0,Information Technology,Software Engineer,Full Stack Developer
+S0536,Vihaan Agarwal,Male,21,6.6,Bachelor,Working Professional,3,1.0,Full-Time,2,5,2,5,3,4,4,Machine Learning,1,Software Development,Machine Learning Engineer,Machine Learning Engineer
+S0537,Simran Rao,Female,26,9.0,Master,Working Professional,6,5.1,Full-Time,1,3,2,1,2,3,3,Cloud Computing,1,Cybersecurity,Cloud Engineer,Cybersecurity Analyst
+S0538,Rohan Patel,Male,22,5.5,Bachelor,Working Professional,4,1.3,Full-Time,1,4,5,5,3,1,5,Data Science,0,Data Science & Analytics,Data Scientist,Data Scientist
+S0539,Vidya Nair,Female,22,7.6,Bachelor,Working Professional,7,2.2,Full-Time,0,4,4,3,2,3,5,Data Science,1,Software Development,Data Scientist,Data Scientist
+S0540,Saurabh Singh,Male,22,7.8,Bachelor,Working Professional,3,3.8,Full-Time,0,3,5,1,1,4,2,Backend Development,2,Software Development,Backend Developer,Backend Developer
+S0541,Vikram Patel,Male,24,6.4,Bachelor,Student,3,0.0,Unemployed,2,3,4,2,2,5,1,Data Analytics,1,Cloud Computing,Software Engineer,Software Engineer
+S0542,Akash Nair,Male,16,5.5,High School,Student,0,0.0,Unemployed,0,3,4,1,2,3,2,Business Intelligence,2,Business Intelligence,Backend Developer,Full Stack Developer
+S0543,Sahil Verma,Male,28,6.6,Master,Student,4,0.0,Intern,1,2,3,1,2,3,3,Cybersecurity,1,Information Technology,Cybersecurity Analyst,Cybersecurity Analyst
+S0544,Aarav Pillai,Male,23,8.4,Bachelor,Working Professional,4,6.8,Full-Time,3,3,4,2,1,3,2,Cloud Computing,2,Cloud Computing,Cloud Engineer,Cloud Engineer
+S0545,Raghav Khanna,Male,34,10.0,PhD,Working Professional,10,6.8,Full-Time,1,4,2,1,1,3,2,Data Science,2,Cloud Computing,Frontend Developer,DevOps Engineer
+S0546,Vihaan Gupta,Male,24,6.1,Bachelor,Working Professional,7,1.9,Full-Time,0,4,2,5,4,5,5,Artificial Intelligence,3,Cybersecurity,AI Researcher,AI Researcher
+S0547,Rahul Kulkarni,Male,20,6.9,Bachelor,Working Professional,5,1.9,Full-Time,1,5,4,5,5,5,4,Artificial Intelligence,3,Data Science & Analytics,Machine Learning Engineer,Machine Learning Engineer
+S0548,Tarun Rao,Male,29,9.4,PhD,Student,8,0.0,Unemployed,0,2,3,1,1,5,3,Software Development,1,Cloud Computing,Software Engineer,Security Engineer
+S0549,Varun Chatterjee,Male,22,8.4,Master,Student,6,0.0,Unemployed,1,4,4,5,3,4,4,Machine Learning,2,Data Science & Analytics,Machine Learning Engineer,Machine Learning Engineer
+S0550,Meera Sharma,Female,27,9.2,Master,Graduate,5,0.0,Unemployed,0,4,4,5,5,3,4,Machine Learning,1,Data Science & Analytics,Machine Learning Engineer,Machine Learning Engineer
+S0551,Gaurav Rao,Male,32,7.8,PhD,Student,6,0.0,Intern,2,3,2,1,1,3,3,Cloud Computing,1,Artificial Intelligence,Cloud Engineer,Cybersecurity Analyst
+S0552,Tanya Iyer,Female,23,7.9,Bachelor,Working Professional,9,5.4,Full-Time,2,5,5,4,3,3,4,Data Science,2,Artificial Intelligence,Data Scientist,Data Scientist
+S0553,Pallavi Menon,Female,20,8.8,Bachelor,Working Professional,1,0.9,Full-Time,0,2,1,1,1,3,2,Web Development,1,Artificial Intelligence,Full Stack Developer,Frontend Developer
+S0554,Sakshi Choudhary,Female,26,9.1,Master,Working Professional,5,1.2,Full-Time,0,1,5,2,2,2,5,Business Intelligence,0,Software Development,Business Intelligence Analyst,Business Intelligence Analyst
+S0555,Varun Bansal,Male,23,9.5,Master,Student,6,0.0,Unemployed,1,3,4,1,2,2,4,Business Intelligence,3,Software Development,Business Intelligence Analyst,Data Analyst
+S0556,Ritika Bose,Female,26,10.0,Bachelor,Working Professional,6,6.1,Full-Time,3,3,5,2,1,3,4,Business Intelligence,2,Business Intelligence,Business Intelligence Analyst,Data Analyst
+S0557,Dev Yadav,Male,26,7.4,Bachelor,Working Professional,7,4.9,Full-Time,3,4,2,3,1,4,3,Cloud Computing,1,Cloud Computing,Cloud Engineer,Cloud Engineer
+S0558,Saurabh Tiwari,Male,28,7.8,Bachelor,Working Professional,6,6.2,Full-Time,1,3,1,1,1,3,2,DevOps,3,Software Development,DevOps Engineer,DevOps Engineer
+S0559,Anjali Pillai,Female,19,8.1,Bachelor,Student,2,0.0,Unemployed,0,3,2,1,1,4,1,Artificial Intelligence,0,Data Science & Analytics,Cloud Engineer,Security Engineer
+S0560,Vidya Mehta,Female,21,8.4,Bachelor,Student,3,0.0,Intern,0,4,2,1,1,3,1,DevOps,1,Software Development,DevOps Engineer,DevOps Engineer
+S0561,Shreya Bose,Female,30,8.8,Master,Working Professional,6,3.4,Full-Time,2,3,5,2,1,1,5,Data Analytics,3,Cybersecurity,Data Analyst,Data Analyst
+S0562,Akash Chatterjee,Male,23,7.5,Master,Student,6,0.0,Unemployed,0,4,5,5,2,3,4,Data Science,1,Software Development,Data Scientist,Data Scientist
+S0563,Vihaan Desai,Male,21,6.8,Bachelor,Graduate,2,0.0,Full-Time,1,4,3,1,1,5,1,Cybersecurity,1,Cybersecurity,Security Engineer,Software Engineer
+S0564,Sakshi Verma,Female,21,7.7,Bachelor,Student,4,0.0,Intern,0,5,5,3,1,3,3,DevOps,0,Information Technology,Backend Developer,Backend Developer
+S0565,Gaurav Malhotra,Male,25,7.5,Master,Student,4,0.0,Unemployed,0,3,1,1,1,2,1,DevOps,0,Information Technology,DevOps Engineer,DevOps Engineer
+S0566,Isha Iyer,Female,24,7.6,Bachelor,Working Professional,3,2.2,Full-Time,1,3,5,2,1,3,3,Backend Development,3,Information Technology,Backend Developer,Data Analyst
+S0567,Swati Iyer,Female,32,7.4,Master,Working Professional,7,2.4,Full-Time,1,4,3,1,1,4,3,Software Development,2,Artificial Intelligence,Software Engineer,Software Engineer
+S0568,Mohit Gupta,Male,25,7.0,Bachelor,Working Professional,6,4.0,Full-Time,2,2,5,1,1,1,5,Business Intelligence,1,Business Intelligence,Business Intelligence Analyst,Business Intelligence Analyst
+S0569,Raghav Choudhary,Male,24,6.4,Master,Graduate,6,0.0,Unemployed,1,1,5,1,1,1,5,Business Intelligence,2,Artificial Intelligence,Business Intelligence Analyst,Business Intelligence Analyst
+S0570,Vivek Pillai,Male,22,9.9,Bachelor,Student,0,0.0,Intern,2,2,2,1,1,2,2,Cloud Computing,1,Artificial Intelligence,Cloud Engineer,Cybersecurity Analyst
+S0571,Rohan Chatterjee,Male,19,9.0,Bachelor,Student,0,0.0,Intern,1,2,1,1,1,3,2,Cybersecurity,1,Cloud Computing,Cybersecurity Analyst,Frontend Developer
+S0572,Vihaan Nair,Male,19,7.3,Bachelor,Student,2,0.0,Intern,1,3,2,2,1,3,2,Web Development,0,Cloud Computing,Cybersecurity Analyst,Cloud Engineer
+S0573,Vihaan Iyer,Male,19,9.3,Diploma,Student,2,0.0,Unemployed,1,2,3,1,1,4,1,Software Development,0,Software Development,Full Stack Developer,Full Stack Developer
+S0574,Kavya Bansal,Female,35,8.8,PhD,Working Professional,9,7.2,Full-Time,1,3,2,2,2,2,4,Artificial Intelligence,0,Information Technology,Data Analyst,Cybersecurity Analyst
+S0575,Aman Rao,Male,20,8.9,Diploma,Working Professional,5,4.7,Full-Time,0,4,2,1,1,4,3,DevOps,0,Artificial Intelligence,DevOps Engineer,Security Engineer
+S0576,Tarun Bose,Male,22,7.0,Bachelor,Student,2,0.0,Unemployed,1,2,2,1,2,3,1,Software Development,3,Software Development,Frontend Developer,Frontend Developer
+S0577,Tanya Pillai,Female,27,7.6,Master,Working Professional,10,7.0,Full-Time,0,4,4,1,1,5,3,Software Development,1,Business Intelligence,Software Engineer,Software Engineer
+S0578,Divya Khanna,Female,26,6.8,Bachelor,Working Professional,4,1.4,Full-Time,0,3,2,1,2,4,1,DevOps,1,Business Intelligence,DevOps Engineer,Security Engineer
+S0579,Ananya Mehta,Female,19,7.4,Diploma,Working Professional,4,4.3,Full-Time,1,4,2,2,2,5,4,Software Development,3,Cybersecurity,Software Engineer,Software Engineer
+S0580,Harsh Saxena,Male,21,7.4,Bachelor,Working Professional,3,2.2,Full-Time,1,4,2,2,2,5,3,Cybersecurity,1,Business Intelligence,Security Engineer,Software Engineer
+S0581,Saurabh Patel,Male,17,7.4,High School,Student,0,0.0,Unemployed,0,2,5,2,1,2,4,Software Development,0,Cloud Computing,Business Intelligence Analyst,Data Analyst
+S0582,Sanjay Bhatt,Male,25,8.1,Master,Graduate,2,0.0,Intern,3,3,3,2,1,2,2,DevOps,2,Artificial Intelligence,DevOps Engineer,Cloud Engineer
+S0583,Pranav Bhatt,Male,28,6.2,Master,Student,5,0.0,Unemployed,0,2,1,3,2,3,2,Software Development,0,Software Development,Frontend Developer,Cybersecurity Analyst
+S0584,Ishaan Mehta,Male,22,9.6,Master,Graduate,5,0.0,Unemployed,1,5,1,5,4,4,4,Artificial Intelligence,3,Data Science & Analytics,Machine Learning Engineer,AI Researcher
+S0585,Ishaan Gupta,Male,22,9.8,Bachelor,Student,2,0.0,Unemployed,2,2,3,1,3,3,1,Cybersecurity,2,Software Development,Security Engineer,Frontend Developer
+S0586,Rohan Bose,Male,20,9.4,Bachelor,Student,2,0.0,Unemployed,1,2,1,1,1,2,2,Cybersecurity,0,Artificial Intelligence,Cybersecurity Analyst,Cybersecurity Analyst
+S0587,Vihaan Saxena,Male,25,6.4,Master,Student,6,0.0,Unemployed,1,4,2,1,1,3,2,DevOps,1,Cloud Computing,DevOps Engineer,DevOps Engineer
+S0588,Lavanya Mishra,Female,19,7.3,Bachelor,Graduate,4,0.0,Full-Time,1,3,3,2,1,3,3,Machine Learning,2,Software Development,Cloud Engineer,Cloud Engineer
+S0589,Shreya Chatterjee,Female,22,8.8,Master,Working Professional,8,3.5,Full-Time,0,3,4,1,1,4,1,Cybersecurity,3,Information Technology,Full Stack Developer,Full Stack Developer
+S0590,Simran Patel,Female,26,7.6,Master,Student,3,0.0,Intern,0,1,2,1,1,5,2,Cybersecurity,2,Information Technology,Security Engineer,Security Engineer
+S0591,Aditi Mehta,Female,20,6.4,Bachelor,Graduate,2,0.0,Full-Time,1,4,3,1,1,4,2,Web Development,1,Information Technology,Full Stack Developer,Software Engineer
+S0592,Dev Sharma,Male,19,7.2,Bachelor,Student,2,0.0,Unemployed,0,4,2,5,3,4,4,Machine Learning,1,Data Science & Analytics,Machine Learning Engineer,Machine Learning Engineer
+S0593,Sneha Gupta,Female,22,6.6,Bachelor,Graduate,6,1.0,Unemployed,0,5,2,5,5,4,3,Artificial Intelligence,2,Cybersecurity,AI Researcher,Machine Learning Engineer
+S0594,Rohan Verma,Male,23,8.8,Bachelor,Student,1,0.0,Unemployed,2,2,2,2,1,5,2,Software Development,1,Software Development,Security Engineer,Security Engineer
+S0595,Yash Joshi,Male,23,9.2,Bachelor,Student,3,0.0,Intern,1,4,3,1,2,5,1,Machine Learning,2,Information Technology,Software Engineer,Software Engineer
+S0596,Diya Malhotra,Female,21,5.8,Diploma,Working Professional,4,3.5,Full-Time,0,2,3,1,1,5,2,Cybersecurity,3,Software Development,Security Engineer,Security Engineer
+S0597,Aditya Kapoor,Male,26,8.8,Master,Working Professional,10,0.7,Full-Time,2,5,4,4,3,5,5,Data Science,2,Artificial Intelligence,Machine Learning Engineer,Machine Learning Engineer
+S0598,Gaurav Chawla,Male,18,7.4,Bachelor,Graduate,3,0.0,Intern,1,3,5,1,1,3,4,Data Analytics,1,Cybersecurity,Data Analyst,Data Analyst
+S0599,Dev Joshi,Male,21,8.3,Bachelor,Working Professional,6,6.8,Full-Time,1,4,4,1,2,5,3,Backend Development,1,Data Science & Analytics,Backend Developer,Software Engineer
+S0600,Simran Bansal,Female,19,7.2,Bachelor,Graduate,1,0.0,Intern,1,3,2,1,1,2,2,DevOps,1,Cybersecurity,DevOps Engineer,DevOps Engineer
+S0601,Ritika Malhotra,Female,26,8.6,Master,Graduate,5,0.0,Intern,2,5,4,1,1,5,1,Cloud Computing,1,Artificial Intelligence,Backend Developer,Software Engineer
+S0602,Divya Tiwari,Female,26,9.9,Master,Student,6,0.0,Unemployed,1,3,4,3,1,3,4,Data Analytics,1,Cloud Computing,Data Analyst,Data Analyst
+S0603,Rohan Rao,Male,28,8.0,Bachelor,Working Professional,4,1.8,Full-Time,1,5,5,4,3,3,5,Data Science,1,Data Science & Analytics,Data Scientist,Data Scientist
+S0604,Aditya Bhatt,Male,28,8.0,Master,Working Professional,6,2.7,Full-Time,1,2,5,1,2,1,3,Business Intelligence,0,Software Development,Business Intelligence Analyst,Business Intelligence Analyst
+S0605,Akash Malhotra,Male,22,5.7,Bachelor,Working Professional,2,6.1,Full-Time,1,2,1,1,2,2,3,Software Development,0,Business Intelligence,Cybersecurity Analyst,Cybersecurity Analyst
+S0606,Ritika Menon,Female,22,9.2,Master,Graduate,3,0.0,Intern,1,3,3,1,2,1,3,Machine Learning,0,Cybersecurity,Cybersecurity Analyst,Cybersecurity Analyst
+S0607,Varun Sinha,Male,32,9.4,PhD,Student,10,0.0,Intern,1,5,3,5,5,5,5,Data Analytics,1,Information Technology,AI Researcher,AI Researcher
+S0608,Ishaan Tiwari,Male,23,7.8,Bachelor,Graduate,6,1.0,Unemployed,1,3,4,4,3,1,5,Data Science,1,Cloud Computing,Data Scientist,Data Scientist
+S0609,Varun Mehta,Male,24,6.2,Bachelor,Graduate,2,1.0,Unemployed,1,3,2,1,1,3,1,Web Development,3,Artificial Intelligence,Full Stack Developer,DevOps Engineer
+S0610,Tanya Nair,Female,26,8.3,Master,Working Professional,10,4.4,Full-Time,0,4,5,1,1,4,3,Backend Development,1,Artificial Intelligence,Backend Developer,Backend Developer
+S0611,Radhika Sinha,Female,26,8.9,Master,Graduate,7,0.0,Intern,0,5,4,5,2,3,5,Data Science,3,Cloud Computing,Data Scientist,Data Scientist
+S0612,Pranav Gupta,Male,22,8.6,Bachelor,Working Professional,6,2.7,Full-Time,0,3,3,4,3,4,4,Machine Learning,0,Data Science & Analytics,Machine Learning Engineer,Machine Learning Engineer
+S0613,Ishaan Verma,Male,18,9.1,Bachelor,Graduate,2,1.0,Full-Time,3,3,3,2,1,2,1,Backend Development,1,Artificial Intelligence,Frontend Developer,DevOps Engineer
+S0614,Vidya Yadav,Female,22,8.5,Bachelor,Working Professional,3,1.9,Full-Time,3,4,3,1,1,4,1,Software Development,2,Information Technology,Software Engineer,Full Stack Developer
+S0615,Radhika Bansal,Female,20,8.5,Bachelor,Working Professional,7,2.7,Full-Time,0,5,4,5,3,5,4,Machine Learning,2,Business Intelligence,Machine Learning Engineer,Machine Learning Engineer
+S0616,Ishaan Pillai,Male,24,8.0,Master,Graduate,4,0.0,Unemployed,1,2,2,1,2,5,2,Artificial Intelligence,0,Software Development,Security Engineer,Security Engineer
+S0617,Ishaan Saxena,Male,25,9.2,Bachelor,Working Professional,7,4.6,Full-Time,1,2,5,1,3,2,5,Business Intelligence,2,Cloud Computing,Business Intelligence Analyst,Business Intelligence Analyst
+S0618,Ananya Khanna,Female,19,6.4,Bachelor,Student,1,0.0,Unemployed,0,2,1,2,3,4,2,Cybersecurity,2,Data Science & Analytics,Security Engineer,Security Engineer
+S0619,Aarav Singh,Male,27,8.6,Master,Working Professional,8,8.9,Full-Time,1,3,5,2,1,2,4,Business Intelligence,1,Software Development,Business Intelligence Analyst,Data Analyst
+S0620,Sahil Tiwari,Male,24,8.4,Bachelor,Working Professional,3,1.0,Full-Time,2,3,3,1,1,3,2,Data Analytics,1,Information Technology,Full Stack Developer,Cloud Engineer
+S0621,Bhavna Nair,Female,24,8.8,Bachelor,Graduate,5,1.0,Unemployed,2,3,4,1,2,2,2,DevOps,1,Software Development,DevOps Engineer,Cloud Engineer
+S0622,Meera Bhatt,Female,18,9.6,Diploma,Working Professional,3,2.4,Full-Time,2,2,5,1,1,1,3,Business Intelligence,5,Cybersecurity,Business Intelligence Analyst,Business Intelligence Analyst
+S0623,Mohit Yadav,Male,23,9.0,Bachelor,Graduate,7,1.0,Intern,0,5,1,5,5,5,5,Business Intelligence,1,Cloud Computing,AI Researcher,AI Researcher
+S0624,Akash Saxena,Male,22,6.1,Bachelor,Graduate,6,0.0,Unemployed,2,4,3,5,5,5,4,Machine Learning,1,Software Development,Machine Learning Engineer,Machine Learning Engineer
+S0625,Lavanya Desai,Female,20,5.4,Bachelor,Graduate,2,0.0,Unemployed,1,5,3,1,1,5,1,Software Development,2,Cybersecurity,Software Engineer,Software Engineer
+S0626,Vidya Malhotra,Female,23,6.3,Bachelor,Graduate,4,0.0,Unemployed,0,5,2,5,5,4,5,Artificial Intelligence,2,Software Development,AI Researcher,AI Researcher
+S0627,Tarun Reddy,Male,21,8.2,Diploma,Working Professional,2,4.8,Full-Time,0,2,1,1,1,2,3,Cybersecurity,1,Data Science & Analytics,Cybersecurity Analyst,Cybersecurity Analyst
+S0628,Pallavi Verma,Female,22,8.1,Bachelor,Student,0,0.0,Unemployed,0,1,4,2,1,1,4,Backend Development,1,Information Technology,Business Intelligence Analyst,Business Intelligence Analyst
+S0629,Gaurav Yadav,Male,18,7.8,Bachelor,Student,1,0.0,Unemployed,1,2,2,2,3,2,2,Cybersecurity,0,Data Science & Analytics,Cybersecurity Analyst,Cybersecurity Analyst
+S0630,Isha Menon,Female,29,10.0,Master,Working Professional,8,5.3,Full-Time,0,3,3,2,2,2,4,Cybersecurity,4,Artificial Intelligence,Cybersecurity Analyst,Data Analyst
+S0631,Shreya Rao,Female,20,8.8,Bachelor,Student,1,0.0,Intern,0,2,3,1,1,5,1,Cybersecurity,0,Artificial Intelligence,Security Engineer,Security Engineer
+S0632,Pallavi Mehta,Female,21,8.3,Bachelor,Working Professional,2,2.4,Full-Time,1,3,3,1,1,3,2,Business Intelligence,2,Cloud Computing,Cloud Engineer,Cloud Engineer
+S0633,Trisha Reddy,Female,18,7.8,Bachelor,Graduate,1,0.0,Unemployed,1,3,2,1,1,5,1,Software Development,1,Software Development,Software Engineer,Security Engineer
+S0634,Aditya Pillai,Male,18,8.7,Bachelor,Student,3,0.0,Unemployed,0,4,4,4,3,1,5,Cybersecurity,0,Artificial Intelligence,Data Scientist,Data Scientist
+S0635,Sakshi Agarwal,Female,25,6.2,Master,Graduate,7,1.0,Unemployed,3,5,5,1,1,4,2,Backend Development,2,Cloud Computing,Backend Developer,Backend Developer
+S0636,Vidya Bhatt,Female,24,9.5,Bachelor,Working Professional,2,1.2,Full-Time,2,3,4,1,1,1,4,Data Analytics,0,Software Development,Data Analyst,Data Analyst
+S0637,Sneha Desai,Female,18,9.4,Bachelor,Graduate,2,1.0,Full-Time,1,2,2,1,2,3,4,Cybersecurity,0,Software Development,Cybersecurity Analyst,Cybersecurity Analyst
+S0638,Pooja Kulkarni,Female,18,7.5,Bachelor,Graduate,4,0.0,Intern,1,2,5,2,2,2,3,Web Development,1,Cybersecurity,Business Intelligence Analyst,Data Analyst
+S0639,Raghav Sharma,Male,31,8.4,PhD,Student,7,0.0,Unemployed,1,5,2,4,3,3,5,Machine Learning,2,Software Development,Machine Learning Engineer,Machine Learning Engineer
+S0640,Priya Sharma,Female,24,10.0,Bachelor,Graduate,2,0.0,Unemployed,3,2,2,1,1,3,1,Cloud Computing,2,Business Intelligence,Frontend Developer,Frontend Developer
+S0641,Vivek Kulkarni,Male,27,8.2,Master,Student,3,0.0,Unemployed,0,4,2,3,1,2,2,Backend Development,1,Information Technology,DevOps Engineer,DevOps Engineer
+S0642,Trisha Pillai,Female,23,8.6,Master,Student,4,0.0,Intern,1,2,5,1,1,2,4,Business Intelligence,1,Information Technology,Business Intelligence Analyst,Business Intelligence Analyst
+S0643,Radhika Bhatt,Female,18,6.1,Diploma,Student,4,0.0,Intern,0,5,5,1,2,5,1,Backend Development,0,Information Technology,Backend Developer,Backend Developer
+S0644,Pranav Mehta,Male,26,8.5,Bachelor,Working Professional,8,7.9,Full-Time,1,3,4,1,2,4,2,Data Analytics,3,Information Technology,Full Stack Developer,Backend Developer
+S0645,Aman Patel,Male,24,9.0,PhD,Student,8,0.0,Unemployed,1,3,4,2,3,1,4,Data Analytics,1,Information Technology,Data Analyst,Data Analyst
+S0646,Sakshi Gupta,Female,21,7.8,Bachelor,Student,2,0.0,Unemployed,2,4,3,1,1,5,1,Software Development,0,Information Technology,Software Engineer,Software Engineer
+S0647,Ira Sharma,Female,18,8.8,Bachelor,Student,1,0.0,Unemployed,1,4,1,1,1,2,3,Backend Development,2,Software Development,Cybersecurity Analyst,DevOps Engineer
+S0648,Naveen Saxena,Male,24,6.6,Master,Working Professional,11,8.3,Full-Time,0,3,4,2,2,1,5,Business Intelligence,2,Software Development,Business Intelligence Analyst,Data Analyst
+S0649,Dev Gupta,Male,26,8.0,Master,Working Professional,7,5.8,Full-Time,2,4,4,2,1,5,2,Software Development,1,Information Technology,Software Engineer,Software Engineer
+S0650,Varun Sharma,Male,22,9.4,Bachelor,Student,3,0.0,Intern,0,1,3,2,2,2,2,Software Development,1,Data Science & Analytics,Frontend Developer,Cybersecurity Analyst
+S0651,Saurabh Chatterjee,Male,20,6.8,Bachelor,Student,0,0.0,Unemployed,2,5,5,2,1,3,2,Backend Development,0,Business Intelligence,Backend Developer,Backend Developer
+S0652,Siddharth Gupta,Male,27,7.0,Master,Student,6,0.0,Unemployed,2,3,3,2,1,4,1,Cloud Computing,0,Cybersecurity,Cloud Engineer,Full Stack Developer
+S0653,Vihaan Mishra,Male,23,8.2,Master,Student,4,0.0,Intern,1,5,1,1,1,3,2,DevOps,0,Cloud Computing,DevOps Engineer,DevOps Engineer
+S0654,Divya Malhotra,Female,23,7.7,Bachelor,Student,1,0.0,Unemployed,0,4,2,2,1,2,5,Data Analytics,0,Artificial Intelligence,Data Analyst,Data Analyst
+S0655,Raghav Kapoor,Male,21,7.6,Bachelor,Student,3,0.0,Intern,1,5,4,2,1,3,2,Backend Development,1,Cybersecurity,Backend Developer,Backend Developer
+S0656,Pooja Nair,Female,23,8.3,Master,Graduate,3,1.0,Unemployed,2,4,2,1,2,1,1,DevOps,0,Software Development,DevOps Engineer,DevOps Engineer
+S0657,Aditi Mehta,Female,22,7.2,Bachelor,Working Professional,2,4.3,Full-Time,1,4,2,1,2,5,2,Cybersecurity,3,Artificial Intelligence,Security Engineer,Software Engineer
+S0658,Saurabh Gupta,Male,22,6.9,Bachelor,Graduate,1,0.0,Full-Time,1,4,1,1,1,5,1,Web Development,2,Cloud Computing,Full Stack Developer,Security Engineer
+S0659,Neha Chawla,Female,23,6.8,Diploma,Working Professional,3,2.7,Full-Time,2,3,3,1,1,2,2,DevOps,2,Business Intelligence,DevOps Engineer,Cloud Engineer
+S0660,Lavanya Mishra,Female,21,7.0,Bachelor,Graduate,5,0.0,Full-Time,1,5,2,5,5,3,5,Software Development,2,Artificial Intelligence,AI Researcher,AI Researcher
+S0661,Vihaan Verma,Male,32,10.0,PhD,Working Professional,16,11.8,Full-Time,3,4,5,4,3,3,5,Data Science,3,Cloud Computing,Data Scientist,Data Scientist
+S0662,Rohan Kapoor,Male,23,7.9,Bachelor,Student,3,0.0,Intern,0,4,3,3,1,4,4,Cloud Computing,1,Artificial Intelligence,Cloud Engineer,Data Analyst
+S0663,Ananya Iyer,Female,19,7.8,Bachelor,Graduate,5,1.0,Full-Time,2,4,1,1,1,1,3,Software Development,1,Information Technology,DevOps Engineer,DevOps Engineer
+S0664,Sakshi Chawla,Female,23,6.5,Bachelor,Graduate,6,1.0,Full-Time,0,5,2,5,4,5,5,Artificial Intelligence,4,Business Intelligence,AI Researcher,AI Researcher
+S0665,Swati Patel,Female,17,7.0,High School,Student,0,0.0,Unemployed,0,3,4,1,1,4,3,Software Development,1,Cloud Computing,Software Engineer,Backend Developer
+S0666,Pallavi Iyer,Female,26,6.3,Master,Working Professional,7,1.6,Full-Time,2,3,5,2,2,5,2,Web Development,3,Data Science & Analytics,Backend Developer,Backend Developer
+S0667,Dev Chatterjee,Male,16,9.5,High School,Student,0,0.0,Unemployed,1,3,3,2,1,3,3,Backend Development,2,Cloud Computing,Cloud Engineer,Cloud Engineer
+S0668,Sahil Patel,Male,25,7.9,Bachelor,Working Professional,5,4.5,Full-Time,0,3,3,1,2,3,1,Cloud Computing,3,Business Intelligence,Cloud Engineer,Full Stack Developer
+S0669,Rahul Sinha,Male,20,9.7,Bachelor,Graduate,4,0.0,Unemployed,1,3,5,3,1,4,4,Data Analytics,1,Cybersecurity,Data Analyst,Data Analyst
+S0670,Siddharth Bansal,Male,25,8.1,Master,Graduate,3,0.0,Full-Time,2,3,1,1,1,4,1,Backend Development,1,Artificial Intelligence,DevOps Engineer,Security Engineer
+S0671,Gaurav Rao,Male,18,8.2,Bachelor,Student,2,0.0,Unemployed,1,2,5,1,1,4,1,Backend Development,0,Software Development,Backend Developer,Backend Developer
+S0672,Kritika Agarwal,Female,18,7.7,High School,Student,0,0.0,Unemployed,1,1,5,1,1,1,4,Business Intelligence,0,Cybersecurity,Business Intelligence Analyst,Business Intelligence Analyst
+S0673,Tanvi Sharma,Female,24,8.4,Bachelor,Student,3,0.0,Intern,1,5,4,5,4,5,4,Machine Learning,1,Software Development,Machine Learning Engineer,Machine Learning Engineer
+S0674,Aditi Saxena,Female,27,8.4,Bachelor,Working Professional,9,7.3,Full-Time,2,5,3,5,5,4,5,Machine Learning,0,Cybersecurity,Machine Learning Engineer,AI Researcher
+S0675,Kavya Choudhary,Female,25,9.1,Master,Student,2,0.0,Unemployed,0,1,4,1,2,1,5,Cybersecurity,0,Business Intelligence,Business Intelligence Analyst,Business Intelligence Analyst
+S0676,Arjun Chatterjee,Male,23,7.2,Bachelor,Student,2,0.0,Unemployed,1,4,1,2,1,5,1,Business Intelligence,2,Artificial Intelligence,Security Engineer,Security Engineer
+S0677,Diya Saxena,Female,18,8.8,Bachelor,Student,1,0.0,Intern,1,4,3,2,1,5,2,Software Development,1,Artificial Intelligence,Software Engineer,Software Engineer
+S0678,Abhinav Bansal,Male,17,9.5,High School,Student,0,0.0,Unemployed,1,2,2,1,1,3,2,DevOps,0,Cloud Computing,Frontend Developer,Cybersecurity Analyst
+S0679,Aarav Menon,Male,24,8.6,Bachelor,Graduate,3,0.0,Full-Time,1,3,4,2,1,3,5,Data Analytics,1,Artificial Intelligence,Data Analyst,Data Analyst
+S0680,Anjali Choudhary,Female,28,8.3,Master,Working Professional,7,5.5,Full-Time,2,2,3,2,1,3,2,Software Development,3,Software Development,DevOps Engineer,Cloud Engineer
+S0681,Raghav Reddy,Male,19,5.9,Bachelor,Student,5,0.0,Unemployed,1,5,4,1,2,4,1,Backend Development,0,Data Science & Analytics,Backend Developer,Backend Developer
+S0682,Sanjay Iyer,Male,19,7.5,Diploma,Student,0,0.0,Intern,1,3,2,1,1,4,1,Cybersecurity,1,Artificial Intelligence,Security Engineer,Security Engineer
+S0683,Swati Iyer,Female,20,6.5,Bachelor,Graduate,3,0.0,Full-Time,2,3,4,2,1,2,3,Data Analytics,3,Cybersecurity,Data Analyst,Data Analyst
+S0684,Aarav Joshi,Male,20,6.0,Bachelor,Graduate,3,1.0,Full-Time,3,5,1,2,1,4,2,Backend Development,0,Artificial Intelligence,DevOps Engineer,Security Engineer
+S0685,Radhika Bose,Female,24,6.7,Bachelor,Student,2,0.0,Intern,0,3,5,1,1,1,4,Data Science,1,Software Development,Business Intelligence Analyst,Business Intelligence Analyst
+S0686,Sneha Khanna,Female,21,6.8,Bachelor,Graduate,4,0.0,Unemployed,1,5,5,1,1,5,2,Software Development,3,Business Intelligence,Software Engineer,Backend Developer
+S0687,Rahul Menon,Male,25,7.6,Bachelor,Working Professional,7,6.6,Full-Time,3,4,3,1,3,1,4,Business Intelligence,4,Artificial Intelligence,Business Intelligence Analyst,Data Analyst
+S0688,Vihaan Pillai,Male,28,9.1,Master,Graduate,3,0.0,Intern,2,2,2,2,1,2,1,DevOps,1,Artificial Intelligence,DevOps Engineer,Frontend Developer
+S0689,Harsh Choudhary,Male,22,7.7,Master,Graduate,6,0.0,Unemployed,1,5,3,1,1,1,2,DevOps,2,Software Development,DevOps Engineer,DevOps Engineer
+S0690,Kunal Singh,Male,33,9.0,PhD,Student,8,0.0,Intern,0,3,3,1,1,5,3,Software Development,0,Cybersecurity,Software Engineer,Software Engineer
+S0691,Sakshi Pillai,Female,26,10.0,Master,Graduate,4,0.0,Full-Time,1,2,4,1,2,1,4,Business Intelligence,2,Cloud Computing,Business Intelligence Analyst,Business Intelligence Analyst
+S0692,Aditya Tiwari,Male,20,8.8,Bachelor,Student,0,0.0,Unemployed,0,2,4,1,1,3,1,Web Development,1,Data Science & Analytics,Frontend Developer,Full Stack Developer
+S0693,Rohan Menon,Male,19,7.7,Bachelor,Working Professional,9,7.7,Full-Time,0,4,4,2,3,5,3,Software Development,0,Business Intelligence,Software Engineer,Software Engineer
+S0694,Lavanya Bhatt,Female,24,8.6,Master,Graduate,8,0.0,Unemployed,1,5,3,4,5,5,5,Software Development,0,Data Science & Analytics,AI Researcher,AI Researcher
+S0695,Vikram Choudhary,Male,24,6.7,Master,Graduate,4,0.0,Unemployed,2,1,4,1,1,1,4,Business Intelligence,1,Cloud Computing,Business Intelligence Analyst,Business Intelligence Analyst
+S0696,Pallavi Bansal,Female,32,8.3,Master,Working Professional,4,1.7,Full-Time,2,5,3,1,1,2,1,Machine Learning,1,Software Development,Backend Developer,DevOps Engineer
+S0697,Rohan Menon,Male,18,6.9,Diploma,Student,1,0.0,Unemployed,0,3,3,2,1,5,2,Cybersecurity,1,Software Development,Security Engineer,Software Engineer
+S0698,Swati Khanna,Female,23,8.6,Master,Graduate,6,0.0,Unemployed,2,4,4,1,1,4,2,Backend Development,1,Artificial Intelligence,Backend Developer,Backend Developer
+S0699,Diya Choudhary,Female,21,6.7,Bachelor,Student,3,0.0,Unemployed,1,4,5,1,1,3,2,Backend Development,1,Information Technology,Backend Developer,Backend Developer
+S0700,Pooja Verma,Female,21,6.7,Diploma,Student,0,0.0,Unemployed,0,2,3,2,3,3,2,Cybersecurity,0,Information Technology,Cybersecurity Analyst,Cloud Engineer
+S0701,Riya Saxena,Female,26,7.4,Master,Student,6,0.0,Intern,1,2,5,1,1,1,4,Business Intelligence,0,Software Development,Business Intelligence Analyst,Business Intelligence Analyst
+S0702,Rahul Mishra,Male,24,9.3,Master,Graduate,6,0.0,Full-Time,0,3,4,1,1,5,1,Software Development,0,Artificial Intelligence,Software Engineer,Software Engineer
+S0703,Saurabh Malhotra,Male,18,8.9,High School,Student,0,0.0,Unemployed,2,1,2,1,1,1,1,Cybersecurity,1,Artificial Intelligence,Frontend Developer,Frontend Developer
+S0704,Karan Mishra,Male,31,7.4,Master,Working Professional,10,8.4,Full-Time,3,2,3,2,1,3,3,Data Analytics,4,Software Development,Data Analyst,Cybersecurity Analyst
+S0705,Kavya Reddy,Female,25,9.2,Master,Graduate,5,0.0,Intern,1,4,2,2,1,2,4,Data Science,1,Information Technology,Data Analyst,Data Analyst
+S0706,Tarun Reddy,Male,23,6.2,Bachelor,Graduate,6,0.0,Intern,1,5,2,4,5,5,5,Artificial Intelligence,0,Information Technology,AI Researcher,AI Researcher
+S0707,Dev Chatterjee,Male,31,7.7,Master,Working Professional,7,1.7,Full-Time,0,3,3,3,2,4,4,Cloud Computing,0,Cloud Computing,Cloud Engineer,Data Analyst
+S0708,Gaurav Iyer,Male,27,9.3,Master,Graduate,7,0.0,Unemployed,0,3,3,5,4,3,5,Web Development,0,Cybersecurity,Data Scientist,Data Scientist
+S0709,Siddharth Kulkarni,Male,21,9.1,Diploma,Student,0,0.0,Unemployed,0,2,4,1,2,1,4,Software Development,2,Information Technology,Business Intelligence Analyst,Business Intelligence Analyst
+S0710,Sanjay Mehta,Male,18,7.0,Bachelor,Graduate,4,0.0,Full-Time,0,5,4,1,3,3,1,DevOps,3,Data Science & Analytics,Software Engineer,Backend Developer
+S0711,Vidya Singh,Female,27,8.0,Master,Working Professional,5,2.5,Full-Time,1,4,2,1,1,1,2,DevOps,3,Software Development,DevOps Engineer,DevOps Engineer
+S0712,Isha Agarwal,Female,18,7.4,Bachelor,Graduate,3,0.0,Unemployed,2,3,3,1,2,4,2,DevOps,0,Artificial Intelligence,DevOps Engineer,Full Stack Developer
+S0713,Vihaan Mishra,Male,27,7.7,Master,Graduate,3,0.0,Full-Time,2,3,5,1,1,3,3,Data Science,3,Cloud Computing,Business Intelligence Analyst,Backend Developer
+S0714,Karan Khanna,Male,32,9.7,Master,Working Professional,8,5.0,Full-Time,1,4,3,2,2,3,2,DevOps,4,Business Intelligence,DevOps Engineer,Cloud Engineer
+S0715,Swati Pillai,Female,24,7.1,Bachelor,Graduate,3,0.0,Full-Time,1,4,4,2,1,5,2,Artificial Intelligence,0,Cybersecurity,Backend Developer,Software Engineer
+S0716,Vivek Patel,Male,18,8.8,Bachelor,Graduate,3,0.0,Unemployed,1,3,2,1,1,4,2,Web Development,3,Business Intelligence,Security Engineer,Security Engineer
+S0717,Aditya Bose,Male,21,6.4,Bachelor,Graduate,0,0.0,Intern,3,3,2,1,1,3,2,DevOps,0,Software Development,DevOps Engineer,DevOps Engineer
+S0718,Arjun Chawla,Male,20,7.6,Bachelor,Graduate,4,1.0,Intern,2,4,1,2,1,5,3,Data Science,1,Cloud Computing,Software Engineer,Security Engineer
+S0719,Priya Patel,Female,16,8.6,High School,Student,4,0.0,Intern,0,4,2,5,5,4,5,Data Analytics,1,Business Intelligence,AI Researcher,AI Researcher
+S0720,Aditi Desai,Female,20,7.7,Bachelor,Graduate,7,0.0,Unemployed,0,5,3,5,5,4,4,Artificial Intelligence,1,Software Development,AI Researcher,Machine Learning Engineer
+S0721,Sneha Malhotra,Female,28,6.6,Master,Student,5,0.0,Unemployed,2,3,5,3,1,2,4,Data Analytics,1,Artificial Intelligence,Data Analyst,Data Analyst
+S0722,Vivek Kulkarni,Male,23,8.1,Bachelor,Working Professional,9,7.5,Full-Time,0,5,1,5,4,4,3,Artificial Intelligence,2,Software Development,AI Researcher,Machine Learning Engineer
+S0723,Divya Rao,Female,21,7.1,Bachelor,Working Professional,8,3.1,Full-Time,2,3,5,3,1,1,4,Backend Development,2,Software Development,Data Analyst,Data Analyst
+S0724,Saurabh Saxena,Male,22,7.2,Bachelor,Student,5,0.0,Unemployed,1,4,4,3,3,1,4,Data Science,1,Artificial Intelligence,Data Scientist,Data Scientist
+S0725,Pooja Bansal,Female,20,5.8,Bachelor,Student,3,0.0,Intern,0,5,2,4,4,2,4,Data Science,1,Business Intelligence,Data Scientist,Machine Learning Engineer
+S0726,Riya Malhotra,Female,18,8.1,Bachelor,Graduate,4,1.0,Unemployed,1,2,5,3,1,2,4,Data Analytics,1,Business Intelligence,Data Analyst,Data Analyst
+S0727,Pranav Choudhary,Male,19,7.4,Bachelor,Graduate,5,1.0,Unemployed,1,4,2,1,2,5,1,Software Development,2,Cloud Computing,Software Engineer,Security Engineer
+S0728,Sakshi Desai,Female,22,7.4,Bachelor,Student,3,0.0,Unemployed,1,3,2,2,1,4,1,Web Development,1,Business Intelligence,DevOps Engineer,Security Engineer
+S0729,Varun Desai,Male,26,9.8,Master,Graduate,4,0.0,Intern,1,3,3,1,1,2,4,Data Analytics,3,Cybersecurity,Data Analyst,Data Analyst
+S0730,Tanvi Yadav,Female,24,8.8,Master,Graduate,9,0.0,Intern,1,5,3,4,5,5,4,Data Science,0,Data Science & Analytics,Machine Learning Engineer,Machine Learning Engineer
+S0731,Dev Kulkarni,Male,18,9.2,Bachelor,Student,2,0.0,Unemployed,0,3,2,2,1,2,3,Artificial Intelligence,1,Artificial Intelligence,Cybersecurity Analyst,Cybersecurity Analyst
+S0732,Pranav Bansal,Male,19,9.4,Bachelor,Student,1,0.0,Unemployed,0,3,5,1,2,1,3,Business Intelligence,1,Information Technology,Business Intelligence Analyst,Business Intelligence Analyst
+S0733,Kritika Gupta,Female,25,7.7,Master,Working Professional,5,0.8,Full-Time,2,3,3,2,1,2,4,Artificial Intelligence,1,Business Intelligence,Data Analyst,Data Analyst
+S0734,Sneha Chawla,Female,24,8.2,Master,Graduate,4,0.0,Unemployed,2,3,5,2,1,3,4,Business Intelligence,2,Artificial Intelligence,Business Intelligence Analyst,Data Analyst
+S0735,Ishaan Bhatt,Male,27,9.0,Master,Working Professional,8,4.3,Full-Time,1,4,5,2,2,4,3,Backend Development,1,Artificial Intelligence,Backend Developer,Backend Developer
+S0736,Raghav Malhotra,Male,24,6.3,Bachelor,Working Professional,5,2.2,Full-Time,3,4,4,5,3,4,5,Data Science,0,Artificial Intelligence,Data Scientist,Machine Learning Engineer
+S0737,Akash Singh,Male,21,5.9,Bachelor,Working Professional,7,4.2,Full-Time,1,3,4,1,1,4,2,Machine Learning,3,Data Science & Analytics,Backend Developer,Backend Developer
+S0738,Kunal Bose,Male,28,6.7,Master,Graduate,3,0.0,Unemployed,2,2,5,2,1,2,4,Data Analytics,1,Business Intelligence,Data Analyst,Data Analyst
+S0739,Radhika Kulkarni,Female,29,8.0,Master,Working Professional,9,9.3,Full-Time,2,4,2,2,2,3,2,Cybersecurity,1,Cloud Computing,Security Engineer,Cloud Engineer
+S0740,Riya Kulkarni,Female,24,8.4,Bachelor,Student,2,0.0,Unemployed,0,2,2,1,1,2,3,Artificial Intelligence,1,Cybersecurity,Cybersecurity Analyst,Cybersecurity Analyst
+S0741,Aman Menon,Male,23,7.4,Master,Graduate,3,0.0,Full-Time,2,4,5,1,1,5,2,Web Development,2,Data Science & Analytics,Software Engineer,Backend Developer
+S0742,Priya Saxena,Female,24,8.1,Bachelor,Student,1,0.0,Intern,1,4,5,2,1,1,4,DevOps,0,Cybersecurity,Data Analyst,Data Analyst
+S0743,Trisha Sinha,Female,27,8.7,Master,Student,5,0.0,Unemployed,2,4,5,1,1,4,3,Backend Development,0,Data Science & Analytics,Backend Developer,Backend Developer
+S0744,Saurabh Sharma,Male,21,8.6,Diploma,Student,0,0.0,Intern,1,3,5,1,1,1,2,Business Intelligence,2,Information Technology,Business Intelligence Analyst,Business Intelligence Analyst
+S0745,Karan Iyer,Male,24,7.7,Bachelor,Working Professional,5,5.2,Full-Time,2,5,2,1,1,4,1,Software Development,1,Software Development,Software Engineer,Software Engineer
+S0746,Raghav Chawla,Male,23,7.5,Bachelor,Student,3,0.0,Unemployed,0,3,4,4,1,2,4,Data Analytics,1,Business Intelligence,Data Analyst,Data Analyst
+S0747,Manish Gupta,Male,23,8.7,Master,Working Professional,7,2.7,Full-Time,3,5,2,5,4,5,5,Artificial Intelligence,0,Cloud Computing,AI Researcher,AI Researcher
+S0748,Pooja Chatterjee,Female,18,6.1,Bachelor,Student,4,0.0,Unemployed,2,4,4,3,3,1,5,Data Science,1,Cloud Computing,Data Scientist,Data Scientist
+S0749,Divya Gupta,Female,24,6.6,Diploma,Working Professional,4,4.0,Full-Time,0,4,1,1,1,3,3,Backend Development,2,Artificial Intelligence,Cloud Engineer,DevOps Engineer
+S0750,Radhika Bhatt,Female,24,6.0,Bachelor,Working Professional,5,4.8,Full-Time,2,5,3,1,1,5,2,Business Intelligence,4,Cybersecurity,Full Stack Developer,Software Engineer
+S0751,Yash Bhatt,Male,25,9.4,Master,Student,4,0.0,Unemployed,0,2,5,2,2,1,1,Business Intelligence,2,Information Technology,Business Intelligence Analyst,Business Intelligence Analyst
+S0752,Mohit Chatterjee,Male,26,9.1,Bachelor,Working Professional,8,6.3,Full-Time,2,4,4,2,1,4,4,Backend Development,1,Information Technology,Backend Developer,Data Analyst
+S0753,Manya Rao,Female,23,7.8,Bachelor,Graduate,2,1.0,Full-Time,2,4,1,2,1,2,2,Cybersecurity,1,Information Technology,Cybersecurity Analyst,DevOps Engineer
+S0754,Sahil Menon,Male,22,8.4,Bachelor,Graduate,4,0.0,Unemployed,2,4,3,5,3,5,4,Machine Learning,2,Cloud Computing,Machine Learning Engineer,Machine Learning Engineer
+S0755,Ira Nair,Female,21,9.2,Bachelor,Working Professional,3,1.9,Full-Time,1,1,4,2,1,1,5,Business Intelligence,0,Cloud Computing,Business Intelligence Analyst,Business Intelligence Analyst
+S0756,Sneha Nair,Female,22,7.5,Bachelor,Working Professional,2,1.1,Full-Time,1,3,3,1,1,2,1,Cybersecurity,2,Information Technology,Cybersecurity Analyst,DevOps Engineer
+S0757,Rahul Bhatt,Male,24,9.2,Master,Graduate,4,0.0,Intern,1,2,2,3,1,2,3,Cybersecurity,2,Cloud Computing,Cybersecurity Analyst,Cybersecurity Analyst
+S0758,Saurabh Pillai,Male,37,8.4,PhD,Working Professional,12,5.4,Full-Time,1,4,2,5,5,4,5,Artificial Intelligence,2,Artificial Intelligence,AI Researcher,AI Researcher
+S0759,Rahul Pillai,Male,21,7.7,Bachelor,Graduate,3,0.0,Full-Time,1,3,3,1,1,3,1,DevOps,1,Information Technology,DevOps Engineer,Full Stack Developer
+S0760,Vivek Reddy,Male,22,7.7,Master,Student,4,0.0,Unemployed,1,3,3,1,1,4,3,Cloud Computing,1,Business Intelligence,Cloud Engineer,Cloud Engineer
+S0761,Isha Bhatt,Female,23,9.6,Bachelor,Working Professional,5,2.6,Full-Time,0,4,2,2,3,4,4,Software Development,3,Information Technology,Software Engineer,Cloud Engineer
+S0762,Sahil Iyer,Male,24,9.0,Master,Working Professional,8,4.6,Full-Time,1,5,4,5,4,4,3,Artificial Intelligence,0,Data Science & Analytics,Machine Learning Engineer,Machine Learning Engineer
+S0763,Ishaan Joshi,Male,28,7.4,Master,Student,7,0.0,Unemployed,0,5,3,5,5,4,5,Artificial Intelligence,1,Information Technology,AI Researcher,AI Researcher
+S0764,Dev Singh,Male,18,7.5,Bachelor,Graduate,3,1.0,Unemployed,1,3,4,2,1,5,2,Software Development,0,Artificial Intelligence,Software Engineer,Software Engineer
+S0765,Aditi Choudhary,Female,26,9.0,Master,Working Professional,8,4.6,Full-Time,3,5,5,2,1,5,3,Software Development,3,Cybersecurity,Software Engineer,Backend Developer
+S0766,Vivek Yadav,Male,24,7.4,Bachelor,Student,4,0.0,Unemployed,2,5,5,3,1,2,5,Data Science,2,Business Intelligence,Data Scientist,Data Scientist
+S0767,Naveen Pillai,Male,23,8.4,Bachelor,Graduate,2,0.0,Unemployed,2,4,5,2,1,3,2,Backend Development,3,Business Intelligence,Backend Developer,Backend Developer
+S0768,Manish Sinha,Male,25,8.6,Bachelor,Working Professional,4,6.1,Full-Time,2,5,5,1,1,3,2,Backend Development,2,Business Intelligence,Backend Developer,Backend Developer
+S0769,Kritika Bose,Female,22,7.3,Bachelor,Student,3,0.0,Unemployed,0,3,3,1,1,3,2,DevOps,0,Software Development,DevOps Engineer,Cloud Engineer
+S0770,Kritika Agarwal,Female,20,10.0,Bachelor,Student,3,0.0,Unemployed,1,5,4,1,1,4,3,Backend Development,1,Business Intelligence,Backend Developer,Backend Developer
+S0771,Ira Kulkarni,Female,22,8.7,Bachelor,Student,4,0.0,Unemployed,1,4,3,1,1,5,1,Software Development,2,Information Technology,Software Engineer,Software Engineer
+S0772,Pranav Agarwal,Male,23,9.8,Bachelor,Graduate,3,0.0,Unemployed,1,4,4,4,5,3,4,Software Development,0,Information Technology,AI Researcher,Machine Learning Engineer
+S0773,Akash Kulkarni,Male,24,8.0,Bachelor,Student,0,0.0,Unemployed,0,3,2,1,1,4,2,Backend Development,0,Cybersecurity,Cybersecurity Analyst,Security Engineer
+S0774,Akash Mishra,Male,26,7.6,Master,Graduate,4,0.0,Unemployed,2,3,5,1,2,1,3,Business Intelligence,1,Artificial Intelligence,Business Intelligence Analyst,Business Intelligence Analyst
+S0775,Ritika Reddy,Female,21,9.5,Bachelor,Student,1,0.0,Unemployed,1,3,4,1,1,1,3,Business Intelligence,0,Software Development,Business Intelligence Analyst,Data Analyst
+S0776,Pallavi Mishra,Female,26,9.0,Master,Graduate,2,0.0,Intern,1,3,5,1,1,5,1,Web Development,0,Cybersecurity,Backend Developer,Backend Developer
+S0777,Nikhil Sharma,Male,19,6.1,Diploma,Student,3,0.0,Intern,2,4,3,3,1,3,2,Cloud Computing,0,Cybersecurity,Cloud Engineer,Cloud Engineer
+S0778,Vivek Desai,Male,22,7.8,Master,Student,4,0.0,Unemployed,1,3,2,1,3,2,1,DevOps,1,Artificial Intelligence,DevOps Engineer,DevOps Engineer
+S0779,Aditya Sinha,Male,25,10.0,Master,Graduate,5,1.0,Unemployed,0,4,1,2,1,4,2,DevOps,2,Cloud Computing,DevOps Engineer,Security Engineer
+S0780,Shreya Bhatt,Female,18,8.0,Diploma,Student,3,0.0,Unemployed,1,4,2,1,1,5,1,Data Science,0,Cybersecurity,Security Engineer,Software Engineer
+S0781,Nisha Mishra,Female,31,9.8,PhD,Student,8,0.0,Unemployed,1,4,4,5,5,5,5,Machine Learning,0,Cloud Computing,Machine Learning Engineer,Machine Learning Engineer
+S0782,Anjali Chawla,Female,22,7.5,Bachelor,Student,2,0.0,Unemployed,0,4,2,1,2,4,2,Software Development,1,Data Science & Analytics,Software Engineer,Security Engineer
+S0783,Ira Bose,Female,22,7.5,Bachelor,Graduate,6,0.0,Unemployed,1,4,4,5,4,3,5,Data Science,2,Information Technology,Data Scientist,Data Scientist
+S0784,Sahil Chatterjee,Male,25,7.5,Bachelor,Working Professional,4,0.9,Full-Time,3,3,3,4,4,4,3,Software Development,0,Business Intelligence,Machine Learning Engineer,Machine Learning Engineer
+S0785,Yash Sinha,Male,25,6.9,Master,Graduate,4,0.0,Full-Time,1,1,5,1,1,2,5,Business Intelligence,2,Cloud Computing,Business Intelligence Analyst,Business Intelligence Analyst
+S0786,Kavya Nair,Female,21,8.7,Bachelor,Working Professional,6,7.5,Full-Time,0,5,2,4,4,3,5,Data Science,1,Cybersecurity,Data Scientist,AI Researcher
+S0787,Meera Sharma,Female,27,8.6,Master,Graduate,7,0.0,Unemployed,3,4,3,2,1,2,4,Machine Learning,1,Information Technology,Data Analyst,Data Analyst
+S0788,Sahil Khanna,Male,21,9.0,Bachelor,Student,2,0.0,Unemployed,0,4,4,2,2,1,3,Data Analytics,1,Business Intelligence,Data Analyst,Data Analyst
+S0789,Isha Bansal,Female,32,10.0,Master,Working Professional,4,1.0,Full-Time,0,4,3,2,1,5,2,Software Development,3,Software Development,Software Engineer,Software Engineer
+S0790,Radhika Chatterjee,Female,18,6.3,Bachelor,Student,3,0.0,Intern,1,5,5,1,1,4,4,Software Development,0,Business Intelligence,Backend Developer,Backend Developer
+S0791,Swati Verma,Female,19,8.2,Diploma,Student,1,0.0,Intern,0,3,5,1,2,1,3,Business Intelligence,1,Software Development,Business Intelligence Analyst,Business Intelligence Analyst
+S0792,Tanya Pillai,Female,27,8.3,Master,Student,3,0.0,Unemployed,1,3,1,1,2,2,2,Business Intelligence,0,Information Technology,DevOps Engineer,DevOps Engineer
+S0793,Vidya Yadav,Female,17,7.2,High School,Student,0,0.0,Unemployed,1,3,5,1,1,1,2,Business Intelligence,1,Information Technology,Business Intelligence Analyst,Business Intelligence Analyst
+S0794,Sahil Kulkarni,Male,22,8.0,Bachelor,Working Professional,7,5.4,Full-Time,0,1,5,1,2,1,4,Business Intelligence,3,Business Intelligence,Business Intelligence Analyst,Business Intelligence Analyst
+S0795,Swati Chawla,Female,22,9.0,Master,Graduate,6,1.0,Unemployed,2,5,3,1,2,5,3,Artificial Intelligence,2,Software Development,Backend Developer,Software Engineer
+S0796,Manish Patel,Male,30,9.0,PhD,Student,6,0.0,Unemployed,0,2,5,3,1,1,4,Artificial Intelligence,3,Software Development,Business Intelligence Analyst,Data Analyst
+S0797,Kritika Verma,Female,34,9.0,PhD,Working Professional,12,8.3,Full-Time,3,2,3,1,2,5,2,Data Science,2,Cybersecurity,Security Engineer,Security Engineer
+S0798,Tanya Choudhary,Female,22,8.2,Master,Graduate,5,0.0,Full-Time,1,4,1,1,2,3,2,Software Development,2,Artificial Intelligence,DevOps Engineer,DevOps Engineer
+S0799,Nisha Sinha,Female,26,9.5,Bachelor,Working Professional,8,7.4,Full-Time,2,5,5,4,3,2,4,Data Analytics,0,Business Intelligence,Data Scientist,Data Scientist
+S0800,Tanvi Sinha,Female,22,7.9,Diploma,Working Professional,4,4.1,Full-Time,3,4,4,4,5,5,4,Machine Learning,1,Cloud Computing,Machine Learning Engineer,Machine Learning Engineer
+S0801,Tarun Choudhary,Male,19,7.5,Bachelor,Working Professional,3,0.8,Full-Time,1,5,1,5,5,4,4,Artificial Intelligence,2,Business Intelligence,AI Researcher,AI Researcher
+S0802,Yash Yadav,Male,22,8.4,Master,Working Professional,9,4.8,Full-Time,1,4,4,2,1,2,5,Data Analytics,2,Data Science & Analytics,Data Analyst,Data Analyst
+S0803,Harsh Yadav,Male,24,8.6,Master,Graduate,3,0.0,Intern,1,3,3,1,1,5,2,Cloud Computing,1,Business Intelligence,Full Stack Developer,Software Engineer
+S0804,Kritika Sinha,Female,21,7.7,Bachelor,Working Professional,6,4.8,Full-Time,2,3,2,2,1,5,1,Cybersecurity,2,Data Science & Analytics,Security Engineer,Security Engineer
+S0805,Sakshi Nair,Female,19,8.5,Bachelor,Working Professional,7,3.5,Full-Time,1,4,4,3,1,1,5,Data Analytics,0,Cloud Computing,Data Analyst,Data Analyst
+S0806,Abhinav Nair,Male,18,8.4,Bachelor,Graduate,4,0.0,Unemployed,2,2,5,3,2,1,3,Business Intelligence,2,Cybersecurity,Business Intelligence Analyst,Data Analyst
+S0807,Manish Agarwal,Male,27,9.0,Bachelor,Working Professional,4,2.4,Full-Time,1,4,2,2,2,3,1,Cybersecurity,6,Cloud Computing,Security Engineer,DevOps Engineer
+S0808,Trisha Tiwari,Female,26,8.3,Master,Working Professional,7,0.8,Full-Time,2,2,5,2,1,2,5,Business Intelligence,0,Cloud Computing,Business Intelligence Analyst,Data Analyst
+S0809,Tarun Tiwari,Male,27,8.8,Master,Student,1,0.0,Unemployed,0,1,3,1,1,1,2,DevOps,4,Information Technology,Frontend Developer,Cybersecurity Analyst
+S0810,Dev Reddy,Male,22,8.2,Master,Student,6,0.0,Unemployed,0,2,3,2,1,1,2,Cybersecurity,1,Information Technology,Cybersecurity Analyst,Cybersecurity Analyst
+S0811,Yash Joshi,Male,24,9.2,Bachelor,Student,0,0.0,Unemployed,2,4,2,1,1,5,2,Software Development,2,Cybersecurity,Software Engineer,Software Engineer
+S0812,Kavya Mehta,Female,22,7.1,Master,Graduate,4,0.0,Intern,1,4,5,1,1,4,2,Backend Development,0,Business Intelligence,Backend Developer,Backend Developer
+S0813,Simran Malhotra,Female,25,7.0,Master,Graduate,7,0.0,Full-Time,2,5,1,5,5,4,5,Machine Learning,4,Software Development,Machine Learning Engineer,AI Researcher
+S0814,Lavanya Nair,Female,28,9.1,Master,Student,5,0.0,Unemployed,0,4,2,1,1,5,2,Software Development,1,Cybersecurity,Software Engineer,Software Engineer
+S0815,Siddharth Verma,Male,24,8.1,Master,Working Professional,3,1.9,Full-Time,0,2,4,1,1,1,5,Business Intelligence,2,Software Development,Business Intelligence Analyst,Business Intelligence Analyst
+S0816,Kritika Reddy,Female,22,7.0,Bachelor,Student,4,0.0,Unemployed,1,3,1,5,5,4,4,Artificial Intelligence,1,Cloud Computing,AI Researcher,AI Researcher
+S0817,Karan Sharma,Male,19,6.4,Bachelor,Working Professional,5,4.6,Full-Time,0,3,2,1,1,4,2,Cybersecurity,3,Business Intelligence,Security Engineer,Security Engineer
+S0818,Dev Bansal,Male,21,8.2,Bachelor,Working Professional,8,5.0,Full-Time,1,5,2,5,4,4,5,Artificial Intelligence,2,Data Science & Analytics,AI Researcher,AI Researcher
+S0819,Sanjay Agarwal,Male,18,5.9,Bachelor,Student,4,0.0,Intern,0,5,3,5,3,4,5,Machine Learning,0,Artificial Intelligence,Machine Learning Engineer,Machine Learning Engineer
+S0820,Aditya Iyer,Male,23,7.5,Bachelor,Graduate,4,0.0,Unemployed,2,3,5,1,1,2,4,Data Analytics,3,Artificial Intelligence,Data Analyst,Data Analyst
+S0821,Sanjay Reddy,Male,20,8.6,Bachelor,Graduate,3,1.0,Full-Time,1,3,5,1,2,4,3,Backend Development,1,Information Technology,Backend Developer,Backend Developer
+S0822,Tarun Yadav,Male,20,7.4,Bachelor,Student,2,0.0,Unemployed,1,2,3,2,1,1,2,DevOps,0,Cloud Computing,DevOps Engineer,Cybersecurity Analyst
+S0823,Sahil Desai,Male,24,8.7,Master,Student,2,0.0,Unemployed,1,3,3,2,2,5,2,Software Development,0,Software Development,Software Engineer,Software Engineer
+S0824,Akash Bose,Male,19,8.5,Diploma,Student,1,0.0,Unemployed,0,2,5,2,1,1,2,Business Intelligence,0,Business Intelligence,Business Intelligence Analyst,Business Intelligence Analyst
+S0825,Simran Bansal,Female,18,6.8,High School,Student,2,0.0,Unemployed,0,2,4,1,1,2,4,Business Intelligence,1,Information Technology,Business Intelligence Analyst,Data Analyst
+S0826,Aman Singh,Male,28,8.3,Master,Graduate,6,0.0,Intern,2,5,2,5,3,4,4,Machine Learning,2,Data Science & Analytics,Machine Learning Engineer,Machine Learning Engineer
+S0827,Abhinav Rao,Male,23,8.5,Bachelor,Student,0,0.0,Unemployed,2,3,1,2,1,5,1,Cybersecurity,2,Cybersecurity,Security Engineer,Security Engineer
+S0828,Kritika Patel,Female,23,8.2,Bachelor,Working Professional,4,0.7,Full-Time,1,2,3,1,1,2,3,Cloud Computing,1,Software Development,Data Analyst,Cybersecurity Analyst
+S0829,Sanjay Khanna,Male,18,7.9,High School,Student,2,0.0,Intern,0,3,4,1,1,4,1,Software Development,2,Cybersecurity,Software Engineer,Full Stack Developer
+S0830,Nisha Bose,Female,28,10.0,Master,Working Professional,8,2.1,Full-Time,1,5,2,4,4,5,4,Machine Learning,2,Information Technology,Machine Learning Engineer,Machine Learning Engineer
+S0831,Ananya Bansal,Female,25,7.6,Master,Working Professional,6,4.3,Full-Time,0,3,4,3,2,1,4,Data Analytics,1,Business Intelligence,Data Analyst,Data Analyst
+S0832,Saurabh Bhatt,Male,22,9.3,Master,Student,5,0.0,Unemployed,0,3,3,3,1,3,3,Cloud Computing,1,Cybersecurity,Cloud Engineer,Cloud Engineer
+S0833,Trisha Kulkarni,Female,22,9.8,Master,Student,5,0.0,Intern,0,3,3,2,1,2,4,Web Development,2,Data Science & Analytics,Cloud Engineer,Data Analyst
+S0834,Vikram Pillai,Male,18,7.4,High School,Student,1,0.0,Intern,1,4,3,1,1,4,3,Cloud Computing,2,Information Technology,Cloud Engineer,Software Engineer
+S0835,Ishaan Singh,Male,22,8.0,Bachelor,Student,2,0.0,Unemployed,0,3,3,2,1,3,3,Software Development,0,Software Development,Full Stack Developer,Cloud Engineer
+S0836,Aditya Malhotra,Male,24,8.2,Master,Student,3,0.0,Intern,0,2,2,2,1,3,3,Cloud Computing,0,Cloud Computing,Cybersecurity Analyst,Cybersecurity Analyst
+S0837,Aarav Kulkarni,Male,38,9.4,PhD,Working Professional,13,8.3,Full-Time,2,4,2,1,2,3,3,Software Development,1,Data Science & Analytics,DevOps Engineer,Cloud Engineer
+S0838,Harsh Bose,Male,24,8.9,Master,Working Professional,7,5.0,Full-Time,2,4,1,1,1,3,2,Data Science,1,Business Intelligence,Cybersecurity Analyst,DevOps Engineer
+S0839,Akash Agarwal,Male,24,8.8,Bachelor,Working Professional,6,7.6,Full-Time,2,3,4,1,1,3,2,Cloud Computing,2,Information Technology,Cloud Engineer,Full Stack Developer
+S0840,Aarav Patel,Male,18,7.1,Bachelor,Graduate,0,0.0,Full-Time,0,4,1,2,1,4,1,Cloud Computing,4,Software Development,Cloud Engineer,Security Engineer
+S0841,Kavya Mehta,Female,23,9.2,Bachelor,Student,4,0.0,Unemployed,1,4,1,5,5,4,5,Artificial Intelligence,0,Cybersecurity,AI Researcher,AI Researcher
+S0842,Trisha Desai,Female,19,7.5,Bachelor,Graduate,1,0.0,Intern,2,3,5,1,1,3,3,Data Analytics,5,Business Intelligence,Data Analyst,Backend Developer
+S0843,Rohan Kapoor,Male,25,9.4,Master,Working Professional,7,7.0,Full-Time,0,4,3,1,1,4,3,Web Development,1,Cybersecurity,Full Stack Developer,Software Engineer
+S0844,Priya Menon,Female,19,7.2,Bachelor,Working Professional,6,4.3,Full-Time,0,5,2,5,5,4,5,Artificial Intelligence,1,Business Intelligence,AI Researcher,AI Researcher
+S0845,Sneha Bose,Female,18,6.6,Diploma,Student,2,0.0,Unemployed,1,3,3,4,2,2,5,Data Science,2,Cybersecurity,Data Scientist,Data Scientist
+S0846,Naveen Khanna,Male,21,7.0,Bachelor,Student,3,0.0,Unemployed,0,5,3,4,2,3,4,Data Science,2,Cloud Computing,Data Scientist,Data Scientist
+S0847,Radhika Kulkarni,Female,18,5.6,High School,Student,0,0.0,Unemployed,0,5,4,1,1,4,1,Backend Development,1,Information Technology,Backend Developer,Backend Developer
+S0848,Pooja Bhatt,Female,27,9.1,Master,Student,5,0.0,Unemployed,1,4,3,3,1,1,4,Data Analytics,0,Cybersecurity,Data Analyst,Data Analyst
+S0849,Naveen Nair,Male,17,7.6,High School,Student,0,0.0,Unemployed,2,2,2,2,1,1,3,Machine Learning,2,Software Development,Cybersecurity Analyst,Cybersecurity Analyst
+S0850,Vidya Bansal,Female,20,7.9,Bachelor,Graduate,3,0.0,Unemployed,1,4,4,4,4,3,5,Artificial Intelligence,2,Cloud Computing,AI Researcher,Data Scientist
+S0851,Aman Agarwal,Male,25,10.0,Master,Student,4,0.0,Unemployed,1,4,4,1,1,5,4,Cloud Computing,1,Software Development,Software Engineer,Software Engineer
+S0852,Siddharth Mehta,Male,25,8.8,Bachelor,Working Professional,3,2.2,Full-Time,1,3,4,1,1,1,4,Data Analytics,1,Business Intelligence,Data Analyst,Data Analyst
+S0853,Aditi Bose,Female,24,6.3,Bachelor,Graduate,5,0.0,Intern,2,5,2,5,4,5,5,Artificial Intelligence,1,Software Development,AI Researcher,AI Researcher
+S0854,Sahil Mehta,Male,24,7.7,Bachelor,Graduate,4,1.0,Unemployed,2,3,4,2,1,2,5,Business Intelligence,0,Business Intelligence,Data Analyst,Data Analyst
+S0855,Aarav Joshi,Male,20,8.7,Bachelor,Student,3,0.0,Unemployed,1,3,4,2,1,2,3,Web Development,1,Cloud Computing,Data Analyst,Data Analyst
+S0856,Nikhil Sharma,Male,19,8.4,Bachelor,Student,3,0.0,Intern,2,4,3,1,1,2,3,Business Intelligence,2,Data Science & Analytics,Cloud Engineer,Cloud Engineer
+S0857,Arjun Sharma,Male,22,9.2,Master,Student,2,0.0,Intern,1,4,4,1,1,4,2,Business Intelligence,1,Cybersecurity,Backend Developer,Backend Developer
+S0858,Yash Mehta,Male,24,5.6,Bachelor,Graduate,5,0.0,Intern,1,4,3,4,2,3,5,Machine Learning,2,Business Intelligence,Data Scientist,Data Scientist
+S0859,Riya Iyer,Female,24,6.5,Bachelor,Student,3,0.0,Unemployed,2,3,5,2,1,3,5,Machine Learning,0,Cybersecurity,Data Analyst,Data Analyst
+S0860,Neha Desai,Female,27,8.2,Master,Working Professional,6,2.8,Full-Time,2,3,4,2,1,1,5,Machine Learning,1,Data Science & Analytics,Data Analyst,Data Analyst
+S0861,Naveen Desai,Male,24,6.8,Bachelor,Student,3,0.0,Unemployed,0,4,3,1,1,4,3,Software Development,1,Cybersecurity,Software Engineer,Software Engineer
+S0862,Manya Saxena,Female,22,7.8,Bachelor,Student,3,0.0,Unemployed,2,2,2,2,1,3,1,Web Development,0,Business Intelligence,Frontend Developer,Frontend Developer
+S0863,Sanjay Gupta,Male,30,6.3,Master,Working Professional,8,8.8,Full-Time,0,5,3,1,1,2,3,DevOps,0,Cybersecurity,DevOps Engineer,DevOps Engineer
+S0864,Divya Saxena,Female,19,7.6,Bachelor,Student,0,0.0,Intern,2,4,1,1,1,3,3,DevOps,0,Business Intelligence,DevOps Engineer,DevOps Engineer
+S0865,Manish Sinha,Male,20,8.3,Bachelor,Graduate,3,0.0,Unemployed,3,4,4,2,1,4,1,Backend Development,1,Data Science & Analytics,Backend Developer,Backend Developer
+S0866,Akash Verma,Male,21,8.5,Bachelor,Graduate,4,1.0,Intern,1,3,4,3,2,2,4,Data Science,1,Data Science & Analytics,Data Analyst,Data Analyst
+S0867,Arjun Sharma,Male,23,7.4,Bachelor,Graduate,3,0.0,Unemployed,0,2,3,1,1,3,1,Backend Development,1,Data Science & Analytics,Frontend Developer,Frontend Developer
+S0868,Naveen Iyer,Male,18,5.6,Bachelor,Student,4,0.0,Unemployed,1,3,5,2,1,2,4,Data Analytics,0,Information Technology,Data Analyst,Data Analyst
+S0869,Rahul Patel,Male,26,6.2,Bachelor,Working Professional,7,6.8,Full-Time,1,4,2,2,2,3,2,Cloud Computing,1,Software Development,Cloud Engineer,Cloud Engineer
+S0870,Sakshi Yadav,Female,22,9.5,Master,Graduate,6,0.0,Unemployed,2,5,5,4,2,2,5,Data Analytics,4,Business Intelligence,Data Scientist,Data Scientist
+S0871,Kritika Yadav,Female,17,7.1,High School,Student,0,0.0,Unemployed,1,4,2,1,1,3,2,Cloud Computing,1,Cybersecurity,Cloud Engineer,DevOps Engineer
+S0872,Aditi Chatterjee,Female,28,8.7,Master,Graduate,9,0.0,Unemployed,2,5,4,4,4,4,5,Data Science,1,Artificial Intelligence,Data Scientist,Machine Learning Engineer
+S0873,Vivek Malhotra,Male,21,6.6,Bachelor,Working Professional,3,1.8,Full-Time,2,3,4,2,1,3,2,Web Development,2,Business Intelligence,Full Stack Developer,Cloud Engineer
+S0874,Saurabh Kulkarni,Male,24,7.7,Bachelor,Working Professional,8,5.9,Full-Time,0,3,4,2,2,3,4,Data Analytics,3,Cloud Computing,Data Analyst,Data Analyst
+S0875,Aditi Nair,Female,26,7.6,Bachelor,Working Professional,8,7.9,Full-Time,2,5,5,4,2,1,5,Data Science,1,Cybersecurity,Data Scientist,Data Scientist
+S0876,Nikhil Rao,Male,22,8.0,Bachelor,Graduate,2,1.0,Intern,3,3,1,2,3,2,2,Cybersecurity,2,Information Technology,Cybersecurity Analyst,DevOps Engineer
+S0877,Dev Tiwari,Male,19,8.7,Bachelor,Student,4,0.0,Unemployed,0,5,3,4,4,1,4,Data Science,0,Data Science & Analytics,Data Scientist,Data Scientist
+S0878,Simran Iyer,Female,19,8.5,Diploma,Student,4,0.0,Unemployed,1,4,2,5,4,2,5,Data Science,0,Cybersecurity,Data Scientist,AI Researcher
+S0879,Kunal Bose,Male,28,7.9,Master,Graduate,4,0.0,Unemployed,0,5,3,1,1,4,2,Cloud Computing,3,Data Science & Analytics,Cloud Engineer,Software Engineer
+S0880,Yash Malhotra,Male,26,6.3,Bachelor,Working Professional,5,7.6,Full-Time,1,3,2,1,1,3,4,Cybersecurity,2,Artificial Intelligence,Cybersecurity Analyst,Cybersecurity Analyst
+S0881,Manish Bhatt,Male,22,5.9,Bachelor,Student,3,0.0,Unemployed,0,5,3,3,1,5,4,Software Development,0,Cybersecurity,Software Engineer,Software Engineer
+S0882,Kritika Choudhary,Female,24,7.7,Master,Graduate,4,0.0,Unemployed,0,2,5,1,1,2,4,Business Intelligence,1,Cybersecurity,Business Intelligence Analyst,Business Intelligence Analyst
+S0883,Siddharth Menon,Male,21,8.0,Bachelor,Working Professional,4,1.3,Full-Time,0,2,5,1,1,1,5,Artificial Intelligence,3,Artificial Intelligence,Business Intelligence Analyst,Business Intelligence Analyst
+S0884,Varun Desai,Male,23,8.4,Bachelor,Student,2,0.0,Intern,1,2,4,1,1,3,2,Cloud Computing,0,Cybersecurity,Cloud Engineer,Full Stack Developer
+S0885,Vidya Iyer,Female,24,6.6,Diploma,Working Professional,6,4.7,Full-Time,0,2,5,2,1,1,5,Business Intelligence,2,Data Science & Analytics,Business Intelligence Analyst,Business Intelligence Analyst
+S0886,Harsh Iyer,Male,28,6.6,Master,Working Professional,9,7.8,Full-Time,2,3,4,2,1,2,4,Data Analytics,1,Software Development,Data Analyst,Data Analyst
+S0887,Rahul Sharma,Male,20,7.5,Diploma,Student,0,0.0,Unemployed,1,4,2,1,1,3,3,DevOps,1,Cybersecurity,DevOps Engineer,Cloud Engineer
+S0888,Abhinav Kapoor,Male,31,9.3,PhD,Student,6,0.0,Intern,0,3,4,2,1,5,3,Business Intelligence,0,Artificial Intelligence,Full Stack Developer,Software Engineer
+S0889,Karan Choudhary,Male,19,6.5,Bachelor,Graduate,5,0.0,Intern,0,5,2,5,4,4,5,Artificial Intelligence,0,Software Development,AI Researcher,AI Researcher
+S0890,Abhinav Mehta,Male,17,7.6,High School,Student,0,0.0,Unemployed,2,3,3,1,2,4,2,Web Development,0,Business Intelligence,Full Stack Developer,Full Stack Developer
+S0891,Akash Choudhary,Male,18,8.8,Diploma,Student,2,0.0,Intern,1,2,2,2,2,2,2,Cloud Computing,0,Artificial Intelligence,Cloud Engineer,Cybersecurity Analyst
+S0892,Pranav Sharma,Male,17,6.0,High School,Student,0,0.0,Intern,2,3,3,1,2,3,3,Web Development,0,Software Development,Full Stack Developer,Cloud Engineer
+S0893,Manya Bhatt,Female,18,6.7,Bachelor,Student,2,0.0,Unemployed,2,4,3,1,1,3,2,Backend Development,1,Business Intelligence,Backend Developer,Cloud Engineer
+S0894,Nisha Menon,Female,18,8.0,Bachelor,Graduate,2,0.0,Unemployed,3,4,5,1,1,2,3,Data Analytics,3,Data Science & Analytics,Data Analyst,Data Analyst
+S0895,Shreya Sharma,Female,18,8.1,Bachelor,Student,0,0.0,Unemployed,1,3,2,1,2,1,3,Cybersecurity,0,Software Development,Cybersecurity Analyst,Cybersecurity Analyst
+S0896,Pranav Mehta,Male,21,8.0,Bachelor,Working Professional,6,3.6,Full-Time,0,5,4,1,1,3,1,Machine Learning,2,Business Intelligence,Full Stack Developer,Backend Developer
+S0897,Dev Reddy,Male,26,9.7,Bachelor,Working Professional,8,6.7,Full-Time,1,3,3,3,1,3,4,Web Development,1,Business Intelligence,Data Analyst,Data Analyst
+S0898,Gaurav Yadav,Male,25,8.9,Master,Working Professional,8,6.3,Full-Time,3,3,4,2,1,2,5,Data Analytics,1,Information Technology,Data Analyst,Data Analyst
+S0899,Raghav Desai,Male,23,7.2,Bachelor,Working Professional,4,1.6,Full-Time,0,4,1,1,1,3,2,Cloud Computing,1,Information Technology,Cloud Engineer,DevOps Engineer
+S0900,Pranav Mishra,Male,22,8.4,Master,Working Professional,7,6.3,Full-Time,2,1,4,2,2,1,3,Business Intelligence,1,Data Science & Analytics,Business Intelligence Analyst,Business Intelligence Analyst
+S0901,Harsh Mehta,Male,18,7.1,High School,Student,0,0.0,Intern,0,2,4,2,1,1,5,Business Intelligence,1,Data Science & Analytics,Business Intelligence Analyst,Data Analyst
+S0902,Harsh Bose,Male,23,7.4,Master,Student,6,0.0,Intern,0,3,5,2,1,2,3,Data Analytics,3,Data Science & Analytics,Data Analyst,Data Analyst
+S0903,Neha Kulkarni,Female,28,7.8,Master,Working Professional,11,9.9,Full-Time,0,5,5,2,1,3,2,Software Development,1,Business Intelligence,Software Engineer,Backend Developer
+S0904,Aarav Desai,Male,19,7.9,Diploma,Working Professional,3,2.3,Full-Time,0,4,3,2,1,3,2,Artificial Intelligence,1,Software Development,Cloud Engineer,Cloud Engineer
+S0905,Ishaan Gupta,Male,19,9.5,Bachelor,Student,3,0.0,Unemployed,1,5,4,4,3,1,5,Data Science,2,Software Development,Data Scientist,Data Scientist
+S0906,Ritika Kapoor,Female,20,7.7,Bachelor,Student,4,0.0,Unemployed,0,4,3,1,2,4,2,DevOps,3,Software Development,DevOps Engineer,Software Engineer
+S0907,Manish Joshi,Male,21,8.4,Bachelor,Graduate,5,1.0,Intern,1,4,5,5,3,2,5,Data Science,0,Business Intelligence,Data Scientist,Data Scientist
+S0908,Pranav Rao,Male,26,6.5,Master,Graduate,5,0.0,Intern,0,3,3,2,1,1,4,Business Intelligence,1,Data Science & Analytics,Business Intelligence Analyst,Data Analyst
+S0909,Varun Rao,Male,20,8.4,Bachelor,Student,4,0.0,Unemployed,1,4,1,1,1,4,3,DevOps,0,Artificial Intelligence,DevOps Engineer,Security Engineer
+S0910,Tarun Chawla,Male,25,5.8,Master,Graduate,5,1.0,Full-Time,1,3,4,5,4,2,4,Data Science,2,Software Development,Data Scientist,Data Scientist
+S0911,Rohan Malhotra,Male,18,9.1,Bachelor,Student,4,0.0,Unemployed,2,5,2,1,2,5,3,Software Development,1,Artificial Intelligence,Software Engineer,Software Engineer
+S0912,Trisha Yadav,Female,26,8.3,Master,Graduate,7,1.0,Intern,2,3,5,1,1,3,4,Data Analytics,3,Software Development,Data Analyst,Data Analyst
+S0913,Neha Mishra,Female,24,6.6,Bachelor,Student,2,0.0,Unemployed,0,5,3,5,3,4,4,Web Development,0,Information Technology,Machine Learning Engineer,Machine Learning Engineer
+S0914,Akash Khanna,Male,24,9.0,Master,Student,8,0.0,Unemployed,0,4,3,5,5,3,5,Software Development,1,Software Development,AI Researcher,AI Researcher
+S0915,Harsh Iyer,Male,25,8.8,Master,Graduate,5,0.0,Intern,1,4,3,1,1,3,2,Cloud Computing,2,Cybersecurity,Cloud Engineer,Cloud Engineer
+S0916,Tarun Choudhary,Male,34,9.7,PhD,Working Professional,11,5.1,Full-Time,0,3,3,2,1,3,2,Cybersecurity,3,Software Development,Cybersecurity Analyst,Cloud Engineer
+S0917,Saurabh Malhotra,Male,24,9.0,Master,Student,6,0.0,Intern,0,5,4,3,4,1,4,Data Science,1,Software Development,Data Scientist,Data Scientist
+S0918,Riya Sharma,Female,23,7.3,Diploma,Working Professional,5,2.0,Full-Time,0,5,4,3,2,2,5,Data Science,0,Artificial Intelligence,Data Scientist,Data Scientist
+S0919,Anjali Mehta,Female,21,6.9,Bachelor,Student,1,0.0,Unemployed,2,3,3,2,1,4,1,Cloud Computing,0,Artificial Intelligence,Cloud Engineer,Full Stack Developer
+S0920,Isha Mehta,Female,31,7.6,PhD,Graduate,8,0.0,Full-Time,1,2,4,1,2,1,5,Business Intelligence,2,Information Technology,Business Intelligence Analyst,Business Intelligence Analyst
+S0921,Sanjay Iyer,Male,17,7.2,High School,Student,0,0.0,Unemployed,0,4,4,1,1,4,2,Backend Development,0,Information Technology,Backend Developer,Backend Developer
+S0922,Priya Saxena,Female,21,8.5,Diploma,Student,3,0.0,Unemployed,0,3,2,1,1,4,1,Cybersecurity,2,Cybersecurity,Security Engineer,Security Engineer
+S0923,Meera Patel,Female,24,8.8,Master,Graduate,1,0.0,Full-Time,1,3,4,1,1,4,1,Web Development,1,Cybersecurity,Full Stack Developer,Full Stack Developer
+S0924,Aditi Chawla,Female,25,8.3,Master,Student,5,0.0,Intern,1,2,5,1,1,1,5,Data Science,0,Software Development,Business Intelligence Analyst,Business Intelligence Analyst
+S0925,Vivek Reddy,Male,25,7.7,Bachelor,Working Professional,5,3.2,Full-Time,0,3,4,2,1,3,5,Data Analytics,2,Cybersecurity,Data Analyst,Data Analyst
+S0926,Nikhil Kulkarni,Male,16,7.2,High School,Student,3,0.0,Unemployed,2,5,3,5,4,2,3,Artificial Intelligence,1,Business Intelligence,Machine Learning Engineer,Machine Learning Engineer
+S0927,Kunal Khanna,Male,24,7.9,Bachelor,Working Professional,7,7.7,Full-Time,1,4,1,1,1,3,2,Data Analytics,0,Cybersecurity,DevOps Engineer,DevOps Engineer
+S0928,Sakshi Chawla,Female,27,7.4,Master,Working Professional,6,3.8,Full-Time,0,2,1,1,2,2,1,Software Development,0,Artificial Intelligence,Frontend Developer,Frontend Developer
+S0929,Lavanya Saxena,Female,23,9.0,Master,Student,2,0.0,Unemployed,1,2,1,1,1,3,1,Backend Development,0,Data Science & Analytics,Frontend Developer,Frontend Developer
+S0930,Kavya Chatterjee,Female,25,9.2,Master,Student,4,0.0,Unemployed,1,3,2,1,2,4,1,Cloud Computing,0,Artificial Intelligence,Cloud Engineer,Security Engineer
+S0931,Aarav Tiwari,Male,21,7.8,Bachelor,Graduate,3,0.0,Unemployed,1,3,3,1,1,2,4,Cybersecurity,3,Software Development,Cybersecurity Analyst,Data Analyst
+S0932,Nisha Menon,Female,18,7.7,Bachelor,Graduate,5,0.0,Full-Time,2,4,5,3,2,3,2,Software Development,1,Business Intelligence,Backend Developer,Backend Developer
+S0933,Trisha Rao,Female,30,8.0,Master,Working Professional,8,3.5,Full-Time,3,4,5,5,2,2,5,Web Development,0,Software Development,Data Scientist,Data Scientist
+S0934,Isha Kapoor,Female,18,8.6,Diploma,Student,3,0.0,Unemployed,2,4,5,3,1,4,2,Software Development,2,Artificial Intelligence,Backend Developer,Backend Developer
+S0935,Lavanya Nair,Female,22,7.8,Bachelor,Graduate,1,0.0,Unemployed,1,5,3,1,2,5,2,Software Development,2,Cloud Computing,Software Engineer,Software Engineer
+S0936,Vidya Patel,Female,25,8.6,Bachelor,Working Professional,9,5.2,Full-Time,2,3,4,5,3,5,5,Machine Learning,1,Software Development,Machine Learning Engineer,Machine Learning Engineer
+S0937,Varun Sharma,Male,23,7.7,Master,Graduate,3,0.0,Full-Time,1,3,1,2,1,1,2,DevOps,0,Software Development,DevOps Engineer,DevOps Engineer
+S0938,Vivek Kulkarni,Male,26,9.4,Master,Working Professional,8,6.4,Full-Time,0,3,5,2,1,3,5,Data Analytics,1,Data Science & Analytics,Data Analyst,Data Analyst
+S0939,Abhinav Chawla,Male,25,8.6,Bachelor,Working Professional,7,6.6,Full-Time,1,4,5,4,3,1,5,DevOps,1,Data Science & Analytics,Data Scientist,Data Scientist
+S0940,Sanjay Saxena,Male,20,7.3,Bachelor,Working Professional,6,7.3,Full-Time,1,4,3,1,2,3,1,Artificial Intelligence,1,Business Intelligence,DevOps Engineer,Full Stack Developer
+S0941,Bhavna Choudhary,Female,18,7.6,Bachelor,Student,3,0.0,Unemployed,0,3,4,1,2,3,5,Data Analytics,1,Cybersecurity,Data Analyst,Data Analyst
+S0942,Sneha Rao,Female,20,7.8,Bachelor,Graduate,3,0.0,Full-Time,2,5,3,5,4,4,4,Machine Learning,1,Cybersecurity,Machine Learning Engineer,Machine Learning Engineer
+S0943,Lavanya Malhotra,Female,27,7.4,Master,Working Professional,3,0.9,Full-Time,2,2,1,2,2,3,3,Web Development,4,Artificial Intelligence,Frontend Developer,Cybersecurity Analyst
+S0944,Ira Choudhary,Female,24,8.1,Bachelor,Student,3,0.0,Intern,1,3,3,2,1,3,1,Web Development,1,Information Technology,Full Stack Developer,Full Stack Developer
+S0945,Diya Chawla,Female,23,9.0,Bachelor,Graduate,3,0.0,Full-Time,2,1,5,1,1,2,4,Backend Development,4,Data Science & Analytics,Business Intelligence Analyst,Business Intelligence Analyst
+S0946,Swati Reddy,Female,22,7.0,Bachelor,Working Professional,3,4.1,Full-Time,2,3,3,1,1,5,1,Web Development,0,Software Development,Full Stack Developer,Software Engineer
+S0947,Kunal Rao,Male,22,7.6,Bachelor,Working Professional,6,4.0,Full-Time,0,2,1,1,2,4,1,Web Development,2,Software Development,Frontend Developer,Frontend Developer
+S0948,Shreya Desai,Female,23,7.9,Bachelor,Working Professional,5,1.2,Full-Time,1,4,3,5,5,2,5,Artificial Intelligence,0,Information Technology,AI Researcher,AI Researcher
+S0949,Mohit Kulkarni,Male,22,6.8,Bachelor,Student,3,0.0,Unemployed,0,4,3,1,1,5,1,Software Development,1,Cybersecurity,Software Engineer,Software Engineer
+S0950,Shreya Gupta,Female,26,7.0,Bachelor,Working Professional,3,1.3,Full-Time,2,3,2,2,2,5,2,Cybersecurity,1,Cloud Computing,Security Engineer,Security Engineer
+S0951,Vivek Menon,Male,25,10.0,Master,Student,5,0.0,Intern,1,5,2,5,5,4,5,Artificial Intelligence,2,Cybersecurity,AI Researcher,AI Researcher
+S0952,Ishaan Bhatt,Male,19,8.8,Bachelor,Working Professional,3,2.1,Full-Time,2,3,3,2,1,2,2,Web Development,2,Information Technology,Full Stack Developer,Cloud Engineer
+S0953,Naveen Chatterjee,Male,19,7.1,Bachelor,Student,1,0.0,Unemployed,1,2,3,1,1,3,1,Web Development,0,Artificial Intelligence,Frontend Developer,Frontend Developer
+S0954,Sneha Verma,Female,30,10.0,PhD,Working Professional,16,10.0,Full-Time,1,5,4,5,4,5,5,Machine Learning,0,Artificial Intelligence,Machine Learning Engineer,Machine Learning Engineer
+S0955,Tarun Verma,Male,27,8.2,Master,Graduate,6,1.0,Unemployed,1,3,3,2,1,1,2,DevOps,1,Software Development,DevOps Engineer,Cybersecurity Analyst
+S0956,Pooja Agarwal,Female,28,7.6,Master,Working Professional,8,3.1,Full-Time,0,3,4,1,2,4,1,Cloud Computing,0,Information Technology,Cloud Engineer,Full Stack Developer
+S0957,Diya Mehta,Female,22,7.2,Bachelor,Student,2,0.0,Unemployed,1,4,3,1,1,1,4,Business Intelligence,0,Software Development,Business Intelligence Analyst,Data Analyst
+S0958,Manish Singh,Male,21,6.9,Bachelor,Student,2,0.0,Unemployed,1,3,3,3,1,3,2,Cybersecurity,2,Software Development,Cybersecurity Analyst,Cloud Engineer
+S0959,Harsh Iyer,Male,28,10.0,Master,Working Professional,8,4.5,Full-Time,2,3,1,2,2,3,1,Data Analytics,1,Cloud Computing,Frontend Developer,DevOps Engineer
+S0960,Bhavna Bose,Female,21,6.8,Bachelor,Graduate,0,0.0,Full-Time,1,3,2,2,1,2,2,Cloud Computing,3,Information Technology,Cloud Engineer,DevOps Engineer
+S0961,Sneha Bose,Female,20,5.8,Bachelor,Student,0,0.0,Intern,1,3,3,1,1,3,2,Cybersecurity,2,Artificial Intelligence,Cloud Engineer,Cloud Engineer
+S0962,Manish Reddy,Male,30,9.6,PhD,Student,6,0.0,Intern,0,3,4,1,1,4,2,Backend Development,0,Artificial Intelligence,Backend Developer,Backend Developer
+S0963,Anjali Saxena,Female,24,7.6,Diploma,Working Professional,3,4.4,Full-Time,1,1,3,2,1,1,4,Cybersecurity,0,Cloud Computing,Cybersecurity Analyst,Data Analyst
+S0964,Manish Yadav,Male,27,8.8,Bachelor,Working Professional,7,4.7,Full-Time,1,3,3,4,3,1,5,Machine Learning,2,Cloud Computing,Data Scientist,Data Scientist
+S0965,Rahul Nair,Male,18,6.4,High School,Student,1,0.0,Unemployed,0,4,1,4,5,3,5,Data Science,2,Cloud Computing,AI Researcher,AI Researcher
+S0966,Meera Desai,Female,27,7.5,Master,Student,4,0.0,Unemployed,1,5,3,2,1,4,1,DevOps,1,Artificial Intelligence,DevOps Engineer,Software Engineer
+S0967,Tanvi Agarwal,Female,22,6.6,Bachelor,Graduate,2,0.0,Unemployed,0,4,3,1,1,3,2,Backend Development,0,Data Science & Analytics,Backend Developer,Cloud Engineer
+S0968,Sneha Desai,Female,18,7.0,Diploma,Student,0,0.0,Unemployed,0,1,3,1,1,3,1,Artificial Intelligence,4,Information Technology,Frontend Developer,Frontend Developer
+S0969,Lavanya Saxena,Female,18,8.0,High School,Student,0,0.0,Unemployed,2,3,5,2,1,2,3,Business Intelligence,1,Cybersecurity,Business Intelligence Analyst,Data Analyst
+S0970,Nikhil Khanna,Male,25,5.8,Master,Working Professional,12,9.6,Full-Time,1,5,4,5,3,3,5,Machine Learning,1,Software Development,Machine Learning Engineer,Data Scientist
+S0971,Manya Gupta,Female,24,8.0,Master,Working Professional,6,6.0,Full-Time,2,3,3,1,2,3,1,Backend Development,1,Data Science & Analytics,Frontend Developer,Full Stack Developer
+S0972,Pranav Verma,Male,20,7.3,Bachelor,Student,1,0.0,Intern,1,2,5,3,2,2,4,Data Analytics,0,Software Development,Data Analyst,Data Analyst
+S0973,Yash Pillai,Male,23,6.3,Bachelor,Student,4,0.0,Unemployed,0,5,3,5,4,4,5,Data Science,1,Artificial Intelligence,Machine Learning Engineer,Machine Learning Engineer
+S0974,Vihaan Sinha,Male,31,7.4,Master,Working Professional,12,7.9,Full-Time,3,5,4,5,5,3,5,Artificial Intelligence,1,Data Science & Analytics,AI Researcher,Machine Learning Engineer
+S0975,Karan Joshi,Male,17,6.6,High School,Student,1,0.0,Unemployed,2,5,4,1,1,5,1,Backend Development,0,Cybersecurity,Backend Developer,Software Engineer
+S0976,Aditya Sinha,Male,18,9.2,Bachelor,Graduate,3,0.0,Full-Time,1,3,2,3,1,5,2,Cybersecurity,1,Artificial Intelligence,Security Engineer,Security Engineer
+S0977,Gaurav Bose,Male,18,7.2,Bachelor,Graduate,3,1.0,Intern,2,3,3,1,1,3,1,DevOps,2,Artificial Intelligence,DevOps Engineer,Full Stack Developer
+S0978,Vivek Sinha,Male,23,7.9,Master,Student,4,0.0,Unemployed,0,1,5,1,1,2,5,Business Intelligence,0,Cybersecurity,Business Intelligence Analyst,Business Intelligence Analyst
+S0979,Manya Gupta,Female,23,7.5,Bachelor,Graduate,3,0.0,Unemployed,2,4,3,3,1,1,1,DevOps,2,Cloud Computing,DevOps Engineer,DevOps Engineer
+S0980,Saurabh Yadav,Male,30,8.0,Master,Working Professional,7,5.4,Full-Time,0,4,4,1,1,5,1,Business Intelligence,3,Information Technology,Software Engineer,Software Engineer
+S0981,Vikram Nair,Male,19,10.0,Bachelor,Working Professional,6,6.4,Full-Time,1,5,4,1,1,4,2,Web Development,2,Business Intelligence,Full Stack Developer,Backend Developer
+S0982,Yash Choudhary,Male,19,7.3,Bachelor,Graduate,1,0.0,Full-Time,3,1,5,2,2,1,4,Business Intelligence,1,Artificial Intelligence,Business Intelligence Analyst,Business Intelligence Analyst
+S0983,Neha Tiwari,Female,19,7.4,Bachelor,Graduate,2,1.0,Full-Time,2,2,3,1,2,4,1,Backend Development,2,Software Development,Full Stack Developer,Full Stack Developer
+S0984,Ishaan Chawla,Male,19,7.4,Bachelor,Student,2,0.0,Unemployed,0,4,2,4,3,3,3,Data Science,1,Information Technology,Data Scientist,Machine Learning Engineer
+S0985,Ananya Bose,Female,24,7.6,Bachelor,Student,3,0.0,Unemployed,0,4,5,5,3,3,5,Data Science,1,Cloud Computing,Data Scientist,Data Scientist
+S0986,Kunal Bose,Male,20,9.7,Diploma,Working Professional,6,3.0,Full-Time,1,4,5,2,1,5,2,Backend Development,1,Data Science & Analytics,Backend Developer,Backend Developer
+S0987,Aditi Kapoor,Female,22,10.0,Master,Student,5,0.0,Unemployed,2,3,1,1,1,4,2,Web Development,2,Software Development,Frontend Developer,Security Engineer
+S0988,Dev Menon,Male,20,8.1,Diploma,Student,1,0.0,Intern,2,3,4,2,1,2,5,Data Analytics,1,Data Science & Analytics,Data Analyst,Data Analyst
+S0989,Nisha Kulkarni,Female,24,8.3,Master,Student,3,0.0,Unemployed,1,3,2,1,1,4,1,Data Analytics,0,Software Development,Frontend Developer,Security Engineer
+S0990,Kritika Kapoor,Female,21,7.6,Bachelor,Working Professional,4,2.2,Full-Time,0,4,5,1,1,5,1,Backend Development,1,Artificial Intelligence,Backend Developer,Backend Developer
+S0991,Gaurav Menon,Male,19,6.6,Bachelor,Student,3,0.0,Intern,1,3,3,1,1,2,1,Backend Development,0,Information Technology,Full Stack Developer,DevOps Engineer
+S0992,Kunal Mishra,Male,32,10.0,PhD,Student,8,0.0,Intern,0,5,2,5,5,3,5,Artificial Intelligence,2,Artificial Intelligence,AI Researcher,AI Researcher
+S0993,Lavanya Yadav,Female,26,7.9,Master,Working Professional,10,6.7,Full-Time,2,4,4,4,3,3,5,DevOps,1,Software Development,Data Scientist,Data Scientist
+S0994,Tarun Bose,Male,28,8.6,Master,Working Professional,8,3.6,Full-Time,2,1,5,1,1,1,4,Business Intelligence,0,Cloud Computing,Business Intelligence Analyst,Business Intelligence Analyst
+S0995,Vihaan Malhotra,Male,26,9.7,Master,Working Professional,7,2.3,Full-Time,1,4,3,2,1,3,2,DevOps,4,Software Development,DevOps Engineer,Cloud Engineer
+S0996,Tarun Yadav,Male,21,6.4,Bachelor,Graduate,5,0.0,Unemployed,1,4,3,4,5,4,4,Artificial Intelligence,1,Artificial Intelligence,AI Researcher,Machine Learning Engineer
+S0997,Swati Saxena,Female,27,8.2,Bachelor,Working Professional,6,6.9,Full-Time,3,3,3,2,2,3,3,Cybersecurity,1,Data Science & Analytics,Cybersecurity Analyst,Cloud Engineer
+S0998,Riya Bansal,Female,22,8.0,Bachelor,Student,2,0.0,Unemployed,0,5,1,5,4,4,5,Artificial Intelligence,1,Software Development,AI Researcher,AI Researcher
+S0999,Lavanya Singh,Female,24,7.7,Master,Working Professional,11,9.8,Full-Time,1,5,2,5,4,4,4,Machine Learning,1,Information Technology,Machine Learning Engineer,Machine Learning Engineer
+S1000,Aditi Joshi,Female,22,9.1,Diploma,Working Professional,4,4.8,Full-Time,2,3,4,1,1,4,2,Software Development,1,Data Science & Analytics,Software Engineer,Backend Developer

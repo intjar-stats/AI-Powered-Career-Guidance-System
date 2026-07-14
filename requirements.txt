@@ -1,22 +1,20 @@
-# Core ML
-scikit-learn==1.5.2
-xgboost==2.1.1
-numpy==1.26.4
-pandas==2.2.2
-joblib==1.4.2
+# AI-Powered Career Guidance System — Requirements
+# Verified against actual imports in app.py, recommender.py, predictor.py,
+# gemini.py, train_model.py (Task 6 code review). Update if other modules
+# (Rithik's roadmap_generation, Likhitha's XGBoost pipeline) get merged in.
 
-# Frontend
+# --- Web App ---
 streamlit==1.38.0
 
-# GenAI
-openai>=1.0.0
-requests==2.32.3
+# --- Data handling ---
+pandas==2.2.2
+numpy==1.26.4
+
+# --- ML (used by predictor.py / train_model.py) ---
+scikit-learn==1.5.2
+joblib==1.4.2
+xgboost==2.1.1
+
+# --- GenAI via OpenRouter (gemini.py uses the OpenAI SDK, NOT google-generativeai) ---
+openai==1.51.0
 python-dotenv==1.0.1
-
-# Visualization
-matplotlib==3.9.2
-seaborn==0.13.2
-plotly==5.24.0
-
-# Testing
-pytest==8.3.3
