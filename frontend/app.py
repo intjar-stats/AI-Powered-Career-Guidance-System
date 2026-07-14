@@ -26,11 +26,14 @@ from prompts import SYSTEM_PROMPT
 def _safe(text):
     """fpdf2's built-in font only supports latin-1 — strip/replace anything
     outside that range (emojis, smart quotes from GenAI output, etc.).
-    Also ensures comma-separated lists (e.g. 'Python,SQL,MachineLearning')
-    have a space after each comma — fpdf2 can only wrap text at whitespace,
-    so a long unbroken comma-separated string with no spaces crashes it
-    with 'Not enough horizontal space to render a single character'."""
+    Also guarantees no unbroken 'word' longer than 40 characters ever reaches
+    fpdf2 — it can only wrap at whitespace, so any long unbroken string
+    (comma-separated with no space, slash-separated, a long course name,
+    etc.) would otherwise crash it with 'Not enough horizontal space to
+    render a single character'. This is a universal safety net regardless
+    of what separator style the underlying data actually uses."""
     text = re.sub(r",(?!\s)", ", ", str(text))
+    text = re.sub(r"(\S{40})(?=\S)", r"\1 ", text)
     return text.encode("latin-1", "replace").decode("latin-1")
 
 
