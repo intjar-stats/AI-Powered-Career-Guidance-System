@@ -17,4 +17,5 @@ xgboost==2.1.1
 
 # --- GenAI via OpenRouter (gemini.py uses the OpenAI SDK, NOT google-generativeai) ---
 openai==1.51.0
+httpx==0.27.2
 python-dotenv==1.0.1
