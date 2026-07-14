@@ -14,11 +14,80 @@ Deploy:       Streamlit Community Cloud (see deployment task for steps)
 """
 
 import streamlit as st
+from fpdf import FPDF
 
 from predictor import get_predictor, ModelNotLoadedError
 from recommender import get_skill_gap, get_learning_path
 from gemini import get_career_recommendation, GenAIUnavailableError
 from prompts import SYSTEM_PROMPT
+
+def _safe(text):
+    """fpdf2's built-in font only supports latin-1 — strip/replace anything
+    outside that range (emojis, smart quotes from GenAI output, etc.) so PDF
+    generation never crashes on unexpected characters."""
+    return str(text).encode("latin-1", "replace").decode("latin-1")
+
+
+def generate_pdf_report(name, profile, top3, skill_gap, learning_path, explanation):
+    pdf = FPDF()
+    pdf.add_page()
+
+    pdf.set_font("Helvetica", "B", 16)
+    pdf.cell(0, 10, "AI-Powered Career Guidance Report", ln=True)
+    pdf.set_font("Helvetica", "", 10)
+    pdf.set_text_color(100, 100, 100)
+    pdf.cell(0, 6, _safe(f"Generated for: {name or 'Student'}"), ln=True)
+    pdf.set_text_color(0, 0, 0)
+    pdf.ln(4)
+
+    pdf.set_font("Helvetica", "B", 12)
+    pdf.cell(0, 8, "Profile Summary", ln=True)
+    pdf.set_font("Helvetica", "", 10)
+    pdf.multi_cell(0, 6, _safe(
+        f"Age: {profile['age']}  |  Gender: {profile['gender']}  |  "
+        f"Degree: {profile['degree_level']} in {profile['field_of_study']}\n"
+        f"GPA: {profile['gpa']}  |  Years of Experience: {profile['years_experience']}"
+    ))
+    pdf.ln(2)
+
+    pdf.set_font("Helvetica", "B", 12)
+    pdf.cell(0, 8, "Top 3 Career Recommendations", ln=True)
+    pdf.set_font("Helvetica", "", 10)
+    for i, item in enumerate(top3, 1):
+        pdf.multi_cell(0, 6, _safe(f"{i}. {item['career']}  (confidence: {item['confidence']:.0%})"))
+    pdf.ln(2)
+
+    if skill_gap:
+        pdf.set_font("Helvetica", "B", 12)
+        pdf.cell(0, 8, "Skill Gap Analysis", ln=True)
+        pdf.set_font("Helvetica", "", 10)
+        pdf.multi_cell(0, 6, _safe(f"Current Skills: {skill_gap['current']}"))
+        pdf.multi_cell(0, 6, _safe(f"Required Skills: {skill_gap['required']}"))
+        pdf.multi_cell(0, 6, _safe(f"Gap: {skill_gap['gap']}%"))
+        pdf.multi_cell(0, 6, _safe(f"Estimated Hours: {skill_gap['hours']}"))
+        pdf.multi_cell(0, 6, _safe(f"Recommended Courses: {skill_gap['courses']}"))
+        pdf.ln(2)
+
+    if learning_path:
+        pdf.set_font("Helvetica", "B", 12)
+        pdf.cell(0, 8, "Learning Roadmap", ln=True)
+        pdf.set_font("Helvetica", "", 10)
+        pdf.multi_cell(0, 6, _safe(f"Learning Stage: {learning_path['stage']}"))
+        pdf.multi_cell(0, 6, _safe(f"Priority Skills: {learning_path['skills']}"))
+        pdf.multi_cell(0, 6, _safe(f"Learning Path: {learning_path['path']}"))
+        pdf.multi_cell(0, 6, _safe(f"Resources: {learning_path['resources']}"))
+        pdf.multi_cell(0, 6, _safe(f"Estimated Duration: {learning_path['duration']}"))
+        pdf.multi_cell(0, 6, _safe(f"Milestone: {learning_path['milestone']}"))
+        pdf.ln(2)
+
+    if explanation:
+        pdf.set_font("Helvetica", "B", 12)
+        pdf.cell(0, 8, "AI Career Guidance", ln=True)
+        pdf.set_font("Helvetica", "", 10)
+        pdf.multi_cell(0, 6, _safe(explanation))
+
+    return bytes(pdf.output())
+
 
 st.set_page_config(
     page_title="Career Guidance AI",
@@ -215,13 +284,29 @@ ML Model's Top 3 Recommendations:
 """
 
     st.subheader("🤖 AI Career Guidance")
+    explanation_text = None
     try:
         with st.spinner("Generating personalized explanation..."):
-            explanation = get_career_recommendation(prompt)
-        st.write(explanation)
+            explanation_text = get_career_recommendation(prompt)
+        st.write(explanation_text)
     except GenAIUnavailableError as e:
         st.warning(
             "The AI explanation service is temporarily unavailable, but your "
             "ML-based recommendations above are still valid."
         )
         st.caption(f"Technical detail: {e}")
+
+    # --- Step 4: PDF report download ---
+    st.divider()
+    try:
+        pdf_bytes = generate_pdf_report(
+            name, profile, top3, skill_gap, learning_path, explanation_text
+        )
+        st.download_button(
+            label="📄 Download PDF Report",
+            data=pdf_bytes,
+            file_name=f"career_report_{(name or 'student').replace(' ', '_')}.pdf",
+            mime="application/pdf",
+        )
+    except Exception as e:
+        st.caption(f"PDF generation failed: {e}")
