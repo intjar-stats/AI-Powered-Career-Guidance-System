@@ -13,6 +13,8 @@ Run locally:  streamlit run app.py
 Deploy:       Streamlit Community Cloud (see deployment task for steps)
 """
 
+import re
+
 import streamlit as st
 from fpdf import FPDF
 
@@ -23,9 +25,13 @@ from prompts import SYSTEM_PROMPT
 
 def _safe(text):
     """fpdf2's built-in font only supports latin-1 — strip/replace anything
-    outside that range (emojis, smart quotes from GenAI output, etc.) so PDF
-    generation never crashes on unexpected characters."""
-    return str(text).encode("latin-1", "replace").decode("latin-1")
+    outside that range (emojis, smart quotes from GenAI output, etc.).
+    Also ensures comma-separated lists (e.g. 'Python,SQL,MachineLearning')
+    have a space after each comma — fpdf2 can only wrap text at whitespace,
+    so a long unbroken comma-separated string with no spaces crashes it
+    with 'Not enough horizontal space to render a single character'."""
+    text = re.sub(r",(?!\s)", ", ", str(text))
+    return text.encode("latin-1", "replace").decode("latin-1")
 
 
 def generate_pdf_report(name, profile, top3, skill_gap, learning_path, explanation):
