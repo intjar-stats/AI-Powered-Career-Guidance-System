@@ -14,6 +14,7 @@ Deploy:       Streamlit Community Cloud (see deployment task for steps)
 """
 
 import re
+import textwrap
 
 import streamlit as st
 from fpdf import FPDF
@@ -25,16 +26,25 @@ from prompts import SYSTEM_PROMPT
 
 def _safe(text):
     """fpdf2's built-in font only supports latin-1 — strip/replace anything
-    outside that range (emojis, smart quotes from GenAI output, etc.).
-    Also guarantees no unbroken 'word' longer than 40 characters ever reaches
-    fpdf2 — it can only wrap at whitespace, so any long unbroken string
-    (comma-separated with no space, slash-separated, a long course name,
-    etc.) would otherwise crash it with 'Not enough horizontal space to
-    render a single character'. This is a universal safety net regardless
-    of what separator style the underlying data actually uses."""
-    text = re.sub(r",(?!\s)", ", ", str(text))
-    text = re.sub(r"(\S{40})(?=\S)", r"\1 ", text)
-    return text.encode("latin-1", "replace").decode("latin-1")
+    outside that range (emojis, smart quotes from GenAI output, etc.)."""
+    return str(text).encode("latin-1", "replace").decode("latin-1")
+
+
+def _write(pdf, text, width_chars=85):
+    """Write text to the PDF, wrapping it ourselves with Python's textwrap
+    and rendering it line-by-line with cell(). This deliberately avoids
+    fpdf2's own internal word-wrap (multi_cell), which has a known fragile
+    edge case ('Not enough horizontal space to render a single character')
+    that's hard to predict from the data alone. Wrapping manually first
+    guarantees every line handed to fpdf2 is short and safe."""
+    text = _safe(text)
+    for paragraph in text.split("\n"):
+        if not paragraph.strip():
+            pdf.ln(3)
+            continue
+        wrapped_lines = textwrap.wrap(paragraph, width=width_chars) or [""]
+        for line in wrapped_lines:
+            pdf.cell(0, 6, line, ln=True)
 
 
 def generate_pdf_report(name, profile, top3, skill_gap, learning_path, explanation):
@@ -45,55 +55,53 @@ def generate_pdf_report(name, profile, top3, skill_gap, learning_path, explanati
     pdf.cell(0, 10, "AI-Powered Career Guidance Report", ln=True)
     pdf.set_font("Helvetica", "", 10)
     pdf.set_text_color(100, 100, 100)
-    pdf.cell(0, 6, _safe(f"Generated for: {name or 'Student'}"), ln=True)
+    _write(pdf, f"Generated for: {name or 'Student'}")
     pdf.set_text_color(0, 0, 0)
     pdf.ln(4)
 
     pdf.set_font("Helvetica", "B", 12)
     pdf.cell(0, 8, "Profile Summary", ln=True)
     pdf.set_font("Helvetica", "", 10)
-    pdf.multi_cell(0, 6, _safe(
-        f"Age: {profile['age']}  |  Gender: {profile['gender']}  |  "
-        f"Degree: {profile['degree_level']} in {profile['field_of_study']}\n"
-        f"GPA: {profile['gpa']}  |  Years of Experience: {profile['years_experience']}"
-    ))
+    _write(pdf, f"Age: {profile['age']}  |  Gender: {profile['gender']}  |  "
+                 f"Degree: {profile['degree_level']} in {profile['field_of_study']}")
+    _write(pdf, f"GPA: {profile['gpa']}  |  Years of Experience: {profile['years_experience']}")
     pdf.ln(2)
 
     pdf.set_font("Helvetica", "B", 12)
     pdf.cell(0, 8, "Top 3 Career Recommendations", ln=True)
     pdf.set_font("Helvetica", "", 10)
     for i, item in enumerate(top3, 1):
-        pdf.multi_cell(0, 6, _safe(f"{i}. {item['career']}  (confidence: {item['confidence']:.0%})"))
+        _write(pdf, f"{i}. {item['career']}  (confidence: {item['confidence']:.0%})")
     pdf.ln(2)
 
     if skill_gap:
         pdf.set_font("Helvetica", "B", 12)
         pdf.cell(0, 8, "Skill Gap Analysis", ln=True)
         pdf.set_font("Helvetica", "", 10)
-        pdf.multi_cell(0, 6, _safe(f"Current Skills: {skill_gap['current']}"))
-        pdf.multi_cell(0, 6, _safe(f"Required Skills: {skill_gap['required']}"))
-        pdf.multi_cell(0, 6, _safe(f"Gap: {skill_gap['gap']}%"))
-        pdf.multi_cell(0, 6, _safe(f"Estimated Hours: {skill_gap['hours']}"))
-        pdf.multi_cell(0, 6, _safe(f"Recommended Courses: {skill_gap['courses']}"))
+        _write(pdf, f"Current Skills: {skill_gap['current']}")
+        _write(pdf, f"Required Skills: {skill_gap['required']}")
+        _write(pdf, f"Gap: {skill_gap['gap']}%")
+        _write(pdf, f"Estimated Hours: {skill_gap['hours']}")
+        _write(pdf, f"Recommended Courses: {skill_gap['courses']}")
         pdf.ln(2)
 
     if learning_path:
         pdf.set_font("Helvetica", "B", 12)
         pdf.cell(0, 8, "Learning Roadmap", ln=True)
         pdf.set_font("Helvetica", "", 10)
-        pdf.multi_cell(0, 6, _safe(f"Learning Stage: {learning_path['stage']}"))
-        pdf.multi_cell(0, 6, _safe(f"Priority Skills: {learning_path['skills']}"))
-        pdf.multi_cell(0, 6, _safe(f"Learning Path: {learning_path['path']}"))
-        pdf.multi_cell(0, 6, _safe(f"Resources: {learning_path['resources']}"))
-        pdf.multi_cell(0, 6, _safe(f"Estimated Duration: {learning_path['duration']}"))
-        pdf.multi_cell(0, 6, _safe(f"Milestone: {learning_path['milestone']}"))
+        _write(pdf, f"Learning Stage: {learning_path['stage']}")
+        _write(pdf, f"Priority Skills: {learning_path['skills']}")
+        _write(pdf, f"Learning Path: {learning_path['path']}")
+        _write(pdf, f"Resources: {learning_path['resources']}")
+        _write(pdf, f"Estimated Duration: {learning_path['duration']}")
+        _write(pdf, f"Milestone: {learning_path['milestone']}")
         pdf.ln(2)
 
     if explanation:
         pdf.set_font("Helvetica", "B", 12)
         pdf.cell(0, 8, "AI Career Guidance", ln=True)
         pdf.set_font("Helvetica", "", 10)
-        pdf.multi_cell(0, 6, _safe(explanation))
+        _write(pdf, explanation)
 
     return bytes(pdf.output())
 
