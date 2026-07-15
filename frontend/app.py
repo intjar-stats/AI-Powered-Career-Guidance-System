@@ -209,7 +209,8 @@ st.caption(
     "(Bachelor / Master / PhD). If your team decides to support Diploma or "
     "High School applicants, the model needs retraining on data that includes them first."
     " Field of Study currently supports technology-related fields only; other "
-    "backgrounds (e.g. Economics, Statistics) would also need model retraining."
+    "backgrounds (e.g. Economics, Statistics, Mathematics, Operations Research) "
+       "would also need model retraining."
 )
 
 st.subheader("Technical & Soft Skills")
