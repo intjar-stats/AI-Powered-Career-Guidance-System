@@ -205,14 +205,11 @@ with col2:
     )
 
 st.caption(
-    "Degree Level is limited to values the model was trained on "
-    "(Bachelor / Master / PhD). If your team decides to support Diploma or "
-    "High School applicants, the model needs retraining on data that includes them first."
-    " Field of Study currently supports technology-related fields only; other "
-    "backgrounds (e.g. Economics, Statistics, Mathematics, Operations Research) "
-       "would also need model retraining."
+    "Note: This system currently supports Bachelor / Master / PhD degree levels "
+    "and technology-related fields of study only. Support for other degree levels "
+    "(e.g. Diploma or High School Applications) and other backgrounds (e.g. Economics, Statistics, Mathematics, "
+    "Operations Research) is planned as future work and would require model retraining."
 )
-
 st.subheader("Technical & Soft Skills")
 st.caption("Rate yourself from 1 (beginner) to 5 (expert) for each skill.")
 
