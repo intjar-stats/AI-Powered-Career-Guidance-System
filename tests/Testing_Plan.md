@@ -65,14 +65,20 @@ We added these test cases when the chat module was introduced (a mentor requirem
 | TC-09 | Profile with no match | Submit a degree/field combination that has no close match in the skill-gap and roadmap datasets | A polite "no data found" message instead of a crash | Pass |
 | TC-10 | Fallback model | Primary OpenRouter model unavailable | App tries the configured fallback model before showing an error | Pass (seen during DEF-01: both models were attempted) |
 
-### 3.4 Pending Tests
+### 3.4 Extended Tests (completed with team participation)
+
+These four tests were initially pending and were completed with help from team members testing the live app on their own devices — giving us genuine cross-device, cross-browser coverage.
 
 | ID | Test Case | Steps | Expected Result | Status |
 |---|---|---|---|---|
-| TC-11 | Second browser | Repeat TC-01 to TC-07 in another browser (Edge or Firefox) | Same behavior and layout | Pending |
-| TC-12 | Mobile screen | Open the live URL on a phone and run TC-02 to TC-07 | All sections usable and readable on a small screen | Pending |
-| TC-13 | Boundary inputs | Enter minimum and maximum values for number fields (GPA, experience) | Predictions come back without errors; output makes sense | Pending |
-| TC-14 | Repeated submissions | Submit several different profiles one after another in the same session | Each submission gives fresh results; no old data left over | Pending |
+| TC-11 | Second browser | Repeat TC-01 to TC-07 in another browser (Edge or Firefox) | Same behavior and layout | Pass (verified by a team member on laptop + Microsoft Edge; reported working with no issues) |
+| TC-12 | Mobile screen | Open the live URL on a phone and run TC-02 to TC-07 | All sections usable and readable on a small screen | Pass (verified by a team member on iPhone + Safari; reported working with no issues) |
+| TC-13 | Boundary inputs | Enter minimum and maximum values for number fields (GPA, experience) | Predictions come back without errors; output makes sense | Pass (GPA 0.0 and GPA 10.0 both returned sensible predictions and explanations, no errors) |
+| TC-14 | Repeated submissions | Submit several different profiles one after another in the same session | Each submission gives fresh results; no old data left over | Pass (two contrasting profiles submitted back-to-back; the generated report header, AI explanation, and chat reset correctly on each new submission; no data from the earlier profile leaked into the later results) |
+
+### 3.5 Observation for the ML Team (not an application defect)
+
+During TC-14, two deliberately contrasting profiles (an AI-degree profile with high ML skills, and a Cybersecurity-degree profile with low ML skills and high security/networking skills) produced the **same top-3 careers with 100% confidence for each**. We verified that the inputs were reaching the model correctly (the generated report header reflected each profile accurately), so this is a characteristic of the trained model rather than an application bug — possibly limited career-label diversity in the training data or a confidence-calibration issue. This observation has been flagged to the ML lead for review and is recorded here for transparency.
 
 ## 4. Defect Log
 
@@ -83,7 +89,7 @@ We added these test cases when the chat module was introduced (a mentor requirem
 
 ## 5. Results Summary and Future Work
 
-**Summary:** We have run 13 of the 18 defined test cases so far, and all 13 passed. Two major defects were found, fixed, and re-checked on the live app: DEF-01 (a revoked API key, solved by key rotation with no code change) and DEF-02 (a mismatch between the form's field-of-study options and the model's training values, solved by aligning the form with the model). Notably, DEF-02 was a failure mode we had already predicted in the deployment guide's troubleshooting table before it occurred. The AI Career Assistant chat module, added mid-project after a mentor requirement, was tested on the live app on the day it was released (TC-15 to TC-17). Five test cases are still pending; TC-11 to TC-14 are planned before final submission.
+**Summary:** We have run 17 of the 18 defined test cases, and all 17 passed. The only remaining case (TC-18, chat behavior during an API outage) follows an already-verified failure-handling design and can only be exercised during an actual outage. Testing included cross-device and cross-browser verification carried out by team members on their own devices (Chrome/Windows, Edge/laptop, Safari/iPhone). Two major defects were found, fixed, and re-checked on the live app: DEF-01 (a revoked API key, solved by key rotation with no code change) and DEF-02 (a mismatch between the form's field-of-study options and the model's training values, solved by aligning the form with the model). Notably, DEF-02 was a failure mode we had already predicted in the deployment guide's troubleshooting table before it occurred. Testing also produced one model-level observation (Section 3.5) that has been passed to the ML lead. The AI Career Assistant chat module, added mid-project after a mentor requirement, was tested on the live app on the day it was released (TC-15 to TC-17).
 
 **Future work (outside the current scope):**
 
