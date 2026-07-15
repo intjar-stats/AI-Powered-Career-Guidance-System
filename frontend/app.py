@@ -196,8 +196,8 @@ with col1:
 with col2:
     field_of_study = st.selectbox(
         "Field of Study",
-        ["Computer Science", "Data Science", "Information Technology",
-         "Electronics", "Mechanical", "Other"],
+        ["AI", "Computer Science", "Cybersecurity", "Data Science",
+         "Software Engineering"],
     )
     gpa = st.slider("GPA (out of 10)", min_value=0.0, max_value=10.0, value=7.5, step=0.1)
     years_experience = st.number_input(
@@ -208,6 +208,8 @@ st.caption(
     "Degree Level is limited to values the model was trained on "
     "(Bachelor / Master / PhD). If your team decides to support Diploma or "
     "High School applicants, the model needs retraining on data that includes them first."
+    " Field of Study currently supports technology-related fields only; other "
+    "backgrounds (e.g. Economics, Statistics) would also need model retraining."
 )
 
 st.subheader("Technical & Soft Skills")
