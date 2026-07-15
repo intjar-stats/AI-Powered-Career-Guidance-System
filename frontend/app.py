@@ -8,6 +8,15 @@ Architecture (per Task 8 decisions):
                                 (Rithik's roadmap_generation module is OUT OF SCOPE
                                  for this submission per team decision)
     - AI explanations        : OpenRouter, via gemini.py
+    - AI Career Assistant    : interactive chat (mentor requirement), reuses the
+                                same OpenRouter call via gemini.py
+
+Note on structure: results are computed once on button click and stored in
+st.session_state, then rendered from session state on every rerun. This keeps
+the results (and the PDF button) visible while the user interacts with the
+chat assistant — Streamlit reruns the whole script on every interaction, so
+anything rendered only inside `if st.button(...)` would vanish on the next
+interaction.
 
 Run locally:  streamlit run app.py
 Deploy:       Streamlit Community Cloud (see deployment task for steps)
@@ -104,6 +113,44 @@ def generate_pdf_report(name, profile, top3, skill_gap, learning_path, explanati
         _write(pdf, explanation)
 
     return bytes(pdf.output())
+
+
+def build_chat_prompt(question, ctx, history):
+    """Build a prompt for the AI Career Assistant that carries the student's
+    profile, the ML recommendations, and recent chat turns, so answers stay
+    personalized and on-topic. Reuses the same OpenRouter call as the main
+    explanation (gemini.get_career_recommendation)."""
+    top3 = ctx["top3"]
+    profile = ctx["profile"]
+
+    history_text = ""
+    for role, msg in history[-6:]:  # keep the prompt small: last 6 turns only
+        speaker = "Student" if role == "user" else "Assistant"
+        history_text += f"{speaker}: {msg}\n"
+
+    return f"""{SYSTEM_PROMPT}
+
+You are now acting as an interactive AI Career Assistant in a chat.
+Answer the student's question below. Be helpful, specific and concise
+(under 250 words). Stay on career guidance topics; if asked something
+unrelated, politely steer back to career guidance.
+
+Student profile:
+Name: {ctx['name'] or "Student"}
+Degree: {profile['degree_level']} in {profile['field_of_study']}
+GPA: {profile['gpa']}  |  Experience: {profile['years_experience']} years
+Interests: {ctx['interests'] or "Not specified"}
+Preferred Industry: {ctx['preferred_industry'] or "Not specified"}
+
+ML Model's Top 3 Recommendations:
+1. {top3[0]['career']} (confidence: {top3[0]['confidence']:.0%})
+2. {top3[1]['career']} (confidence: {top3[1]['confidence']:.0%})
+3. {top3[2]['career']} (confidence: {top3[2]['confidence']:.0%})
+
+Recent conversation:
+{history_text}
+Student's question: {question}
+"""
 
 
 st.set_page_config(
@@ -204,6 +251,9 @@ preferred_industry = st.text_input(
 
 
 # --- Prediction ----------------------------------------------------------------
+# Results are computed ONCE here and stored in session state; they are rendered
+# further below (outside this block) so they survive Streamlit reruns caused by
+# chat input / PDF download clicks.
 if st.button("Get Career Recommendation", type="primary"):
 
     profile = {
@@ -244,15 +294,66 @@ if st.button("Get Career Recommendation", type="primary"):
 
     top_career = top3[0]["career"]
 
+    # --- Step 2: Skill gap + roadmap (CSV lookup, keyed on top predicted career) ---
+    skill_gap = get_skill_gap(top_career)
+    learning_path = get_learning_path(top_career)
+
+    # --- Step 3: GenAI explanation (called once, stored; not re-called on reruns) ---
+    prompt = f"""{SYSTEM_PROMPT}
+
+Name: {name or "Student"}
+Age: {age}
+Gender: {gender}
+Degree: {degree_level} in {field_of_study}
+GPA: {gpa}
+Years of Experience: {years_experience}
+Interests: {interests or "Not specified"}
+Preferred Industry: {preferred_industry or "Not specified"}
+
+ML Model's Top 3 Recommendations:
+1. {top3[0]['career']} (confidence: {top3[0]['confidence']:.0%})
+2. {top3[1]['career']} (confidence: {top3[1]['confidence']:.0%})
+3. {top3[2]['career']} (confidence: {top3[2]['confidence']:.0%})
+"""
+
+    explanation_text = None
+    explanation_error = None
+    try:
+        with st.spinner("Generating personalized explanation..."):
+            explanation_text = get_career_recommendation(prompt)
+    except GenAIUnavailableError as e:
+        explanation_error = str(e)
+
+    # --- Store everything for rendering + chat context ---
+    st.session_state["ctx"] = {
+        "name": name,
+        "profile": profile,
+        "top3": top3,
+        "top_career": top_career,
+        "skill_gap": skill_gap,
+        "learning_path": learning_path,
+        "explanation_text": explanation_text,
+        "explanation_error": explanation_error,
+        "interests": interests,
+        "preferred_industry": preferred_industry,
+    }
+    # New recommendation = fresh chat (old answers may not match the new profile)
+    st.session_state["chat_history"] = []
+
+
+# --- Results (rendered from session state so they survive reruns) --------------
+if "ctx" in st.session_state:
+    ctx = st.session_state["ctx"]
+    top3 = ctx["top3"]
+    top_career = ctx["top_career"]
+    skill_gap = ctx["skill_gap"]
+    learning_path = ctx["learning_path"]
+
     st.success("Recommendation Ready!")
     st.subheader("📌 Top 3 Career Recommendations")
     medals = ["🥇", "🥈", "🥉"]
     for medal, item in zip(medals, top3):
         st.write(f"{medal} **{item['career']}** — confidence: {item['confidence']:.0%}")
-
-    # --- Step 2: Skill gap + roadmap (CSV lookup, keyed on top predicted career) ---
-    skill_gap = get_skill_gap(top_career)
-    learning_path = get_learning_path(top_career)
 
     if skill_gap:
         st.subheader("📊 Skill Gap Analysis")
@@ -282,48 +383,68 @@ if st.button("Get Career Recommendation", type="primary"):
             f"label mismatch between datasets."
         )
 
-    # --- Step 3: GenAI explanation ---
-    prompt = f"""{SYSTEM_PROMPT}
-
-Name: {name or "Student"}
-Age: {age}
-Gender: {gender}
-Degree: {degree_level} in {field_of_study}
-GPA: {gpa}
-Years of Experience: {years_experience}
-Interests: {interests or "Not specified"}
-Preferred Industry: {preferred_industry or "Not specified"}
-
-ML Model's Top 3 Recommendations:
-1. {top3[0]['career']} (confidence: {top3[0]['confidence']:.0%})
-2. {top3[1]['career']} (confidence: {top3[1]['confidence']:.0%})
-3. {top3[2]['career']} (confidence: {top3[2]['confidence']:.0%})
-"""
-
     st.subheader("🤖 AI Career Guidance")
-    explanation_text = None
-    try:
-        with st.spinner("Generating personalized explanation..."):
-            explanation_text = get_career_recommendation(prompt)
-        st.write(explanation_text)
-    except GenAIUnavailableError as e:
+    if ctx["explanation_text"]:
+        st.write(ctx["explanation_text"])
+    else:
         st.warning(
             "The AI explanation service is temporarily unavailable, but your "
             "ML-based recommendations above are still valid."
         )
-        st.caption(f"Technical detail: {e}")
+        if ctx["explanation_error"]:
+            st.caption(f"Technical detail: {ctx['explanation_error']}")
 
-    # --- Step 4: PDF report download ---
+    # --- PDF report download ---
     st.divider()
     try:
         pdf_bytes = generate_pdf_report(
-            name, profile, top3, skill_gap, learning_path, explanation_text
+            ctx["name"], ctx["profile"], top3, skill_gap,
+            learning_path, ctx["explanation_text"],
         )
         st.download_button(
             label="📄 Download PDF Report",
             data=pdf_bytes,
-            file_name=f"career_report_{(name or 'student').replace(' ', '_')}.pdf",
+            file_name=f"career_report_{(ctx['name'] or 'student').replace(' ', '_')}.pdf",
             mime="application/pdf",
         )
     except Exception as e:
         st.caption(f"PDF generation failed: {e}")
+
+    # --- AI Career Assistant (interactive chat — mentor requirement) -----------
+    st.divider()
+    st.subheader("💬 AI Career Assistant")
+    st.caption(
+        "Ask follow-up questions about your recommended careers, skills, "
+        "courses, certifications, or how to get started."
+    )
+
+    if "chat_history" not in st.session_state:
+        st.session_state["chat_history"] = []
+
+    # Render existing conversation
+    for role, msg in st.session_state["chat_history"]:
+        with st.chat_message(role):
+            st.write(msg)
+
+    question = st.chat_input("e.g. What certifications should I do first?")
+    if question:
+        st.session_state["chat_history"].append(("user", question))
+        with st.chat_message("user"):
+            st.write(question)
+
+        try:
+            with st.chat_message("assistant"):
+                with st.spinner("Thinking..."):
+                    answer = get_career_recommendation(
+                        build_chat_prompt(
+                            question, ctx, st.session_state["chat_history"]
+                        )
+                    )
+                st.write(answer)
+            st.session_state["chat_history"].append(("assistant", answer))
+        except GenAIUnavailableError:
+            with st.chat_message("assistant"):
+                st.warning(
+                    "The AI assistant is temporarily unavailable. Please try "
+                    "again in a moment — your recommendations above are unaffected."
+                )
