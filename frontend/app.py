@@ -35,10 +35,10 @@ import altair as alt
 from fpdf import FPDF
 
 
-def colorful_bar_chart(df, cat_col, val_col, horizontal=False, color_scheme="tealblues"):
-    """Render a bar chart with a distinct color per bar (Altair), instead of
-    Streamlit's native st.bar_chart which renders every bar in one flat color.
-    This gives the dashboard a more polished, colorful look."""
+def colorful_bar_chart(df, cat_col, val_col, horizontal=False, color_scheme="category10"):
+    """Render a bar chart with a distinct color per bar (Altair) using a
+    multi-hue categorical scheme (blue/orange/green/red/purple...) instead of
+    Streamlit's native st.bar_chart, which renders every bar in one flat color."""
     if horizontal:
         chart = (
             alt.Chart(df)
@@ -63,6 +63,49 @@ def colorful_bar_chart(df, cat_col, val_col, horizontal=False, color_scheme="tea
                 tooltip=[cat_col, val_col],
             )
         )
+    st.altair_chart(chart, use_container_width=True)
+
+
+def colorful_donut_chart(df, cat_col, val_col, color_scheme="category10"):
+    """Render a donut chart (Altair arc mark) with a distinct color per slice."""
+    chart = (
+        alt.Chart(df)
+        .mark_arc(innerRadius=55)
+        .encode(
+            theta=alt.Theta(f"{val_col}:Q"),
+            color=alt.Color(f"{cat_col}:N", legend=alt.Legend(title=None, orient="bottom"),
+                             scale=alt.Scale(scheme=color_scheme)),
+            tooltip=[cat_col, val_col],
+        )
+    )
+    st.altair_chart(chart, use_container_width=True)
+
+
+def skill_rating_histogram(self_ratings: dict):
+    """Bar-style histogram of how many skills fall at each rating (1-5),
+    colored red (low) to green (high) so the color itself carries meaning."""
+    counts = {i: 0 for i in range(1, 6)}
+    for v in self_ratings.values():
+        counts[v] = counts.get(v, 0) + 1
+    hist_df = pd.DataFrame(
+        {"Rating": list(counts.keys()), "Number of Skills": list(counts.values())}
+    )
+    chart = (
+        alt.Chart(hist_df)
+        .mark_bar()
+        .encode(
+            x=alt.X("Rating:O", title="Self-Rated Level (1=Beginner, 5=Expert)"),
+            y=alt.Y("Number of Skills:Q", title="Number of Skills"),
+            color=alt.Color(
+                "Rating:O", legend=None,
+                scale=alt.Scale(
+                    domain=[1, 2, 3, 4, 5],
+                    range=["#D62728", "#FF7F0E", "#F2C744", "#8FCE00", "#2CA02C"],
+                ),
+            ),
+            tooltip=["Rating", "Number of Skills"],
+        )
+    )
     st.altair_chart(chart, use_container_width=True)
 
 from predictor import get_predictor, ModelNotLoadedError
@@ -453,15 +496,44 @@ if "ctx" in st.session_state:
             "A quick-glance summary — see the detail tabs above for the full "
             "breakdown of each section."
         )
+
+        # Row 1: Career match donut + colorful skill ratings bar chart
         ocol1, ocol2 = st.columns(2)
         with ocol1:
-            st.markdown("**Career Match Confidence**")
-            colorful_bar_chart(confidence_df, "Career", "Confidence (%)",
-                                horizontal=True, color_scheme="blues")
+            st.markdown("**Career Match Breakdown**")
+            colorful_donut_chart(confidence_df, "Career", "Confidence (%)")
         with ocol2:
             st.markdown("**Your Skill Ratings**")
-            colorful_bar_chart(skills_df, "Skill", "Your Rating (1-5)",
-                                horizontal=False, color_scheme="purples")
+            colorful_bar_chart(skills_df, "Skill", "Your Rating (1-5)")
+
+        # Row 2: Skill rating histogram + skill readiness donut
+        ocol3, ocol4 = st.columns(2)
+        with ocol3:
+            st.markdown("**Skill Rating Distribution**")
+            skill_rating_histogram(self_ratings)
+        with ocol4:
+            st.markdown("**Skill Readiness**")
+            if skill_gap:
+                readiness_df = pd.DataFrame({
+                    "Status": ["Ready", "To Learn"],
+                    "Percent": [100 - skill_gap["gap"], skill_gap["gap"]],
+                })
+                readiness_chart = (
+                    alt.Chart(readiness_df)
+                    .mark_arc(innerRadius=55)
+                    .encode(
+                        theta="Percent:Q",
+                        color=alt.Color(
+                            "Status:N", legend=alt.Legend(title=None, orient="bottom"),
+                            scale=alt.Scale(domain=["Ready", "To Learn"],
+                                             range=["#2CA02C", "#FF7F0E"]),
+                        ),
+                        tooltip=["Status", "Percent"],
+                    )
+                )
+                st.altair_chart(readiness_chart, use_container_width=True)
+            else:
+                st.info("No skill gap data available for this career.")
 
         if learning_path:
             st.info(
@@ -477,8 +549,7 @@ if "ctx" in st.session_state:
 
         # Confidence comparison chart (Likhitha's suggestion: bar chart for
         # comparing scores instead of plain text)
-        colorful_bar_chart(confidence_df, "Career", "Confidence (%)",
-                            horizontal=True, color_scheme="blues")
+        colorful_bar_chart(confidence_df, "Career", "Confidence (%)", horizontal=True)
 
     with tab_skills:
         st.subheader("Skill Gap Analysis")
@@ -491,8 +562,10 @@ if "ctx" in st.session_state:
 
             # Current self-rated skill levels chart (Likhitha's suggestion)
             st.caption("Your self-rated proficiency (from the form above) for key skills:")
-            colorful_bar_chart(skills_df, "Skill", "Your Rating (1-5)",
-                                horizontal=False, color_scheme="purples")
+            colorful_bar_chart(skills_df, "Skill", "Your Rating (1-5)")
+
+            st.caption("Distribution of your ratings across these key skills:")
+            skill_rating_histogram(self_ratings)
         else:
             st.info(
                 f"No skill gap data found for '{top_career}'. This can happen if the "
