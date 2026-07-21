@@ -10,6 +10,10 @@ Architecture (per Task 8 decisions):
     - AI explanations        : OpenRouter, via gemini.py
     - AI Career Assistant    : interactive chat (mentor requirement), reuses the
                                 same OpenRouter call via gemini.py
+    - Dashboard layout       : metric cards + charts + tabs (mentor requirement,
+                                inspired by a reference dashboard). No login/storage
+                                is added — this is a presentation-layer upgrade only,
+                                keeping the no-data-stored privacy design intact.
 
 Note on structure: results are computed once on button click and stored in
 st.session_state, then rendered from session state on every rerun. This keeps
@@ -26,6 +30,7 @@ import re
 import textwrap
 
 import streamlit as st
+import pandas as pd
 from fpdf import FPDF
 
 from predictor import get_predictor, ModelNotLoadedError
@@ -207,9 +212,10 @@ with col2:
 st.caption(
     "Note: This system currently supports Bachelor / Master / PhD degree levels "
     "and technology-related fields of study only. Support for other degree levels "
-    "(e.g. Diploma or High School Applications) and other backgrounds (e.g. Economics, Statistics, Mathematics, "
+    "(e.g. Diploma) and other backgrounds (e.g. Economics, Statistics, Mathematics, "
     "Operations Research) is planned as future work and would require model retraining."
 )
+
 st.subheader("Technical & Soft Skills")
 st.caption("Rate yourself from 1 (beginner) to 5 (expert) for each skill.")
 
@@ -348,53 +354,138 @@ if "ctx" in st.session_state:
     top_career = ctx["top_career"]
     skill_gap = ctx["skill_gap"]
     learning_path = ctx["learning_path"]
+    profile = ctx["profile"]
 
     st.success("Recommendation Ready!")
-    st.subheader("📌 Top 3 Career Recommendations")
-    medals = ["🥇", "🥈", "🥉"]
-    for medal, item in zip(medals, top3):
-        st.write(f"{medal} **{item['career']}** — confidence: {item['confidence']:.0%}")
 
-    if skill_gap:
-        st.subheader("📊 Skill Gap Analysis")
-        st.write("**Current Skills:**", skill_gap["current"])
-        st.write("**Required Skills:**", skill_gap["required"])
-        st.write("**Gap Percentage:**", f'{skill_gap["gap"]}%')
-        st.write("**Estimated Hours:**", skill_gap["hours"])
-        st.write("**Recommended Courses:**", skill_gap["courses"])
-    else:
-        st.info(
-            f"No skill gap data found for '{top_career}'. This can happen if the "
-            f"career label from the ML model doesn't exactly match a label in "
-            f"career_skill_gap.csv — worth checking during testing."
+    # === Dashboard metric cards (mentor requirement — quick-glance summary) ===
+    m1, m2, m3, m4 = st.columns(4)
+    m1.metric("Top Match", top3[0]["career"], f"{top3[0]['confidence']:.0%} confidence")
+    m2.metric(
+        "Skill Gap",
+        f"{skill_gap['gap']}%" if skill_gap else "N/A",
+        help="Percentage gap between your current and required skills for the top career",
+    )
+    m3.metric(
+        "Est. Learning Time",
+        f"{skill_gap['hours']} hrs" if skill_gap else "N/A",
+    )
+    m4.metric("Career Matches Shown", len(top3))
+
+    st.divider()
+
+    # === Tabbed layout (mentor requirement — dashboard-style organization) ===
+    tab_rec, tab_skills, tab_roadmap, tab_ai, tab_chat = st.tabs(
+        ["📌 Recommendations", "📊 Skill Gap", "📚 Roadmap", "🤖 AI Guidance", "💬 Assistant"]
+    )
+
+    with tab_rec:
+        st.subheader("Top 3 Career Recommendations")
+        medals = ["🥇", "🥈", "🥉"]
+        for medal, item in zip(medals, top3):
+            st.write(f"{medal} **{item['career']}** — confidence: {item['confidence']:.0%}")
+
+        # Confidence comparison chart (Likhitha's suggestion: bar chart for
+        # comparing scores instead of plain text)
+        chart_df = pd.DataFrame(
+            {"Career": [item["career"] for item in top3],
+             "Confidence (%)": [item["confidence"] * 100 for item in top3]}
+        ).set_index("Career")
+        st.bar_chart(chart_df, horizontal=True)
+
+    with tab_skills:
+        st.subheader("Skill Gap Analysis")
+        if skill_gap:
+            st.write("**Current Skills:**", skill_gap["current"])
+            st.write("**Required Skills:**", skill_gap["required"])
+            st.write("**Gap Percentage:**", f'{skill_gap["gap"]}%')
+            st.write("**Estimated Hours:**", skill_gap["hours"])
+            st.write("**Recommended Courses:**", skill_gap["courses"])
+
+            # Current self-rated skill levels chart (Likhitha's suggestion)
+            self_ratings = {
+                "Python": profile["python"], "Machine Learning": profile["machine_learning"],
+                "SQL": profile["sql"], "Cloud Computing": profile["cloud_computing"],
+                "Data Analysis": profile["data_analysis"],
+            }
+            skills_df = pd.DataFrame(
+                {"Skill": list(self_ratings.keys()),
+                 "Your Rating (1-5)": list(self_ratings.values())}
+            ).set_index("Skill")
+            st.caption("Your self-rated proficiency (from the form above) for key skills:")
+            st.bar_chart(skills_df)
+        else:
+            st.info(
+                f"No skill gap data found for '{top_career}'. This can happen if the "
+                f"career label from the ML model doesn't exactly match a label in "
+                f"career_skill_gap.csv — worth checking during testing."
+            )
+
+    with tab_roadmap:
+        st.subheader("Learning Roadmap")
+        if learning_path:
+            st.write("**Learning Stage:**", learning_path["stage"])
+            st.write("**Priority Skills:**", learning_path["skills"])
+            st.write("**Learning Path:**", learning_path["path"])
+            st.write("**Resources:**", learning_path["resources"])
+            st.write("**Estimated Duration:**", learning_path["duration"])
+            st.write("**Milestone:**", learning_path["milestone"])
+        else:
+            st.info(
+                f"No roadmap data found for '{top_career}'. Same likely cause as above — "
+                f"label mismatch between datasets."
+            )
+
+    with tab_ai:
+        st.subheader("AI Career Guidance")
+        if ctx["explanation_text"]:
+            st.write(ctx["explanation_text"])
+        else:
+            st.warning(
+                "The AI explanation service is temporarily unavailable, but your "
+                "ML-based recommendations above are still valid."
+            )
+            if ctx["explanation_error"]:
+                st.caption(f"Technical detail: {ctx['explanation_error']}")
+
+    with tab_chat:
+        st.subheader("AI Career Assistant")
+        st.caption(
+            "Ask follow-up questions about your recommended careers, skills, "
+            "courses, certifications, or how to get started."
         )
 
-    if learning_path:
-        st.subheader("📚 Learning Roadmap")
-        st.write("**Learning Stage:**", learning_path["stage"])
-        st.write("**Priority Skills:**", learning_path["skills"])
-        st.write("**Learning Path:**", learning_path["path"])
-        st.write("**Resources:**", learning_path["resources"])
-        st.write("**Estimated Duration:**", learning_path["duration"])
-        st.write("**Milestone:**", learning_path["milestone"])
-    else:
-        st.info(
-            f"No roadmap data found for '{top_career}'. Same likely cause as above — "
-            f"label mismatch between datasets."
-        )
+        if "chat_history" not in st.session_state:
+            st.session_state["chat_history"] = []
 
-    st.subheader("🤖 AI Career Guidance")
-    if ctx["explanation_text"]:
-        st.write(ctx["explanation_text"])
-    else:
-        st.warning(
-            "The AI explanation service is temporarily unavailable, but your "
-            "ML-based recommendations above are still valid."
-        )
-        if ctx["explanation_error"]:
-            st.caption(f"Technical detail: {ctx['explanation_error']}")
+        for role, msg in st.session_state["chat_history"]:
+            with st.chat_message(role):
+                st.write(msg)
 
-    # --- PDF report download ---
+        question = st.chat_input("e.g. What certifications should I do first?")
+        if question:
+            st.session_state["chat_history"].append(("user", question))
+            with st.chat_message("user"):
+                st.write(question)
+
+            try:
+                with st.chat_message("assistant"):
+                    with st.spinner("Thinking..."):
+                        answer = get_career_recommendation(
+                            build_chat_prompt(
+                                question, ctx, st.session_state["chat_history"]
+                            )
+                        )
+                    st.write(answer)
+                st.session_state["chat_history"].append(("assistant", answer))
+            except GenAIUnavailableError:
+                with st.chat_message("assistant"):
+                    st.warning(
+                        "The AI assistant is temporarily unavailable. Please try "
+                        "again in a moment — your recommendations above are unaffected."
+                    )
+
+    # --- PDF report download (outside tabs — always visible) ---
     st.divider()
     try:
         pdf_bytes = generate_pdf_report(
@@ -409,42 +500,3 @@ if "ctx" in st.session_state:
         )
     except Exception as e:
         st.caption(f"PDF generation failed: {e}")
-
-    # --- AI Career Assistant (interactive chat — mentor requirement) -----------
-    st.divider()
-    st.subheader("💬 AI Career Assistant")
-    st.caption(
-        "Ask follow-up questions about your recommended careers, skills, "
-        "courses, certifications, or how to get started."
-    )
-
-    if "chat_history" not in st.session_state:
-        st.session_state["chat_history"] = []
-
-    # Render existing conversation
-    for role, msg in st.session_state["chat_history"]:
-        with st.chat_message(role):
-            st.write(msg)
-
-    question = st.chat_input("e.g. What certifications should I do first?")
-    if question:
-        st.session_state["chat_history"].append(("user", question))
-        with st.chat_message("user"):
-            st.write(question)
-
-        try:
-            with st.chat_message("assistant"):
-                with st.spinner("Thinking..."):
-                    answer = get_career_recommendation(
-                        build_chat_prompt(
-                            question, ctx, st.session_state["chat_history"]
-                        )
-                    )
-                st.write(answer)
-            st.session_state["chat_history"].append(("assistant", answer))
-        except GenAIUnavailableError:
-            with st.chat_message("assistant"):
-                st.warning(
-                    "The AI assistant is temporarily unavailable. Please try "
-                    "again in a moment — your recommendations above are unaffected."
-                )
