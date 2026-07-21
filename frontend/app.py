@@ -31,7 +31,39 @@ import textwrap
 
 import streamlit as st
 import pandas as pd
+import altair as alt
 from fpdf import FPDF
+
+
+def colorful_bar_chart(df, cat_col, val_col, horizontal=False, color_scheme="tealblues"):
+    """Render a bar chart with a distinct color per bar (Altair), instead of
+    Streamlit's native st.bar_chart which renders every bar in one flat color.
+    This gives the dashboard a more polished, colorful look."""
+    if horizontal:
+        chart = (
+            alt.Chart(df)
+            .mark_bar()
+            .encode(
+                x=alt.X(f"{val_col}:Q", title=val_col),
+                y=alt.Y(f"{cat_col}:N", sort="-x", title=None),
+                color=alt.Color(f"{cat_col}:N", legend=None,
+                                 scale=alt.Scale(scheme=color_scheme)),
+                tooltip=[cat_col, val_col],
+            )
+        )
+    else:
+        chart = (
+            alt.Chart(df)
+            .mark_bar()
+            .encode(
+                x=alt.X(f"{cat_col}:N", sort=None, title=None),
+                y=alt.Y(f"{val_col}:Q", title=val_col),
+                color=alt.Color(f"{cat_col}:N", legend=None,
+                                 scale=alt.Scale(scheme=color_scheme)),
+                tooltip=[cat_col, val_col],
+            )
+        )
+    st.altair_chart(chart, use_container_width=True)
 
 from predictor import get_predictor, ModelNotLoadedError
 from recommender import get_skill_gap, get_learning_path
@@ -359,27 +391,46 @@ if "ctx" in st.session_state:
     st.success("Recommendation Ready!")
 
     # === Dashboard metric cards (mentor requirement — quick-glance summary) ===
+    # Uses st.container(border=True) — a native Streamlit feature — for the
+    # card look, rather than custom HTML/CSS, so it stays robust across
+    # Streamlit versions. The top career's name is shown as wrapped caption
+    # text below the number (not as a metric value), since long career names
+    # get cut off inside st.metric's narrow value slot — that was today's bug.
     m1, m2, m3, m4 = st.columns(4)
-    m1.metric("Top Match", top3[0]["career"], f"{top3[0]['confidence']:.0%} confidence")
-    m2.metric(
-        "Skill Gap",
-        f"{skill_gap['gap']}%" if skill_gap else "N/A",
-        help="Percentage gap between your current and required skills for the top career",
-    )
-    m3.metric(
-        "Est. Learning Time",
-        f"{skill_gap['hours']} hrs" if skill_gap else "N/A",
-    )
-    m4.metric("Career Matches Shown", len(top3))
+
+    with m1:
+        with st.container(border=True):
+            st.markdown("🏆 **Top Match**")
+            st.markdown(f"### {top3[0]['confidence']:.0%}")
+            st.caption(top3[0]["career"])
+
+    with m2:
+        with st.container(border=True):
+            st.markdown("📊 **Skill Gap**")
+            st.markdown(f"### {skill_gap['gap']}%" if skill_gap else "### N/A")
+            st.caption("Gap to close for your top match")
+
+    with m3:
+        with st.container(border=True):
+            st.markdown("⏱️ **Est. Learning Time**")
+            st.markdown(f"### {skill_gap['hours']} hrs" if skill_gap else "### N/A")
+            st.caption("To close the skill gap")
+
+    with m4:
+        with st.container(border=True):
+            st.markdown("🎯 **Matches Shown**")
+            st.markdown(f"### {len(top3)}")
+            st.caption("Careers recommended for you")
 
     st.divider()
 
     # Precompute both charts once — used in the Overview tab (side-by-side,
-    # at-a-glance) and again in their respective detail tabs.
+    # at-a-glance) and again in their respective detail tabs. Kept as plain
+    # (non-indexed) DataFrames since Altair colors bars by column, not index.
     confidence_df = pd.DataFrame(
         {"Career": [item["career"] for item in top3],
          "Confidence (%)": [item["confidence"] * 100 for item in top3]}
-    ).set_index("Career")
+    )
 
     self_ratings = {
         "Python": profile["python"], "Machine Learning": profile["machine_learning"],
@@ -389,7 +440,7 @@ if "ctx" in st.session_state:
     skills_df = pd.DataFrame(
         {"Skill": list(self_ratings.keys()),
          "Your Rating (1-5)": list(self_ratings.values())}
-    ).set_index("Skill")
+    )
 
     # === Tabbed layout (mentor requirement — dashboard-style organization) ===
     tab_overview, tab_rec, tab_skills, tab_roadmap, tab_ai, tab_chat = st.tabs(
@@ -405,10 +456,12 @@ if "ctx" in st.session_state:
         ocol1, ocol2 = st.columns(2)
         with ocol1:
             st.markdown("**Career Match Confidence**")
-            st.bar_chart(confidence_df, horizontal=True)
+            colorful_bar_chart(confidence_df, "Career", "Confidence (%)",
+                                horizontal=True, color_scheme="blues")
         with ocol2:
             st.markdown("**Your Skill Ratings**")
-            st.bar_chart(skills_df)
+            colorful_bar_chart(skills_df, "Skill", "Your Rating (1-5)",
+                                horizontal=False, color_scheme="purples")
 
         if learning_path:
             st.info(
@@ -424,7 +477,8 @@ if "ctx" in st.session_state:
 
         # Confidence comparison chart (Likhitha's suggestion: bar chart for
         # comparing scores instead of plain text)
-        st.bar_chart(confidence_df, horizontal=True)
+        colorful_bar_chart(confidence_df, "Career", "Confidence (%)",
+                            horizontal=True, color_scheme="blues")
 
     with tab_skills:
         st.subheader("Skill Gap Analysis")
@@ -437,7 +491,8 @@ if "ctx" in st.session_state:
 
             # Current self-rated skill levels chart (Likhitha's suggestion)
             st.caption("Your self-rated proficiency (from the form above) for key skills:")
-            st.bar_chart(skills_df)
+            colorful_bar_chart(skills_df, "Skill", "Your Rating (1-5)",
+                                horizontal=False, color_scheme="purples")
         else:
             st.info(
                 f"No skill gap data found for '{top_career}'. This can happen if the "
@@ -448,12 +503,13 @@ if "ctx" in st.session_state:
     with tab_roadmap:
         st.subheader("Learning Roadmap")
         if learning_path:
-            st.write("**Learning Stage:**", learning_path["stage"])
-            st.write("**Priority Skills:**", learning_path["skills"])
-            st.write("**Learning Path:**", learning_path["path"])
-            st.write("**Resources:**", learning_path["resources"])
-            st.write("**Estimated Duration:**", learning_path["duration"])
-            st.write("**Milestone:**", learning_path["milestone"])
+            with st.container(border=True):
+                st.write("**📈 Learning Stage:**", learning_path["stage"])
+                st.write("**🎯 Priority Skills:**", learning_path["skills"])
+                st.write("**🛤️ Learning Path:**", learning_path["path"])
+                st.write("**📖 Resources:**", learning_path["resources"])
+                st.write("**⏳ Estimated Duration:**", learning_path["duration"])
+                st.write("**🏁 Milestone:**", learning_path["milestone"])
         else:
             st.info(
                 f"No roadmap data found for '{top_career}'. Same likely cause as above — "
@@ -463,7 +519,8 @@ if "ctx" in st.session_state:
     with tab_ai:
         st.subheader("AI Career Guidance")
         if ctx["explanation_text"]:
-            st.write(ctx["explanation_text"])
+            with st.container(border=True):
+                st.write(ctx["explanation_text"])
         else:
             st.warning(
                 "The AI explanation service is temporarily unavailable, but your "
