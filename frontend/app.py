@@ -374,10 +374,47 @@ if "ctx" in st.session_state:
 
     st.divider()
 
+    # Precompute both charts once — used in the Overview tab (side-by-side,
+    # at-a-glance) and again in their respective detail tabs.
+    confidence_df = pd.DataFrame(
+        {"Career": [item["career"] for item in top3],
+         "Confidence (%)": [item["confidence"] * 100 for item in top3]}
+    ).set_index("Career")
+
+    self_ratings = {
+        "Python": profile["python"], "Machine Learning": profile["machine_learning"],
+        "SQL": profile["sql"], "Cloud Computing": profile["cloud_computing"],
+        "Data Analysis": profile["data_analysis"],
+    }
+    skills_df = pd.DataFrame(
+        {"Skill": list(self_ratings.keys()),
+         "Your Rating (1-5)": list(self_ratings.values())}
+    ).set_index("Skill")
+
     # === Tabbed layout (mentor requirement — dashboard-style organization) ===
-    tab_rec, tab_skills, tab_roadmap, tab_ai, tab_chat = st.tabs(
-        ["📌 Recommendations", "📊 Skill Gap", "📚 Roadmap", "🤖 AI Guidance", "💬 Assistant"]
+    tab_overview, tab_rec, tab_skills, tab_roadmap, tab_ai, tab_chat = st.tabs(
+        ["🏠 Overview", "📌 Recommendations", "📊 Skill Gap", "📚 Roadmap",
+         "🤖 AI Guidance", "💬 Assistant"]
     )
+
+    with tab_overview:
+        st.caption(
+            "A quick-glance summary — see the detail tabs above for the full "
+            "breakdown of each section."
+        )
+        ocol1, ocol2 = st.columns(2)
+        with ocol1:
+            st.markdown("**Career Match Confidence**")
+            st.bar_chart(confidence_df, horizontal=True)
+        with ocol2:
+            st.markdown("**Your Skill Ratings**")
+            st.bar_chart(skills_df)
+
+        if learning_path:
+            st.info(
+                f"📚 **Estimated duration to close the gap:** "
+                f"{learning_path['duration']} — Milestone: {learning_path['milestone']}"
+            )
 
     with tab_rec:
         st.subheader("Top 3 Career Recommendations")
@@ -387,11 +424,7 @@ if "ctx" in st.session_state:
 
         # Confidence comparison chart (Likhitha's suggestion: bar chart for
         # comparing scores instead of plain text)
-        chart_df = pd.DataFrame(
-            {"Career": [item["career"] for item in top3],
-             "Confidence (%)": [item["confidence"] * 100 for item in top3]}
-        ).set_index("Career")
-        st.bar_chart(chart_df, horizontal=True)
+        st.bar_chart(confidence_df, horizontal=True)
 
     with tab_skills:
         st.subheader("Skill Gap Analysis")
@@ -403,15 +436,6 @@ if "ctx" in st.session_state:
             st.write("**Recommended Courses:**", skill_gap["courses"])
 
             # Current self-rated skill levels chart (Likhitha's suggestion)
-            self_ratings = {
-                "Python": profile["python"], "Machine Learning": profile["machine_learning"],
-                "SQL": profile["sql"], "Cloud Computing": profile["cloud_computing"],
-                "Data Analysis": profile["data_analysis"],
-            }
-            skills_df = pd.DataFrame(
-                {"Skill": list(self_ratings.keys()),
-                 "Your Rating (1-5)": list(self_ratings.values())}
-            ).set_index("Skill")
             st.caption("Your self-rated proficiency (from the form above) for key skills:")
             st.bar_chart(skills_df)
         else:
