@@ -1,4 +1,3 @@
-
 """
 gemini.py — GenAI explanation layer via OpenRouter.
  
@@ -7,19 +6,23 @@ but this does NOT call Google's Gemini API — it calls OpenRouter's OpenAI-
 compatible endpoint. Recommend renaming to openrouter_client.py during final
 repo cleanup (Task: Repository Organization) and updating the one import in app.py.
  
-MODEL NOTE (updated during testing, July 2026): OpenRouter's free-tier model
-lineup changes frequently — models get moved to paid-only or renamed without
-notice. Both models previously configured here had stopped working:
-    - "nvidia/nemotron-3-ultra-550b-a55b:free" started returning a response
-      with no `choices` (likely deprecated/renamed upstream), which crashed
-      on `response.choices[0]` — this is now guarded against explicitly below.
-    - "meta-llama/llama-3.1-8b-instruct:free" was discontinued on the free
-      tier (OpenRouter returned a 404 pointing to the paid slug instead).
-Replaced with two models verified free on OpenRouter as of July 2026. If this
-breaks again in the future, check https://openrouter.ai/models (filter by
-price = 0) for currently free models before assuming it's a code bug — this
-has now happened twice and is a known characteristic of the free tier, not
-an application defect.
+MODEL NOTE (updated during testing, July 2026): Third-party blog listicles
+about "current free OpenRouter models" turned out to be unreliable — models
+recommended there ("meta-llama/llama-3.3-70b-instruct:free",
+"openai/gpt-oss-120b:free") returned 404s pointing to paid slugs when
+actually tried. The only trustworthy source is OpenRouter's own live API
+(https://openrouter.ai/api/v1/models — no key needed, filter for
+pricing.prompt == "0"). Checked directly on 21 July 2026:
+    - "nvidia/nemotron-3-ultra-550b-a55b:free" (the original primary model)
+      IS confirmed free right now. Its earlier crash (a raw 'NoneType' is
+      not subscriptable error) was most likely a transient/rate-limited
+      response, not deprecation — now handled gracefully by the defensive
+      check below instead of crashing.
+    - Fallback switched to "cohere/north-mini-code:free" — confirmed free,
+      and from a different provider than the primary, so a rate limit or
+      outage on NVIDIA's free tier doesn't take down both models at once.
+If this breaks again, re-check https://openrouter.ai/api/v1/models directly
+rather than trusting a blog post — free-tier availability changes weekly.
 """
  
 from openai import OpenAI, APIError, APITimeoutError
@@ -31,10 +34,11 @@ client = OpenAI(
     timeout=20.0,  # seconds — prevents the app hanging indefinitely on a slow API
 )
  
-# Free-tier model can have availability issues under load — keep a fallback.
-# Verified free on OpenRouter as of July 2026 (see MODEL NOTE above).
-PRIMARY_MODEL = "meta-llama/llama-3.3-70b-instruct:free"
-FALLBACK_MODEL = "openai/gpt-oss-120b:free"
+# Free-tier model can have availability issues under load — keep a fallback
+# from a different provider. Verified free via OpenRouter's live API as of
+# 21 July 2026 (see MODEL NOTE above).
+PRIMARY_MODEL = "nvidia/nemotron-3-ultra-550b-a55b:free"
+FALLBACK_MODEL = "cohere/north-mini-code:free"
  
  
 class GenAIUnavailableError(RuntimeError):
