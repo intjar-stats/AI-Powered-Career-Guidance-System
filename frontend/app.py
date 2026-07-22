@@ -29,11 +29,13 @@ Deploy:       Streamlit Community Cloud (see deployment task for steps)
 import re
 import textwrap
 import math
+import io
 
 import streamlit as st
 import pandas as pd
 import altair as alt
 from fpdf import FPDF
+from pypdf import PdfReader
 
 
 def colorful_bar_chart(df, cat_col, val_col, horizontal=False, color_scheme="category10"):
@@ -549,6 +551,59 @@ def generate_pdf_report(name, profile, top3, skill_gap, learning_path, explanati
     return bytes(pdf.output())
 
 
+def extract_resume_text(uploaded_file, max_chars=6000):
+    """Extracts text from an uploaded PDF resume using pypdf (pure-Python,
+    no system/OS-level dependencies — safe for Streamlit Cloud). Returns
+    (text, error_message). Scanned/image-only PDFs have no extractable text
+    layer, so that case is detected and reported clearly rather than
+    silently returning an empty analysis."""
+    try:
+        reader = PdfReader(io.BytesIO(uploaded_file.read()))
+        pages_text = [page.extract_text() or "" for page in reader.pages]
+        text = "\n".join(pages_text).strip()
+    except Exception as e:  # noqa: BLE001 — any parsing failure should be graceful
+        return None, f"Could not read this PDF: {e}"
+
+    if not text:
+        return None, (
+            "No selectable text found in this PDF — it may be a scanned "
+            "image rather than a text-based document. Try exporting your "
+            "resume directly from Word/Google Docs as a PDF instead."
+        )
+    return text[:max_chars], None
+
+
+def build_resume_analysis_prompt(resume_text, ctx):
+    """Builds a prompt asking the AI to evaluate the uploaded resume against
+    the ML model's top recommended career, reusing the same OpenRouter call
+    (gemini.get_career_recommendation) as the rest of the app."""
+    top_career = ctx["top3"][0]["career"]
+    return f"""{SYSTEM_PROMPT}
+
+You are now analyzing a student's resume against their top ML-recommended
+career match. Be specific and reference actual content from the resume,
+not generic advice.
+
+Top Recommended Career: {top_career} (confidence: {ctx['top3'][0]['confidence']:.0%})
+
+Resume Text:
+---
+{resume_text}
+---
+
+Provide, with clear section headers:
+1. **Match Score** — a percentage (0-100%) estimating how well this resume
+   aligns with the "{top_career}" role, with one sentence explaining why.
+2. **Key Strengths** — 2-4 bullet points on relevant strengths actually
+   found in the resume.
+3. **Gaps** — 2-4 bullet points on missing skills/experience typically
+   expected for this role.
+4. **Suggestions** — 3-4 concrete, actionable improvements to the resume.
+
+Keep the entire response under 350 words.
+"""
+
+
 def build_chat_prompt(question, ctx, history):
     """Build a prompt for the AI Career Assistant that carries the student's
     profile, the ML recommendations, and recent chat turns, so answers stay
@@ -605,6 +660,15 @@ predictor = load_predictor()
 st.title("🎓 AI-Powered Career Guidance System")
 st.write("Get personalized Top-3 career recommendations, a skill gap analysis, "
          "and a learning roadmap — powered by machine learning and AI.")
+
+st.info(
+    "👋 **Welcome!** Here's how this works: fill in your profile and skills "
+    "below, then click **Get Career Recommendation**. You'll get your top "
+    "matches with a visual dashboard, a skill gap breakdown, a learning "
+    "roadmap, an AI-written explanation, a resume analysis, and an "
+    "interactive assistant to ask follow-up questions — plus a downloadable "
+    "PDF report. No login, no data stored: everything stays in this session."
+)
 
 if not predictor.is_ready:
     st.error(
@@ -782,6 +846,8 @@ ML Model's Top 3 Recommendations:
     }
     # New recommendation = fresh chat (old answers may not match the new profile)
     st.session_state["chat_history"] = []
+    st.session_state["resume_result"] = None
+    st.session_state["resume_error"] = None
 
 
 # --- Results (rendered from session state so they survive reruns) --------------
@@ -848,9 +914,9 @@ if "ctx" in st.session_state:
     )
 
     # === Tabbed layout (mentor requirement — dashboard-style organization) ===
-    tab_overview, tab_rec, tab_skills, tab_roadmap, tab_ai, tab_chat = st.tabs(
+    tab_overview, tab_rec, tab_skills, tab_roadmap, tab_ai, tab_resume, tab_chat = st.tabs(
         ["🏠 Overview", "📌 Recommendations", "📊 Skill Gap", "📚 Roadmap",
-         "🤖 AI Guidance", "💬 Assistant"]
+         "🤖 AI Guidance", "📄 Resume Analysis", "💬 Assistant"]
     )
 
     with tab_overview:
@@ -963,6 +1029,44 @@ if "ctx" in st.session_state:
             )
             if ctx["explanation_error"]:
                 st.caption(f"Technical detail: {ctx['explanation_error']}")
+
+    with tab_resume:
+        st.subheader("Resume Analysis")
+        st.caption(
+            f"Upload your resume (PDF) to see how well it matches your top "
+            f"recommended career — {top3[0]['career']}."
+        )
+
+        resume_file = st.file_uploader("Upload resume (PDF)", type=["pdf"])
+
+        if resume_file is not None:
+            if st.button("Analyze Resume", key="analyze_resume_btn"):
+                resume_text, extract_error = extract_resume_text(resume_file)
+                if extract_error:
+                    st.session_state["resume_result"] = None
+                    st.session_state["resume_error"] = extract_error
+                else:
+                    try:
+                        with st.spinner("Analyzing your resume..."):
+                            result = get_career_recommendation(
+                                build_resume_analysis_prompt(resume_text, ctx)
+                            )
+                        st.session_state["resume_result"] = result
+                        st.session_state["resume_error"] = None
+                    except GenAIUnavailableError as e:
+                        st.session_state["resume_result"] = None
+                        st.session_state["resume_error"] = (
+                            "The AI analysis service is temporarily unavailable. "
+                            "Please try again in a moment."
+                        )
+
+        if st.session_state.get("resume_result"):
+            with st.container(border=True):
+                st.write(st.session_state["resume_result"])
+        elif st.session_state.get("resume_error"):
+            st.warning(st.session_state["resume_error"])
+        elif resume_file is None:
+            st.caption("No resume uploaded yet.")
 
     with tab_chat:
         st.subheader("AI Career Assistant")
