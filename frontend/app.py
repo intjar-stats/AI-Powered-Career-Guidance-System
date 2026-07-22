@@ -625,7 +625,7 @@ col1, col2 = st.columns(2)
 with col1:
     name = st.text_input("Your Name")
     age = st.number_input("Age", min_value=16, max_value=45, value=21)
-    gender = st.selectbox("Gender", ["Male", "Female"])
+    gender = st.selectbox("Gender", ["Male", "Female", "Other"])  # TEMP: diagnostic test — see if 'Other' is supported
     degree_level = st.selectbox("Degree Level", ["Bachelor", "Master", "PhD"])
 with col2:
     field_of_study = st.selectbox(
