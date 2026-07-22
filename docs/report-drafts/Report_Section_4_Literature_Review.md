@@ -1,7 +1,7 @@
-# Final Report — Draft Section 4: Literature Review
+# Final Report: Draft Section 4 (Literature Review)
 
 > **Status:** Draft for review. Author: Sama Jyotika (Research & Literature Review).
-> One terminology-alignment note at the end — see "Editorial Note."
+> One terminology-alignment note at the end (see "Editorial Note").
 
 ---
 
@@ -13,13 +13,13 @@ Career selection is an important decision for students because it influences the
 
 Chen et al. (2018) examined the application of big data and data-mining techniques to career guidance for college students, representing an important transition from general counselling towards data-supported career decision-making. Raza et al. (2020) further explored an intelligent career guidance system for university students, highlighting the importance of using student-related attributes to recommend career options that reflect individual capabilities and preferences.
 
-These studies establish the basic foundation of AI-assisted career guidance. However, predicting or recommending a career is only the first stage of effective guidance — students also need to understand what the recommended role involves and which competencies they must develop before entering that occupation.
+These studies establish the basic foundation of AI-assisted career guidance. However, predicting or recommending a career is only the first stage of effective guidance. Students also need to understand what the recommended role involves and which competencies they must develop before entering that occupation.
 
 ### 4.2 Skill-Based Career Path Modelling
 
 Skills are central to career decision-making because academic qualifications alone do not provide a complete picture of career suitability. Ghosh et al. (2020) investigated skill-based career path modelling and recommendation, viewing career development as a progression in which skills influence both present opportunities and possible future transitions.
 
-Prathibha et al. (2023) proposed Careex, an AI-assisted career guidance and eligibility prediction system. The inclusion of eligibility prediction is significant because career interest and career readiness are not necessarily the same — eligibility assessment helps distinguish between an immediately suitable role and one that may become suitable after additional learning.
+Prathibha et al. (2023) proposed Careex, an AI-assisted career guidance and eligibility prediction system. The inclusion of eligibility prediction is significant because career interest and career readiness are not necessarily the same; eligibility assessment helps distinguish between an immediately suitable role and one that may become suitable after additional learning.
 
 These works suggest that career recommendations should be accompanied by structured information about skill requirements, eligibility conditions, and possible development activities.
 
@@ -27,11 +27,11 @@ These works suggest that career recommendations should be accompanied by structu
 
 The movement from general career-field recommendation to specific job-role prediction is an important development in intelligent career guidance. Selvaraj et al. (2025) presented an AI-driven career mapping system focused on skill-based job-role prediction, connecting a student's profile with identifiable positions in the employment market. Hemavathy et al. (2026) proposed Career Compass, a skill-aware framework for personalised student recommendations.
 
-Despite this progress, a predicted role alone does not fully communicate the nature of an occupation — job titles carry different expectations across organisations. This motivates a structured **Role and Responsibility Matrix** connecting every recommended career with its major responsibilities, required skills, expected proficiency levels, qualifications, and learning activities, to improve the transparency of the recommendation.
+Despite this progress, a predicted role alone does not fully communicate the nature of an occupation, since job titles carry different expectations across organisations. This motivates a structured **Role and Responsibility Matrix** connecting every recommended career with its major responsibilities, required skills, expected proficiency levels, qualifications, and learning activities, to improve the transparency of the recommendation.
 
 ### 4.4 Personalised Career Pathways
 
-El-Khalili et al. (2025) developed an AI-powered career guidance system reflecting the growing use of machine-learning-based methods in career counselling. Poovaraghan et al. (2026) focused on personalised career pathways, framing career guidance as broader than a single job recommendation — including the competencies a user currently possesses, roles they may be prepared for, and future positions they may pursue after gaining experience.
+El-Khalili et al. (2025) developed an AI-powered career guidance system reflecting the growing use of machine-learning-based methods in career counselling. Poovaraghan et al. (2026) focused on personalised career pathways, framing career guidance as broader than a single job recommendation, including the competencies a user currently possesses, roles they may be prepared for, and future positions they may pursue after gaining experience.
 
 A personalised pathway should explain both the destination and the process required to reach it, rather than only the role name.
 
@@ -43,21 +43,21 @@ Student profiles and job descriptions often contain unstructured text that fixed
 
 Generative AI has expanded career guidance beyond simple prediction. Waikar et al. (2024) explored generative AI for student career guidance through a conversational interface, making career information more accessible. Sengupta et al. (2025) examined real-time skill-gap analysis and adaptive career guidance using a generative AI framework, distinguishing between competencies a user already has and those a profession expects.
 
-Generative AI can explain recommendations in accessible language — why a competency matters, how it relates to a role, and what activities help develop it — provided the generated advice stays grounded in verified role information rather than producing convincing but unsupported explanations.
+Generative AI can explain recommendations in accessible language: why a competency matters, how it relates to a role, and what activities help develop it, provided the generated advice stays grounded in verified role information rather than producing convincing but unsupported explanations.
 
 ### 4.7 Role and Responsibility Matrix in Career Guidance
 
 The reviewed studies show substantial progress in career prediction, skill-based recommendation, eligibility assessment, personalised pathways, NLP-based matching, and generative guidance. Career recommendations, however, are most useful when students can understand the actual expectations connected to the suggested occupation.
 
-A Role and Responsibility Matrix provides a structured connection between the student profile and the recommended career, typically covering: the role's name and purpose; major duties and responsibilities; required technical and interpersonal skills; expected proficiency levels; educational or eligibility requirements; relevant tools; the student's current competency level; identified skill gaps; recommended courses, certifications, or projects; and possible progression to future roles. This structure improves interpretability — instead of only stating that a user is suitable for a career, the system shows how the decision was reached and what the user must do next.
+A Role and Responsibility Matrix provides a structured connection between the student profile and the recommended career, typically covering: the role's name and purpose; major duties and responsibilities; required technical and interpersonal skills; expected proficiency levels; educational or eligibility requirements; relevant tools; the student's current competency level; identified skill gaps; recommended courses, certifications, or projects; and possible progression to future roles. This structure improves interpretability: instead of only stating that a user is suitable for a career, the system shows how the decision was reached and what the user must do next.
 
 ### 4.8 Research Gap
 
 The literature confirms that AI can support career prediction and personalised recommendation through data mining, machine learning, skill analysis, NLP, and generative AI (Chen et al., 2018; Raza et al., 2020; Ghosh et al., 2020; Prathibha et al., 2023; El-Khalili et al., 2025; Selvaraj et al., 2025; Sengupta et al., 2025; Hemavathy et al., 2026; Poovaraghan et al., 2026; Vinayagam et al., 2026).
 
-Within this body of work, however, greater attention is given to recommending a career than to systematically explaining the responsibilities attached to it. The relationship among the recommended role, its responsibilities, expected competencies, student readiness, and future learning actions needs clearer representation — otherwise users may know which occupation is suggested without fully understanding its professional expectations. A further gap concerns skill deficiencies: identifying a missing competency is not the same as showing where that competency applies within the role.
+Within this body of work, however, greater attention is given to recommending a career than to systematically explaining the responsibilities attached to it. The relationship among the recommended role, its responsibilities, expected competencies, student readiness, and future learning actions needs clearer representation. Otherwise, users may know which occupation is suggested without fully understanding its professional expectations. A further gap concerns skill deficiencies: identifying a missing competency is not the same as showing where that competency applies within the role.
 
-There is therefore a need for an AI-powered career guidance system that combines career prediction with a structured Role and Responsibility Matrix — one that explains the recommended role, identifies its principal responsibilities, compares role requirements with the student's present competencies, and suggests suitable development actions.
+There is therefore a need for an AI-powered career guidance system that combines career prediction with a structured Role and Responsibility Matrix, one that explains the recommended role, identifies its principal responsibilities, compares role requirements with the student's present competencies, and suggests suitable development actions.
 
 ### 4.9 Positioning of the Proposed Project
 
