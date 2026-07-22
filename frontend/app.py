@@ -625,7 +625,7 @@ col1, col2 = st.columns(2)
 with col1:
     name = st.text_input("Your Name")
     age = st.number_input("Age", min_value=16, max_value=45, value=21)
-    gender = st.selectbox("Gender", ["Male", "Female", "Other"])  # TEMP: diagnostic test — see if 'Other' is supported
+    gender = st.selectbox("Gender", ["Male", "Female"])
     degree_level = st.selectbox("Degree Level", ["Bachelor", "Master", "PhD"])
 with col2:
     field_of_study = st.selectbox(
@@ -642,7 +642,10 @@ st.caption(
     "Note: This system currently supports Bachelor / Master / PhD degree levels "
     "and technology-related fields of study only. Support for other degree levels "
     "(e.g. Diploma) and other backgrounds (e.g. Economics, Statistics, Mathematics, "
-    "Operations Research) is planned as future work and would require model retraining."
+    "Operations Research) is planned as future work and would require model retraining. "
+    "The Gender field is currently limited to the categories present in the training "
+    "dataset (Male/Female); expanding this to be more inclusive is also planned as "
+    "future work and would likewise require retraining on a more representative dataset."
 )
 
 st.subheader("Technical & Soft Skills")
