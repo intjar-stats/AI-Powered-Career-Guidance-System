@@ -110,7 +110,7 @@ The table below records failure modes relevant to this deployment, including iss
 ## 5. Security Considerations
 
 - **Credential isolation.** The OpenRouter API key is stored exclusively in Streamlit Cloud's encrypted secrets manager and in an untracked local `.env` file. At no point does the key appear in the repository, its commit history, or any project documentation.
-- **Key rotation.** During the project, the original API key was found to be invalid (rejected by the provider). It was replaced through a rotation procedure — generating a new key, updating the deployment secret, verifying the live application, and revoking the old key — without any change to the codebase. This validated the design decision to externalize credentials from the code.
+- **Key rotation.** During the project, the original API key was found to be invalid (rejected by the provider). It was replaced through a rotation procedure: generating a new key, updating the deployment secret, verifying the live application, and revoking the old key, all without any change to the codebase. This validated the design decision to externalize credentials from the code.
 - **Public repository hygiene.** Because the repository is public, `.gitignore` rules and the `.env.example` template are used to ensure contributors can configure the application locally without ever committing real credentials.
 
 ---
