@@ -912,13 +912,25 @@ if "ctx" in st.session_state:
          "Your Rating (1-5)": list(self_ratings.values())}
     )
 
-    # === Tabbed layout (mentor requirement — dashboard-style organization) ===
-    tab_overview, tab_rec, tab_skills, tab_roadmap, tab_ai, tab_resume, tab_chat = st.tabs(
-        ["🏠 Overview", "📌 Recommendations", "📊 Skill Gap", "📚 Roadmap",
-         "🤖 AI Guidance", "📄 Resume Analysis", "💬 Assistant"]
+    # === Section switcher (mentor requirement — dashboard-style organization) ===
+    # Uses st.radio instead of st.tabs deliberately: st.tabs() does not
+    # remember which tab was active across a script rerun (and ANY widget
+    # interaction, like the Resume Analysis button, triggers a full rerun),
+    # so it was jumping back to the first tab after every button click.
+    # st.radio's value persists in session_state via its key, so the
+    # selected section correctly stays put across reruns.
+    section_options = ["🏠 Overview", "📌 Recommendations", "📊 Skill Gap",
+                        "📚 Roadmap", "🤖 AI Guidance", "📄 Resume Analysis",
+                        "💬 Assistant"]
+    if "active_section" not in st.session_state:
+        st.session_state["active_section"] = section_options[0]
+    selected_section = st.radio(
+        "View", section_options, horizontal=True,
+        key="active_section", label_visibility="collapsed",
     )
+    st.divider()
 
-    with tab_overview:
+    if selected_section == "🏠 Overview":
         st.caption(
             "A quick-glance summary — see the detail tabs above for the full "
             "breakdown of each section."
@@ -968,7 +980,7 @@ if "ctx" in st.session_state:
                 f"{learning_path['duration']} — Milestone: {learning_path['milestone']}"
             )
 
-    with tab_rec:
+    if selected_section == "📌 Recommendations":
         st.subheader("Top 3 Career Recommendations")
         medals = ["🥇", "🥈", "🥉"]
         for medal, item in zip(medals, top3):
@@ -978,7 +990,7 @@ if "ctx" in st.session_state:
         # comparing scores instead of plain text)
         colorful_bar_chart(confidence_df, "Career", "Confidence (%)", horizontal=True)
 
-    with tab_skills:
+    if selected_section == "📊 Skill Gap":
         st.subheader("Skill Gap Analysis")
         if skill_gap:
             st.write("**Current Skills:**", skill_gap["current"])
@@ -1000,7 +1012,7 @@ if "ctx" in st.session_state:
                 f"career_skill_gap.csv — worth checking during testing."
             )
 
-    with tab_roadmap:
+    if selected_section == "📚 Roadmap":
         st.subheader("Learning Roadmap")
         if learning_path:
             with st.container(border=True):
@@ -1016,7 +1028,7 @@ if "ctx" in st.session_state:
                 f"label mismatch between datasets."
             )
 
-    with tab_ai:
+    if selected_section == "🤖 AI Guidance":
         st.subheader("AI Career Guidance")
         if ctx["explanation_text"]:
             with st.container(border=True):
@@ -1029,7 +1041,7 @@ if "ctx" in st.session_state:
             if ctx["explanation_error"]:
                 st.caption(f"Technical detail: {ctx['explanation_error']}")
 
-    with tab_resume:
+    if selected_section == "📄 Resume Analysis":
         st.subheader("Resume Analysis")
         st.caption(
             f"Upload your resume (PDF) to see how well it matches your top "
@@ -1067,7 +1079,7 @@ if "ctx" in st.session_state:
         elif resume_file is None:
             st.caption("No resume uploaded yet.")
 
-    with tab_chat:
+    if selected_section == "💬 Assistant":
         st.subheader("AI Career Assistant")
         st.caption(
             "Ask follow-up questions about your recommended careers, skills, "
