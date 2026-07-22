@@ -913,21 +913,40 @@ if "ctx" in st.session_state:
     )
 
     # === Section switcher (mentor requirement — dashboard-style organization) ===
-    # Uses st.selectbox instead of st.tabs deliberately: st.tabs() doesn't
+    # Uses st.radio instead of st.tabs deliberately: st.tabs() doesn't
     # remember which tab was active across a script rerun (any widget
     # interaction, like the Resume Analysis button, triggers a rerun), so
-    # it kept jumping back to the first tab after every button click. A
-    # horizontal st.radio fixed that but wrapped to two lines with 7
-    # options; st.selectbox always stays on a single line regardless of
-    # screen width, and its value persists in session_state via its key
-    # exactly the same way.
+    # it kept jumping back to the first tab after every button click.
+    # A small CSS override forces the pills to stay on one line (with
+    # horizontal scroll as a fallback on narrow screens) instead of
+    # wrapping to two rows. This targets Streamlit's data-testid attribute,
+    # which is far more stable across Streamlit versions than its internal
+    # class names — if a future Streamlit version ever changes it, this
+    # simply stops applying and the layout falls back to wrapping (not a
+    # crash), so it degrades safely either way.
+    st.markdown(
+        """
+        <style>
+        div[data-testid="stRadio"] > div[role="radiogroup"] {
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            padding-bottom: 4px;
+        }
+        div[data-testid="stRadio"] label {
+            white-space: nowrap;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
     section_options = ["🏠 Overview", "📌 Recommendations", "📊 Skill Gap",
                         "📚 Roadmap", "🤖 AI Guidance", "📄 Resume Analysis",
                         "💬 Assistant"]
     if "active_section" not in st.session_state:
         st.session_state["active_section"] = section_options[0]
-    selected_section = st.selectbox(
-        "View", section_options, key="active_section", label_visibility="collapsed",
+    selected_section = st.radio(
+        "View", section_options, horizontal=True,
+        key="active_section", label_visibility="collapsed",
     )
     st.divider()
 
