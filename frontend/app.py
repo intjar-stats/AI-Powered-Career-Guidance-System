@@ -662,11 +662,11 @@ st.write("Get personalized Top-3 career recommendations, a skill gap analysis, "
          "and a learning roadmap — powered by machine learning and AI.")
 
 st.info(
-    "**Welcome.** Complete your profile below and click **Get Career "
-    "Recommendation** to receive personalized career matches, a skill gap "
-    "analysis, a learning roadmap, and an AI-generated explanation — plus "
-    "a resume review and an interactive assistant for follow-up questions. "
-    "This session is private: no login is required and no data is stored."
+    "**Welcome — let's map out your next career move.** 🎯 Fill in your "
+    "profile and skills below, and get AI-matched career recommendations, "
+    "a skill gap breakdown, a personalized learning roadmap, and a resume "
+    "review 📄 in seconds — with an assistant 💬 on standby for anything "
+    "else. 🔒 No login, no data stored: this session is yours alone."
 )
 
 if not predictor.is_ready:
