@@ -154,14 +154,16 @@ def _draw_confidence_chart_pdf(pdf, top3, x=15, width=180, bar_height=10, gap=4)
     library like kaleido/vl-convert) — native drawing is lighter and safer
     to deploy."""
     colors = [(31, 119, 180), (255, 127, 14), (44, 160, 44)]  # blue, orange, green
-    label_width = 60
+    label_width = 78  # widened + no hard character slice below, so full
+                       # career names (e.g. "Business Intelligence Analyst")
+                       # aren't cut off like they were before
     bar_area_width = width - label_width - 20
     y = pdf.get_y()
     pdf.set_font("Helvetica", "", 9)
     for i, item in enumerate(top3):
         bar_y = y + i * (bar_height + gap)
         pdf.set_xy(x, bar_y)
-        pdf.cell(label_width, bar_height, _safe(item["career"])[:28], align="L")
+        pdf.cell(label_width, bar_height, _safe(item["career"]), align="L")
         bar_len = max(bar_area_width * item["confidence"], 2)
         pdf.set_fill_color(*colors[i % len(colors)])
         pdf.rect(x + label_width, bar_y + 1, bar_len, bar_height - 2, style="F")
