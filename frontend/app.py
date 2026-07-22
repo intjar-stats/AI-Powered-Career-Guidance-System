@@ -135,20 +135,46 @@ def _safe(text):
     return text.encode("latin-1", "ignore").decode("latin-1")
 
 
-def _write(pdf, text, width_chars=85):
-    """Write text to the PDF, wrapping it ourselves with Python's textwrap
-    and rendering it line-by-line with cell(). This deliberately avoids
-    fpdf2's own internal word-wrap (multi_cell), which has a known fragile
-    edge case ('Not enough horizontal space to render a single character')
-    that's hard to predict from the data alone. Wrapping manually first
-    guarantees every line handed to fpdf2 is short and safe."""
+def _wrap_by_width(pdf, text, max_width):
+    """Wraps text into lines that actually fit within max_width (mm), using
+    fpdf2's own get_string_width() to measure real rendered width for the
+    current font — this is far more reliable than guessing a wrap point
+    from a fixed character count, which doesn't account for proportional
+    font metrics ('W' is much wider than 'i') and was cutting text off when
+    used inside the narrower card layout, where the guess no longer matched
+    the actually-available width."""
+    words = text.split(" ")
+    lines = []
+    current = ""
+    for word in words:
+        candidate = (current + " " + word).strip()
+        if not current or pdf.get_string_width(candidate) <= max_width:
+            current = candidate
+        else:
+            lines.append(current)
+            current = word
+    if current:
+        lines.append(current)
+    return lines or [""]
+
+
+def _write(pdf, text, width_chars=None):
+    """Write text to the PDF, wrapped by actual rendered width (see
+    _wrap_by_width) rather than a fixed character-count guess, and rendered
+    line-by-line with cell(). This deliberately avoids fpdf2's own internal
+    word-wrap (multi_cell), which has a known fragile edge case ('Not
+    enough horizontal space to render a single character') that's hard to
+    predict from the data alone. width_chars is kept as an accepted
+    (now unused) parameter so existing call sites don't need to change."""
     text = _safe(text)
+    base_x = pdf.l_margin
+    max_width = pdf.w - base_x - pdf.r_margin
     for paragraph in text.split("\n"):
         if not paragraph.strip():
             pdf.ln(3)
             continue
-        wrapped_lines = textwrap.wrap(paragraph, width=width_chars) or [""]
-        for line in wrapped_lines:
+        for line in _wrap_by_width(pdf, paragraph, max_width):
+            pdf.set_x(base_x)
             pdf.cell(0, 6, line, ln=True)
 
 
@@ -372,7 +398,7 @@ def _card_end(pdf, card_state, border_color=(210, 210, 218)):
     pdf.ln(8)
 
 
-def _write_markdown(pdf, text, width_chars=78):
+def _write_markdown(pdf, text, width_chars=None):
     """A lightweight markdown-to-PDF renderer for the AI-generated
     explanation text, which comes back with GitHub-style markdown
     (#/##/### headings, **bold**, - bullets, --- rules, | tables |). The
@@ -381,9 +407,12 @@ def _write_markdown(pdf, text, width_chars=78):
     rather than dumping the raw # and ** characters as plain text.
     Deliberately cell()-based (not fpdf2's multi_cell/write auto-wrap,
     which has a known fragile edge case) — same manual-wrap approach as
-    _write(), just with per-line-type formatting."""
+    _write(), wrapped by actual rendered width (see _wrap_by_width) rather
+    than a fixed character-count guess. width_chars is kept as an accepted
+    (now unused) parameter so existing call sites don't need to change."""
     text = _safe(text)
     base_x = pdf.l_margin
+    max_width = pdf.w - base_x - pdf.r_margin
 
     for raw_line in text.split("\n"):
         line = raw_line.strip()
@@ -428,9 +457,9 @@ def _write_markdown(pdf, text, width_chars=78):
         bullet_match = re.match(r"^[-*]\s+(.*)$", line)
         if bullet_match:
             bullet_text = re.sub(r"\*\*(.+?)\*\*", r"\1", bullet_match.group(1))
-            wrapped = textwrap.wrap(bullet_text, width=width_chars - 3) or [""]
-            for j, wline in enumerate(wrapped):
-                pdf.set_x(base_x + 4)
+            bullet_indent = 4
+            for j, wline in enumerate(_wrap_by_width(pdf, bullet_text, max_width - bullet_indent - 3)):
+                pdf.set_x(base_x + bullet_indent)
                 pdf.cell(0, 6, ("-  " if j == 0 else "   ") + wline, ln=True)
             continue
 
@@ -440,8 +469,7 @@ def _write_markdown(pdf, text, width_chars=78):
                 continue
             cells = [c.strip() for c in line.strip("|").split("|")]
             row_text = "   ".join(c for c in cells if c)
-            wrapped = textwrap.wrap(row_text, width=width_chars) or [""]
-            for wline in wrapped:
+            for wline in _wrap_by_width(pdf, row_text, max_width):
                 pdf.set_x(base_x)
                 pdf.cell(0, 6, wline, ln=True)
             continue
@@ -451,8 +479,7 @@ def _write_markdown(pdf, text, width_chars=78):
         # on one line needs fpdf2's flowing write() API, which _write() and
         # this function both deliberately avoid for stability)
         clean_line = re.sub(r"\*\*(.+?)\*\*", r"\1", line)
-        wrapped = textwrap.wrap(clean_line, width=width_chars) or [""]
-        for wline in wrapped:
+        for wline in _wrap_by_width(pdf, clean_line, max_width):
             pdf.set_x(base_x)
             pdf.cell(0, 6, wline, ln=True)
 
@@ -708,6 +735,11 @@ if st.button("Get Career Recommendation", type="primary"):
 
     # --- Step 3: GenAI explanation (called once, stored; not re-called on reruns) ---
     prompt = f"""{SYSTEM_PROMPT}
+
+IMPORTANT: Do not restate or summarize the student's profile (name, age,
+degree, GPA, experience) at the start of your response — it is already
+shown separately in the report, right above where your response appears.
+Start directly with the career recommendations.
 
 Name: {name or "Student"}
 Age: {age}
