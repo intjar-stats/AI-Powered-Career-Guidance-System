@@ -28,6 +28,7 @@ Deploy:       Streamlit Community Cloud (see deployment task for steps)
 
 import re
 import textwrap
+import math
 
 import streamlit as st
 import pandas as pd
@@ -113,10 +114,25 @@ from recommender import get_skill_gap, get_learning_path
 from gemini import get_career_recommendation, GenAIUnavailableError
 from prompts import SYSTEM_PROMPT
 
+_UNICODE_REPLACEMENTS = {
+    "\u2018": "'", "\u2019": "'",     # curly single quotes
+    "\u201c": '"', "\u201d": '"',     # curly double quotes
+    "\u2013": "-", "\u2014": "-",     # en dash, em dash
+    "\u2026": "...",                   # ellipsis
+    "\u2022": "-",                     # bullet
+}
+
+
 def _safe(text):
-    """fpdf2's built-in font only supports latin-1 — strip/replace anything
-    outside that range (emojis, smart quotes from GenAI output, etc.)."""
-    return str(text).encode("latin-1", "replace").decode("latin-1")
+    """fpdf2's built-in font only supports latin-1. Common "smart" punctuation
+    from the AI's output (curly quotes, dashes, ellipsis, bullets) is
+    converted to a plain-ASCII equivalent first; anything else outside
+    latin-1 (emoji, etc.) is then dropped rather than shown as a stray '?',
+    which looked messy in the printed report."""
+    text = str(text)
+    for uni_char, ascii_equiv in _UNICODE_REPLACEMENTS.items():
+        text = text.replace(uni_char, ascii_equiv)
+    return text.encode("latin-1", "ignore").decode("latin-1")
 
 
 def _write(pdf, text, width_chars=85):
@@ -147,35 +163,50 @@ def _ensure_space(pdf, needed_height):
         pdf.add_page()
 
 
-def _draw_confidence_chart_pdf(pdf, top3, x=15, width=180, bar_height=10, gap=4):
-    """Draws a horizontal bar chart of career-match confidence directly in
-    the PDF using fpdf2's native rect() drawing. Deliberately avoids
-    converting the Altair chart to an image (which would need an extra
-    library like kaleido/vl-convert) — native drawing is lighter and safer
-    to deploy."""
-    colors = [(31, 119, 180), (255, 127, 14), (44, 160, 44)]  # blue, orange, green
-    label_width = 78  # widened + no hard character slice below, so full
-                       # career names (e.g. "Business Intelligence Analyst")
-                       # aren't cut off like they were before
-    bar_area_width = width - label_width - 20
-    y = pdf.get_y()
-    pdf.set_font("Helvetica", "", 9)
-    for i, item in enumerate(top3):
-        bar_y = y + i * (bar_height + gap)
-        pdf.set_xy(x, bar_y)
-        pdf.cell(label_width, bar_height, _safe(item["career"]), align="L")
-        bar_len = max(bar_area_width * item["confidence"], 2)
-        pdf.set_fill_color(*colors[i % len(colors)])
-        pdf.rect(x + label_width, bar_y + 1, bar_len, bar_height - 2, style="F")
-        pdf.set_xy(x + label_width + bar_len + 2, bar_y)
-        pdf.cell(20, bar_height, f"{item['confidence']:.0%}", align="L")
-    pdf.set_y(y + len(top3) * (bar_height + gap) + 4)
+def _draw_donut_chart_pdf(pdf, slices, cx, cy, outer_r=20, inner_r=10, start_angle_deg=-90):
+    """Draws a donut chart as filled polygon 'ring segments' — fpdf2 has no
+    built-in pie/donut primitive, so each slice is approximated as a many-
+    sided polygon tracing the outer arc then back along the inner arc. This
+    only relies on set_fill_color()/polygon(), both simple and stable, so it
+    avoids depending on fpdf2's newer/less-common arc-drawing API.
+    slices: list of (label, value, (r,g,b)). Returns the total value (for
+    computing percentages in the legend)."""
+    total = sum(v for _, v, _ in slices) or 1
+    angle = start_angle_deg
+    steps = 48  # curve smoothness
+    for _, value, color in slices:
+        sweep = 360 * (value / total)
+        a0, a1 = math.radians(angle), math.radians(angle + sweep)
+        pts = []
+        for i in range(steps + 1):
+            a = a0 + (a1 - a0) * i / steps
+            pts.append((cx + outer_r * math.cos(a), cy + outer_r * math.sin(a)))
+        for i in range(steps + 1):
+            a = a1 - (a1 - a0) * i / steps
+            pts.append((cx + inner_r * math.cos(a), cy + inner_r * math.sin(a)))
+        pdf.set_fill_color(*color)
+        pdf.polygon(pts, style="F")
+        angle += sweep
+    return total
 
 
-def _draw_skills_chart_pdf(pdf, profile, x=15, width=180, chart_height=35):
-    """Draws a vertical bar chart of self-rated key skills (1-5) directly
-    in the PDF, using the same color-per-skill scheme as the live app for
-    visual consistency."""
+def _draw_donut_legend_pdf(pdf, slices, x, y, total, row_height=5):
+    """Color-swatch + percentage legend under a donut chart (fpdf2 can't put
+    text directly on curved slices), so this is how the '% per color' is shown."""
+    pdf.set_font("Helvetica", "", 8)
+    for i, (label, value, color) in enumerate(slices):
+        pct = (value / total) * 100
+        row_y = y + i * row_height
+        pdf.set_fill_color(*color)
+        pdf.rect(x, row_y + 1, 3, 3, style="F")
+        pdf.set_xy(x + 5, row_y)
+        pdf.cell(0, row_height, f"{_safe(label)[:26]}: {pct:.0f}%")
+    pdf.set_y(y + len(slices) * row_height + 3)
+
+
+def _draw_skills_chart_pdf(pdf, profile, x=15, width=80, chart_height=28, pad=6):
+    """Draws a vertical bar chart of self-rated key skills (1-5), using the
+    same color-per-skill scheme as the live app for visual consistency."""
     skills = [
         ("Python", profile["python"], (214, 39, 40)),                      # red
         ("Machine Learning", profile["machine_learning"], (44, 160, 44)),  # green
@@ -183,39 +214,247 @@ def _draw_skills_chart_pdf(pdf, profile, x=15, width=180, chart_height=35):
         ("Cloud Computing", profile["cloud_computing"], (31, 119, 180)),   # blue
         ("Data Analysis", profile["data_analysis"], (255, 127, 14)),       # orange
     ]
-    y = pdf.get_y() + 6  # leave room for value labels above bars
+    y = pdf.get_y() + 5  # room for value labels above bars
     slot_width = width / len(skills)
-    bar_width = slot_width - 8
-    pdf.set_font("Helvetica", "", 7)
+    bar_width = max(slot_width - pad, 3)
+    pdf.set_font("Helvetica", "", 6)
     for i, (label, rating, color) in enumerate(skills):
-        bx = x + i * slot_width + 4
+        bx = x + i * slot_width + pad / 2
         bar_h = (rating / 5) * chart_height
         pdf.set_fill_color(*color)
-        pdf.rect(bx, y + (chart_height - bar_h), bar_width, bar_h, style="F")
-        pdf.set_xy(bx - 2, y + (chart_height - bar_h) - 5)
+        pdf.rect(bx, y + (chart_height - bar_h), bar_width, max(bar_h, 1), style="F")
+        pdf.set_xy(bx - 2, y + (chart_height - bar_h) - 4)
         pdf.cell(bar_width + 4, 4, str(rating), align="C")
+        pdf.set_xy(bx - 4, y + chart_height + 1)
+        pdf.cell(bar_width + 8, 4, label[:12], align="C")
+    pdf.set_y(y + chart_height + 8)
+
+
+def _draw_histogram_pdf(pdf, self_ratings, x=15, width=80, chart_height=28):
+    """Bar-style histogram of how many skills fall at each rating (1-5),
+    colored red (low) to green (high) — mirrors the app's Skill Rating
+    Distribution chart."""
+    counts = {i: 0 for i in range(1, 6)}
+    for v in self_ratings.values():
+        counts[v] = counts.get(v, 0) + 1
+    colors = {1: (214, 39, 40), 2: (255, 127, 14), 3: (242, 199, 68),
+              4: (143, 206, 0), 5: (44, 160, 44)}
+    max_count = max(counts.values()) or 1
+    y = pdf.get_y()
+    slot_width = width / 5
+    bar_width = max(slot_width - 6, 3)
+    pdf.set_font("Helvetica", "", 6)
+    for i, rating in enumerate(range(1, 6)):
+        count = counts[rating]
+        bx = x + i * slot_width + 3
+        bar_h = (count / max_count) * chart_height
+        pdf.set_fill_color(*colors[rating])
+        pdf.rect(bx, y + (chart_height - bar_h), bar_width, max(bar_h, 1), style="F")
         pdf.set_xy(bx - 2, y + chart_height + 1)
-        pdf.cell(bar_width + 4, 4, label[:16], align="C")
+        pdf.cell(bar_width + 4, 4, f"Lvl {rating}", align="C")
+    pdf.set_font("Helvetica", "", 7)
+    pdf.set_xy(x, y - 5)
+    pdf.cell(width, 4, "Self-Rated Level (1=Beginner, 5=Expert)", align="L")
     pdf.set_y(y + chart_height + 6)
 
 
-def _draw_readiness_bar_pdf(pdf, skill_gap, x=15, width=180, bar_height=8):
-    """Draws a green/orange stacked bar showing skill readiness (Ready %
-    vs To Learn %) — a lightweight stand-in for the app's readiness donut,
-    using the same colors so both stay visually consistent."""
-    ready_pct = max(0, min(1, (100 - skill_gap["gap"]) / 100))
-    y = pdf.get_y()
-    ready_width = width * ready_pct
-    pdf.set_fill_color(44, 160, 44)  # green
-    pdf.rect(x, y, ready_width, bar_height, style="F")
-    pdf.set_fill_color(255, 127, 14)  # orange
-    pdf.rect(x + ready_width, y, width - ready_width, bar_height, style="F")
-    pdf.set_xy(x, y + bar_height + 1)
-    pdf.set_font("Helvetica", "", 8)
-    pdf.cell(width / 2, 4, f"Ready: {100 - skill_gap['gap']:.0f}%", align="L")
-    pdf.set_xy(x + width / 2, y + bar_height + 1)
-    pdf.cell(width / 2, 4, f"To Learn: {skill_gap['gap']:.0f}%", align="R")
-    pdf.set_y(y + bar_height + 10)
+def _draw_overview_grid_pdf(pdf, top3, profile, skill_gap):
+    """Draws a 2x2 visual grid mirroring the app's Overview tab: a career
+    match donut, a skill ratings bar chart, a skill-rating histogram, and a
+    skill-readiness donut — all natively drawn with fpdf2 (no PNG/image
+    conversion needed, so no extra libraries or deployment risk)."""
+    left_x, right_x, col_width = 15, 108, 80
+    donut_colors = [(31, 119, 180), (255, 127, 14), (44, 160, 44), (214, 39, 40)]
+
+    pdf.set_font("Helvetica", "B", 12)
+    pdf.cell(0, 8, "Visual Summary", ln=True)
+
+    _ensure_space(pdf, 72)
+    row1_y = pdf.get_y() + 2
+
+    # --- Row 1, left: Career Match Breakdown (donut) ---
+    slices = [(item["career"], item["confidence"], donut_colors[i % len(donut_colors)])
+              for i, item in enumerate(top3)]
+    pdf.set_font("Helvetica", "B", 9)
+    pdf.set_xy(left_x, row1_y)
+    pdf.cell(col_width, 5, "Career Match Breakdown")
+    donut_cy = row1_y + 6 + 20
+    total = _draw_donut_chart_pdf(pdf, slices, left_x + col_width / 2, donut_cy,
+                                   outer_r=20, inner_r=10)
+    _draw_donut_legend_pdf(pdf, slices, left_x, donut_cy + 23, total)
+    row1_left_bottom = pdf.get_y()
+
+    # --- Row 1, right: Your Skill Ratings (bar chart) ---
+    pdf.set_font("Helvetica", "B", 9)
+    pdf.set_xy(right_x, row1_y)
+    pdf.cell(col_width, 5, "Your Skill Ratings")
+    pdf.set_xy(right_x, row1_y + 6)
+    _draw_skills_chart_pdf(pdf, profile, x=right_x, width=col_width, chart_height=28)
+    row1_right_bottom = pdf.get_y()
+
+    row2_y = max(row1_left_bottom, row1_right_bottom) + 6
+    pdf.set_y(row2_y)
+    _ensure_space(pdf, 60)
+    row2_y = pdf.get_y()
+
+    # --- Row 2, left: Skill Rating Distribution (histogram) ---
+    self_ratings = {
+        "Python": profile["python"], "Machine Learning": profile["machine_learning"],
+        "SQL": profile["sql"], "Cloud Computing": profile["cloud_computing"],
+        "Data Analysis": profile["data_analysis"],
+    }
+    pdf.set_font("Helvetica", "B", 9)
+    pdf.set_xy(left_x, row2_y)
+    pdf.cell(col_width, 5, "Skill Rating Distribution")
+    pdf.set_xy(left_x, row2_y + 11)
+    _draw_histogram_pdf(pdf, self_ratings, x=left_x, width=col_width, chart_height=26)
+    row2_left_bottom = pdf.get_y()
+
+    # --- Row 2, right: Skill Readiness (donut) ---
+    row2_right_bottom = row2_y
+    if skill_gap:
+        ready_pct = max(0, min(100, 100 - skill_gap["gap"]))
+        readiness_slices = [
+            ("Ready", ready_pct, (44, 160, 44)),
+            ("To Learn", skill_gap["gap"], (255, 127, 14)),
+        ]
+        pdf.set_font("Helvetica", "B", 9)
+        pdf.set_xy(right_x, row2_y)
+        pdf.cell(col_width, 5, "Skill Readiness")
+        donut_cy2 = row2_y + 6 + 17
+        total2 = _draw_donut_chart_pdf(pdf, readiness_slices, right_x + col_width / 2,
+                                        donut_cy2, outer_r=17, inner_r=8)
+        _draw_donut_legend_pdf(pdf, readiness_slices, right_x, donut_cy2 + 20, total2)
+        row2_right_bottom = pdf.get_y()
+
+    pdf.set_font("Helvetica", "", 10)
+    pdf.set_y(max(row2_left_bottom, row2_right_bottom) + 4)
+
+
+def _card_start(pdf, indent=6):
+    """Begin a bordered 'card' section, mirroring the app's
+    st.container(border=True) look. Temporarily indents the page's left/
+    right margins so every normal _write()/_write_markdown() call inside
+    naturally stays within the card — cell(0, ...) always measures its
+    width against the current margins, so this needs no changes to those
+    functions. Returns the state needed to close the card afterward."""
+    y = pdf.get_y() + 2
+    pdf.set_y(y)
+    orig_l, orig_r = pdf.l_margin, pdf.r_margin
+    start_page = pdf.page
+    pdf.set_left_margin(orig_l + indent)
+    pdf.set_right_margin(orig_r + indent)
+    pdf.set_x(pdf.l_margin)
+    return y, orig_l, orig_r, start_page
+
+
+def _card_end(pdf, card_state, border_color=(210, 210, 218)):
+    """Close a card section: restore the original margins, then draw a
+    stroke-only rectangle around everything written since _card_start. This
+    is done *after* the content on purpose — a hollow (unfilled) rect drawn
+    afterward just adds an outline and doesn't cover the text inside it, so
+    draw order doesn't matter here, only that we know the final height.
+    If the card's content triggered a page break (long AI explanations
+    sometimes do), the border is skipped rather than drawn broken/spanning
+    two pages — the content itself still renders fine either way."""
+    y_start, orig_l, orig_r, start_page = card_state
+    y_end = pdf.get_y()
+    same_page = (pdf.page == start_page)
+    pdf.set_left_margin(orig_l)
+    pdf.set_right_margin(orig_r)
+    if same_page:
+        box_w = pdf.w - orig_l - orig_r
+        pdf.set_draw_color(*border_color)
+        pdf.set_line_width(0.3)
+        pdf.rect(orig_l, y_start - 3, box_w, (y_end - y_start) + 6, style="D")
+        pdf.set_draw_color(0, 0, 0)
+    pdf.set_x(orig_l)
+    pdf.ln(8)
+
+
+def _write_markdown(pdf, text, width_chars=78):
+    """A lightweight markdown-to-PDF renderer for the AI-generated
+    explanation text, which comes back with GitHub-style markdown
+    (#/##/### headings, **bold**, - bullets, --- rules, | tables |). The
+    app's st.write() renders this properly via Streamlit's own markdown
+    engine; fpdf2 has no such engine, so this hand-rolls the common cases
+    rather than dumping the raw # and ** characters as plain text.
+    Deliberately cell()-based (not fpdf2's multi_cell/write auto-wrap,
+    which has a known fragile edge case) — same manual-wrap approach as
+    _write(), just with per-line-type formatting."""
+    text = _safe(text)
+    base_x = pdf.l_margin
+
+    for raw_line in text.split("\n"):
+        line = raw_line.strip()
+
+        if not line:
+            pdf.ln(2)
+            continue
+
+        # Horizontal rule: ---
+        if re.fullmatch(r"-{3,}", line):
+            pdf.ln(1)
+            y = pdf.get_y()
+            pdf.set_draw_color(210, 210, 210)
+            pdf.line(base_x, y, pdf.w - pdf.r_margin, y)
+            pdf.set_draw_color(0, 0, 0)
+            pdf.ln(3)
+            continue
+
+        # Headings: #, ##, ### Heading text
+        heading_match = re.match(r"^(#{1,4})\s+(.*)$", line)
+        if heading_match:
+            level = len(heading_match.group(1))
+            heading_text = heading_match.group(2).strip("* ")
+            size = {1: 13, 2: 12, 3: 11}.get(level, 10)
+            pdf.set_font("Helvetica", "B", size)
+            pdf.set_x(base_x)
+            pdf.cell(0, 7, heading_text, ln=True)
+            pdf.set_font("Helvetica", "", 10)
+            continue
+
+        # A line that is entirely bold: **Text** (a common LLM pattern for
+        # short section labels like "**Match Confidence: 100%**")
+        whole_bold = re.fullmatch(r"\*\*(.+?)\*\*:?", line)
+        if whole_bold:
+            pdf.set_font("Helvetica", "B", 10)
+            pdf.set_x(base_x)
+            pdf.cell(0, 6, whole_bold.group(1), ln=True)
+            pdf.set_font("Helvetica", "", 10)
+            continue
+
+        # Bullet lines: "- text" or "* text"
+        bullet_match = re.match(r"^[-*]\s+(.*)$", line)
+        if bullet_match:
+            bullet_text = re.sub(r"\*\*(.+?)\*\*", r"\1", bullet_match.group(1))
+            wrapped = textwrap.wrap(bullet_text, width=width_chars - 3) or [""]
+            for j, wline in enumerate(wrapped):
+                pdf.set_x(base_x + 4)
+                pdf.cell(0, 6, ("-  " if j == 0 else "   ") + wline, ln=True)
+            continue
+
+        # Table rows: strip pipes; skip pure separator rows like |---|---|
+        if line.startswith("|"):
+            if re.fullmatch(r"\|[\s\-:|]+\|", line):
+                continue
+            cells = [c.strip() for c in line.strip("|").split("|")]
+            row_text = "   ".join(c for c in cells if c)
+            wrapped = textwrap.wrap(row_text, width=width_chars) or [""]
+            for wline in wrapped:
+                pdf.set_x(base_x)
+                pdf.cell(0, 6, wline, ln=True)
+            continue
+
+        # Regular paragraph line — strip any remaining inline **bold** markers
+        # (rendering the enclosed text plain, since mixed bold/normal text
+        # on one line needs fpdf2's flowing write() API, which _write() and
+        # this function both deliberately avoid for stability)
+        clean_line = re.sub(r"\*\*(.+?)\*\*", r"\1", line)
+        wrapped = textwrap.wrap(clean_line, width=width_chars) or [""]
+        for wline in wrapped:
+            pdf.set_x(base_x)
+            pdf.cell(0, 6, wline, ln=True)
 
 
 def generate_pdf_report(name, profile, top3, skill_gap, learning_path, explanation):
@@ -243,9 +482,10 @@ def generate_pdf_report(name, profile, top3, skill_gap, learning_path, explanati
     pdf.set_font("Helvetica", "", 10)
     for i, item in enumerate(top3, 1):
         _write(pdf, f"{i}. {item['career']}  (confidence: {item['confidence']:.0%})")
+    pdf.ln(4)
+
+    _draw_overview_grid_pdf(pdf, top3, profile, skill_gap)
     pdf.ln(2)
-    _ensure_space(pdf, 50)
-    _draw_confidence_chart_pdf(pdf, top3)
 
     if skill_gap:
         pdf.set_font("Helvetica", "B", 12)
@@ -257,34 +497,27 @@ def generate_pdf_report(name, profile, top3, skill_gap, learning_path, explanati
         _write(pdf, f"Estimated Hours: {skill_gap['hours']}")
         _write(pdf, f"Recommended Courses: {skill_gap['courses']}")
         pdf.ln(2)
-        pdf.set_font("Helvetica", "I", 8)
-        _write(pdf, "Your self-rated proficiency for key skills:")
-        pdf.set_font("Helvetica", "", 10)
-        _ensure_space(pdf, 55)
-        _draw_skills_chart_pdf(pdf, profile)
-        pdf.set_font("Helvetica", "I", 8)
-        _write(pdf, "Skill readiness for your top match:")
-        pdf.set_font("Helvetica", "", 10)
-        _ensure_space(pdf, 25)
-        _draw_readiness_bar_pdf(pdf, skill_gap)
 
     if learning_path:
         pdf.set_font("Helvetica", "B", 12)
         pdf.cell(0, 8, "Learning Roadmap", ln=True)
         pdf.set_font("Helvetica", "", 10)
-        _write(pdf, f"Learning Stage: {learning_path['stage']}")
-        _write(pdf, f"Priority Skills: {learning_path['skills']}")
-        _write(pdf, f"Learning Path: {learning_path['path']}")
-        _write(pdf, f"Resources: {learning_path['resources']}")
-        _write(pdf, f"Estimated Duration: {learning_path['duration']}")
-        _write(pdf, f"Milestone: {learning_path['milestone']}")
-        pdf.ln(2)
+        card = _card_start(pdf)
+        _write(pdf, f"Learning Stage: {learning_path['stage']}", width_chars=76)
+        _write(pdf, f"Priority Skills: {learning_path['skills']}", width_chars=76)
+        _write(pdf, f"Learning Path: {learning_path['path']}", width_chars=76)
+        _write(pdf, f"Resources: {learning_path['resources']}", width_chars=76)
+        _write(pdf, f"Estimated Duration: {learning_path['duration']}", width_chars=76)
+        _write(pdf, f"Milestone: {learning_path['milestone']}", width_chars=76)
+        _card_end(pdf, card)
 
     if explanation:
         pdf.set_font("Helvetica", "B", 12)
         pdf.cell(0, 8, "AI Career Guidance", ln=True)
         pdf.set_font("Helvetica", "", 10)
-        _write(pdf, explanation)
+        card = _card_start(pdf)
+        _write_markdown(pdf, explanation, width_chars=76)
+        _card_end(pdf, card)
 
     return bytes(pdf.output())
 
