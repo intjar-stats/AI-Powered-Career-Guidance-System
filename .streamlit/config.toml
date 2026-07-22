@@ -1,10 +1,11 @@
 [theme]
-# Colorful theme for the AI-Powered Career Guidance System, inspired by the
-# reference dashboard the mentor shared. This recolors buttons, active tab
-# underlines, sliders, the chat input, and metric accents app-wide — no
-# custom CSS needed, so it stays stable across Streamlit versions.
-primaryColor = "#6366F1"
+# Professional deep-red theme for the AI-Powered Career Guidance System.
+# Chosen over a bright/pure red deliberately — bright red reads as
+# "error/danger" in most UI conventions (and our own charts already use
+# red for low skill ratings), so a deeper, more formal red avoids that
+# clash on buttons, sliders, and the active tab underline.
+primaryColor = "#B91C1C"
 backgroundColor = "#FFFFFF"
-secondaryBackgroundColor = "#F3F4FF"
+secondaryBackgroundColor = "#FBF3F3"
 textColor = "#1F2430"
 font = "sans serif"
