@@ -36,6 +36,6 @@ The dataset was checked for quality before use: loading it with Pandas and inspe
 
 **Train-test split.** The dataset was split 80/20 into training and testing sets using Scikit-Learn's `train_test_split()` (random state 42), giving 800 training records and 200 testing records.
 
-**Deliverables from this stage:** a Jupyter notebook documenting the full preprocessing workflow (linked in the repository), the processed training and testing datasets, and `input_encoders.pkl`.
+**Deliverables from this stage:** a Jupyter notebook documenting the full preprocessing workflow (`notebooks/Data_Preprocessing_Feature_Engineering__1_.ipynb` in the repository), the processed training and testing datasets, and `input_encoders.pkl`.
 
 > **Note for final review:** This preprocessing stage encoded a broader set of categorical fields (including status, industry, and goal-related columns) than the three fields (`gender`, `degree_level`, `field_of_study`) used by the final deployed model in `predictor.py`. This likely reflects normal refinement between the exploratory preprocessing stage and the final feature set selected for the production XGBoost model. It needs to be confirmed and reconciled once Likhitha's model-comparison write-up is in, so this section and the ML Recommendation Engine section describe the same final feature set consistently.
