@@ -136,6 +136,86 @@ def _write(pdf, text, width_chars=85):
             pdf.cell(0, 6, line, ln=True)
 
 
+def _ensure_space(pdf, needed_height):
+    """Add a new page if there isn't enough room left for the next chart.
+    fpdf2 only checks for page breaks automatically inside cell()/multi_cell()
+    — rect()-based chart drawing doesn't trigger it, so charts near a page
+    bottom could otherwise get cut off. Computed from pdf.h/pdf.b_margin
+    directly (stable fpdf2 attributes) rather than an internal-only name."""
+    bottom_limit = pdf.h - pdf.b_margin
+    if pdf.get_y() + needed_height > bottom_limit:
+        pdf.add_page()
+
+
+def _draw_confidence_chart_pdf(pdf, top3, x=15, width=180, bar_height=10, gap=4):
+    """Draws a horizontal bar chart of career-match confidence directly in
+    the PDF using fpdf2's native rect() drawing. Deliberately avoids
+    converting the Altair chart to an image (which would need an extra
+    library like kaleido/vl-convert) — native drawing is lighter and safer
+    to deploy."""
+    colors = [(31, 119, 180), (255, 127, 14), (44, 160, 44)]  # blue, orange, green
+    label_width = 60
+    bar_area_width = width - label_width - 20
+    y = pdf.get_y()
+    pdf.set_font("Helvetica", "", 9)
+    for i, item in enumerate(top3):
+        bar_y = y + i * (bar_height + gap)
+        pdf.set_xy(x, bar_y)
+        pdf.cell(label_width, bar_height, _safe(item["career"])[:28], align="L")
+        bar_len = max(bar_area_width * item["confidence"], 2)
+        pdf.set_fill_color(*colors[i % len(colors)])
+        pdf.rect(x + label_width, bar_y + 1, bar_len, bar_height - 2, style="F")
+        pdf.set_xy(x + label_width + bar_len + 2, bar_y)
+        pdf.cell(20, bar_height, f"{item['confidence']:.0%}", align="L")
+    pdf.set_y(y + len(top3) * (bar_height + gap) + 4)
+
+
+def _draw_skills_chart_pdf(pdf, profile, x=15, width=180, chart_height=35):
+    """Draws a vertical bar chart of self-rated key skills (1-5) directly
+    in the PDF, using the same color-per-skill scheme as the live app for
+    visual consistency."""
+    skills = [
+        ("Python", profile["python"], (214, 39, 40)),                      # red
+        ("Machine Learning", profile["machine_learning"], (44, 160, 44)),  # green
+        ("SQL", profile["sql"], (148, 103, 189)),                          # purple
+        ("Cloud Computing", profile["cloud_computing"], (31, 119, 180)),   # blue
+        ("Data Analysis", profile["data_analysis"], (255, 127, 14)),       # orange
+    ]
+    y = pdf.get_y() + 6  # leave room for value labels above bars
+    slot_width = width / len(skills)
+    bar_width = slot_width - 8
+    pdf.set_font("Helvetica", "", 7)
+    for i, (label, rating, color) in enumerate(skills):
+        bx = x + i * slot_width + 4
+        bar_h = (rating / 5) * chart_height
+        pdf.set_fill_color(*color)
+        pdf.rect(bx, y + (chart_height - bar_h), bar_width, bar_h, style="F")
+        pdf.set_xy(bx - 2, y + (chart_height - bar_h) - 5)
+        pdf.cell(bar_width + 4, 4, str(rating), align="C")
+        pdf.set_xy(bx - 2, y + chart_height + 1)
+        pdf.cell(bar_width + 4, 4, label[:16], align="C")
+    pdf.set_y(y + chart_height + 6)
+
+
+def _draw_readiness_bar_pdf(pdf, skill_gap, x=15, width=180, bar_height=8):
+    """Draws a green/orange stacked bar showing skill readiness (Ready %
+    vs To Learn %) — a lightweight stand-in for the app's readiness donut,
+    using the same colors so both stay visually consistent."""
+    ready_pct = max(0, min(1, (100 - skill_gap["gap"]) / 100))
+    y = pdf.get_y()
+    ready_width = width * ready_pct
+    pdf.set_fill_color(44, 160, 44)  # green
+    pdf.rect(x, y, ready_width, bar_height, style="F")
+    pdf.set_fill_color(255, 127, 14)  # orange
+    pdf.rect(x + ready_width, y, width - ready_width, bar_height, style="F")
+    pdf.set_xy(x, y + bar_height + 1)
+    pdf.set_font("Helvetica", "", 8)
+    pdf.cell(width / 2, 4, f"Ready: {100 - skill_gap['gap']:.0f}%", align="L")
+    pdf.set_xy(x + width / 2, y + bar_height + 1)
+    pdf.cell(width / 2, 4, f"To Learn: {skill_gap['gap']:.0f}%", align="R")
+    pdf.set_y(y + bar_height + 10)
+
+
 def generate_pdf_report(name, profile, top3, skill_gap, learning_path, explanation):
     pdf = FPDF()
     pdf.add_page()
@@ -162,6 +242,8 @@ def generate_pdf_report(name, profile, top3, skill_gap, learning_path, explanati
     for i, item in enumerate(top3, 1):
         _write(pdf, f"{i}. {item['career']}  (confidence: {item['confidence']:.0%})")
     pdf.ln(2)
+    _ensure_space(pdf, 50)
+    _draw_confidence_chart_pdf(pdf, top3)
 
     if skill_gap:
         pdf.set_font("Helvetica", "B", 12)
@@ -173,6 +255,16 @@ def generate_pdf_report(name, profile, top3, skill_gap, learning_path, explanati
         _write(pdf, f"Estimated Hours: {skill_gap['hours']}")
         _write(pdf, f"Recommended Courses: {skill_gap['courses']}")
         pdf.ln(2)
+        pdf.set_font("Helvetica", "I", 8)
+        _write(pdf, "Your self-rated proficiency for key skills:")
+        pdf.set_font("Helvetica", "", 10)
+        _ensure_space(pdf, 55)
+        _draw_skills_chart_pdf(pdf, profile)
+        pdf.set_font("Helvetica", "I", 8)
+        _write(pdf, "Skill readiness for your top match:")
+        pdf.set_font("Helvetica", "", 10)
+        _ensure_space(pdf, 25)
+        _draw_readiness_bar_pdf(pdf, skill_gap)
 
     if learning_path:
         pdf.set_font("Helvetica", "B", 12)
