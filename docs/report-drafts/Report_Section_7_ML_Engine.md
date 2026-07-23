@@ -56,6 +56,8 @@ This points to a class imbalance in the underlying dataset: some career labels a
 
 Training produces three files that the application loads at runtime: the trained classifier (`career_model.pkl`), the multi-label binarizer that maps the model's numeric output back to career names (`label_binarizer.pkl`), and the three input encoders bundled together (`input_encoders.pkl`). These three files are loaded once when the application starts (Section 11) and used for every prediction served by the deployed app.
 
+The training script and its output are available in the repository at `notebooks/IntProjectISI.ipynb`. The script itself was written by Likhitha; it was executed in Google Colab by Md Intjar (since direct access to Likhitha's own notebook was not available at the time) to regenerate the three model artifacts and confirm the results shown in Section 7.3.
+
 ---
 
 > **Editorial note for report assembly:** This draft resolves the open question noted in Section 6.2 about a mismatch between the preprocessing stage's feature set and the final model's feature set. The training script confirms the final model uses exactly the 22 features and 3 categorical encoders described here, matching `predictor.py` exactly. The broader feature set explored during initial preprocessing (Section 6.2) was evidently narrowed down during model development; Section 6.2's note can be updated to reflect this as confirmed rather than pending. This section should still be reviewed by Likhitha for accuracy and to add any additional context on the model development process that isn't visible from the code and output alone.
