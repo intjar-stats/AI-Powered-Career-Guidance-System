@@ -74,12 +74,25 @@ AI-Powered-Career-Guidance-System/
 
 - [x] Literature Review
 - [x] Dataset Collection
-- [ ] Data Preprocessing
+- [x] Data Preprocessing
 - [ ] Model Training
-- [ ] GenAI Integration
-- [ ] Streamlit Dashboard
+- [x] GenAI Integration
+- [x] Streamlit Dashboard
 - [ ] Testing & Deployment
 
+## Team / Contributors
+
+This project was built as part of an internship at IDEAS-TIH (ISI), under the mentorship of Sandip Bhattacharyya, with Bidisha Dobe as organiser.
+
+| Name | Role | GitHub |
+|---|---|---|
+| Bhupathi Likhitha | Project Lead, ML Recommendation Engine | [@likhithabhupathi2006-alt](https://github.com/likhithabhupathi2006-alt) |
+| Md Intjar | Testing, Deployment, Documentation, GitHub Maintenance, Final Integration & Frontend | [@intjar-stats](https://github.com/intjar-stats) |
+| Sama Jyotika | Literature Review | [PLACEHOLDER-ADD-USERNAME] |
+| Aman Sawan | Dataset & Career Mapping | [PLACEHOLDER-ADD-USERNAME] |
+| Uppala Lahari | Data Preprocessing & Feature Engineering | [@uppala-lahari](https://github.com/uppala-lahari) |
+| Amit Mondal | Generative AI Integration | [@Amit-2823](https://github.com/Amit-2823) |
+| Rithik Gupta | Career Guidance & Roadmap Generation | [PLACEHOLDER-ADD-USERNAME] |
 ---
 
 ## 📜 License
