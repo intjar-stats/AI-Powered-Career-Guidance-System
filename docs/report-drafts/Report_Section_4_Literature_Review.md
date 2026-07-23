@@ -1,6 +1,6 @@
 # Final Report: Draft Section 4 (Literature Review)
 
-> **Status:** Draft for review. Author: Sama Jyotika (Research & Literature Review).
+> **Status:** Draft for review. Author: Sama Jyothika (Research & Literature Review).
 > One terminology-alignment note at the end (see "Editorial Note").
 
 ---
