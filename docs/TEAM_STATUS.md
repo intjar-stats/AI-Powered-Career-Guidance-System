@@ -2,13 +2,13 @@
 
 | 👤 Member | 💼 Role | 📌 Current Status | 🎯 Deliverable |
 |----------|---------|------------------|---------------|
-| 👩‍💼 Bhupathi Likhitha | 🧠 Project Lead & ML | 🟡 Started | 🤖 ML Recommendation Engine |
+| 👩‍💼 Bhupathi Likhitha | 🧠 Project Lead & ML | 🟢 Completed | 🤖 ML Recommendation Engine (model trained, 4-way comparison delivered, XGBoost selected) |
 | 📚 Sama Jyotika | 📖 Literature Review | 🟢 Completed | 📝 Literature Review |
 | 🗂️ Aman Sawan | 📊 Dataset & Career Mapping | 🟢 Completed | 🧩 Dataset & Skill Mapping |
-| ⚙️ Uppala Lahari | 🧹 Data Preprocessing | 🟡 In Progress | 📂 Processed Dataset |
-| 🤖 Amit Mondal | 🔗 GenAI Integration | ⚪ Not Started |🔴 Waiting for Dependency | 🧠 AI Module |
-| 🛤️ Rithik Gupta | 🎯 Career Guidance & Roadmap | ⚪ Not Started | 🗺️ Roadmap Module |
-| 🧪 Md Intjar | 🚀 Testing, Deployment & Docs | 🟡 In Progress | 📦 Repository, Testing & Documentation |
+| ⚙️ Uppala Lahari | 🧹 Data Preprocessing | 🟢 Completed | 📂 Processed Dataset & Preprocessing Notebook |
+| 🤖 Amit Mondal | 🔗 GenAI Integration | 🟢 Completed | 🧠 AI Module (OpenRouter integration, prompts, error handling) |
+| 🛤️ Rithik Gupta | 🎯 Career Guidance & Roadmap | 🟡 In Progress | 🗺️ Roadmap Module (skill-gap bug fixed and merged; written explanation for report pending) |
+| 🧪 Md Intjar | 🚀 Testing, Deployment & Docs | 🟡 In Progress | 📦 Repository, Testing, Documentation & Final Report Assembly |
 
 ## 📍 Status Legend
 
