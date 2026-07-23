@@ -1,9 +1,13 @@
 # Final Report: Draft Section 9 (Career Guidance & Roadmap Generation Module)
 
 > Status: Draft for review. Author: Ritik Gupta (Career Guidance & Roadmap Generation).
-> One note: Section 9.6 generalizes the personal reason Ritik gave for a scope
+> Two notes: (1) Section 9.6 generalizes the personal reason Ritik gave for a scope
 > change, out of respect for privacy. He can confirm the wording is acceptable,
-> or provide different phrasing if preferred.
+> or provide different phrasing if preferred. (2) Section 9.4's description of
+> the two CSV files was corrected after independently verifying their actual
+> structure (1,000 rows each, one per synthetic student, rather than a small
+> per-career lookup table as originally assumed); this also surfaced a minor,
+> documented simplification in how the live app selects a reference row.
 
 ---
 
@@ -33,30 +37,36 @@ A student fills in their profile (degree, GPA, experience) and rates 16 technica
 
 ### 9.4 Data Sources
 
-Both modules draw from two reference datasets, each containing one row per career category (approximately 1,000 rows spanning 13 career categories in each file).
+Both modules draw from two reference datasets, each containing 1,000 rows (one per synthetic student profile, each with its own Student_ID) spanning the 13 recommended career categories.
 
-**`career_skill_gap.csv`**
+**`career_skill_gap.csv`** (1,000 rows, one per synthetic student profile)
 
 | Column | Represents |
 |---|---|
-| Target_Career | The career label this row applies to, matched against the ML model's top prediction. |
-| Current_Skills | A reference baseline skill set (used as a fallback reference, not the student's own input). |
-| Required_Skills | The fixed list of skills expected for this career, the basis for the gap comparison. |
-| Gap_Percentage | Original static reference value, now superseded per-student by the computed gap (Section 9.5). |
-| Estimated_Hours | Original static reference value, likewise superseded by the computed figure. |
+| Student_ID, Full_Name | Identifiers for the synthetic student profile this row represents. |
+| Target_Career | The career this student profile is associated with; matched against the ML model's top prediction. |
+| Career_Goal | The student's stated career goal in the synthetic profile. |
+| Current_Skills | This synthetic student's own current skill set (not the live app user's own input). |
+| Required_Skills | The skills expected for this career, the basis for the gap comparison. |
+| Gap_Percentage, Estimated_Hours | Pre-computed reference values for this synthetic student, superseded per live app user by the computed gap (Section 9.5). |
+| Recommended_Level | This student's recommended proficiency level. |
 | Recommended_Courses | Course suggestions tied to the required-skill list, used as-is. |
 
-**`career_learning_path.csv`**
+**`career_learning_path.csv`** (1,000 rows, one per synthetic student profile)
 
 | Column | Represents |
 |---|---|
-| Target_Career | The career label this row applies to, matched against the ML model's top prediction. |
+| Student_ID, Full_Name | Identifiers for the synthetic student profile this row represents. |
+| Target_Career | The career this student profile is associated with; matched against the ML model's top prediction. |
+| Gap_Percentage | This student's pre-computed gap percentage. |
 | Learning_Stage | A Beginner / Intermediate / Advanced classification for the roadmap. |
 | Priority_Skills | The skills to focus on first for this career. |
 | Learning_Path | An ordered sequence describing the recommended learning order. |
-| Resources | Suggested courses or materials for the roadmap. |
+| Recommended_Resources | Suggested courses or materials for the roadmap. |
 | Estimated_Duration | Expected time to complete the roadmap. |
 | Milestone | The target outcome once the roadmap is completed. |
+
+Since the live application has no concept of a persistent Student_ID (each session is a fresh, anonymous profile submission), the lookup functions match only on `Target_Career` and take the first matching row out of the roughly 75 synthetic students sharing that career. This means the `Required_Skills`, `Priority_Skills`, and roadmap content shown to a live user come from one specific synthetic profile for that career rather than a single canonical reference row. In practice this has limited impact, since these fields were generated consistently per career (Section 6.1), but it is noted here as a known simplification rather than left unstated.
 
 ### 9.5 Personalizing the Skill Gap Calculation
 
