@@ -1,6 +1,6 @@
 # Final Report: Draft Section 6 (Dataset & Preprocessing)
 
-> **Status:** Draft for review. Combines Aman Sawan's (Dataset & Career Mapping)
+> **Status:** Draft for review. Combines Aman Sawan P's (Dataset & Career Mapping)
 > and Uppala Lahari's (Data Preprocessing & Features) work. One item needs
 > confirmation from Likhitha before this is finalized (see the note at the
 > end of 6.2.
