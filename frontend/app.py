@@ -112,7 +112,7 @@ def skill_rating_histogram(self_ratings: dict):
     st.altair_chart(chart, use_container_width=True)
 
 from predictor import get_predictor, ModelNotLoadedError
-from recommender import get_skill_gap, get_learning_path
+from recommender import compute_skill_gap, get_learning_path
 from gemini import get_career_recommendation, GenAIUnavailableError
 from prompts import SYSTEM_PROMPT
 
@@ -795,8 +795,9 @@ if st.button("Get Career Recommendation", type="primary"):
 
     top_career = top3[0]["career"]
 
-    # --- Step 2: Skill gap + roadmap (CSV lookup, keyed on top predicted career) ---
-    skill_gap = get_skill_gap(top_career)
+    # --- Step 2: Skill gap (personalized, computed from the student's own
+    # ratings) + roadmap (CSV lookup, keyed on top predicted career) ---
+    skill_gap = compute_skill_gap(profile, top_career)
     learning_path = get_learning_path(top_career)
 
     # --- Step 3: GenAI explanation (called once, stored; not re-called on reruns) ---
